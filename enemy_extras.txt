@@ -1,0 +1,2324 @@
+// (EMPTY)
+-
+-
+-
+-
+-
+de 
+// Caribou reconstitué
+Un 
+un 
+Le 
+le 
+-
+du 
+// M. Passion
+-
+-
+-
+-
+-
+de 
+// Serpent d'Osohé
+Le 
+le 
+Le 
+le 
+-
+du 
+// Homme d'argile
+Un 
+un 
+L'
+l'
+-
+de l'
+// Méca-Drago
+Le 
+le 
+Le 
+le 
+-
+du 
+// Phacochar d'assaut
+Un 
+un 
+Le 
+le 
+-
+du 
+// Agent du générateur
+L'
+l'
+L'
+l'
+-
+de l'
+// Taupe-grillon
+Le 
+le 
+Le 
+le 
+-
+du 
+// Sourire sinistre
+Un 
+un 
+Le 
+le 
+-
+du 
+// Sourire radieux
+Un 
+un 
+Le 
+le 
+-
+du 
+// Porky
+-
+-
+-
+-
+-
+de 
+// Cyborg T.N.
+Le 
+le 
+Le 
+le 
+-
+du 
+// Homme masqué
+L'
+l'
+L'
+l'
+-
+de l'
+// Masqueporc féroce
+Le 
+le 
+Le 
+le 
+-
+du 
+// Masqueporc féroce
+Le 
+le 
+Le 
+le 
+-
+du 
+// Contrebasse jalouse
+La 
+la 
+La 
+la 
+e
+de la 
+// Porky
+-
+-
+-
+-
+-
+de 
+// Limace collante
+Une 
+une 
+La 
+la 
+e
+de la 
+// PORKY 02
+-
+-
+-
+-
+-
+de 
+// Statue du Roi
+La 
+la 
+La 
+la 
+e
+de la 
+// Hippomortier
+Un 
+un 
+L'
+l'
+-
+de l'
+// Néo-Fassad
+-
+-
+-
+-
+-
+de 
+// Sourire sinistre
+Un 
+un 
+Le 
+le 
+-
+du 
+// Seigneur Passion
+Le 
+le 
+Le 
+le 
+-
+du 
+// Arbre affectueux
+Un 
+un 
+L'
+l'
+-
+de l'
+// PORKY 03
+-
+-
+-
+-
+-
+de 
+// PORKY 08
+-
+-
+-
+-
+-
+de 
+// Fassad miraculé
+-
+-
+-
+-
+-
+de 
+// Major Masqueporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Fourmilion géant
+Un 
+un 
+Le 
+le 
+-
+du 
+// Fenomeno
+Un 
+un 
+Le 
+le 
+-
+du 
+// Rhinocéroquette série II
+Une 
+une 
+La 
+la 
+e
+de la 
+// Effrobot
+Un 
+un 
+L'
+l'
+-
+de l'
+// Steve McCouic
+-
+-
+-
+-
+-
+de 
+// Pyromouche
+Une 
+une 
+La 
+la 
+e
+de la 
+// Méca-Lion
+Un 
+un 
+Le 
+le 
+-
+du 
+// Barrage routier
+Un 
+un 
+Le 
+le 
+-
+du 
+// Champinocif galopeur
+Un 
+un 
+Le 
+le 
+-
+du 
+// Perroquet pétard
+Un 
+un 
+Le 
+le 
+-
+du 
+// Poisson-molosse
+Un 
+un 
+Le 
+le 
+-
+du 
+// M. Batou
+-
+-
+-
+-
+-
+de 
+// Souris avide
+Une 
+une 
+La 
+la 
+e
+de la 
+// Flammouche
+Une 
+une 
+La 
+la 
+e
+de la 
+// Patatueuse
+Une 
+une 
+La 
+la 
+e
+de la 
+// Souris volante
+Une 
+une 
+La 
+la 
+e
+de la 
+// PORKY 01
+-
+-
+-
+-
+-
+de 
+// Sanglier agité
+Un 
+un 
+Le 
+le 
+-
+du 
+// Serpent mordant
+Un 
+un 
+Le 
+le 
+-
+du 
+// Noiraude
+Une 
+une 
+La 
+la 
+e
+de la 
+// Patatueuse cuite
+Une 
+une 
+La 
+la 
+e
+de la 
+// Buisson ambulant
+Un 
+un 
+Le 
+le 
+-
+du 
+// Méduse insouciante
+Une 
+une 
+La 
+la 
+e
+de la 
+// Étrange Singe de métal
+Un 
+un 
+L'
+l'
+-
+de l'
+// Lézard rocheux
+Un 
+un 
+Le 
+le 
+-
+du 
+// Chenille bouffie
+Une 
+une 
+La 
+la 
+e
+de la 
+// Yéti glisseur
+Un 
+un 
+Le 
+le 
+-
+du 
+// Congéloup
+Un 
+un 
+Le 
+le 
+-
+du 
+// Limace gluante
+Une 
+une 
+La 
+la 
+e
+de la 
+// Minerali
+Un 
+un 
+Le 
+le 
+-
+du 
+// Champinocif ambulant
+Un 
+un 
+Le 
+le 
+-
+du 
+// Taupe-grillon
+Le 
+le 
+Le 
+le 
+-
+du 
+// Boa transistor
+Un 
+un 
+Le 
+le 
+-
+du 
+// Taupe malicieuse
+Une 
+une 
+La 
+la 
+e
+de la 
+// Méca-Taupe
+Une 
+une 
+La 
+la 
+e
+de la 
+// Aigle à tête rose
+Un 
+un 
+L'
+l'
+-
+de l'
+// Arbre
+Un 
+un 
+L'
+l'
+-
+de l'
+// Titanie
+Une 
+une 
+La 
+la 
+e
+de la 
+// Pain givré
+Un 
+un 
+Le 
+le 
+-
+du 
+// Mme Magma
+-
+-
+-
+-
+e
+de 
+// Homme-volcan
+Un 
+un 
+L'
+l'
+-
+de l'
+// Homme zombifié
+Un 
+un 
+L'
+l'
+-
+de l'
+// Chien Zombie
+Un 
+un 
+Le 
+le 
+-
+du 
+// Âme persistante
+Une 
+une 
+L'
+l'
+e
+de l'
+// Tombe mobile
+Une 
+une 
+La 
+la 
+e
+de la 
+// Sangsue détachée
+Une 
+une 
+La 
+la 
+e
+de la 
+// Homard poltron
+Un 
+un 
+Le 
+le 
+-
+du 
+// ÉNORME Cloporte
+Un 
+un 
+L'
+l'
+-
+de l'
+// Squelette joyeux
+Un 
+un 
+Le 
+le 
+-
+du 
+// Grand Frère
+Un 
+un 
+Le 
+le 
+-
+du 
+// Homme-tonneau
+Un 
+un 
+L'
+l'
+-
+de l'
+// Gluant à la fraise
+Un 
+un 
+Le 
+le 
+-
+du 
+// Mégarachnide
+Un 
+un 
+Le 
+le 
+-
+du 
+// Cafard colérique
+Un 
+un 
+Le 
+le 
+-
+du 
+// Trio Barrière
+Le 
+le 
+Le 
+le 
+-
+du 
+// Armure fantôme
+Une 
+une 
+L'
+l'
+e
+de l'
+// Épée fantôme
+Une 
+une 
+L'
+l'
+e
+de l'
+// Bouclier fantôme
+Un 
+un 
+Le 
+le 
+-
+du 
+// Chevalier fantôme
+Le 
+le 
+Le 
+le 
+-
+du 
+// Cape d'Osohé
+Une 
+une 
+La 
+la 
+e
+de la 
+// Fantôme à bascule
+Un 
+un 
+Le 
+le 
+-
+du 
+// Porte-malheur
+Une 
+une 
+La 
+la 
+e
+de la 
+// Sourire sinistre
+Un 
+un 
+Le 
+le 
+-
+du 
+// Bousier
+Un 
+un 
+Le 
+le 
+-
+du 
+// Fourmilion géant
+Un 
+un 
+Le 
+le 
+-
+du 
+// Sara-sara-sahara
+Un 
+un 
+Le 
+le 
+-
+du 
+// Lézard des sables
+Un 
+un 
+Le 
+le 
+-
+du 
+// Loup à cactus
+Un 
+un 
+Le 
+le 
+-
+du 
+// Gluglu
+Un 
+un 
+Le 
+le 
+-
+du 
+// Toutanchaton
+-
+-
+-
+-
+-
+de 
+// Grand P'tit Frère
+Un 
+un 
+Le 
+le 
+-
+du 
+// Zombignon
+Un 
+un 
+Le 
+le 
+-
+du 
+// Fantôme fétide
+Un 
+un 
+Le 
+le 
+-
+du 
+// Esprit artistique
+Un 
+un 
+L'
+l'
+-
+de l'
+// Chevantule
+Une 
+une 
+La 
+la 
+e
+de la 
+// Porchidée
+Une 
+une 
+La 
+la 
+e
+de la 
+// Moineau majorette
+Un 
+un 
+Le 
+le 
+-
+du 
+// Être putride
+Un 
+un 
+L'
+l'
+-
+de l'
+// Pouleuvre
+Une 
+une 
+La 
+la 
+e
+de la 
+// Osef
+Un 
+un 
+L'
+l'
+-
+de l'
+// Poisson-chien
+Un 
+un 
+Le 
+le 
+-
+du 
+// Serpent-vache
+Un 
+un 
+Le 
+le 
+-
+du 
+// Céphaloporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Mante religieuse
+Une 
+une 
+La 
+la 
+e
+de la 
+// Ancien Dragon-mouche
+Un 
+un 
+L'
+l'
+-
+de l'
+// Cafard cracra
+Un 
+un 
+Le 
+le 
+-
+du 
+// Chienpignon
+Un 
+un 
+Le 
+le 
+-
+du 
+// Méca-Tortue
+Une 
+une 
+La 
+la 
+e
+de la 
+// Duo de Frères
+Un 
+un 
+Le 
+le 
+-
+du 
+// Chauve-sourang-outan
+Un 
+un 
+Le 
+le 
+-
+du 
+// Autruléphant
+Un 
+un 
+L'
+l'
+-
+de l'
+// Titanie ailée
+Une 
+une 
+La 
+la 
+e
+de la 
+// Morsinge
+Un 
+un 
+Le 
+le 
+-
+du 
+// Kangourequin maternel
+Un 
+un 
+Le 
+le 
+-
+du 
+// Mam'zelle Guimauve
+La P'tite 
+la P'tite 
+La P'tite 
+la P'tite 
+e
+de la P'tite 
+// Quasi-Méca-Lion
+Un 
+un 
+Le 
+le 
+-
+du 
+// Rhinocéroquette
+Une 
+une 
+La 
+la 
+e
+de la 
+// Sanglier remonté
+Un 
+un 
+Le 
+le 
+-
+du 
+// Cafard de combat
+Un 
+un 
+Le 
+le 
+-
+du 
+// Vraie Souris volante
+Une 
+une 
+La 
+la 
+e
+de la 
+// Choc électrique
+Un 
+un 
+Le 
+le 
+-
+du 
+// Robot médiocre
+Un 
+un 
+Le 
+le 
+-
+du 
+// Cyclove
+Un 
+un 
+Le 
+le 
+-
+du 
+// Sourire sinistre
+Un 
+un 
+Le 
+le 
+-
+du 
+// Robot atomique
+Un 
+un 
+Le 
+le 
+-
+du 
+// Super Robot atomique
+Un 
+un 
+Le 
+le 
+-
+du 
+// Défaitiste
+Le 
+le 
+Le 
+le 
+-
+du 
+// Têtelourde
+Une 
+une 
+La 
+la 
+e
+de la 
+// Joli Poseur
+Un 
+un 
+Le 
+le 
+-
+du 
+// Giga-Chenille bouffie
+Une 
+une 
+La 
+la 
+e
+de la 
+// Patatueuse râpée
+Une 
+une 
+La 
+la 
+e
+de la 
+// Hippomortier
+Un 
+un 
+L'
+l'
+-
+de l'
+// Méca-Gorille d'acier
+Le 
+le 
+Le 
+le 
+-
+du 
+// Tatou Zombie
+Un 
+un 
+Le 
+le 
+-
+du 
+// Homme-sushi
+Un 
+un 
+L'
+l'
+-
+de l'
+// PORKY 07
+-
+-
+-
+-
+-
+de 
+// Octobot le retour
+Un 
+un 
+L'
+l'
+-
+de l'
+// Monstre du tapis
+Un 
+un 
+Le 
+le 
+-
+du 
+// Robot éclaireur
+Un 
+un 
+Le 
+le 
+-
+du 
+// Masqueporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Femme zombifiée
+Une 
+une 
+La 
+la 
+e
+de la 
+// Champinocif vicieux
+Un 
+un 
+Le 
+le 
+-
+du 
+// Batou l'Ancien
+-
+-
+-
+-
+-
+de 
+// Gigarachnide
+Un 
+un 
+Le 
+le 
+-
+du 
+// Souris très avide
+Une 
+une 
+La 
+la 
+e
+de la 
+// Guitare qui sanglote
+Une 
+une 
+La 
+la 
+e
+de la 
+// Tambour battu
+Un 
+un 
+Le 
+le 
+-
+du 
+// Taupe reconstituée
+Une 
+une 
+La 
+la 
+e
+de la 
+// Lion reconstitué
+Un 
+un 
+Le 
+le 
+-
+du 
+// Robot instable
+Un 
+un 
+Le 
+le 
+-
+du 
+// Pancarte WC hommes
+Une 
+une 
+La 
+la 
+e
+de la 
+// Robot cassé
+Un 
+un 
+Le 
+le 
+-
+du 
+// Tas d'ordures dépité
+Le 
+le 
+Le 
+le 
+-
+du 
+// Cadeau surprise
+Le 
+le 
+Le 
+le 
+-
+du 
+// Accumulatueur
+Un 
+un 
+L'
+l'
+-
+de l'
+// Vis perdue
+Une 
+une 
+La 
+la 
+e
+de la 
+// Cuddle Bomb
+Une 
+une 
+La 
+la 
+e
+de la 
+// M3C4-CH13N
+Un 
+un 
+Le 
+le 
+-
+du 
+// Al Caline
+-
+-
+-
+-
+-
+d'
+// PORKY 06
+-
+-
+-
+-
+-
+de 
+// Major Masqueporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Colonel Masqueporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Capitaine Masqueporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Plongeur Masqueporc
+Un 
+un 
+Le 
+le 
+-
+du 
+// Maître Maelström
+-
+-
+-
+-
+-
+de 
+// Homard rockeur
+Un 
+un 
+Le 
+le 
+-
+du 
+// Poisson roooond
+Un 
+un 
+Le 
+le 
+-
+du 
+// Aigle à tête bleue
+Un 
+un 
+L'
+l'
+-
+de l'
+// Robot de sécurité
+Un 
+un 
+Le 
+le 
+-
+du 
+// Éner'Vent
+Un 
+un 
+L'
+l'
+-
+de l'
+// PORKY 09
+-
+-
+-
+-
+-
+de 
+// PORKY 10
+-
+-
+-
+-
+-
+de 
+// Titanien
+Un 
+un 
+Le 
+le 
+-
+du 
+// Robot amélioré
+Un 
+un 
+Le 
+le 
+-
+du 
+// P'tit Rico
+Un 
+un 
+Le 
+le 
+-
+du 
+// Noirico
+Un 
+un 
+Le 
+le 
+-
+du 
+// Forêt minuscule
+Une 
+une 
+La 
+la 
+e
+de la 
+// PORKY 04
+-
+-
+-
+-
+-
+de 
+// PORKY 05
+-
+-
+-
+-
+-
+de 
+// Homme masqué
+L'
+l'
+L'
+l'
+-
+de l'
+// Homme masqué
+L'
+l'
+L'
+l'
+-
+de l'
+// (EMPTY)
+-
+-
+-
+-
+-
+-
+// Médiator
+-
+-
+-
+-
+-
+-
+// Fourmilion
+-
+-
+-
+-
+-
+-
+// Masqueporc féroce
+-
+-
+-
+-
+-
+-
+// Crabe
+-
+-
+-
+-
+-
+-
+// Poisson-chat électrique
+-
+-
+-
+-
+-
+-
+// Shimmy Zmizz
+-
+-
+-
+-
+-
+de 
+// Magic
+-
+-
+-
+-
+-
+de 
+// Duster
+-
+-
+-
+-
+-
+de 
+// Clavier
+-
+-
+-
+-
+-
+-
+// OJ
+-
+-
+-
+-
+-
+de 
+// Robot
+-
+-
+-
+-
+-
+-
+// Bousier
+-
+-
+-
+-
+-
+-
+// Homme-tente
+-
+-
+-
+-
+-
+-
+// Lapin des neiges
+-
+-
+-
+-
+-
+-
+// Homme d'argile
+-
+-
+-
+-
+-
+-
+// Vapeur
+-
+-
+-
+-
+-
+-
+// Rope Snake
+-
+-
+-
+-
+-
+-
+// Serpent-corde
+-
+-
+-
+-
+-
+-
+// Table d'Éolie
+-
+-
+-
+-
+-
+-
+// Brindille
+-
+-
+-
+-
+-
+-
+// Vapeur 2
+-
+-
+-
+-
+-
+-
+// Mini-Ascenseur
+-
+-
+-
+-
+-
+-
+// Drago
+-
+-
+-
+-
+-
+-
+// Masqueporc féroce
+-
+-
+-
+-
+-
+-
+// Train vert
+-
+-
+-
+-
+-
+-
+// Bébé Drago
+-
+-
+-
+-
+-
+-
+// Tres amigos
+-
+-
+-
+-
+-
+-
+// Fleur
+-
+-
+-
+-
+-
+-
+// Échelle de corde
+-
+-
+-
+-
+-
+-
+// Flamme 3
+-
+-
+-
+-
+-
+-
+// Drapeau
+-
+-
+-
+-
+-
+-
+// Ropeway
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// Pièce
+-
+-
+-
+-
+-
+-
+// Flamme 1
+-
+-
+-
+-
+-
+-
+// Racine de lotus
+-
+-
+-
+-
+-
+-
+// Argile brute
+-
+-
+-
+-
+-
+-
+// Explosion
+-
+-
+-
+-
+-
+-
+// Smoke
+-
+-
+-
+-
+-
+-
+// Tête de statue
+-
+-
+-
+-
+-
+-
+// Carrousel
+-
+-
+-
+-
+-
+-
+// Armoire de Nippolyte
+-
+-
+-
+-
+-
+-
+// Nuée de Flammouches
+-
+-
+-
+-
+-
+-
+// Tissu de Hinawa
+-
+-
+-
+-
+-
+-
+// Poisson-chat électrique
+-
+-
+-
+-
+-
+-
+// Balai
+-
+-
+-
+-
+-
+-
+// Poisson
+-
+-
+-
+-
+-
+-
+// Oursin
+-
+-
+-
+-
+-
+-
+// Train
+-
+-
+-
+-
+-
+-
+// Panneau
+-
+-
+-
+-
+-
+-
+// Panneau
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// Portrait
+-
+-
+-
+-
+-
+-
+// Fantôme amical
+-
+-
+-
+-
+-
+-
+// Poubelle
+-
+-
+-
+-
+-
+-
+// Boule en acier
+-
+-
+-
+-
+-
+-
+// Œuf de lumière
+-
+-
+-
+-
+-
+-
+// Châtaigne
+-
+-
+-
+-
+-
+-
+// Fantôme à bascule
+-
+-
+-
+-
+-
+-
+// Bougie
+-
+-
+-
+-
+-
+-
+// Souris
+-
+-
+-
+-
+-
+-
+// Machine à énergie
+-
+-
+-
+-
+-
+-
+// Lame légère
+-
+-
+-
+-
+-
+-
+// Verre de vin
+-
+-
+-
+-
+-
+-
+// Serpent-corde
+-
+-
+-
+-
+-
+-
+// Punaise
+-
+-
+-
+-
+-
+-
+// Camion-poubelle
+-
+-
+-
+-
+-
+-
+// Fumée
+-
+-
+-
+-
+-
+-
+// Éolie
+-
+-
+-
+-
+-
+de 
+// Dorie
+-
+-
+-
+-
+-
+de 
+// Loupe
+-
+-
+-
+-
+-
+-
+// Phylactère
+-
+-
+-
+-
+-
+-
+// Panneau
+-
+-
+-
+-
+-
+-
+// Pierre NON
+-
+-
+-
+-
+-
+-
+// Kumatora
+-
+-
+-
+-
+-
+de 
+// Fragment de pierre
+-
+-
+-
+-
+-
+-
+// C'te voiture
+-
+-
+-
+-
+-
+-
+// Drago noir
+-
+-
+-
+-
+-
+-
+// Taupe-grillon
+-
+-
+-
+-
+-
+-
+// Éclair
+-
+-
+-
+-
+-
+-
+// Vaisseau-truie
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// Lydie
+-
+-
+-
+-
+-
+de 
+// Mixolydie
+-
+-
+-
+-
+-
+de 
+// Hinawa
+-
+-
+-
+-
+-
+de 
+// Drago gelé
+-
+-
+-
+-
+-
+-
+// Porky
+-
+-
+-
+-
+-
+de 
+// Tonnerre
+-
+-
+-
+-
+-
+-
+// Souriceau
+-
+-
+-
+-
+-
+-
+// Dr Andonuts
+-
+-
+-
+-
+-
+de 
+// Château d'Osohé
+-
+-
+-
+-
+-
+-
+// Vaisseau-truie
+-
+-
+-
+-
+-
+-
+// Volcan
+-
+-
+-
+-
+-
+-
+// Effet d'explosion
+-
+-
+-
+-
+-
+-
+// Légende
+-
+-
+-
+-
+-
+-
+// Vaisseau lointain
+-
+-
+-
+-
+-
+-
+// Carrelage
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// Colonne d'eau
+-
+-
+-
+-
+-
+-
+// Vaisseau lointain
+-
+-
+-
+-
+-
+-
+// Poussière NON
+-
+-
+-
+-
+-
+-
+// Fumée
+-
+-
+-
+-
+-
+-
+// Jeune pousse
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// (VIDE)
+-
+-
+-
+-
+-
+-
+// Tombe
+-
+-
+-
+-
+-
+-
+// Phrygie
+-
+-
+-
+-
+-
+de 
+// Cube
+-
+-
+-
+-
+-
+-
+// Crayon de fer
+-
+-
+-
+-
+-
+-
+// Caribou
+-
+-
+-
+-
+-
+-
+// Ionie
+-
+-
+-
+-
+-
+de 
+// Vent sèche-Drago
+-
+-
+-
+-
+-
+-
+// Champi
+-
+-
+-
+-
+-
+-
+// Pont
+-
+-
+-
+-
+-
+-
+// Tente bleue
+-
+-
+-
+-
+-
+-
+// Cheval de bois 1
+-
+-
+-
+-
+-
+-
+// Cheval de bois 2
+-
+-
+-
+-
+-
+-
+// Cheval de bois 3
+-
+-
+-
+-
+-
+-
+// Bateau spirituel (100E)
+-
+-
+-
+-
+-
+-
+// Mini Robot-Porky
+-
+-
+-
+-
+-
+-
+// Panneau
+-
+-
+-
+-
+-
+-
+// Charette
+-
+-
+-
+-
+-
+-
+// Ballon de jeu
+-
+-
+-
+-
+-
+-
+// Encre de pieuvre
+-
+-
+-
+-
+-
+-
+// Feu d'artifice du Dragon
+-
+-
+-
+-
+-
+-
+// Montée en flèche
+-
+-
+-
+-
+-
+-
+// Voiture de Police
+-
+-
+-
+-
+-
+-
+// Automobile
+-
+-
+-
+-
+-
+-
+// Kotatsu du grenier
+-
+-
+-
+-
+-
+-
+// Titre MOTHER 3 en bois
+-
+-
+-
+-
+-
+-
+// Monde extérieur
+-
+-
+-
+-
+-
+-
+// Souterrain
+-
+-
+-
+-
+-
+-
+// Porte WC hommes
+-
+-
+-
+-
+-
+-
+// Éolie & sofa
+-
+-
+-
+-
+-
+-
+// EMPTY (Character)
+-
+-
+-
+-
+-
+-
+// Personnage
+-
+-
+-
+-
+-
+de 
+// Personnage (voyelle initiale)
+-
+-
+-
+-
+-
+d'

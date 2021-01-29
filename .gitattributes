@@ -1,3 +1,4 @@
 *.txt text eol=crlf
 *.asm text eol=crlf
 *.bin binary
+*.snd binary

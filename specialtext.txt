@@ -1,0 +1,106 @@
+// Most of the text here is meant for undiscovered debug menus,
+// but you should probably translate it anyway.
+// The technique names at the end of the file are used in battle, though.
+// All things in this file must be 19 letters or less.
+
+
+00:Pl. Movement Data
+00-E:Pl. Movement Data
+01:Attack
+01-E:Attaque
+02:Defend
+02-E:Défense
+03:Run Away
+03-E:Fuite
+04:Chapter 0 Attack
+04-E:Attaque Chapitre 0
+05:Strange Attack
+05-E:Attaque étrange
+06:Duster:Behind
+06-E:Duster : Arrière
+07:Duster:Back Up
+07-E:Duster : Soutien
+08:Duster:Pre.Strike
+08-E:Duster : Prép.Att
+09:(EMPTY)
+09-E:(VIDE)
+0A:DCMC Intrusion
+0A-E:Arrivée DCMC
+0B:Baccio's Line
+0B-E:Dialogue Baccio
+0C:Baccio's Attack
+0C-E:Attaque Baccio
+0D:Shimmy's Line
+0D-E:Dialogue Shimmy
+0E:Shimmy's Attack
+0E-E:Attaque Shimmy
+0F:Magic's Line
+0F-E:Dialogue Magic
+10:Magic's Attack
+10-E:Attaque Magic
+11:OJ's Line
+11-E:Dialogue OJ
+12:OJ's Attack
+12-E:Attaque OJ
+13:Andonuts' Line
+13-E:Dialogue Andonuts
+14:Andonuts' attack
+14-E:Attaque Andonuts
+15:Wess' Line
+15-E:Dialogue Wess
+16:Wess' Attack
+16-E:Attaque Wess
+17:Flint's Line
+17-E:Dialogue Flint
+18:Flint's Attack
+18-E:Attaque Flint
+19:Lucas Cant Attack
+19-E:Lucas sans attaque
+1A:(EMPTY)
+1A-E:(VIDE)
+1B:Last Bash
+1B-E:Dernière frappe
+1C:Last PSI
+1C-E:Dernière PSI
+1D:Last Goods
+1D-E:Derniers objets
+1E:Last Guard
+1E-E:Dernière garde
+1F:Flint: Special
+1F-E:Flint : Spé.
+20:Swing
+20-E:Balayage
+21:Power Smash
+21-E:Déchaînement
+22:Strengthen Up
+22-E:Renforcement
+23:Toughen Up
+23-E:Durcissement
+24:Duster: Thief
+24-E:Duster : Voleur
+25:Wall Staple
+25-E:Agrafes murales
+26:Siren Beetle
+26-E:Scarabée hurleur
+27:Hypno-Pendulum
+27-E:Hypno-Pendule
+28:Smoke Bomb
+28-E:Bombe fumigène
+29:Scary Mask
+29-E:Masque effrayant
+2A:Tickle Stick
+2A-E:Plumeau à chatouÌes
+2B:Boney: Sniff
+2B-E:Boney : Renifler
+2C:Sniff
+2C-E:Renifler
+2D:Salsa:Tricks
+2D-E:Salsa : Singeries
+2E:Apologize
+2E-E:S'excuser
+2F:Make Laugh
+2F-E:Amuser
+30:Dance
+30-E:Danser
+31:Monkey Mimic
+31-E:Imiter

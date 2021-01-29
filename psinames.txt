@@ -1,0 +1,199 @@
+// PSI names must be 19 letters or less, but the shorter the better
+00:(EMPTY)
+00-E:(VIDE)
+01:PK Cool Thing
+01-E:PK Truc cool
+02:PK Cool Thing
+02-E:PK Truc cool
+03:PK Cool Thing
+03-E:PK Truc cool
+04:PK Cool Thing
+04-E:PK Truc cool
+05:PK Flash
+05-E:PK Flash
+06:PK Starstorm
+06-E:PK MÈtÈores
+07:PK Fire [ALPHA]
+07-E:PK Feuÿ[ALPHA]
+08:PK Fire [BETA]
+08-E:PK Feuÿ[BETA]
+09:PK Fire [GAMMA]
+09-E:PK Feuÿ[GAMMA]
+0A:PK Fire [OMEGA]
+0A-E:PK Feuÿ[OMEGA]
+0B:PK Freeze [ALPHA]
+0B-E:PK Glaceÿ[ALPHA]
+0C:PK Freeze [BETA]
+0C-E:PK Glaceÿ[BETA]
+0D:PK Freeze [GAMMA]
+0D-E:PK Glaceÿ[GAMMA]
+0E:PK Freeze [OMEGA]
+0E-E:PK Glaceÿ[OMEGA]
+0F:PK Thunder [ALPHA]
+0F-E:PK Foudreÿ[ALPHA]
+10:PK Thunder [BETA]
+10-E:PK Foudreÿ[BETA]
+11:PK Thunder [GAMMA]
+11-E:PK Foudreÿ[GAMMA]
+12:PK Thunder [OMEGA]
+12-E:PK Foudreÿ[OMEGA]
+13:PK Ground
+13-E:PK SÈisme
+14:(EMPTY)
+14-E:(VIDE)
+15:(EMPTY)
+15-E:(VIDE)
+16:Lifeup [ALPHA]
+16-E:Soinÿ[ALPHA]
+17:Lifeup [BETA]
+17-E:Soinÿ[BETA]
+18:Lifeup [GAMMA]
+18-E:Soinÿ[GAMMA]
+19:Lifeup [OMEGA]
+19-E:Soinÿ[OMEGA]
+1A:Refresh
+1A-E:RafraÓchissement
+1B:Healing [ALPHA]
+1B-E:GuÈrisonÿ[ALPHA]
+1C:Healing [BETA]
+1C-E:GuÈrisonÿ[BETA]
+1D:Healing [GAMMA]
+1D-E:GuÈrisonÿ[GAMMA]
+1E:Healing [OMEGA]
+1E-E:GuÈrisonÿ[OMEGA]
+1F:PSI Magnet [ALPHA]
+1F-E:Aimant ‡ PSIÿ[ALPHA]
+20:PSI Magnet [OMEGA]
+20-E:Aimant ‡ PSIÿ[OMEGA]
+21:(EMPTY)
+21-E:(VIDE)
+22:Shield [ALPHA]
+22-E:Bouclierÿ[ALPHA]
+23:Shield [OMEGA]
+23-E:Bouclierÿ[OMEGA]
+24:Counter [ALPHA]
+24-E:Contreÿ[ALPHA]
+25:Counter [OMEGA]
+25-E:Contreÿ[OMEGA]
+26:PSI Shield [ALPHA]
+26-E:Bouclier PSIÿ[ALPHA]
+27:PSI Shield [OMEGA]
+27-E:Bouclier PSIÿ[OMEGA]
+28:PSI Counter [ALPHA]
+28-E:Contre PSIÿ[ALPHA]
+29:PSI Counter [OMEGA]
+29-E:Contre PSIÿ[OMEGA]
+2A:(EMPTY)
+2A-E:(VIDE)
+2B:(EMPTY)
+2B-E:(VIDE)
+2C:(EMPTY)
+2C-E:(VIDE)
+2D:(EMPTY)
+2D-E:(VIDE)
+2E:Offense Up [ALPHA]
+2E-E:Attaqu÷augmentÈe’[ALPHA]
+2F:Offense Up [OMEGA]
+2F-E:Attaqu÷augmentÈe’[OMEGA]
+30:Defense Up [ALPHA]
+30-E:DÈfens÷augmentÈe’[ALPHA]
+31:Defense Up [OMEGA]
+31-E:DÈfens÷augmentÈe’[OMEGA]
+32:(EMPTY)
+32-E:(VIDE)
+33:Hypnosis [ALPHA]
+33-E:Hypnoseÿ[ALPHA]
+34:Hypnosis [OMEGA]
+34-E:Hypnoseÿ[OMEGA]
+35:Paralysis [ALPHA]
+35-E:Paralysieÿ[ALPHA]
+36:Paralysis [OMEGA]
+36-E:Paralysieÿ[OMEGA]
+37:Brainshock [ALPHA]
+37-E:Choc mentalÿ[ALPHA]
+38:Brainshock [OMEGA]
+38-E:Choc mentalÿ[OMEGA]
+39:(EMPTY)
+39-E:(VIDE)
+3A:Offense Down [ALPHA]
+3A-E:AttaquƒdiminuÈeÿ[ALPHA]
+3B:Offense Down [OMEGA]
+3B-E:AttaquƒdiminuÈeÿ[OMEGA]
+3C:Defense Down [ALPHA]
+3C-E:DÈfensƒdiminuÈeÿ[ALPHA]
+3D:Defense Down [OMEGA]
+3D-E:DÈfensƒdiminuÈeÿ[OMEGA]
+3E:(EMPTY)
+3E-E:(VIDE)
+3F:(EMPTY)
+3F-E:(VIDE)
+40:(EMPTY)
+40-E:(VIDE)
+41:(EMPTY)
+41-E:(VIDE)
+42:(EMPTY)
+42-E:(VIDE)
+43:(EMPTY)
+43-E:(VIDE)
+44:(EMPTY)
+44-E:(VIDE)
+45:(EMPTY)
+45-E:(VIDE)
+46:(EMPTY)
+46-E:(VIDE)
+47:(EMPTY)
+47-E:(VIDE)
+48:(EMPTY)
+48-E:(VIDE)
+49:(EMPTY)
+49-E:(VIDE)
+4A:(EMPTY)
+4A-E:(VIDE)
+4B:(EMPTY)
+4B-E:(VIDE)
+4C:(EMPTY)
+4C-E:(VIDE)
+4D:(EMPTY)
+4D-E:(VIDE)
+4E:(EMPTY)
+4E-E:(VIDE)
+4F:(EMPTY)
+4F-E:(VIDE)
+50:(EMPTY)
+50-E:(VIDE)
+51:(EMPTY)
+51-E:(VIDE)
+52:(EMPTY)
+52-E:(VIDE)
+53:(EMPTY)
+53-E:(VIDE)
+54:(EMPTY)
+54-E:(VIDE)
+55:(EMPTY)
+55-E:(VIDE)
+56:(EMPTY)
+56-E:(VIDE)
+57:(EMPTY)
+57-E:(VIDE)
+58:(EMPTY)
+58-E:(VIDE)
+59:(EMPTY)
+59-E:(VIDE)
+5A:(EMPTY)
+5A-E:(VIDE)
+5B:(EMPTY)
+5B-E:(VIDE)
+5C:(EMPTY)
+5C-E:(VIDE)
+5D:(EMPTY)
+5D-E:(VIDE)
+5E:(EMPTY)
+5E-E:(VIDE)
+5F:(EMPTY)
+5F-E:(VIDE)
+60:(EMPTY)
+60-E:(VIDE)
+61:(EMPTY)
+61-E:(VIDE)
+62:(EMPTY)
+62-E:(VIDE)
