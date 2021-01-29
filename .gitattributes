@@ -1,1 +1,3 @@
-text eol=crlf
+*.txt text eol=crlf
+*.asm text eol=crlf
+*.bin binary
