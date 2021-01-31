@@ -2118,7 +2118,7 @@
 18-3:@What do we do now?[WAIT]@They have the path completely blocked...[END]
 18-3E:@Qu'est-ce qu'on fait maintenantÕ?[WAIT]@Le passage est entièrement bloqué...[END]
 18-4:@Actually, [HINAWA 22 08 00] and the kids might[BREAK]  still be stuck out there,[WAIT]  because of all these knocked-down trees[BREAK]  blocking the way.[END]
-18-4E:@En fait, [HINAWA 22 08 00] et les enfants sont[BREAK]  peut-être encore coincés là-bas,[WAIT]  à cause de tous ces arbres abattus qui[BREAK]  bloquent le passage.[END]
+18-4E:@En fait, [HINAWA 22 08 00] et les enfants sont[BREAK]  peut-être encore coincés là-bas,[WAIT]  à cause de tous ces arbres abattus qui[BREAK]  bloquent le chemin.[END]
 18-5:@Even if it's not the most direct path, we[BREAK]  should look for another way around...[END]
 18-5E:@On ferait mieux de chercher un autre passage,[BREAK]  même si ce n'est pas le plus direct...[END]
 18-6:@It's probably best if we split up into a few[BREAK]  groups.[END]
