@@ -7,7 +7,7 @@
 @echo.
 @echo.
 @echo ---------------------------------------------------------
-@echo Copying base ROM (mother3_jp.gba) to new test ROM (mother3_fr.gba)
+@echo Copying base ROM to the new translated ROM
 @echo ---------------------------------------------------------
 @echo.
 @copy mother3_jp.gba mother3_fr.gba
@@ -28,19 +28,10 @@
 @echo.
 @echo.
 @echo ---------------------------------------------------------
-@echo Adapting m3hack.asm
-@echo ---------------------------------------------------------
-@echo.
-@echo.
-@echo ---------------------------------------------------------
 @echo Compiling .asm files and inserting all new data files
 @echo ---------------------------------------------------------
 @echo.
 @xkas mother3_fr.gba m3hack.asm
-@echo.
-@echo ---------------------------------------------------------
-@echo Creating patch file
-@echo ---------------------------------------------------------
 @echo.
 @echo.
 @echo COMPLETE!
