@@ -14,6 +14,8 @@ Vous trouverez notamment :
 
 Par rapport aux outils fournis par l’équipe de Tomato, vous trouverez ici davantage d’éléments graphiques (l’équipe anglaise n’a pas eu besoin de modifier certains textes qui étaient déjà en anglais dans la version japonaise), des routines de hacks plus nombreuses et plus récentes (pour des problèmes spécifiques à la grammaire française, ou pour corriger des bugs encore présents dans la version anglaisse), et bien sûr, nos textes français.
 
+Nous travaillons sur ces fichiers depuis 2015, mais ils n’ont été déployés sur GitHub qu’en 2021. Vous n’aurez donc malheureusement pas accès à l’historique d’édition du projet.
+
 Vous pouvez modifier ces fichiers à votre guise. Pour modifiez les fichiers textes, utilisez un éditeur de texte comme Notepad++. Le *script.txt* et les fichiers *0-8E.txt* à *0-42.txt* doivent être enregistrés au format UTF-8, les autres fichiers textes au format Windows Latin 1 (référez-vous aux réglages de votre éditeur de texte).\
 Vos modifications vous permettront ensuite de générer une ROM adaptée à vos besoins.
 
