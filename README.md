@@ -1,6 +1,6 @@
 # Mother3VF
 
-Ce dépôt contient l’ensemble des sources du projet de traduction de MOTHER 3 en français, et des outils ayant servi à la réalisation de ce projet. Certains fichiers sont des composants, modifiés ou non pour nos propres besoins, de la traduction anglaise (http://mother3.fobby.net/tools/).
+Ce dépôt contient l’ensemble des sources du projet de traduction de MOTHER 3 en français, et des outils ayant servi à la réalisation de ce projet. Certains fichiers faisaient partie des [sources de la traduction anglaise](http://mother3.fobby.net/tools) et ont été soit modifiés pour nos propres besoins, soit laissés intacts.
 
 Vous trouverez ici :
 * l’intégralité des textes français
@@ -20,8 +20,8 @@ Vous pouvez modifier ces fichiers à votre guise. Pour modifiez les fichiers tex
 Vos modifications vous permettront ensuite de générer une ROM adaptée à vos besoins.
 
 Pour cela, il vous faut :
-* une ROM japonaise originale de MOTHER 3
-* un PC équipé de Windows et de .NET Framework
+* une ROM japonaise originale de MOTHER 3 (à vous procurer par vos propres moyens)
+* un PC équipé de Windows et de [.NET Framework](https://docs.microsoft.com/fr-fr/dotnet/framework/install/on-windows-10)
 
 Pour générer la ROM :
 * clonez le dépôt (ou téléchargez l’archive) dans un dossier de votre choix
