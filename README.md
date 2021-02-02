@@ -7,7 +7,7 @@ Vous trouverez notamment :
 * des éléments graphiques traduits
 * des polices bitmaps
 * des données d’agencement graphique (tilemaps, arrangements)
-* des éléments audio traduits
+* des clips audio traduits
 * des routines de hack en langage assembleur ASM THUMB pour GBA
 * des tables de données et des routines dans le langage interne game logic
 * des outils de prévisualisation, édition de polices, conversion de textes et de sons, assemblage ASM et génération de ROM
