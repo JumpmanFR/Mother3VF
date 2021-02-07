@@ -1,16 +1,16 @@
 # Mother3VF
 
-Ce dépôt contient l’ensemble des sources du projet de traduction de MOTHER 3 en français, et des outils ayant servi à la réalisation de ce projet. Certains fichiers sont des composants, modifiés ou non pour nos propres besoins, de la traduction anglaise (http://mother3.fobby.net/tools/).
+Ce dépôt contient l’ensemble des sources du projet de traduction de MOTHER 3 en français, et des outils ayant servi à la réalisation de ce projet. Certains fichiers faisaient partie des [sources de la traduction anglaise](http://mother3.fobby.net/tools) et ont été soit modifiés pour nos propres besoins, soit laissés intacts.
 
 Vous trouverez ici :
 * l’intégralité des textes français
-* des éléments graphiques traduits
+* les éléments graphiques traduits
 * des polices bitmaps
 * des données d’agencement graphique (tilemaps, arrangements)
-* des clips audio traduits
-* des routines de hack en langage assembleur ASM THUMB pour GBA
+* les clips audio traduits
+* nos routines de hack et celles provenant de la traduction anglaise, en langage assembleur ASM THUMB pour GBA
 * des tables de données et des routines dans le langage interne game logic
-* des outils de prévisualisation, édition de polices, conversion de textes et de sons, assemblage ASM et génération de ROM
+* des outils de prévisualisation, d’édition de polices, de conversion de textes et de sons, d’assemblage ASM et de génération de ROM
 
 Par rapport aux outils fournis par l’équipe de Tomato, vous trouverez ici davantage d’éléments graphiques (l’équipe anglaise n’a pas eu besoin de modifier certains textes qui étaient déjà en anglais dans la version japonaise), des routines de hacks plus nombreuses et plus récentes (pour des problèmes spécifiques à la grammaire française, ou pour corriger des bugs encore présents dans la version anglaise), et bien sûr, nos textes français.
 
@@ -20,8 +20,8 @@ Vous pouvez modifier ces fichiers à votre guise. Pour modifiez les fichiers tex
 Vos modifications vous permettront ensuite de générer une ROM adaptée à vos besoins.
 
 Pour cela, il vous faut :
-* une ROM japonaise originale de MOTHER 3
-* un PC équipé de Windows et de .NET Framework
+* une ROM japonaise originale de MOTHER 3 (à vous procurer par vos propres moyens)
+* un PC équipé de Windows et de [.NET Framework](https://docs.microsoft.com/fr-fr/dotnet/framework/install/on-windows-10)
 
 Pour générer la ROM :
 * clonez le dépôt (ou téléchargez l’archive) dans un dossier de votre choix
