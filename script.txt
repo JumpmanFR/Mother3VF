@@ -5015,7 +5015,7 @@
 61-17E:@*snif*[PAUSE 10 00] *snif*[PAUSE 10 00] *snif*[PAUSE 10 00][WAIT]  (Cette odeur...[PAUSE 10 00] c'est celle d'un[BREAK]  [ITEM F0 FF]Õ![WAIT]  Et, comme tu peux le voir, il se trouve que je[BREAK]  suis un chien errantÕ![WAIT]  Il ne te reste donc qu'une seule chose à faire[BREAK]  dans cette situation.[WAIT]  Donne-moi ce [ITEM F0 FF] s'il te plaît.)[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // ITEM
 61-18:@Bow wow![WAIT]  (I'm exceptionally happy![WAIT]  I want to thank you guys somehow![WAIT]  ...Oh, I know! You can have this!)[END]
-61-18E:@Wouf woufÕ![WAIT]  (Je suis particulièrement heureuxÕ![WAIT]  J'aimerais vraiment te remercierÕ![WAIT]  ... Oh, je saisÕ! Je peux te donner çaÕ!)[END]
+61-18E:@Wouf woufÕ![WAIT]  (Je suis particulièrement heureuxÕ![WAIT]  J'aimerais vraiment te remercierÕ![WAIT]  ... Oh, je saisÕ! Tu peux prendre ceciÕ!)[END]
 61-19:@Bow wow![WAIT]  (Take good care of my thank-you gift!)[END]
 61-19E:@Wouf woufÕ![WAIT]  (Prends bien soin de mon cadeau de[BREAK]  remerciementÕ!)[END]
 61-20:@*sniff*...[BREAK]  (I can't stop drooling...)[END]

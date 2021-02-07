@@ -1624,8 +1624,8 @@ org $9C68744; incbin gfx_credits_bazaar.bin
 
 
 //Fix pigmask in debug room changing sprite
-//org $93682E8; dd $0000130E, $0000130E, $0000130E
-//org $93683F4; dd $0000130E, $0000130E, $0000130E
+org $93682E8; dd $0000130E, $0000130E, $0000130E
+org $93683F4; dd $0000130E, $0000130E, $0000130E
 
 
 //Fix 16x16 wall tile being walkable on in Tanetane’s cliff
