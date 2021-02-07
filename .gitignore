@@ -85,13 +85,10 @@
 !gfx_flavours.bin
 !gfx_credits_[c].bin
 !gfx_credits_arrangement.bin
-!gfx_credits_[c]_plural.bin
-!gfx_credits_arrangement_plural.bin
 !gfx_namingscreen.bin
 !gfx_disclaimer_[c].bin
 !gfx_hit.bin
 !gfx_start_battle_[c].bin
-!gfx_youwon_test.bin
 !gfx_highway_graphics_[c].bin
 !gfx_highway_layer3_[c].bin
 !gfx_highway_tilemap_[c].bin
@@ -111,12 +108,10 @@
 !gfx_tanetane_layer2_arrangement_[c].bin
 !gfx_tanetane_layer3_arrangement_[c].bin
 !gfx_summary_arrangement.bin
-!gfx_flavours_espace_fine_temp.bin
 !gfx_end3_[c].bin
 !gfx_summary_arrangement_fast.bin
 !gfx_summary_arrangement_slow.bin
 !gfx_youwon_arrangement.bin
-!gfx_summary_arrangement_confirm_(useless).bin
 !gfx_cast.bin
 !gfx_castleft.bin
 !gfx_disclaim_mere_[c].bin
@@ -188,7 +183,6 @@
 !gfx_starsprite.bin
 !gfx_statues_[c].bin
 !gfx_statues_pal.bin
-!gfx_youwon2.bin
 !textconv.exe
 !soundconv.exe
 !m3preweld.exe
