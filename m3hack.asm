@@ -1127,6 +1127,11 @@ org $931C194; incbin logic_leder_fix_counter_fireplace.bin
 org $9FD5ED0; incbin logic_pointer_283.bin //Move ther pointers of the table next to that one in order to make room for the code
 org $919A02C; dd $00E3D2C0 //Point to the pointers
 
+//Prevent the map-lowering volume issue
+org $800B01A; bl outside_hacks.decrement_block_map
+org $801A1A4; bl outside_hacks.block_loading_map
+org $8026E4A; bl outside_hacks.decrement_block_map_inside
+org $802704C; bl outside_hacks.block_loading_map_inside
 
 
 
@@ -2053,7 +2058,7 @@ org $9199A8C; dd {NEW_PLACE_2}-$9198C10
 
 
 //============================================================================================
-//                                                                    SUMMARY FIXING
+//                                    SUMMARY FIXING
 //============================================================================================
 
 
