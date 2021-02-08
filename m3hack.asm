@@ -259,6 +259,8 @@ org $8042498; db $6C
 org $8041506; db $6C
 org $80413F0; db $6C
 org $8040FCE; db $6C
+org $8041D8C; db $97
+org $8041D8E; db $49
 
 
 // move stuff in the sub menus to the right 2 pixels
@@ -300,45 +302,60 @@ org $8046026; db $1A
 org $8045F08; db $3B
 org $80461E4; db $3B
 
-
 // Shop menu realignments
 // Move the upper cursor left by four pixels in main shop menu
-org $804184C; db $00
+org $804184C; db $01
 // Move the character cursor left by four pixels in the Buy/Sell shop submenus
-org $80418BA; db $00
+org $80418BA; db $01
 // Move the upper cursor left by four pixels in the Buy/Sell shop submenus
-org $80418DE; db $00
+org $80418DE; db $01
 // Move the cursors left in Buy submenu
-org $8041BE2; db $00
-org $8041C0A; db $00
+org $8041B90; db $4F
+org $8041BE2; db $01
+org $8041C0A; db $01
 // Move the cursors left in Sell submenu
-org $8041E98; db $00
-org $8041EC0; db $00
+org $8041DE2; db $57
+org $8041E98; db $01
+org $8041EC0; db $01
 // Move the cursors left when inventory is full
-org $8041A6a; db $00
-org $8041A92; db $00
-// ‘Buy’ X coord when in main shop menu
+org $8041A6A; db $01
+org $8041A92; db $01
+// 'Buy' X coord when in main shop menu
 org $80446FE; db $12
-// ‘Sell’ X coord when in main shop menu
+// 'Sell' X coord when in main shop menu
 org $8044712; db $12
-// ‘End’ X coord when in main shop menu
+// 'End' X coord when in main shop menu
 org $8044726; db $12
 // Character names X coord when in Buy/Sell shop submenus
 org $8044774; db $12
 // Item dude realignments
 // Fix the cursor alignment
-org $8041F68; db $00
-org $8041FD6; db $00
-org $8041FFA; db $00
-// ‘Deposit’ X coord when in main item dude menu
+org $8041F68; db $01
+org $8041FD6; db $01
+org $8041FFA; db $01
+// 'Deposit' X coord when in main item dude menu
 org $80447BA; db $12
-// ‘Withdraw’ X coord when in main item dude menu
+// 'Withdraw' X coord when in main item dude menu
 org $80447CE; db $12
-// ‘End’ X coord when in main item dude menu
+// 'End' X coord when in main item dude menu
 org $80447E2; db $12
 // Character names X coord when in Deposit/Withdraw item dude submenus
 org $8044830; db $12 
-
+// Saving/loading menu realignments
+// Fix the cursor alignment when selecting a file in the saving menu
+org $80427EE; db $0B
+// Fix the cursor alignment when overwriting a file in the saving menu
+org $80C6800; db $4B
+org $80C6804; db $7F
+// Fix the cursor alignment when choosing to delete/copy a file in the loading menu
+org $80C6830; db $4B
+org $80C6834; db $7F
+// Fix the cursor alignment when a file is selected in the loading menu
+org $80425FE; db $3F
+// Fix the cursor alignment when choosing a window colour in the loading menu
+org $804270E; db $47
+// Fix the cursor alignment when choosing a text speed in the loading menu
+org $8042686; db $57
 
 // apply a VWF to the non-sprite text on the Battle Memory screen
 org $8049966; push {lr}; bl main_menu_hacks.battle_mem_vwf
@@ -468,120 +485,142 @@ org $8040624; db $03                             // Goods, X, left column
 org $804062A; db $7B                             // Goods, X, right column
 org $804081C; bl extra_hacks.keygoods_cursorfix1 // Key goods, X, left column
 org $8040824; db $77                             // Key goods, X, right column
+org $80424D6; bl extra_hacks.withdraw_cursorfix1 // Withdraw, X, left column
+org $80424DE; db $6D                             // Withdraw, X, right column
+org $8042164; db $03                             // Deposit, X, left column
+org $804216A; db $7B                             // Deposit, X, right column
 org $8040B04; db $7F                             // Equip, X, main menu
 org $8043064; db $7F                             // Equip, X, sub menu
 org $8040F24; bl extra_hacks.psi_cursorfix1      // PSI, X, left column
 org $8040F2C; db $69                             // PSI, X, right column
-org $8045ACE; db $07                             // PSI, X, ‘On whom’ submenu
+org $8045ACE; db $07                             // PSI, X, 'On whom' submenu
 org $804141E; bl extra_hacks.psi_cursorfix1      // Skills (PSI), X, left column
 org $8041426; db $69                             // Skills (PSI), X, right column
 org $8041460; bl extra_hacks.skills_cursorfix1   // Skills (other), X, left column
 org $8041468; db $73                             // Skills (other), X, right column
+org $8045BDA; db $CC                             // Selling confirmation prompt
+org $8045BBE; db $CC                             // Buying confirmation prompt
 
+org $807A8DA; db $08    // fix Hinawa's name in final battle
+org $8040742; nop; nop // Fix issue that made it so certain submenus didn't show the last item's E icon even when they should (odd positions in inventory)
+org $8052648; dd $000F423F // Make it so you can sell items up to 999999 DP (previously it was up to 999998 DP)
 
-org $807A8DA; db $08    // fix Hinawa’s name in final battle
-
-
-
-
-//These hacks fix the “scrolling menus” bug
-
+//These hacks fix the "scrolling menus" bug and improve the responsiveness of menus
 
 //804CA9C tells each menu where to go
 //804E374 if it’s a submenu
 //804CA6C for “specific submenus”
 //804E104 for “specific submenus” submenus. B is not an option anymore.
-
-
 //Inventory
 //org $804CAE0; bl refreshes.inv_spec_a
 org $804CB52; bl refreshes.lr
 org $804CC24; bl refreshes.up_and_down
 
-
 //Inventory submenu
 //org $804E81C; bl refreshes.inv_submenu_a
-
+org $804FD6A; bl refreshes.inv_use_throw; nop; nop //use
+org $804FBA4; bl refreshes.inv_use_throw; nop; nop //use, chicken/chick case
+org $804FEF4; bl refreshes.inv_use_throw; nop; nop //throw
+org $804FE64; bl refreshes.inv_give; nop; nop //give
 
 //Block A press if too soon
 org $804CAD4; bl refreshes.inv_block_a
 org $803E064; bl refreshes.inv_submenu_block_a
 
-
 //Equip
 org $804CC64; bl refreshes.equip_a; nop
+org $804CCA0; bl refreshes.equip_block_input_lr
 org $804CCAA; bl refreshes.lr
+org $804CCBE; bl main_menu_hacks.move_and_print
 
-
-//Inner Equip / “specific submenus”
-org $804E092; bl refreshes.b; nop //“specific submenus” wide
-org $804E14A; bl refreshes.inner_equip_scroll
+//Inner Equip / "specific submenus"
+org $804E092; bl refreshes.b; nop //"specific submenus" wide
+org $804E14A; bl refreshes.up_and_down
 org $804F704; bl refreshes.inner_equip_a
 
-
-//Memoes
-org $804D1CC; bl refreshes.b; nop
-org $804D306; bl refreshes.up_and_down
-
+//Battle Memoes
+org $804D1CC; bl refreshes.b; nop; bl main_menu_hacks.delete_vram_battle_memory_to_inv
+org $804D2D6; bl refreshes.up_and_down_battle_memoes_left_right; nop; nop
+org $804D2F6; bl refreshes.up_and_down_battle_memoes; nop; nop
+org $804D306; nop; nop
 
 //PSI
-org $804CD5E; bl refreshes.select; nop
+org $804CD22; bl refreshes.psi_prevent_input_a_select
+org $804CD5E; bl refreshes.psi_select; nop
 org $804CDB0; bl refreshes.lr
+org $804CE30; bl refreshes.withdraw_psi_memo_block_input_up_and_down
 org $804CE3C; bl refreshes.up_and_down
-
+org $804EDE6; bl refreshes.psi_used //Party-wide PSI, also fixes a bug in the base game
+org $804FFC2; bl refreshes.psi_used; nop; nop //Single-target PSI
 
 //Status
-org $804CE78; bl refreshes.status_a;nop
+org $804CE78; bl refreshes.status_a; nop
+org $804CEB2; bl refreshes.status_block_input_lr; nop
 org $804CEBE; bl refreshes.status_lr
-
+org $804CEF4; bl main_menu_hacks.move_and_print
+org $804CF0A; bl main_menu_hacks.move_and_print
 
 //Skills
 org $804CF4C; bl refreshes.b; nop
 org $804CFA0; bl refreshes.lr
 org $804D050; bl refreshes.up_and_down
 
-
 //Memo
 org $804D096; bl refreshes.memo_a; nop
+org $804D0EA; bl refreshes.withdraw_psi_memo_block_input_up_and_down
 org $804D0F6; bl refreshes.up_and_down
-
 
 //Inner Memoes
 org $804D138; bl refreshes.inner_memo_scroll; nop
 org $804D150; bl refreshes.b; nop
 
-
 //Buy
-org $804D4C6; bl refreshes.buy_lr; nop
+org $804D4BA; bl refreshes.buy_block_lr
+org $804D4DC; bl refreshes.buy_lr; nop; nop
 org $804D516; bl refreshes.b; nop
+org $804D556; bl refreshes.buy_block_up_down
 org $804D562; bl refreshes.up_and_down
-org $804D5B2; bl refreshes.buy_lr; nop
-
+org $804D5A8; bl refreshes.buy_block_lr
+org $804D5C8; bl refreshes.buy_lr; nop; nop
+org $804E944; bl refreshes.buy_block_a
+org $805007A; bl refreshes.buy_a; nop; nop
+org $8050440; bl refreshes.sell_after_buy_a; nop; nop
 
 //Sell
 org $804D602; bl refreshes.sell_a; nop
 org $804D61C; bl refreshes.b; nop
+org $804D660; bl refreshes.sell_block_input_up_and_down
 org $804D66C; bl refreshes.up_and_down
 org $804D6BE; bl refreshes.switch_lr; nop
-
+org $804E9A4; bl refreshes.sell_confirmed_a
+org $80502FC; bl refreshes.sell_confirmed_printing_pressed_a
+org $804E9D4; bl refreshes.sell_confirmed_equipment_a
+org $80503CC; bl refreshes.sell_equipment_confirmed_printing_pressed_a
 
 //Deposit
 org $804D800; bl refreshes.deposit_a; nop
 org $804D818; bl refreshes.b; nop
 org $804D86E; bl refreshes.up_and_down
-org $804D8A6; bl refreshes.switch_lr; nop
-
+org $804D8BC; bl refreshes.deposit_lr
+org $804F284; bl refreshes.deposit_printing_pressed_a
 
 //Withdraw
 org $804D8F8; bl refreshes.withdraw_a; nop
 org $804D910; bl refreshes.b; nop
+org $804D988; bl refreshes.withdraw_psi_memo_block_input_up_and_down
 org $804D994; bl refreshes.up_and_down
-org $804D9CA; bl refreshes.switch_lr; nop
+org $804D9C0; bl refreshes.withdraw_block_input_lr
+org $804D9E0; bl refreshes.withdraw_lr; nop; nop
+org $804F328; bl refreshes.withdraw_printing_pressed_a
 
+//Remove text issue when going from inventory to battle memory
+org $804EB26; bl main_menu_hacks.delete_vram_inv_to_battle_memory
 
 //Fix issue with equipment when removing items from the inventory
 org $802A560; bl extra_hacks.position_equipment_item_removal
 
+//Make cheese consistent inside and outside of battle (Salsa is the default case)
+org $805CB84; bhi $805CBC2
 
 //============================================================================================
 //                                  NAMING SCREEN HACKS
@@ -1140,11 +1179,6 @@ org $801A1A4; bl outside_hacks.block_loading_map
 org $8026E4A; bl outside_hacks.decrement_block_map_inside
 org $802704C; bl outside_hacks.block_loading_map_inside
 
-
-org $8052648; dd $000F423F // Make it so you can sell items up to 999999 DP (previously it was up to 999998 DP)
-
-
-
 //============================================================================================
 //                              SOUND PLAYER & BATTLE HACKS
 //============================================================================================
@@ -1654,6 +1688,10 @@ org $90778E8; incbin gfx_tanetane_cliff_tilemap_[c].bin
 //Fix gift boxes issues in room 025, optimizing sprite usage
 org $913E1D4; incbin object_table_4_025_segment.bin
 
+//Put in a swapped version of the menu text palettes
+define alternate_menu_text_palette $9FABFC0
+org {alternate_menu_text_palette}; incbin gfx_menu_text_swapped_palette.bin
+org $803FAA2; bl main_menu_hacks.add_extra_menu_palette
 
 //============================================================================================
 //                                    SOUND HACKS
@@ -1983,8 +2021,19 @@ org $9137120; dd $00EA4040, $00EA4220, $00EA42E0, $00EA4388, $00EA4430
 org $9FD7078; incbin logic_blocks_37F_380.bin
 org $919A80C; dd $00E3E468, $00E3E474, $00E3E4DC, $00E3E4EC
 
+//Fix issue with equip and status showing old data when going from a non-valid character to a valid character
+org $80470B4; bl main_menu_hacks.delete_vram_equip; nop //Equip
+org $80472C8; bl main_menu_hacks.delete_vram_status; nop //Status
 
+//Improve performance for equip menu
+org $8047112; bl improve_performances_menus.equipment_vram_equip_descriptors //Load OAM entries in VRAM
+org $8043832; b $8043888 //Remove OAM entries
+org $804E0C8; bl improve_performances_menus.equip_avoid_left_reprint //Don't reprint left column
+org $804F780; bl improve_performances_menus.equip_avoid_left_reprint //Don't reprint left column
 
+//Improve performances for status menu
+org $80473D8; bl improve_performances_menus.status_vram_equip_descriptors //Load OAM entries in VRAM
+org $8044130; b $80441A2 //Remove OAM entries
 
 //============================================================================================
 //                                  MEMO SCREEN STUFF
