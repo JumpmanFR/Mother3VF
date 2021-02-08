@@ -3857,6 +3857,929 @@ strh r3,[r2,#2]
 pop  {r0,pc}
 
 
+//=============================================================================================
+// Improve battle menus printing
+//=============================================================================================
+battle_menus_improvement_hacks:
+
+//=============================================================================================
+// Call the improved inventory printing routine, A or B were pressed
+//=============================================================================================
+.inventory_printing_routine_ab_call:
+push {lr}
+mov  r1,#0
+bl   .inventory_printing_routine
+pop  {pc}
+
+//=============================================================================================
+// Call the improved inventory printing routine, Select/Left/Right were pressed
+//=============================================================================================
+.inventory_printing_routine_select_lr_call:
+push {lr}
+mov  r1,#1
+bl   .inventory_printing_routine
+pop  {pc}
+
+//=============================================================================================
+// Call the improved inventory printing routine, Up or Down were pressed
+//=============================================================================================
+.inventory_printing_routine_up_down_call:
+push {lr}
+cmp  r1,#1
+beq  +
+mov  r1,#1
+bl   .inventory_printing_routine
+b    .inventory_printing_routine_up_down_call_end
++
+bl   $807E61C
+.inventory_printing_routine_up_down_call_end:
+pop  {pc}
+
+//=============================================================================================
+// Setup whether the top item's index changed (Scrolling)
+//=============================================================================================
+.inventory_printing_routine_ud_setup:
+push {r5,lr}
+mov  r5,r4
+add  r5,#0x34
+ldrb r5,[r5,#0]
+bl   $8091938
+mov  r1,r4
+add  r1,#0x34
+ldrb r1,[r1,#0]
+cmp  r1,r5
+beq  +
+mov  r1,#1
+b    .inventory_printing_routine_ud_setup_end
++
+mov  r1,#0
+
+.inventory_printing_routine_ud_setup_end:
+pop  {r5,pc}
+
+//=============================================================================================
+// Improve battle inventory printing - based on 0x807E61C.
+// It will print only what it needs to.
+// r0 contains the menu's pointer. r1 will contain custom info that will allow understanding
+// whether we need to print the select bottom bar or not...
+// 0 nothing (A/B were pressed)
+// 1 left/right/select/up/down
+//=============================================================================================
+.inventory_printing_routine:
+push {r4-r7,lr}
+mov  r7,r10
+mov  r6,r9
+mov  r5,r8
+push {r5-r7}
+add  sp,#-0x98
+mov  r6,r0
+ldr  r0,[r6,#0x40]
+cmp  r0,#5
+bne  +
+b    .inventory_printing_routine_end
++
+mov  r5,r1                             //Extra piece of code
+
+mov  r0,#0                             //Base code
+str  r0,[sp,#0x74]
+mov  r1,r6
+add  r1,#0x34
+str  r1,[sp,#0x84]
+add  r2,sp,#0x50
+mov  r8,r2
+mov  r3,r6
+add  r3,#0x36
+str  r3,[sp,#0x8C]
+mov  r0,r6
+add  r0,#0x35
+str  r0,[sp,#0x88]
+mov  r1,sp
+add  r1,#0x70
+str  r1,[sp,#0x90]
+add  r7,sp,#0x5C
+mov  r2,sp
+add  r2,#0x68
+str  r2,[sp,#0x80]
+add  r3,sp,#0x6C
+mov  r10,r3
+
+cmp  r5,#0
+bne  +
+b    .inventory_printing_routine_end
++
+
+.inventory_printing_routine_after_cycle:
+mov  r3,#0xB7
+lsl  r3,r3,#2
+add  r0,r6,r3
+ldr  r1,[sp,#0x8C]
+mov  r2,#0
+ldsb r2,[r1,r2]
+ldr  r3,[sp,#0x88]
+mov  r4,#0
+ldsb r4,[r3,r4]
+mov  r1,#0x6C
+mov  r3,r2
+mul  r3,r1
+add  r3,#3
+lsl  r1,r4,#1
+add  r1,r1,r4
+lsl  r1,r1,#2
+sub  r1,#3
+add  r2,sp,#0x70
+strh r3,[r2,#0]
+ldr  r2,[sp,#0x90]
+strh r1,[r2,#2]
+ldr  r1,[sp,#0x90]
+bl   $808B1A8                          //Update cursor's coordinates
+mov  r3,#0xDE
+lsl  r3,r3,#2
+add  r4,r6,r3
+ldr  r0,[sp,#0x84]
+mov  r1,#0
+ldsb r1,[r0,r1]
+sub  r1,#1
+mov  r0,r6
+mov  r2,#0
+mov  r3,#0
+bl   $807E994                          //Get item above the top one's ID
+lsl  r0,r0,#0x10
+lsr  r0,r0,#0x10
+neg  r1,r0
+orr  r1,r0
+lsr  r1,r1,#0x1F
+mov  r0,r4
+bl   $806DB38
+ldr  r1,=#0x414
+add  r4,r6,r1
+ldr  r2,[sp,#0x84]
+mov  r1,#0
+ldsb r1,[r2,r1]
+add  r1,#3
+mov  r0,r6
+mov  r2,#0
+mov  r3,#0
+bl   $807E994                          //Get item below the bottom one's ID
+lsl  r0,r0,#0x10
+lsr  r0,r0,#0x10
+neg  r1,r0
+orr  r1,r0
+lsr  r1,r1,#0x1F
+mov  r0,r4
+bl   $806DB38
+mov  r3,#0x96
+lsl  r3,r3,#3
+add  r4,r6,r3
+ldr  r1,[r6,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r6,r0
+ldr  r1,[r1,#4]
+bl   $8091938                          //Is the Select menu open?
+mov  r1,r0
+mov  r0,r4
+bl   $806D7DC
+ldr  r3,[sp,#0x84]
+mov  r1,#0
+ldsb r1,[r3,r1]
+ldr  r0,[sp,#0x88]
+mov  r2,#0
+ldsb r2,[r0,r2]
+ldr  r0,[sp,#0x8C]
+mov  r3,#0
+ldsb r3,[r0,r3]
+mov  r0,r6
+bl   $807E994                          //Get selected item's ID
+mov  r4,r0
+lsl  r4,r4,#0x10
+lsr  r4,r4,#0x10
+ldr  r1,[r6,#0x1C]
+add  r1,#0xB8
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r6,r0
+ldr  r1,[r1,#4]
+bl   $8091938                          //Get character's data
+mov  r2,r0
+mov  r0,sp
+mov  r1,r4
+mov  r3,#0
+bl   $80649AC
+ldr  r3,=#0x51C
+add  r4,r6,r3
+ldr  r1,[r6,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r6,r0
+ldr  r1,[r1,#4]
+bl   $8091938                          //Is the Select menu open?
+mov  r1,r0
+mov  r0,r4
+bl   $80867D4
+mov  r0,sp
+bl   $8064B20                          //Get selected item's ID
+mov  r1,r0
+lsl  r1,r1,#0x10
+lsr  r1,r1,#0x10
+mov  r0,r4
+bl   $80867F8                          //Save item's ID in game's struct
+ldr  r3,=#0x54C
+add  r4,r6,r3
+ldr  r1,[r6,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r6,r0
+ldr  r1,[r1,#4]
+bl   $8091938                          //Is the Select menu open?
+mov  r1,r0
+mov  r0,r4
+bl   $806E948
+mov  r0,r8
+mov  r1,sp
+mov  r2,#0
+bl   $807A1F4                          //Print Item Description, top line
+mov  r0,r4
+mov  r1,r8
+bl   $8071150
+mov  r0,r8
+mov  r1,#2
+bl   $806E308
+mov  r3,#0xB5
+lsl  r3,r3,#3
+add  r4,r6,r3
+ldr  r1,[r6,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r6,r0
+ldr  r1,[r1,#4]
+bl   $8091938                          //Is the Select menu open?
+mov  r1,r0
+mov  r0,r4
+bl   $806E948
+mov  r0,r8
+mov  r1,sp
+mov  r2,#1
+bl   $807A1F4                          //Print Item Description, bottom line
+mov  r0,r4
+mov  r1,r8
+bl   $8071150
+mov  r0,r8
+mov  r1,#2
+bl   $806E308
+ldr  r3,=#0x604
+add  r4,r6,r3
+ldr  r1,[r6,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r6,r0
+ldr  r1,[r1,#4]
+bl   $8091938                          //Is the Select menu open?
+mov  r1,r0
+mov  r0,r4
+bl   $806DB38
+mov  r0,sp
+mov  r1,#2
+bl   $80649E8
+
+.inventory_printing_routine_end:
+add  sp,#0x98
+pop  {r3-r5}
+mov  r8,r3
+mov  r9,r4
+mov  r10,r5
+pop  {r4-r7,pc}
+
+//=============================================================================================
+// Setup whether the top psi's index changed (Scrolling)
+//=============================================================================================
+.psi_printing_routine_ud_setup:
+push {r5,lr}
+mov  r5,r4
+add  r5,#0x4D
+ldrb r5,[r5,#0]
+bl   $8091938
+mov  r1,r4
+add  r1,#0x4D
+ldrb r1,[r1,#0]
+cmp  r1,r5
+beq  +
+mov  r1,#1
+b    .inventory_printing_routine_ud_setup_end
++
+mov  r1,#0
+
+.inventory_printing_routine_ud_setup_end:
+pop  {r5,pc}
+
+//=============================================================================================
+// Call the improved psi printing routine, Up or Down were pressed
+//=============================================================================================
+.psi_printing_routine_up_down_call:
+push {lr}
+cmp  r1,#1
+beq  +
+bl   .psi_printing_routine
+b    .psi_printing_routine_up_down_call_end
++
+bl   $808C7CC
+.psi_printing_routine_up_down_call_end:
+pop  {pc}
+
+//=============================================================================================
+// Call the psi printing routine, changed the part the cursor is in
+//=============================================================================================
+.psi_printing_routine_change_layer_call:
+push {lr}
+mov  r1,#0xC8
+add  r1,r0,r1
+ldrb r1,[r1,#0]
+cmp  r1,#3
+beq  +
+bl   $808C7CC
++
+pop  {pc}
+
+//=============================================================================================
+// Improve battle psi menu printing - based on 0x808C7CC.
+// It will print only what it needs to.
+// r0 contains the menu's pointer
+//=============================================================================================
+.psi_printing_routine:
+push {r4-r7,lr}
+mov  r7,r10
+mov  r6,r9
+mov  r5,r8
+push {r5-r7}
+add  sp,#-0x78
+mov  r5,r0
+mov  r0,#0xF0
+lsl  r0,r0,#1
+add  r6,r5,r0
+mov  r1,#0
+ldr  r0,[r5,#0x58]
+cmp  r0,#1
+bne  +
+mov  r1,#1
++
+mov  r0,r6
+bl   $806DB38
+
+mov  r4,r5                             //Base code
+add  r4,#0x4C
+mov  r2,#0
+ldsb r2,[r4,r2]
+add  r1,sp,#0x58
+mov  r3,#3
+lsl  r0,r2,#1
+add  r0,r0,r2
+lsl  r0,r0,#2
+sub  r0,#3
+strh r3,[r1,#0]
+strh r0,[r1,#2]
+mov  r0,r6
+bl   $808B1A8
+mov  r1,#0
+mov  r10,r1
+str  r4,[sp,#0x68]
+mov  r2,r5
+add  r2,#0x4D
+str  r2,[sp,#0x6C]
+mov  r3,r5
+add  r3,#0x4E
+str  r3,[sp,#0x70]
+mov  r0,sp
+add  r0,#0x64
+str  r0,[sp,#0x74]
+add  r1,sp,#0x5C
+mov  r9,r1
+add  r2,sp,#0x60
+mov  r8,r2
+
+.psi_printing_routine_after_cycle:
+mov  r2,#0x99
+lsl  r2,r2,#3
+add  r4,r5,r2
+mov  r1,#0
+ldr  r0,[r5,#0x58]
+cmp  r0,#2
+bne  +
+mov  r1,#1
++
+mov  r0,r4
+bl   $806DB38
+ldr  r3,[sp,#0x70]
+mov  r1,#0
+ldsb r1,[r3,r1]
+mov  r2,#0x49
+lsl  r0,r1,#1
+add  r0,r0,r1
+lsl  r0,r0,#2
+sub  r0,#3
+add  r1,sp,#0x64
+strh r2,[r1,#0]
+ldr  r1,[sp,#0x74]
+strh r0,[r1,#2]
+mov  r0,r4
+ldr  r1,[sp,#0x74]
+bl   $808B1A8
+ldr  r2,=#0x564
+add  r4,r5,r2
+ldr  r3,[sp,#0x68]
+mov  r1,#0
+ldsb r1,[r3,r1]
+ldr  r0,[sp,#0x6C]
+mov  r2,#0
+ldsb r2,[r0,r2]
+sub  r2,#1
+mov  r0,r5
+mov  r3,#0
+bl   $808CB18
+lsl  r0,r0,#0x10
+lsr  r0,r0,#0x10
+neg  r1,r0
+orr  r1,r0
+lsr  r1,r1,#0x1F
+mov  r0,r4
+bl   $806DB38
+mov  r1,#0xC0
+lsl  r1,r1,#3
+add  r4,r5,r1
+ldr  r2,[sp,#0x68]
+mov  r1,#0
+ldsb r1,[r2,r1]
+ldr  r3,[sp,#0x6C]
+mov  r2,#0
+ldsb r2,[r3,r2]
+add  r2,#3
+mov  r0,r5
+mov  r3,#0
+bl   $808CB18
+lsl  r0,r0,#0x10
+lsr  r0,r0,#0x10
+neg  r1,r0
+orr  r1,r0
+lsr  r1,r1,#0x1F
+mov  r0,r4
+bl   $806DB38
+ldr  r0,=#0x69C
+add  r4,r5,r0
+ldr  r1,[r5,#0x1C]
+add  r1,#0xD8
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r5,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806D7DC
+mov  r3,#0xE1
+lsl  r3,r3,#3
+add  r6,r5,r3
+ldr  r1,[r5,#0x1C]
+add  r1,#0xD8
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r5,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r6
+bl   $806E948
+ldr  r3,=#0x764
+add  r7,r5,r3
+ldr  r1,[r5,#0x1C]
+add  r1,#0xD8
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r5,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r7
+bl   $806E948
+ldr  r0,[r5,#0x58]
+cmp  r0,#2
+bne  .psi_printing_routine_not_inside
+
+ldr  r3,[sp,#0x68]
+mov  r1,#0
+ldsb r1,[r3,r1]
+ldr  r0,[sp,#0x6C]
+mov  r2,#0
+ldsb r2,[r0,r2]
+ldr  r0,[sp,#0x70]
+mov  r3,#0
+ldsb r3,[r0,r3]
+mov  r0,r5
+bl   $808CB18
+mov  r4,r0
+lsl  r4,r4,#0x10
+lsr  r4,r4,#0x10
+ldr  r1,[r5,#0x1C]
+add  r1,#0xD0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r5,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r2,r0
+mov  r0,sp
+mov  r1,r4
+bl   $8082B78
+add  r4,sp,#0x4C
+mov  r0,r4
+mov  r1,sp
+mov  r2,#0
+bl   $807A1F4
+mov  r0,r6
+mov  r1,r4
+bl   $8071150
+mov  r0,r4
+mov  r1,#2
+bl   $806E308
+mov  r0,r4
+mov  r1,sp
+mov  r2,#1
+bl   $807A1F4
+mov  r0,r7
+mov  r1,r4
+bl   $8071150
+mov  r0,r4
+mov  r1,#2
+bl   $806E308
+mov  r0,sp
+mov  r1,#2
+bl   $8082BA8
+b    +
+
+.psi_printing_routine_not_inside:
+mov  r0,sp
+bl   $806E274
+mov  r0,r6
+mov  r1,sp
+bl   $8071150
+mov  r0,sp
+mov  r1,#2
+bl   $806E308
+mov  r0,r7
+mov  r1,sp
+bl   $8071150
+mov  r0,sp
+mov  r1,#2
+bl   $806E308                          //No select text outside
+
++
+mov  r3,#0xF8
+lsl  r3,r3,#3
+add  r4,r5,r3
+ldr  r1,[r5,#0x1C]
+add  r1,#0xD8
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r5,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806DB38
+
+.psi_printing_routine_end:
+add  sp,#0x78
+pop  {r3-r5}
+mov  r8,r3
+mov  r9,r4
+mov  r10,r5
+pop  {r4-r7,pc}
+
+//=============================================================================================
+// Call the skills printing routine, printing the whole menu
+//=============================================================================================
+.skills_printing_routine_enter_call:
+push {lr}
+mov  r1,#0xA4
+add  r1,r0,r1
+ldrb r1,[r1,#0]
+cmp  r1,#0x13
+beq  +
+bl   $808DBD4
++
+pop  {pc}
+
+//=============================================================================================
+// Improve battle skills menu printing - based on 0x808DBD4.
+// It will print only what it needs to.
+// r0 contains the menu's pointer
+//=============================================================================================
+.skills_printing_routine:
+push {r4-r7,lr}
+mov  r7,r10
+mov  r6,r9
+mov  r5,r8
+push {r5-r7}
+add  sp,#-0x30
+mov  r7,r0
+mov  r0,#0
+mov  r10,r0
+mov  r1,sp
+add  r1,#0xC
+str  r1,[sp,#0x20]
+mov  r2,r7
+add  r2,#0x29
+str  r2,[sp,#0x2C]
+mov  r0,r7
+add  r0,#0x28
+str  r0,[sp,#0x28]
+
+.skills_printing_routine_after_cycle:
+mov  r1,#0xB4
+lsl  r1,r1,#2
+add  r0,r7,r1
+ldr  r1,[sp,#0x2C]
+ldrb r2,[r1,#0]
+ldr  r1,[sp,#0x28]
+ldrb r4,[r1,#0]
+mov  r1,#0x6C
+mov  r3,r2
+mul  r3,r1
+add  r3,#3
+lsl  r1,r4,#1
+add  r1,r1,r4
+lsl  r1,r1,#2
+sub  r1,#3
+add  r2,sp,#0xC
+strh r3,[r2,#0]
+ldr  r2,[sp,#0x20]
+strh r1,[r2,#2]
+ldr  r1,[sp,#0x20]
+bl   $808B1A8
+mov  r0,#0xDB
+lsl  r0,r0,#2
+add  r4,r7,r0
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806D7DC
+ldr  r0,[sp,#0x28]
+ldrb r1,[r0,#0]
+ldr  r0,[sp,#0x2C]
+ldrb r2,[r0,#0]
+mov  r0,r7
+bl   $808DF14
+mov  r4,r0
+lsl  r4,r4,#0x10
+lsr  r4,r4,#0x10
+ldr  r1,[r7,#0x1C]
+add  r1,#0xB8
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $8073F88
+mov  r8,r0
+ldr  r1,[r0,#0x1C]
+mov  r0,#0xF0
+lsl  r0,r0,#1
+add  r1,r1,r0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r8
+ldr  r1,[r1,#4]
+bl   $8091938                          //Get item ID, if it's a skill, returns 0
+lsl  r0,r0,#0x10
+cmp  r0,#0
+bne  +
+b    .skills_printing_routine_not_item
++
+
+mov  r0,#0xF6
+lsl  r0,r0,#2
+add  r4,r7,r0
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $80867D4
+mov  r0,r8
+ldr  r1,[r0,#0x1C]
+mov  r2,#0xF0
+lsl  r2,r2,#1
+add  r1,r1,r2
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r8
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+lsl  r1,r1,#0x10
+lsr  r1,r1,#0x10
+mov  r0,r4
+bl   $80867F8
+mov  r0,#0x81
+lsl  r0,r0,#3
+add  r4,r7,r0
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806E948
+mov  r0,r8
+ldr  r2,[r0,#0x1C]
+mov  r5,#0xEC
+lsl  r5,r5,#1
+add  r2,r2,r5
+mov  r0,#0
+ldsh r1,[r2,r0]
+mov  r0,sp
+ldr  r3,[r2,#4]
+add  r1,r8
+mov  r2,#0
+bl   $8091940
+mov  r0,r4
+mov  r1,sp
+bl   $8071150
+mov  r0,sp
+mov  r1,#2
+bl   $806E308
+add  r1,sp,#0x10
+mov  r6,#0x24
+mov  r0,#0x86
+strh r6,[r1,#0]
+strh r0,[r1,#2]
+mov  r0,r4
+bl   $8071194
+ldr  r1,=#0x464
+add  r4,r7,r1
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806E948
+mov  r0,r8
+ldr  r2,[r0,#0x1C]
+add  r2,r2,r5
+mov  r0,#0
+ldsh r1,[r2,r0]
+mov  r0,sp
+ldr  r3,[r2,#4]
+add  r1,r8
+mov  r2,#1
+bl   $8091940
+mov  r0,r4
+mov  r1,sp
+bl   $8071150
+mov  r0,sp
+mov  r1,#2
+bl   $806E308
+add  r1,sp,#0x14
+mov  r0,#0x92
+strh r6,[r1,#0]
+strh r0,[r1,#2]
+mov  r0,r4
+bl   $8071194
+b    +
+
+.skills_printing_routine_not_item:
+mov  r1,#0xF6
+lsl  r1,r1,#2
+add  r0,r7,r1
+mov  r1,#0
+bl   $80867D4
+mov  r2,#0x81
+lsl  r2,r2,#3
+add  r4,r7,r2
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806E948
+mov  r0,r8
+ldr  r2,[r0,#0x1C]
+mov  r5,#0xEC
+lsl  r5,r5,#1
+add  r2,r2,r5
+mov  r0,#0
+ldsh r1,[r2,r0]
+mov  r0,sp
+ldr  r3,[r2,#4]
+add  r1,r8
+mov  r2,#0
+bl   $8091940
+mov  r0,r4
+mov  r1,sp
+bl   $8071150
+mov  r0,sp
+mov  r1,#2
+bl   $806E308
+add  r1,sp,#0x18
+mov  r6,#0xC
+mov  r0,#0x86
+strh r6,[r1,#0]
+strh r0,[r1,#2]
+mov  r0,r4
+bl   $8071194
+ldr  r1,=#0x464
+add  r4,r7,r1
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806E948
+mov  r0,r8
+ldr  r2,[r0,#0x1C]
+add  r2,r2,r5
+mov  r0,#0
+ldsh r1,[r2,r0]
+mov  r0,sp
+ldr  r3,[r2,#4]
+add  r1,r8
+mov  r2,#1
+bl   $8091940
+mov  r0,r4
+mov  r1,sp
+bl   $8071150
+mov  r0,sp
+mov  r1,#2
+bl   $806E308
+add  r1,sp,#0x1C
+mov  r0,#0x92
+strh r6,[r1,#0]
+strh r0,[r1,#2]
+mov  r0,r4
+bl   $8071194
+
++
+mov  r1,#0x98
+lsl  r1,r1,#3
+add  r4,r7,r1
+ldr  r1,[r7,#0x1C]
+add  r1,#0xC0
+mov  r2,#0
+ldsh r0,[r1,r2]
+add  r0,r7,r0
+ldr  r1,[r1,#4]
+bl   $8091938
+mov  r1,r0
+mov  r0,r4
+bl   $806DB38
+mov  r0,r8
+cmp  r0,#0
+beq  .skills_printing_routine_end
+ldr  r1,[r0,#0x1C]
+mov  r2,#8
+ldsh r0,[r1,r2]
+add  r0,r8
+ldr  r2,[r1,#0xC]
+mov  r1,#3
+bl   $809193C
+
+.skills_printing_routine_end:
+add  sp,#0x30
+pop  {r3-r5}
+mov  r8,r3
+mov  r9,r4
+mov  r10,r5
+pop  {r4-r7,pc}
+
 
 //=============================================================================================
 // Multiple PK Thunders fix
