@@ -1878,8 +1878,7 @@ org $9FB0300; incbin text_sleep.bin
 
 
 // Big cool battle memory star sprite hack
-org $803E6FC; push {lr}; bl extra_hacks.allenemies
-
+org $804565C; bl extra_hacks.allenemies
 
 // New icon for bell ringer item
 org $8036E90; push {r4,lr}; bl extra_hacks.bellringer; pop {r4,pc}
