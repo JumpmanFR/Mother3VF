@@ -1116,6 +1116,10 @@ org $91669E8; db $A8
 org $9168758; db $AA
 
 
+//Fix Nana's age at the NPC's concert
+org $91649B4; db $41
+
+
 //Fix Leder's song issue in late chapter 2 and late chapter 3
 org $91A778C; incbin logic_leder_fix_song.bin
 
@@ -1317,7 +1321,8 @@ org $80604CE; bl fix_mementos_item_menu.initial_setup
 org $807C056; bl fix_mementos_item_menu.setup
 org $807EB96; bl fix_mementos_item_menu.fix
 
-
+//Fix issue with Porky in Absolutely Safe Capsule when comboed
+org $809F45A; bl battle_hacks.fix_total_damage
 
 
 //============================================================================================
