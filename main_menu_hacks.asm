@@ -1549,7 +1549,7 @@ b    .ecc_end
 
 //---------------------------------------------------------------------------------------------
 .ecc_partymember:
-ldr  r1,=#0x201A1F8     
+ldr  r1,=#0x201A514     
 ldrb r0,[r1,#0]              // gets the order number of the targeted party member
 ldr  r2,=#0x2004860          // gets the current party
 ldrb r1,[r2,r0]              // gets the current party member
