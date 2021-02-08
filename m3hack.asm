@@ -1137,14 +1137,14 @@ org $9366519; db $05
 org $9366601; db $05
 
 
-//Change missing mice lines to have a “One” mouse missing and a “X” mice missing
+//Change missing mice lines to have a "One" mouse missing and a "X" mice missing
 org $92EA6D9; db $06
-org $92EA6E0; dd $00B9000D, $00A7000C
+org $92EA6E0; dd $00B9000D; dd $00A7000C
 org $92EA8E1; db $06
-org $92EA8E8; dd $0133000D, $0129000C
+org $92EA8E8; dd $0133000D; dd $0129000C
 org $92EA949; db $00
-org $92EA952; db $67
 org $92EA94D; db $0B
+org $92EA952; db $67
 
 
 //Make it so Boney’s minimum level at the beginning of Chapter 4 is standardized
@@ -1503,7 +1503,8 @@ org $9CFAB38; db $FD // "MISS" text, up 3 pixels (part 2)
 
 
 // silver star sprite for the battle memory star hack
-org $9F86120; incbin gfx_starsprite.bin
+define star_sprite_address $9F86120
+org {star_sprite_address}; incbin gfx_starsprite.bin
 
 
 // Insert PV and PP indicators
