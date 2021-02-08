@@ -579,6 +579,8 @@ org $804D994; bl refreshes.up_and_down
 org $804D9CA; bl refreshes.switch_lr; nop
 
 
+//Fix issue with equipment when removing items from the inventory
+org $802A560; bl extra_hacks.position_equipment_item_removal
 
 
 //============================================================================================
