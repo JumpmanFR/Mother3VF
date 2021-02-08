@@ -1,170 +1,152 @@
 extra_hacks:
 
-
 // ================================================
-// This adds a silver/gold star sprite to the
+// This adds a bronze/silver/gold star sprite to the
 // Battle Memory screen if you've seen every enemy.
 // ================================================
-
 
 // This is the stream of byte flags to compare against
 .allenemies_frontcompare:
   db $FE,$FD,$57,$93,$FF,$FF,$FF,$DF,$FF,$FF,$FF,$FF,$FF,$FF,$FF,$FF
   db $DF,$FF,$FD,$FF,$FF,$FC,$CF,$03,$00,$00,$00,$00,$00,$00,$00,$00
 
-
 // This is the stream of byte flags for back pics
 .allenemies_backcompare:
   db $D8,$1C,$06,$82,$F9,$B7,$FF,$DF,$FF,$FF,$FD,$EF,$D9,$FF,$FF,$DF
   db $DF,$BF,$FD,$FF,$F3,$BC,$CF,$03,$00,$00,$00,$00,$00,$00,$00,$00
-  
+ 
+ 
 // This routine returns 1 if you have the silver star and 0 if you don't
 .allenemies_frontcheck:
-push {r1-r5,lr}
-ldr  r0,=#.allenemies_frontcompare
-ldr  r1,=#0x2004FAA
-mov  r4,#0
--
-ldrh r2,[r1,#0]
-ldrh r3,[r1,#2]
-ldrh r5,[r0,#2]
-lsl  r3,r3,#0x10
-add  r3,r3,r2
-lsl  r5,r5,#0x10
-ldrh r2,[r0,#0]
-add  r2,r2,r5
-add  r0,#4
-add  r1,#4
-add  r4,#1
-eor  r3,r2
-and  r2,r3
-cmp  r2,#0
-bne  +
-cmp  r4,#8
-bne  -
-pop  {r1-r5}
-mov  r0,#1
-pop  {pc}
-+
-pop  {r1-r5}
-mov  r0,#0
-pop  {pc}
+push {r1,lr}
+ldr  r0,=#0x2004FAA
+ldr  r1,=#.allenemies_frontcompare
+bl   .allenemies_check
+pop  {r1,pc}
 
-
-// This routine returns 1 if you have the gold+silver star and 0 if you don't
+// This routine returns 1 if you have the back sprites star and 0 if you don't
 .allenemies_backcheck:
-push {r1-r5,lr}
-bl   .allenemies_frontcheck
-cmp  r0,#1
-beq  +
-pop  {r1-r5,pc}
-+
-ldr  r0,=#.allenemies_backcompare
-ldr  r1,=#0x2004FCA
+push {r1,lr}
+ldr  r0,=#0x2004FCA
+ldr  r1,=#.allenemies_backcompare
+bl   .allenemies_check
+pop  {r1,pc}
+
+// This routine checks whether you have all the enemies' fronts/backs or not
+.allenemies_check:
+push {r2-r5,lr}
 mov  r4,#0
 -
-ldrh r2,[r1,#0]
-ldrh r3,[r1,#2]
-ldrh r5,[r0,#2]
+ldrh r2,[r0,#0]                    //Sum is needed because it's not 4 bytes-aligned
+ldrh r3,[r0,#2]
 lsl  r3,r3,#0x10
-add  r3,r3,r2
+add  r2,r2,r3
+ldrh r3,[r1,#0]                    //Sum is needed because it's not guaranteed 4 bytes-aligned
+ldrh r5,[r1,#2]
 lsl  r5,r5,#0x10
-ldrh r2,[r0,#0]
-add  r2,r2,r5
+add  r3,r3,r5
+and  r2,r3
+cmp  r2,r3
+bne  +
 add  r0,#4
 add  r1,#4
 add  r4,#1
-eor  r3,r2
-and  r2,r3
-cmp  r2,#0
-bne  +
 cmp  r4,#8
 bne  -
-pop  {r1-r5}
 mov  r0,#1
-pop  {pc}
+b    .end_allenemies_check
 +
-pop  {r1-r5}
 mov  r0,#0
-pop  {pc}
 
+.end_allenemies_check:
+pop  {r2-r5,pc}
 
 // This hack checks if your enemy flags match and then displays the star sprite
 .allenemies:
-push {r5,lr}
-ldr  r5,[sp,#8]
-mov  lr,r5
-ldr  r5,[sp,#4]
-str  r5,[sp,#8]
-pop  {r5}
-add  sp,#4
 // ----------------------------------------------
-// Check if we're on the Battle Memory screen
+// The base code already checks that we're in the battle memo screen
+push {lr}
 push {r0-r5}
-ldr  r0,=#0x201A288
-ldrb r0,[r0,#0]
-cmp  r0,#7
-bne  .allenemies_end
+
 // ----------------------------------------------
 // Check for front pics
 bl   .allenemies_frontcheck
-cmp  r0,#0
-beq  .allenemies_end
+mov  r4,r0
+
+// Check for the back pics
+bl   .allenemies_backcheck
+lsl  r0,r0,#1
+orr  r0,r4
+
+bl   .read_star_sprite
+
+.allenemies_end:
+pop  {r0-r5}
+ldrh r1,[r2,#0x1A]                 //Clobbered code
+lsl  r0,r1,#2
+pop  {pc}
+
 // ----------------------------------------------
+.read_star_sprite:
+push {lr}
+mov  r1,#3
+and  r1,r0
+cmp  r1,#0
+beq  .end_read_star_sprite
+cmp  r1,#3
+bne  +
+mov  r0,#0xBB                      // Gold
+b    .do_set_start_sprite
++
+cmp  r1,#2
+bne  +
+mov  r0,#0x6B                      // Silver
+b    .do_set_start_sprite
++
+mov  r0,#0xDB                      // Bronze
+
+.do_set_start_sprite:
+bl   .set_start_sprite
+
+.end_read_star_sprite:
+pop  {pc}
+
+// ----------------------------------------------
+.set_start_sprite:
+push {r4,lr}
+mov  r4,r0
+
 // Load the star sprite into tile memory
-ldr  r0,=#0x9F86120
-ldr  r1,=#0x6016400
-mov  r2,#0x20
+ldr  r0,=#{star_sprite_address}
+ldr  r1,=#0x60177E0
+mov  r2,#0x8
 swi  #0xC
+mov  r0,r4
+
 // ----------------------------------------------
-// Load the OAM data
-ldr  r3,=#0x70003F8
+// Load the OAM data into the OAM buffer
+ldr  r3,=#0x2016028
+ldr  r4,=#0xC620
+add  r2,r3,r4
+ldr  r4,=#0x2C98
+add  r4,r3,r4
+ldrh r1,[r4,#0]                    // Update objects counter to account for this one
+add  r1,#1
+strh r1,[r4,#0]
+sub  r4,r1,#1
+lsl  r4,r4,#3
+ldr  r3,[r2,#0]
+add  r3,r3,r4
 mov  r4,#0x45
 lsl  r4,r4,#0x10
 add  r4,#0xE
 str  r4,[r3,#0]
-mov  r4,#0x63
-lsl  r4,r4,#8
-add  r4,#0x20
+lsl  r4,r0,#8
+             
+add  r4,#0xBF
 str  r4,[r3,#4]
 // ----------------------------------------------
-// Check for the back pics
-bl   .allenemies_backcheck
-cmp  r0,#0
-beq  .allenemies_end
-// ----------------------------------------------
-// Load the star sprite into tile memory
-ldr  r0,=#0x9F86120
-ldr  r1,=#0x6016400
-mov  r2,#0x20
-swi  #0xC
-// ----------------------------------------------
-// Load the OAM data
-ldr  r3,=#0x70003F0
-mov  r4,#0x4F
-lsl  r4,r4,#0x10
-add  r4,#0xE
-str  r4,[r3,#0]
-mov  r4,#0xB3
-lsl  r4,r4,#8
-add  r4,#0x20
-str  r4,[r3,#4]
-// ----------------------------------------------
-.allenemies_end:
-pop  {r0-r5}
-ldr  r1,=#0xFFFF3A4C
-add  r0,r4,r1
-ldr  r2,=#0xFFFF3A9C
-pop  {pc}
-
-
-
-
-
-
-
-
-
+pop  {r4,pc}
 
 
 
@@ -659,12 +641,20 @@ bx   lr
 // ---------------------------------------------------------------------------------------
 // PSI menu
 .psi_cursorfix1:
-and  r0,r1       // clobbered code
-mov  r2,#0xFF    // we want -3
+and  r0,r1                         // clobbered code
+mov  r2,#0xFF                      // we want -3
 lsl  r2,r2,#0x8
 add  r2,#0xFD
 bx   lr
 
+// ---------------------------------------------------------------------------------------
+// Withdraw menu
+.withdraw_cursorfix1:
+and  r0,r1                         // clobbered code
+mov  r2,#0xFF                      // we want -3
+lsl  r2,r2,#0x8
+add  r2,#0xFD
+bx   lr
 
 // ---------------------------------------------------------------------------------------
 // Skills (other) menu
@@ -892,7 +882,6 @@ pop  {pc}
 // Fixes printing in the memo screen. Also changes position of the right column in the withdrawing menu
 // ---------------------------------------------------------------------------------------
 
-
 .memo_printfix_withdraw_positionfix:
 push {lr}
 ldr  r2,=#0x201A288
@@ -906,43 +895,45 @@ cmp  r2,#0xF
 bne  +
 cmp  r0,#0xA
 bne  +
-add  r1,#4                             //Cover being in the withdraw menu - moves the right column 4 pixels to the right
+add  r1,#4                         //Cover being in the withdraw menu - moves the right column 4 pixels to the right
 +
 cmp  r2,#0x10
 bne  +
 cmp  r0,#0xB
 bne  +
-add  r1,#4                             //Cover being in the delete all saves menu - moves "No" 4 pixels to the right
+add  r1,#4                         //Cover being in the delete all saves menu - moves "No" 4 pixels to the right
 +
-b        .memo_printfix_withdraw_positionfix_end
-
+cmp  r2,#0x1
+bne  +
+cmp  r0,#0xB
+bne  +
+add  r1,#2                         //Cover being in the equipment menu - moves Equipment type's text 2 pixels to the right
++
+b    .memo_printfix_withdraw_positionfix_end
 
 .memo_printfix_withdraw_positionfix_memo:
 mov  r0,r5
 sub  r0,#0x2
-cmp  r0,#1                             //Is this the first letter?
+cmp  r0,#1                         //Is this the first letter?
 beq  +
-mov  r0,#1                             //If it's not, check if it's an icon
+mov  r0,#1                         //If it's not, check if it's an icon
 sub  r1,r4,#4
 ldr  r1,[r1,#0]
 cmp  r1,#0
 bne  +
-mov  r0,#2                             //Cover case when done with memo icon
+mov  r0,#2                         //Cover case when done with memo icon
 +
-lsl  r1,r0,#1                          //If it's not an icon, the line starts at 1
+lsl  r1,r0,#1                      //If it's not an icon, the line starts at 1
 add  r1,r1,r0
 lsl  r1,r1,#2
-
 
 .memo_printfix_withdraw_positionfix_end:
 strh r1,[r6,#0]
 pop  {pc}
 
-
 // ---------------------------------------------------------------------------------------
 // Fixes printing in the memo screen. Vertical fix in order to allow more space per line
 // ---------------------------------------------------------------------------------------
-
 
 .memo_printfix_vertical:
 push {lr}
@@ -952,66 +943,58 @@ ldrb r1,[r1,#0]
 cmp  r1,#6
 bne  .memo_printfix_vertical_end
 sub  r1,r4,#4
-ldr  r1,[r1,#0]                  //Get the height from the previous set of bytes
+ldr  r1,[r1,#0]              //Get the height from the previous set of bytes
 lsr  r0,r1,#0x1C
 cmp  r0,#3
 bgt  +
-mov  r0,#3                       //Memoes start at a height of 3
+mov  r0,#3                   //Memoes start at a height of 3
 +
-
 
 .memo_printfix_vertical_end:
 pop  {pc}
 
-
 // ---------------------------------------------------------------------------------------
 // Fixes printing in the memo screen. Changes how letters are stored
 // ---------------------------------------------------------------------------------------
-
 
 .memo_printfix_storage:
 push {r3,lr}
 ldr  r0,=#0x201A288
 ldrb r0,[r0,#0]
 cmp  r0,#6
-bne  +                           //Do this only for the memo menu
-
+bne  +                       //Do this only for the memo menu
 
 ldr  r0,[r4,#0]
-sub  r0,r6,r0                    //Letters are now stored sequentially, not by line
+sub  r0,r6,r0                //Letters are now stored sequentially, not by line
 lsr  r2,r0,#1
 add  r2,#2
 strh r2,[r5,#0]
 ldr  r0,=#0x201AEF8
 ldrb r1,[r0,#3]
 add  r1,#0x10
-strb r1,[r0,#3]                  //Store, as info, the Y we're currently at
+strb r1,[r0,#3]              //Store, as info, the Y we're currently at
 mov  r3,#0x2
 add  r3,r3,r2
 lsl  r3,r3,#2
 add  r0,r0,r3
 sub  r0,#4
 add  r1,#0x30
-strb r1,[r0,#3]                  //Store, as info, the Y this line should be at when printed
-b        .memo_printfix_storage_end
+strb r1,[r0,#3]              //Store, as info, the Y this line should be at when printed
+b    .memo_printfix_storage_end
 +
 
-
-ldrh r0,[r4,#8]                  //Default code
+ldrh r0,[r4,#8]              //Default code
 strh r0,[r5,#0]
 ldrh r0,[r5,#2]
 add  r0,#1
 strh r0,[r5,#2]
 
-
 .memo_printfix_storage_end:
 pop  {r3,pc}
-
 
 // ---------------------------------------------------------------------------------------
 // Improves buffer size for the memo menus
 // ---------------------------------------------------------------------------------------
-
 
 .memo_expand_buffer_start_routine:
 add  sp,#-0x100
@@ -1019,18 +1002,15 @@ add  sp,#-0x168
 lsl  r0,r0,#0x10
 bx   lr
 
-
 .memo_expand_buffer_middle_routine:
 ldr  r1,=#0x268
 bx   lr
-
 
 .memo_expand_buffer_end_routine:
 add  sp,#0x100
 add  sp,#0x168
 pop  {r3}
 bx   lr
-
 
 .memo_expand_writing_buffer:
 push {lr}
@@ -1044,10 +1024,8 @@ add  r1,#8
 add  r0,r1,r0
 b    .memo_expand_writing_buffer_end
 
-
 +
 bl   $8049894
-
 
 .memo_expand_writing_buffer_end:
 pop  {pc}

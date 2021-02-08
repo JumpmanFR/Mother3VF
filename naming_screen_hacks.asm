@@ -255,7 +255,13 @@ b .keep_keep
 
 .keep_going:
 cmp r0,#2                                                    //Is this 2? If it is, we don't print, but we need to make some checks to avoid some stuff...
-beq .partially
+bne  .keep_keep
+ldr  r0,=#0x201A288
+ldrb r0,[r0,#0]
+cmp  r0,#0x11                       //Is this the naming screen? If not, keep going!
+beq  .partially
+mov  r0,#0
+strb r0,[r1,#0]
 
 
 .keep_keep:
