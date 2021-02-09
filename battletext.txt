@@ -1168,7 +1168,7 @@
 0242: But they didn't take hold![END]
 0242-E: Mais ça ne fonctionne pasÕ![END]
 0243: The annoying sound made [05 EF][12 FF] turn around![END]
-0243-E: Le bruit agaçant fait se retourner [05 EF][12 FF]Õ![END]
+0243-E: Le bruit pénible fait se retourner [05 EF][12 FF]Õ![END]
 0244: [END]
 0244-E: [END]
 0245: [END]

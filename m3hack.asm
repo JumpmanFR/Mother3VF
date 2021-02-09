@@ -1727,10 +1727,15 @@ org $90778E8; incbin gfx_tanetane_cliff_tilemap_[c].bin
 //Fix gift boxes issues in room 025, optimizing sprite usage
 org $913E1D4; incbin object_table_4_025_segment.bin
 
+
 //Put in a swapped version of the menu text palettes
 define alternate_menu_text_palette $9FABFC0
 org {alternate_menu_text_palette}; incbin gfx_menu_text_swapped_palette.bin
 org $803FAA2; bl main_menu_hacks.add_extra_menu_palette
+
+
+//Fix K9000
+org $9CDCA8C; incbin gfx_k9000_[c].bin
 
 //============================================================================================
 //                                    SOUND HACKS
