@@ -622,6 +622,9 @@ org $802A560; bl extra_hacks.position_equipment_item_removal
 //Make cheese consistent inside and outside of battle (Salsa is the default case)
 org $805CB84; bhi $805CBC2
 
+//Fix issue where losing in the prologue removes all Claus' PPs.
+org $8001D5A; bl claus_pp_fix.main; pop {r1}; bx r1
+
 //============================================================================================
 //                                  NAMING SCREEN HACKS
 //============================================================================================
@@ -1704,8 +1707,8 @@ org $9C68744; incbin gfx_credits_bazaar.bin
 
 
 //Fix pigmask in debug room changing sprite
-org $93682E8; dd $0000130E, $0000130E, $0000130E
-org $93683F4; dd $0000130E, $0000130E, $0000130E
+org $93682E8; dd $0000130E; dd $0000130E; dd $0000130E
+org $93683F4; dd $0000130E; dd $0000130E; dd $0000130E
 
 
 //Fix 16x16 wall tile being walkable on in Tanetane’s cliff
@@ -2051,9 +2054,9 @@ org $8D2D8CC; dd $0
 org $8D2D8D0; dd $1
 org $8D2D8D4; dd $0
 org $9FD6B98; incbin object_tables_debug.bin
-org $9137120; dd $00EA4040, $00EA4220, $00EA42E0, $00EA4388, $00EA4430
+org $9137120; dd $00EA4040; dd $00EA4220; dd $00EA42E0; dd $00EA4388; dd $00EA4430
 org $9FD7078; incbin logic_blocks_37F_380.bin
-org $919A80C; dd $00E3E468, $00E3E474, $00E3E4DC, $00E3E4EC
+org $919A80C; dd $00E3E468; dd $00E3E474; dd $00E3E4DC; dd $00E3E4EC
 
 //Fix issue with equip and status showing old data when going from a non-valid character to a valid character
 org $80470B4; bl main_menu_hacks.delete_vram_equip; nop //Equip
