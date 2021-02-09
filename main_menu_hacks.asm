@@ -6700,6 +6700,33 @@ pop  {pc}
 
 
 //=============================================================================================
+// This hack fixes the fact that if you lose the first battle Claus won't have any PP left
+//=============================================================================================
+
+claus_pp_fix:
+.main:
+push {lr}
+lsl  r0,r0,#0x10             //Character identifier
+lsr  r0,r0,#0x10
+cmp  r0,#2                   //Lucas
+beq  +
+cmp  r0,#4                   //Kumatora
+beq  +
+cmp  r0,#0xD                 //Claus
+bne  .failure
++
+mov  r0,#1                   //Allow copying PPs
+b    .end
+
+.failure:                    //If it's not one of them, then they should not have PPs
+mov  r0,#0
+
+.end:
+pop  {pc}
+
+
+
+//=============================================================================================
 // This set of hack removes the lag from the "Delete all saves" menu.
 // To access it, press LOAD in the main menu with L + R + START + A held down
 //=============================================================================================
