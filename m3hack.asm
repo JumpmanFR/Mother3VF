@@ -1659,7 +1659,8 @@ org $9C97D88; incbin gfx_exit2.bin
 
 
 // Insert new poster for Arcade
-//org $8E8ECEC; incbin gfx_arcadeposters1_[c].bin
+org $8E8ECEC; incbin gfx_arcadeposters1_[c].bin
+org $8E8EFE4; incbin gfx_arcadeposters2_[c].bin
 
 
 // Insert elevator sign for Thunder Tower (inside)
