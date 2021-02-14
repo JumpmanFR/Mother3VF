@@ -38,7 +38,7 @@
 
 
 09:[BREAK]Friend or foe? Even when[BREAK]flat broke and stepped on,[BREAK]this imitable bug is always[BREAK]optimistic.[END]
-09-E:[BREAK]Ami ou ennemiÕ? Même[BREAK]démuni, même piétiné, cet[BREAK]insecte exemplaire reste[BREAK]toujours optimiste.[END]
+09-E:[BREAK]Ami ou ennemiÕ? Même[BREAK]démuni, même piétiné, cet[BREAK]insecte modèle reste[BREAK]toujours optimiste.[END]
 
 
 0A:[END]
