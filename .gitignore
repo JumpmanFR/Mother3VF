@@ -70,8 +70,6 @@
 !logic_leder_fix_counter_fireplace.bin
 !logic_leder_fix_song.bin
 !logic_pointer_283.bin
-!logic_1CF_pointers.bin
-!logic_142_pointers.bin
 !logic_set_porky.bin
 !logic_set_ssc.bin
 !logic_leder_memo.bin
@@ -80,6 +78,10 @@
 !logic_multi_debug.bin
 !logic_00E.bin
 !logic_00F.bin
+!logic_0EA.bin
+!logic_code_0E9.bin
+!logic_1CF_pointers.bin
+!logic_142_pointers.bin
 !gfx_chaptertitles_\[c\].bin
 !gfx_debug_\[c\].bin
 !gfx_flavours.bin

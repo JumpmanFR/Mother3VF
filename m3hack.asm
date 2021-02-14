@@ -2078,6 +2078,17 @@ org $804F780; bl improve_performances_menus.equip_avoid_left_reprint //Don't rep
 org $80473D8; bl improve_performances_menus.status_vram_equip_descriptors //Load OAM entries in VRAM
 org $8044130; b $80441A2 //Remove OAM entries
 
+//Put code for "battle memo completeness" frog text in game logic
+//Shuffle other stuff to save space
+define logic_0EA_new_address $9FD5700
+org $9285D70; incbin logic_code_0E9.bin
+org {logic_0EA_new_address}; incbin logic_0EA.bin
+org $9199364; dd {logic_0EA_new_address}-$9198C10; dd {logic_0EA_new_address}+$10-$9198C10;
+
+org $8D2DCC8; dd extra_hacks.push_battle_memo_status+1 //04 00 9C 00
+org $8D2D8CC; dd $0
+
+
 //============================================================================================
 //                                  MEMO SCREEN STUFF
 //============================================================================================
@@ -2156,8 +2167,6 @@ org $92F8B0C; incbin logic_set_porky.bin
 define NEW_PLACE_2 $9FD5F40
 org {NEW_PLACE_2}; incbin logic_1CF_pointers.bin
 org $9199A8C; dd {NEW_PLACE_2}-$9198C10
-
-
 
 
 //============================================================================================

@@ -150,6 +150,28 @@ pop  {r4,pc}
 
 
 
+//---------------------------------------------------------------------------------------
+// Pushes the battle memo status. 0 if not full in any way, 1 if front sprites are full,
+// 2 if back sprites are full, 3 if totally full - 04 00 9C 00
+//---------------------------------------------------------------------------------------
+.push_battle_memo_status:
+push {r4,lr}
+
+// Check for front pics
+bl   .allenemies_frontcheck
+mov  r4,r0
+
+// Check for the back pics
+bl   .allenemies_backcheck
+lsl  r0,r0,#1
+orr  r0,r4
+
+bl   $80218E8
+mov  r0,#0
+pop  {r4,pc}
+
+
+
 // ---------------------------------------------------------------------------------------
 // Intro screen
 // (This code is no longer used; to make changes, recompile this and update data_introscreen.bin
