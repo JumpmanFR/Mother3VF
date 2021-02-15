@@ -16,7 +16,7 @@ extra_hacks:
   db $DF,$BF,$FD,$FF,$F3,$BC,$CF,$03,$00,$00,$00,$00,$00,$00,$00,$00
  
  
-// This routine returns 1 if you have the silver star and 0 if you don't
+// This routine returns 1 if you have the enemy front sprites and 0 if you don't
 .allenemies_frontcheck:
 push {r1,lr}
 ldr  r0,=#0x2004FAA
@@ -24,7 +24,7 @@ ldr  r1,=#.allenemies_frontcompare
 bl   .allenemies_check
 pop  {r1,pc}
 
-// This routine returns 1 if you have the back sprites star and 0 if you don't
+// This routine returns 1 if you have the enemy back sprites and 0 if you don't
 .allenemies_backcheck:
 push {r1,lr}
 ldr  r0,=#0x2004FCA
@@ -61,6 +61,43 @@ mov  r0,#0
 .end_allenemies_check:
 pop  {r2-r5,pc}
 
+
+// This routine checks whether you have the front OR back for every enemy
+.allenemies_eithercheck:
+push {r1-r6,lr}
+ldr  r0,=#0x2004FAA
+ldr  r1,=#.allenemies_frontcompare
+mov  r4,#0
+-
+ldrh r2,[r0,#0]                    //Sum is needed because it's not 4 bytes-aligned
+ldrh r3,[r0,#2]
+lsl  r3,r3,#0x10
+add  r2,r2,r3
+ldrh r5,[r0,#0x20]
+ldrh r6,[r0,#0x22]
+lsl  r6,r6,#0x10
+add  r5,r5,r6
+orr  r2,r5
+ldrh r5,[r1,#0]                    //Sum is needed because it's not guaranteed 4 bytes-aligned
+ldrh r6,[r1,#2]
+lsl  r6,r6,#0x10
+add  r5,r5,r6
+and  r2,r5
+cmp  r2,r5
+bne  +
+add  r0,#4
+add  r1,#4
+add  r4,#1
+cmp  r4,#8
+bne  -
+mov  r0,#1
+b    .end_allenemies_eithercheck
++
+mov  r0,#0
+
+.end_allenemies_eithercheck:
+pop  {r1-r6,pc}
+
 // This hack checks if your enemy flags match and then displays the star sprite
 .allenemies:
 // ----------------------------------------------
@@ -70,13 +107,7 @@ push {r0-r5}
 
 // ----------------------------------------------
 // Check for front pics
-bl   .allenemies_frontcheck
-mov  r4,r0
-
-// Check for the back pics
-bl   .allenemies_backcheck
-lsl  r0,r0,#1
-orr  r0,r4
+bl   .battle_memo_status
 
 bl   .read_star_sprite
 
@@ -85,6 +116,33 @@ pop  {r0-r5}
 ldrh r1,[r2,#0x1A]                 //Clobbered code
 lsl  r0,r1,#2
 pop  {pc}
+
+//---------------------------------------------------------------------------------------
+// Gets the battle memo status. 0 if not full in any way, 1 if all enemies are listed,
+// 2 if back sprites are full, 3 if totally full - 04 00 9C 00
+//---------------------------------------------------------------------------------------
+.battle_memo_status:
+push {r4,lr}
+
+bl   .allenemies_backcheck
+
+cmp  r0,#0
+beq  +
+
+lsl  r4,r0,#1
+bl   .allenemies_frontcheck
+orr  r0,r4
+
++
+
+cmp  r0,#0
+bne  +
+
+bl   .allenemies_eithercheck
+
++
+
+pop  {r4,pc}
 
 // ----------------------------------------------
 .read_star_sprite:
@@ -157,14 +215,7 @@ pop  {r4,pc}
 .push_battle_memo_status:
 push {r4,lr}
 
-// Check for front pics
-bl   .allenemies_frontcheck
-mov  r4,r0
-
-// Check for the back pics
-bl   .allenemies_backcheck
-lsl  r0,r0,#1
-orr  r0,r4
+bl   .battle_memo_status
 
 bl   $80218E8
 mov  r0,#0
