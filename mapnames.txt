@@ -1293,7 +1293,7 @@
 283:Osohe Castle[END]
 283-E:Château d'Osohé[END]
 284:Osohe Castle 4F[BREAK]Trash Can Room[END]
-284-E:Château d'Osohé[BREAK]3e ét.Õ— Local poubelle[END]
+284-E:Château d'Osohé[BREAK]3e ét.·— Local poubelle[END]
 285:Osohe Castle[END]
 285-E:Château d'Osohé[END]
 286:Osohe Castle 5F-6F[BREAK]Landing[END]

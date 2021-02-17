@@ -92,13 +92,13 @@
 2D:(EMPTY)
 2D-E:(VIDE)
 2E:Offense Up [ALPHA]
-2E-E:Attaqu÷augmentÈe’[ALPHA]
+2E-E:Attaqu÷augmentÈe∑[ALPHA]
 2F:Offense Up [OMEGA]
-2F-E:Attaqu÷augmentÈe’[OMEGA]
+2F-E:Attaqu÷augmentÈe∑[OMEGA]
 30:Defense Up [ALPHA]
-30-E:DÈfens÷augmentÈe’[ALPHA]
+30-E:DÈfens÷augmentÈe∑[ALPHA]
 31:Defense Up [OMEGA]
-31-E:DÈfens÷augmentÈe’[OMEGA]
+31-E:DÈfens÷augmentÈe∑[OMEGA]
 32:(EMPTY)
 32-E:(VIDE)
 33:Hypnosis [ALPHA]

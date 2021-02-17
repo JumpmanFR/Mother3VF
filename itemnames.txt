@@ -12,7 +12,7 @@
 0004: Better Stick
 0004-E: B‚ton amÈliorÈ
 0005: Easy-Grip Stick
-0005-E: B‚ton’simple’d'emploi
+0005-E: B‚ton∑simple∑d'emploi
 0006: Good Stick
 0006-E: B‚ton efficace
 0007: Very Good Stick
@@ -58,13 +58,13 @@
 001B: Good Shoes
 001B-E: Bonnes Chaussures
 001C: Rubber Boots
-001C-E: Bottes’en’caoutchouc
+001C-E: Bottes∑en∑caoutchouc
 001D: Barefoot Shoes
 001D-E: Chaussures nu-pieds
 001E: Non-Slip Shoes
 001E-E: Bottes anti-glisse
 001F: Handy Yo-Yo
-001F-E: Yo-yo’simple’d'emploi
+001F-E: Yo-yo∑simple∑d'emploi
 0020: Canine Weapon
 0020-E: Arme canine
 0021: DCMC Pamphlet
@@ -232,7 +232,7 @@
 0072: Doggy Biscuit
 0072-E: Biscuit pour chien
 0073: Doggy Jerky
-0073-E: B‚tonnet’pour’chien
+0073-E: B‚tonnet∑pour∑chien
 0074: White Croissant
 0074-E: Croissant
 0075: Cup of Pork Noodles
@@ -240,7 +240,7 @@
 0076: Pork Stew
 0076-E: Rago˚t de porc
 0077: Sincerity Dumplings
-0077-E: Boulettes’d÷sincÈritÈ
+0077-E: Boulettes∑d÷sincÈritÈ
 0078: Strawberry Tofu
 0078-E: Tofu ‡ la fraise
 0079: Lucky Rice
@@ -250,15 +250,15 @@
 007B: Jumbo Shrimp Soup
 007B-E: Soupe de homard
 007C: Giant Abalone Steak
-007C-E: Steak’d'ormeau’gÈant
+007C-E: Steak∑d'ormeau∑gÈant
 007D: Double Jerky
-007D-E: Double’Viande’sÈchÈe
+007D-E: Double∑Viande∑sÈchÈe
 007E: Grilled Chicken
 007E-E: Poulet grillÈ
 007F: Grilled Fish
 007F-E: Poisson grillÈ
 0080: Pasta with a Past
-0080-E: P‚tes’au lourd passÈ
+0080-E: P‚tes∑au lourd passÈ
 0081: Favorite Pizza
 0081-E: Pizza prÈfÈrÈe
 0082: King Burger
@@ -292,7 +292,7 @@
 0090: Recollection Bell
 0090-E: Cloche du souvenir
 0091: Eye Drops
-0091-E: Gouttes’pour’les’yeux
+0091-E: Gouttes∑pour∑les∑yeux
 0092: Flea Powder
 0092-E: Poudre anti-puces
 0093: Secret Herb
@@ -470,7 +470,7 @@
 00E9: Carrier Pigeon
 00E9-E: Pigeon voyageur
 00EA: Razor and Lipstick
-00EA-E: Rasoir”’rouge“lËvres
+00EA-E: Rasoir”∑rouge“lËvres
 00EB: Ionia's Memento
 00EB-E: Souvenir de Ionie
 00EC: Doria's Memento
@@ -498,7 +498,7 @@
 00F7: Saturn Valley Map
 00F7-E: Carte Saturne
 00F8: Sea Floor Map
-00F8-E: Cart÷des’fonds’marins
+00F8-E: Cart÷des∑fonds∑marins
 00F9: Cave Map
 00F9-E: Carte de la grotte
 00FA: City Map

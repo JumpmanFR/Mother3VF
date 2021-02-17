@@ -5,7 +5,7 @@ Serpent d'eau Sohé
 Homme d'argile
 Méca-Drago
 Phacochar d'assaut
-AgeßduÕgénérateÁ
+Ageßdu·générateÁ
 Taupe-grillon
 Sourire sinistre
 Sourire radieux
@@ -14,7 +14,7 @@ Cyborg T.N.
 Hoııe ıasqué
 İasquep¿c féroce
 İasquep¿c féroce
-ContrebasseÕjalouse
+Contrebasse·jalouse
 Porky
 Limace collante
 PORKY 02
@@ -23,7 +23,7 @@ Hippocanon
 Néo-Fassad
 Sourire sinistre
 Seigneur Passion
-ArbrÖauxÕp'ti.Õsoós
+ArbrÖaux·p'ti.·soós
 PORKY 03
 PORKY 08
 Fassad miraculé
@@ -127,7 +127,7 @@ Quasi-Méca-Lion
 Rhinocéroquette
 Sanglier remonté
 Cafard chromé
-VraiÖSourisÕvolante
+VraiÖSouris·volante
 Choc électrique
 Robot inférieur
 Cyclove
@@ -160,7 +160,7 @@ Lion reconstitué
 Robot instable
 Pancarte WC
 Robot cassé
-TasÕd'¿dÁesÕdépité
+Tas·d'¿dÁes·dépité
 Cadeau surprise
 Accumulatueur
 Vis perdue

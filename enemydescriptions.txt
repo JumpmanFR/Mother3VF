@@ -30,7 +30,7 @@
 
 
 07:[BREAK]This Pigmask weapon[BREAK]raises an awful racket and[BREAK]belches black exhaust[BREAK]fumes without remorse.[END]
-07-E:[BREAK]Cette arme masqueporcine[BREAK]faitÕunÕraÍutÕassourdissant[BREAK]et crache sans remords[BREAK]d'épaisses fumées noires.[END]
+07-E:[BREAK]Cette arme masqueporcine[BREAK]fait·un·raÍut·assourdissant[BREAK]et crache sans remords[BREAK]d'épaisses fumées noires.[END]
 
 
 08:[BREAK]The generator robot of[BREAK]Thunder Tower. It uses[BREAK]paralyzing chop attacks[BREAK]as if to say, "Take that!"[END]
@@ -38,7 +38,7 @@
 
 
 09:[BREAK]Friend or foe? Even when[BREAK]flat broke and stepped on,[BREAK]this imitable bug is always[BREAK]optimistic.[END]
-09-E:[BREAK]Ami ou ennemiÕ? Même[BREAK]démuni, même piétiné, cet[BREAK]insecte modèle reste[BREAK]toujours optimiste.[END]
+09-E:[BREAK]Ami ou ennemi·? Même[BREAK]démuni, même piétiné, cet[BREAK]insecte modèle reste[BREAK]toujours optimiste.[END]
 
 
 0A:[END]
@@ -58,7 +58,7 @@
 
 
 0E:[BREAK]What expressions lie[BREAK]hidden behind his mask?[BREAK]...And more importantly,[BREAK]who is he?[END]
-0E-E:[BREAK][BREAK]Quelle expression se cache[BREAK]derrière ce masqueÕ?[BREAK]... Et surtout, qui est-ilÕ?[END]
+0E-E:[BREAK][BREAK]Quelle expression se cache[BREAK]derrière ce masque·?[BREAK]... Et surtout, qui est-il·?[END]
 
 
 0F:So fierce-looking he's[BREAK]afraid of his own[BREAK]reflection. Takes good[BREAK]care of his men and is a[BREAK]huge DCMC fan.[END]
@@ -74,7 +74,7 @@
 
 
 12:[BREAK]Porky had a tantrum and[BREAK]made Dr. Andonuts and[BREAK]the Mr. Saturns create an[BREAK]Absolutely Safe Capsule.[END]
-12-E:[BREAK]Dans un caprice, Porky fit[BREAK]construire parÕAndonuts et[BREAK]les MM.ÕSaturne la Capsule[BREAK]de sécurité absolue.[END]
+12-E:[BREAK]Dans un caprice, Porky fit[BREAK]construire par·Andonuts et[BREAK]les MM.·Saturne la Capsule[BREAK]de sécurité absolue.[END]
 
 
 13:[BREAK]These guys swarm down[BREAK]from the ceiling when they[BREAK]sense a person's body[BREAK]heat.[END]
@@ -94,7 +94,7 @@
 
 
 17:[BREAK]Look out! Don't fall for[BREAK]New Fassad's new facade![BREAK]He's bigger and badder[BREAK]than ever![END]
-17-E:AttentionÕ! Ne vous laissez[BREAK]pas avoir par la nouvelle[BREAK]façade de FassadÕ! Il est[BREAK]plus puissant et plus[BREAK]méchant que jamaisÕ![END]
+17-E:Attention·! Ne vous laissez[BREAK]pas avoir par la nouvelle[BREAK]façade de Fassad·! Il est[BREAK]plus puissant et plus[BREAK]méchant que jamais·![END]
 
 
 18:[END]
@@ -106,7 +106,7 @@
 
 
 1A:[BREAK]Takes good care of Blue[BREAK]Balding Eagle chicks and[BREAK]burns with maternal wrath[BREAK]at anyone who approaches.[END]
-1A-E:[BREAK]PrendÕsoinÕdesÕbébésÕAigles[BREAK]à tête bleue et explose[BREAK]d'une rage maternelle dès[BREAK]que quelqu'un s'approche.[END]
+1A-E:[BREAK]Prend·soin·des·bébés·Aigles[BREAK]à tête bleue et explose[BREAK]d'une rage maternelle dès[BREAK]que quelqu'un s'approche.[END]
 
 
 1B:[END]
@@ -118,7 +118,7 @@
 
 
 1D:Miraculously enough,[BREAK]Fassad has attained an[BREAK]even more powerful form.[BREAK]He may look funny, but he[BREAK]means serious business.[END]
-1D-E:Assez miraculeusement,[BREAK]Fassad a atteint uneÕforme[BREAK]encore plus puissante. Il[BREAK]peut paraître ridicule,Õmais[BREAK]il n'est pas là pour rigoler.[END]
+1D-E:Assez miraculeusement,[BREAK]Fassad a atteint une·forme[BREAK]encore plus puissante. Il[BREAK]peut paraître ridicule,·mais[BREAK]il n'est pas là pour rigoler.[END]
 
 
 1E:[END]
@@ -142,7 +142,7 @@
 
 
 23:[BREAK]Stealing cheese, chewing[BREAK]power cords... This bad[BREAK]boy's done it all. Has a[BREAK]wife and seven kids.[END]
-23-E:Voler du fromage, mâcher[BREAK]des câbles... Ce petitÕvoyou[BREAK]a déjà fait les quatre cent[BREAK]coups. Il est marié et père[BREAK]de sept enfants.[END]
+23-E:Voler du fromage, mâcher[BREAK]des câbles... Ce petit·voyou[BREAK]a déjà fait les quatre cent[BREAK]coups. Il est marié et père[BREAK]de sept enfants.[END]
 
 
 24:[BREAK]Lives off magma flowing[BREAK]from volcanos. Its blood[BREAK]reaches temperatures[BREAK]over 1500 degrees.[END]
@@ -154,7 +154,7 @@
 
 
 26:[BREAK]This monster is a hybrid of[BREAK]a traffic barrier and a[BREAK]bloke-ade. What IS a[BREAK]bloke-ade, anyway?[END]
-26-E:Ce monstre est un hybride[BREAK]entre un barricadeur et[BREAK]une barrière de circulation.[BREAK]Mais qu'est-ce qu'il peut[BREAK]bien trafiquer, au justeÕ?[END]
+26-E:Ce monstre est un hybride[BREAK]entre un barricadeur et[BREAK]une barrière de circulation.[BREAK]Mais qu'est-ce qu'il peut[BREAK]bien trafiquer, au juste·?[END]
 
 
 27:[BREAK]A hurried, impetuous,[BREAK]restless mushroom that is[BREAK]also hasty, impatient, and[BREAK]completely frenzied.[END]
@@ -166,11 +166,11 @@
 
 
 29:[BREAK]This unbalanced Chimera is[BREAK]half legendary giant fish,[BREAK]the <Master of the Sea>,[BREAK]and half plain ol' dog.[END]
-29-E:Cette chimère mal[BREAK]équilibrée est le mélange[BREAK]entreÕunÕpoissonÕlégendaire[BREAK]appelé le <Roi des mers>[BREAK]et un bon vieux toutou.[END]
+29-E:Cette chimère mal[BREAK]équilibrée est le mélange[BREAK]entre·un·poisson·légendaire[BREAK]appelé le <Roi des mers>[BREAK]et un bon vieux toutou.[END]
 
 
 2A:[BREAK]A bat native to the[BREAK]Sunshine Forest. It loves[BREAK]ambiguity and tends to be[BREAK]wishy-washy.[END]
-2A-E:[BREAK]Un monsieurÕchauve-souris[BREAK]natifÕde la forêtÕEnsoleillée.[BREAK]Pas très courageux,Õil aime[BREAK]les situations confuses.[END]
+2A-E:[BREAK]Un monsieur·chauve-souris[BREAK]natif·de la forêt·Ensoleillée.[BREAK]Pas très courageux,·il aime[BREAK]les situations confuses.[END]
 
 
 2B:[BREAK]This mouse squirrels away[BREAK]anything and everything,[BREAK]even burying its worries[BREAK]and responsibilities.[END]
@@ -190,15 +190,15 @@
 
 
 2F:Robots based off of Porky[BREAK]when he was a child. Made[BREAK]in a set of 11 for such[BREAK]purposes as forming a[BREAK]soccer team.[END]
-2F-E:Des robots à l'effigie de[BREAK]Porky quand il étaitÕenfant.[BREAK]Il en a fait faire 11 dans le[BREAK]but de former une équipe[BREAK]de football.[END]
+2F-E:Des robots à l'effigie de[BREAK]Porky quand il était·enfant.[BREAK]Il en a fait faire 11 dans le[BREAK]but de former une équipe[BREAK]de football.[END]
 
 
 30:[BREAK]The look on his face[BREAK]growls, <Calm boars don't[BREAK]deserve to be called[BREAK]boars!>[END]
-30-E:[BREAK]Son regard semble direõ:[BREAK]<Les sangliers calmes ne[BREAK]méritent pas d'être[BREAK]appelés des sangliersÕ!>[END]
+30-E:[BREAK]Son regard semble direõ:[BREAK]<Les sangliers calmes ne[BREAK]méritent pas d'être[BREAK]appelés des sangliers·!>[END]
 
 
 31:[BREAK]Compared to snakes that[BREAK]always bite, it doesn't bite[BREAK]as much. But it does bite,[BREAK]so be careful anyway.[END]
-31-E:Comparé aux serpents qui[BREAK]mordent sans arrêt,[BREAK]celui-ci ne mord pas tant[BREAK]que ça. Mais il mord tout[BREAK]de même, alors attentionÕ![END]
+31-E:Comparé aux serpents qui[BREAK]mordent sans arrêt,[BREAK]celui-ci ne mord pas tant[BREAK]que ça. Mais il mord tout[BREAK]de même, alors attention·![END]
 
 
 32:[BREAK]This little guy wants to be[BREAK]a sweet dumpling, but he's[BREAK]made of soot instead. He'd[BREAK]make a terrible snack.[END]
@@ -218,7 +218,7 @@
 
 
 36:[BREAK]Fighting this metal monkey[BREAK]will result in quite the[BREAK]experience. Just keep that[BREAK]in mind.[END]
-36-E:[BREAK]VousÕallezÕvivreÕuneÕsacrée[BREAK]expérience en affrontant[BREAK]ce singe de métal. Gardez[BREAK]bien ça à l'esprit.[END]
+36-E:[BREAK]Vous·allez·vivre·une·sacrée[BREAK]expérience en affrontant[BREAK]ce singe de métal. Gardez[BREAK]bien ça à l'esprit.[END]
 
 
 37:[BREAK]When it doesn't move, it[BREAK]looks just like a rock.[BREAK]When it does move, it still[BREAK]looks like a rock.[END]
@@ -270,7 +270,7 @@
 
 
 43:[BREAK]It got sick of being a plant,[BREAK]so it gave walking a try.[BREAK]There's no going back[BREAK]now![END]
-43-E:[BREAK]Il en a eu assez d'être un[BREAK]végétal alors il s'est mis à[BREAK]marcher. On ne peut plus[BREAK]l'arrêter maintenantÕ![END]
+43-E:[BREAK]Il en a eu assez d'être un[BREAK]végétal alors il s'est mis à[BREAK]marcher. On ne peut plus[BREAK]l'arrêter maintenant·![END]
 
 
 44:[BREAK][BREAK]A very orthodox Titany,[BREAK]famous for its personality[BREAK]but not for its voice.[END]
@@ -282,11 +282,11 @@
 
 
 46:The Lady of Lava?[BREAK]The Missus of Magma?[BREAK]Someone please explain[BREAK]just who or what she's[BREAK]supposed to be.[END]
-46-E:La Dame de laveÕ?[BREAK]La Mégère de magmaÕ?[BREAK]Que quelqu'un nous[BREAK]explique, qu'est-ce qu'elle[BREAK]est censée être au justeÕ?[END]
+46-E:La Dame de lave·?[BREAK]La Mégère de magma·?[BREAK]Que quelqu'un nous[BREAK]explique, qu'est-ce qu'elle[BREAK]est censée être au juste·?[END]
 
 
 47:Its overwhelmingly pent-up[BREAK]anger explodes with a[BREAK]bang. Pyreflies make their[BREAK]home in this guy's cranial[BREAK]crater.[END]
-47-E:Toute la frustration qu'il a[BREAK]accumulée explose dans un[BREAK]immenseÕfracas.ÕDes Pyro-[BREAK]mouches ont élu domicile[BREAK]dans son crâne-cratère.[END]
+47-E:Toute la frustration qu'il a[BREAK]accumulée explose dans un[BREAK]immense·fracas.·Des Pyro-[BREAK]mouches ont élu domicile[BREAK]dans son crâne-cratère.[END]
 
 
 48:Not even death can stop[BREAK]him from wandering the[BREAK]graveyard. He attacks[BREAK]people as he seeks new[BREAK]life.[END]
@@ -302,11 +302,11 @@
 
 
 4B:[BREAK]Wouldn't it be easier to[BREAK]visit a grave if the grave[BREAK]came to you? No, wait, it[BREAK]would just be creepy.[END]
-4B-E:[BREAK]Ne serait-ce pas plus[BREAK]simpleÕsi c'était lesÕtombes[BREAK]qui venaient à nousÕ? Non,[BREAK]ce serait glauque.[END]
+4B-E:[BREAK]Ne serait-ce pas plus[BREAK]simple·si c'était les·tombes[BREAK]qui venaient à nous·? Non,[BREAK]ce serait glauque.[END]
 
 
 4C:[BREAK]Once it sticks, it won't[BREAK]come off easily. Even if[BREAK]you do manage to pull it[BREAK]off, the residue is gross.[END]
-4C-E:Une fois collée, elle ne se[BREAK]détachera pas si[BREAK]facilement. Même si vous[BREAK]réussissez à l'enlever, il[BREAK]restera un résiduÕvisqueux.[END]
+4C-E:Une fois collée, elle ne se[BREAK]détachera pas si[BREAK]facilement. Même si vous[BREAK]réussissez à l'enlever, il[BREAK]restera un résidu·visqueux.[END]
 
 
 4D:[BREAK]An overgrown crawfish.[BREAK]Those big pincers are so[BREAK]handy, they could shear a[BREAK]sheep near-bald.[END]
@@ -338,7 +338,7 @@
 
 
 54:[BREAK]If butterflies had no wings,[BREAK]they'd be butterwalkers.[BREAK]Without handsome horns,[BREAK]this guy is a... thing.[END]
-54-E:Ce cafard n'est pas très[BREAK]distingué, niÕtrès imposant.[BREAK]Mais il risque de vous filer[BREAK]le bourdon. Ou un de ses[BREAK]congénères.[END]
+54-E:Ce cafard n'est pas très[BREAK]distingué, ni·très imposant.[BREAK]Mais il risque de vous filer[BREAK]le bourdon. Ou un de ses[BREAK]congénères.[END]
 
 
 55:[BREAK]One of the Magypsies[BREAK]crafted these monsters to[BREAK]protect something very[BREAK]important.[END]
@@ -346,7 +346,7 @@
 
 
 56:[BREAK]Protects its flesh and[BREAK]bones with steel armor.[BREAK]Never mind that it doesn't[BREAK]have any flesh or bones.[END]
-56-E:[BREAK]Elle protège sa chairÕet ses[BREAK]os à l'aide de sa structure[BREAK]d'acier. Peu importe si elle[BREAK]n'a ni chair ni os.[END]
+56-E:[BREAK]Elle protège sa chair·et ses[BREAK]os à l'aide de sa structure[BREAK]d'acier. Peu importe si elle[BREAK]n'a ni chair ni os.[END]
 
 
 57:[BREAK]Appears to have a history[BREAK]of killing. Too heavy to be[BREAK]handled by a normal[BREAK]person.[END]
@@ -418,7 +418,7 @@
 
 
 68:[BREAK]Art is dead! Or so it[BREAK]declares, but there[BREAK]doesn't seem to be any[BREAK]evidence of this.[END]
-68-E:[BREAK]L'art est mortÕ! Enfin,[BREAK]c'est ce qu'il raconte,[BREAK]mais rien ne prouve que[BREAK]c'est vrai.[END]
+68-E:[BREAK]L'art est mort·! Enfin,[BREAK]c'est ce qu'il raconte,[BREAK]mais rien ne prouve que[BREAK]c'est vrai.[END]
 
 
 69:[BREAK]A drop kick from any one[BREAK]of its eight legs is intense.[BREAK]Its third leg from the right[BREAK]is World Cup class.[END]
@@ -438,7 +438,7 @@
 
 
 6D:This creature is greatly[BREAK]troubled whenever it sees[BREAK]an egg. Should it warm it[BREAK]or swallow it? It can't[BREAK]make up its mind.[END]
-6D-E:Cette créature est bien[BREAK]embêtée quand elle voit un[BREAK]œuf. Devrait-elle le couver[BREAK]ou l'avalerÕ? Elle n'arrive[BREAK]jamais à se décider.[END]
+6D-E:Cette créature est bien[BREAK]embêtée quand elle voit un[BREAK]œuf. Devrait-elle le couver[BREAK]ou l'avaler·? Elle n'arrive[BREAK]jamais à se décider.[END]
 
 
 6E:A Chimera that was[BREAK]thrown together with[BREAK]whatever was handy.[BREAK]Some say it turned out[BREAK]better that way.[END]
@@ -478,7 +478,7 @@
 
 
 77:[BREAK]The Li'l Big Bro keeps his[BREAK]beloved Big Bro on his[BREAK]head. Great siblings, but[BREAK]just what ARE they?[END]
-77-E:[BREAK]Le Grand P'tit Frère tient[BREAK]sonÕgrandÕfrère surÕlaÕtête.[BREAK]Une belle fratrie, mais QUI[BREAK]sont-ils, au justeÕ?[END]
+77-E:[BREAK]Le Grand P'tit Frère tient[BREAK]son·grand·frère sur·la·tête.[BREAK]Une belle fratrie, mais QUI[BREAK]sont-ils, au juste·?[END]
 
 
 78:[BREAK]A strange creature whose[BREAK]wings are too weak for its[BREAK]heavy head. Watch out for[BREAK]its fleas.[END]
@@ -486,7 +486,7 @@
 
 
 79:[BREAK]Is the long part its trunk[BREAK]or its neck? How does it[BREAK]bathe itself? An utterly[BREAK]mysterious Chimera.[END]
-79-E:[BREAK]La partie longue est-elle[BREAK]sa trompe ou son couÕ?[BREAK]Comment se lave-t-ilÕ?[BREAK]Une chimère bien étrange.[END]
+79-E:[BREAK]La partie longue est-elle[BREAK]sa trompe ou son cou·?[BREAK]Comment se lave-t-il·?[BREAK]Une chimère bien étrange.[END]
 
 
 7A:[BREAK]The sillhouette of this[BREAK]Titany's stretched wings[BREAK]against the starry night[BREAK]sky is a sight to behold.[END]
@@ -494,11 +494,11 @@
 
 
 7B:Lets out a sad howl when[BREAK]it meets the Batangutan[BREAK]with its head on it.[BREAK]Occasionally picks fights,[BREAK]too.[END]
-7B-E:Laisse s'échapper unÕtriste[BREAK]hurlementÕquand il croise le[BREAK]Chauve-sourang-outan qui[BREAK]possède sa tête. Cherche[BREAK]souvent la bagarre.[END]
+7B-E:Laisse s'échapper un·triste[BREAK]hurlement·quand il croise le[BREAK]Chauve-sourang-outan qui[BREAK]possède sa tête. Cherche[BREAK]souvent la bagarre.[END]
 
 
 7C:[BREAK]The parent's power comes[BREAK]from its child's support.[BREAK]Although an enemy, it's[BREAK]still quite admirable.[END]
-7C-E:[BREAK]Le parentÕtire sa puissance[BREAK]du soutien de son enfant.[BREAK]Même si c'est un ennemi,[BREAK]ça reste plutôt admirable.[END]
+7C-E:[BREAK]Le parent·tire sa puissance[BREAK]du soutien de son enfant.[BREAK]Même si c'est un ennemi,[BREAK]ça reste plutôt admirable.[END]
 
 
 7D:[BREAK]A robot that takes care of[BREAK]its master. Cooks, cleans,[BREAK]does laundry, cleans out[BREAK]ears and trims nose hair.[END]
@@ -526,7 +526,7 @@
 
 
 83:[BREAK]Flies out of power conduits[BREAK]with lots of energy and...[BREAK]Hectic! Energetic! Electric![BREAK]That's its slogan.[END]
-83-E:Il s'échappe des conduits[BREAK]électriques avec beaucoup[BREAK]d'énergie et... FrénétiqueÕ![BREAK]ÉnergiqueÕ! ÉlectriqueÕ![BREAK]C'est sa devise.[END]
+83-E:Il s'échappe des conduits[BREAK]électriques avec beaucoup[BREAK]d'énergie et... Frénétique·![BREAK]Énergique·! Électrique·![BREAK]C'est sa devise.[END]
 
 
 84:[BREAK]It's minor because, first of[BREAK]all, it's terrible at math,[BREAK]and second, it needs 64 C[BREAK]batteries.[END]
@@ -558,15 +558,15 @@
 
 
 8B:[BREAK]What might its ultimate[BREAK]pose be? It's making an[BREAK]effort to master posing[BREAK]techniques in battle.[END]
-8B-E:[BREAK]QuelleÕpourrait bien être sa[BREAK]pose ultimeÕ? Il s'efforce[BREAK]de maîtriserÕlesÕtechniques[BREAK]de posture au combat.[END]
+8B-E:[BREAK]Quelle·pourrait bien être sa[BREAK]pose ultime·? Il s'efforce[BREAK]de maîtriser·les·techniques[BREAK]de posture au combat.[END]
 
 
 8C:Three years later, the[BREAK]Spud Bug is now a[BREAK]respectable adult. But[BREAK]what does that even mean[BREAK]for a bug?[END]
-8C-E:Trois ans plus tard, la[BREAK]Chenille bouÍie est deve-[BREAK]nueÕuneÕadulteÕrespectable.[BREAK]Mais qu'est-ce que ça[BREAK]change pour un insecteÕ?[END]
+8C-E:Trois ans plus tard, la[BREAK]Chenille bouÍie est deve-[BREAK]nue·une·adulte·respectable.[BREAK]Mais qu'est-ce que ça[BREAK]change pour un insecte·?[END]
 
 
 8D:[BREAK]A rustic combination of a[BREAK]baked yam and a toy[BREAK]helicopter. It grates its[BREAK]body and sends gunk flying.[END]
-8D-E:L'assemblage grossier[BREAK]d'une patate cuite et d'un[BREAK]jouet hélicoptère. Elle se[BREAK]râpe des morceaux d'elle-[BREAK]même et les envoieÕvalser.[END]
+8D-E:L'assemblage grossier[BREAK]d'une patate cuite et d'un[BREAK]jouet hélicoptère. Elle se[BREAK]râpe des morceaux d'elle-[BREAK]même et les envoie·valser.[END]
 
 
 8E:[BREAK]A special Chimera created[BREAK]for Porky's birthday.[BREAK]Production expenses were[BREAK]astronomical.[END]
@@ -578,7 +578,7 @@
 
 
 90:[BREAK]This is getting out of hand.[BREAK]What's next, an anteater[BREAK]zombie? A platypus[BREAK]zombie?[END]
-90-E:Ça commence à devenir[BREAK]insensé. Qu'est-ce que ce[BREAK]sera ensuiteÕ? Un[BREAK]fourmilier zombifiéÕ? Un[BREAK]ornithorynque zombifiéÕ?[END]
+90-E:Ça commence à devenir[BREAK]insensé. Qu'est-ce que ce[BREAK]sera ensuite·? Un[BREAK]fourmilier zombifié·? Un[BREAK]ornithorynque zombifié·?[END]
 
 
 91:[BREAK]The eggs of a walleye[BREAK]pollock, salted and[BREAK]prepared to perfection in a[BREAK]seasoned broth. As a man.[END]
@@ -590,11 +590,11 @@
 
 
 93:[BREAK]Modeled after the Ultimate[BREAK]Octobot. But where did[BREAK]they manage to find an[BREAK]Ultimate Octobot?[END]
-93-E:Fabriqué sur le modèle de[BREAK]l'Octobot ultime. Mais[BREAK]comment ont-ils réussi à[BREAK]mettre la main sur un[BREAK]Octobot ultimeÕ?[END]
+93-E:Fabriqué sur le modèle de[BREAK]l'Octobot ultime. Mais[BREAK]comment ont-ils réussi à[BREAK]mettre la main sur un[BREAK]Octobot ultime·?[END]
 
 
 94:Even household carpets[BREAK]aren't safe from this[BREAK]guy's smaller cousins.[BREAK]Osohe just houses the big[BREAK]ones.[END]
-94-E:Même les tapis[BREAK]domestiques ne sont pas[BREAK]épargnésÕparÕcesÕindividus.[BREAK]Osohé abrite simplement[BREAK]les plus dangereux.[END]
+94-E:Même les tapis[BREAK]domestiques ne sont pas[BREAK]épargnés·par·ces·individus.[BREAK]Osohé abrite simplement[BREAK]les plus dangereux.[END]
 
 
 95:[BREAK]This Pigmask surveillance[BREAK]robot doesn't utilize[BREAK]infrared detectors. It[BREAK]responds to smell instead.[END]
@@ -618,7 +618,7 @@
 
 
 9A:[BREAK]Has an incredible three, no,[BREAK]four exclamation marks in[BREAK]its name. That's just the[BREAK]kind of spider it is.[END]
-9A-E:[BREAK]Pas un Mégarachnide, pas[BREAK]un Ultrarachnide, mais un[BREAK]GigarachnideÕ! Incroyable,[BREAK]nonÕ?[END]
+9A-E:[BREAK]Pas un Mégarachnide, pas[BREAK]un Ultrarachnide, mais un[BREAK]Gigarachnide·! Incroyable,[BREAK]non·?[END]
 
 
 9B:[BREAK]He's astoundingly greedy[BREAK]and claims he's merely[BREAK]lending everything in the[BREAK]world to everyone.[END]
@@ -626,7 +626,7 @@
 
 
 9C:[BREAK]A forgotten guitar left[BREAK]wailing in the attic. Plays[BREAK]touching solos with its last[BREAK]three strings.[END]
-9C-E:Une guitareÕabandonnée qui[BREAK]ne cesse de se lamenter[BREAK]dans le grenier. Elle joue[BREAK]des solos émouvants avec[BREAK]ses trois cordes restantes.[END]
+9C-E:Une guitare·abandonnée qui[BREAK]ne cesse de se lamenter[BREAK]dans le grenier. Elle joue[BREAK]des solos émouvants avec[BREAK]ses trois cordes restantes.[END]
 
 
 9D:Even after being torn, it[BREAK]defiantly orders not to[BREAK]give up, but to bang on the[BREAK]rim instead! It isn't easily[BREAK]beaten.[END]
@@ -637,7 +637,7 @@
 
 
 9F:[BREAK]As a lion, its bite and roar[BREAK]are expected. The coiling[BREAK]and the fire-breathing[BREAK]thing, not so much.[END]
-9F-E:VoirÕun lion mordre et rugir[BREAK]c'est plutôt banal. Mais le[BREAK]voir cracher du feu et[BREAK]agiter ses tentacules, ça[BREAK]l'est un peu moins.[END]
+9F-E:Voir·un lion mordre et rugir[BREAK]c'est plutôt banal. Mais le[BREAK]voir cracher du feu et[BREAK]agiter ses tentacules, ça[BREAK]l'est un peu moins.[END]
 
 
 A0:[BREAK]This was thrown together[BREAK]for no real reason. There's[BREAK]no use for it, so it was set[BREAK]free on the highway.[END]
@@ -645,7 +645,7 @@ A0-E:Il a été fabriqué à la hâte,[BREAK]sans raison. Il n'est[BREAK]d'aucune uti
 
 
 A1:It boasts an instantly[BREAK]understandable design. If[BREAK]only it would wait to[BREAK]attack until AFTER people[BREAK]do their business...[END]
-A1-E:Elle arbore un pictographe[BREAK]simple à comprendre. Si au[BREAK]moins elle pouvaitÕattaquer[BREAK]APRÈS que les gens ont[BREAK]fini leur commission...[END]
+A1-E:Elle arbore un pictographe[BREAK]simple à comprendre. Si au[BREAK]moins elle pouvait·attaquer[BREAK]APRÈS que les gens ont[BREAK]fini leur commission...[END]
 
 
 A2:[BREAK]A Wobbly Robot that has[BREAK]broken down, with no[BREAK]plans for renovation. It's[BREAK]not worth worrying about.[END]
@@ -669,7 +669,7 @@ A6-E:Une vis qui maintient en[BREAK]place la tour du Tonnerre.[BREAK]Même si 5 o
 
 
 A7:[BREAK]Its creepy, happy smile[BREAK]and overly-friendly[BREAK]attitude make it deeply[BREAK]suspicious.[END]
-A7-E:[BREAK]Son joyeux mais terrifiant[BREAK]sourire et sonÕattitude bien[BREAK]trop amicale la rendent[BREAK]terriblement suspecte.[END]
+A7-E:[BREAK]Son joyeux mais terrifiant[BREAK]sourire et son·attitude bien[BREAK]trop amicale la rendent[BREAK]terriblement suspecte.[END]
 
 
 A8:Based on a comic drawn[BREAK]by Porky. It shoots[BREAK]mini-mechs from its[BREAK]mouth and causes a real[BREAK]uproar.[END]
@@ -701,7 +701,7 @@ AE-E:[BREAK]Il patrouille au fond de la[BREAK]mer et reçoit un bonus de[BREAK]4 
 
 
 AF:[BREAK]This bizarre creature is[BREAK]like a guardian deity of the[BREAK]sea. He punishes violators[BREAK]with powerful whirlpools.[END]
-AF-E:[BREAK]Cette créatureÕétrange est[BREAK]la divinité protectrice de la[BREAK]mer.ÕIl punit lesÕintrus avec[BREAK]de puissants tourbillons.[END]
+AF-E:[BREAK]Cette créature·étrange est[BREAK]la divinité protectrice de la[BREAK]mer.·Il punit les·intrus avec[BREAK]de puissants tourbillons.[END]
 
 
 B0:[BREAK]The rough rider of the sea.[BREAK]This bad boy rebel dyed his[BREAK]pincers and his body[BREAK]metallic purple.[END]
@@ -713,7 +713,7 @@ B1-E:[BREAK]Il a cinq globes oculaires,[BREAK]dont deux sur le dos. Il n'a[BREAK
 
 
 B2:Sometimes it accidentally[BREAK]swallows the food that it[BREAK]went through all the[BREAK]trouble to get for its baby[BREAK]baldlings.[END]
-B2-E:Parfois,ÕilÕluiÕarriveÕd'avaler[BREAK]par accident la nourriture[BREAK]qu'il s'est donné tant de[BREAK]mal à obtenir pour ses[BREAK]petits à tête bleue.[END]
+B2-E:Parfois,·il·lui·arrive·d'avaler[BREAK]par accident la nourriture[BREAK]qu'il s'est donné tant de[BREAK]mal à obtenir pour ses[BREAK]petits à tête bleue.[END]
 
 
 B3:[BREAK]Takes care of suspicious[BREAK]intruders, smoke in the[BREAK]kitchen, and reheating the[BREAK]bathtub.[END]
@@ -737,7 +737,7 @@ B7-E:[BREAK]Natif de l'île de Tanetane.[BREAK]La plus forte et la plus[BREAK]ver
 
 
 B8:This improved Wobbly[BREAK]Robot no longer wobbles.[BREAK]Why wasn't it made this[BREAK]way to begin with? No one[BREAK]knows.[END]
-B8-E:Ce Robot instable qui a été[BREAK]amélioréÕn'estÕplusÕinstable.[BREAK]Pourquoi n'a-t-il pas été[BREAK]créé comme ça dès le[BREAK]départÕ? Allez savoir.[END]
+B8-E:Ce Robot instable qui a été[BREAK]amélioré·n'est·plus·instable.[BREAK]Pourquoi n'a-t-il pas été[BREAK]créé comme ça dès le[BREAK]départ·? Allez savoir.[END]
 
 
 B9:The Beanling is a very[BREAK]mysterious creature. It's[BREAK]also quick to run away. If[BREAK]you can catch one, it'll be[BREAK]a great day.[END]
@@ -749,7 +749,7 @@ BA-E:Un P'tit Rico recouvert de[BREAK]sirop pétillant. Vous ne[BREAK]croiserez s
 
 
 BB:A tiny, tiny forest that[BREAK]grows in the mole cricket[BREAK]hole. It's really more of a[BREAK]bush than a forest, but[BREAK]whatever.[END]
-BB-E:Une toute petite forêt[BREAK]riquiqui qui pousse dans le[BREAK]terrier des taupes-grillons.[BREAK]C'est plus un buisson[BREAK]qu'uneÕforêt,ÕmaisÕpassons.[END]
+BB-E:Une toute petite forêt[BREAK]riquiqui qui pousse dans le[BREAK]terrier des taupes-grillons.[BREAK]C'est plus un buisson[BREAK]qu'une·forêt,·mais·passons.[END]
 
 
 BC:[END]

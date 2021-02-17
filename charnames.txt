@@ -346,9 +346,9 @@
 0AC:Woman
 0AC-E:Feýýe
 0AD:Knock!
-0AD-E:TocÕ!
+0AD-E:Toc·!
 0AE:Knock!
-0AE-E:TocÕ!
+0AE-E:Toc·!
 0AF:Bow
 0AF-E:Arc
 0B0:Bow

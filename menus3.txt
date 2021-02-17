@@ -64,7 +64,7 @@
 1E:[END]
 1E-E: [END]
 1F:Put the game in Sleep Mode?[END]
-1F-E:Mettre le’jeu en mode veille’?[END]
+1F-E:Mettre le∑jeu en mode veille∑?[END]
 20:[END]
 20-E:[END]
 21:[END]
