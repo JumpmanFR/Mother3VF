@@ -207,7 +207,7 @@
 0063: @A higher defense will decrease[BREAK]  the amount of damage taken[BREAK]  from an enemy attack.[BREAK][BREAK]@Defense may be displayed as DEF.[END]
 0063-E: ©Une défense élevée diminuera le nombre de[BREAK]  dégâts reçus à la suite dÞl'attaque d'un ennemi.[BREAK][BREAK]©La défense peut être affichée sous la forme[BREAK]  <DÉF>.[END]
 0064: @This is the Drago fang that[BREAK]  was stuck in [44 FF]'s chest.[END]
-0064-E: ©Le croc de Drago qui était planté dans la poitrine[BREAK]  [ED EF][44 FF].[END]
+0064-E: ©Le croc de Drago qui était planté dans la poitrine[BREAK]  d[ED EF][44 FF].[END]
 0065: @A talkative little sparrow that[BREAK]  will teach you street smarts[BREAK]  and tell all about the things[BREAK]  he has heard and seen on his[BREAK]  travels around the world.[WAIT]@His big ego is the only fly[BREAK]  in his ointment.[END]
 0065-E: ©Un petit moineau bavard qui vous apprendra[BREAK]  toutes les ficelles et vous racontera tout des[BREAK]  choseŠqu'il a vues et entendueŠlorŠdÞses[BREAK]  nombreux voyages.[WAIT]©Son ego démesuré est son seul défaut.[END]
 0066: @Intelligence is displayed as IQ.[BREAK][BREAK]@If a character is able to use[BREAK]  PSI, a higher IQ will increase[BREAK]  its effectiveness.[END]
