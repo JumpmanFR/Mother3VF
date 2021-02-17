@@ -546,7 +546,7 @@
 0-239:@Lying on the ground is a notebook with a[BREAK]  pig nose-like mark on the cover.[WAIT]@Give it a read?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 0-239E:©Sur le sol, un carnet de notes comportant un[BREAK]  symbole en forme de groin sur la couverture.[WAIT]©Le lire·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 0-240:@[FLINT 23 01 00] picked up the notebook and[BREAK]  read it.[WAIT]@The following is written in poor handwriting:[WAIT]@All the creatures around here suck.[BREAK]@We need to make 'em cooler.[WAIT]@So the theme will be:[BREAK]    -Tougher![WAIT]    -Rougher![WAIT]    -Badder![WAIT]@We'll mix and match this and that to create[BREAK]  whole new things no one's ever seen before![WAIT]@I dub it the "Fascinating Chimera Project".[WAIT]@Let's reconstruct and modify stuff slowly and[BREAK]  steadily.[END]
-0-240E:©[FLINT 23 01 00] ramasse le carnet de notes et[BREAK]  le lit.[WAIT]©L'écriture est maladroiteõ:[WAIT]©Toutes les créatures ici sont minables.[BREAK]©Nous devons les rendre plus cool.[WAIT]©Le mot d'ordre seraõ:[BREAK]ØØØØ— Plus fortes·![WAIT]ØØØØ— Plus violentes·![WAIT]ØØØØ— Plus méchantes·![WAIT]©Nous allons mélanger tout ça pour fabriquer de[BREAK]  nouvelles créatures encore jamais vues·![WAIT]©J'annonce le "fascinant projet Chimère". [WAIT]©Reconstituons et modifions les choses, sans[BREAK]  faillir, sans relâche.[END]
+0-240E:©[FLINT 23 01 00] ramasse le carnet de notes et[BREAK]  le lit.[WAIT]©L'écriture est maladroiteõ:[WAIT]©Toutes les créatures ici sont minables.[BREAK]©Nous devons les rendre plus cool.[WAIT]©Le mot d'ordre seraõ:[BREAK]••••— Plus fortes·![WAIT]••••— Plus violentes·![WAIT]••••— Plus méchantes·![WAIT]©Nous allons mélanger tout ça pour fabriquer de[BREAK]  nouvelles créatures encore jamais vues·![WAIT]©J'annonce le "fascinant projet Chimère". [WAIT]©Reconstituons et modifions les choses, sans[BREAK]  faillir, sans relâche.[END]
 0-241:@Climbing up here will lead you to the outside.[WAIT]@Sadly, this is as far as I go.[WAIT]@But I know you guys can handle the rest from[BREAK]  here on out.[END]
 0-241E:@En grimpant par ici, vous vous retrouverez à[BREAK]  l'extérieur.[WAIT]@Malheureusement, je ne vais pas plus loin.[WAIT]@Mais je suis sûr que vous saurez vous[BREAK]  débrouiller pour la suite.[END]
 0-242:@Well, I guess this is where we part ways.[WAIT]@I don't have a name, but remember me[BREAK]  sometimes as being a pretty cool guy, okay?[END]
@@ -1703,44 +1703,44 @@
 
 [Container 13]
 13-0:@Magypsy Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]       Magypsy Spring Water"[WAIT]          (An extra syllable)[END]
-13-0E:©Source chaude des Magypsy[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØ··Source des Magypsy"[WAIT]ØØØØØØØØØØØ(Une syllabe en trop)[END]
+13-0E:©Source chaude des Magypsy[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]•••••••••··Source des Magypsy"[WAIT]•••••••••••(Une syllabe en trop)[END]
 // Repeats: 13-0, 14-0, 17-0, 36-0, 42-0, 55-0, 72-0, 77-0, 80-0, 96-0, 180-0, 181-0, 182-0, 192-0, 203-0, 207-0, 249-0, 250-0, 251-0, 252-0, 263-0, 327-0, 328-0, 329-0, 330-0, 331-0, 332-0, 373-0, 374-0, 375-0, 376-0, 377-0, 378-0, 379-0, 443-0, 467-0, 468-0, 469-0, 471-0, 472-0, 477-0, 803-0, 877-0, 878-0, 880-0, 882-0, 892-0, 900-0
 13-1:@Tunnel Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]        Tunnel Spring Water"[END]
-13-1E:©Source chaude du tunnel[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØØØSource du tunnel"[END]
+13-1E:©Source chaude du tunnel[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]•••••••••••••Source du tunnel"[END]
 // Repeats: 13-1, 14-1, 17-1, 36-1, 42-1, 55-1, 72-1, 77-1, 80-1, 96-1, 180-1, 181-1, 182-1, 192-1, 203-1, 207-1, 249-1, 250-1, 251-1, 252-1, 263-1, 327-1, 328-1, 329-1, 330-1, 331-1, 332-1, 373-1, 374-1, 375-1, 376-1, 377-1, 378-1, 379-1, 443-1, 467-1, 468-1, 469-1, 471-1, 472-1, 477-1, 803-1, 877-1, 878-1, 880-1, 882-1, 892-1, 900-1
 13-2:@Mole Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]          Mole Spring Water"[WAIT]          (Too few syllables)[END]
-13-2E:©Source chaude des taupes[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØ·Eau de source des taupes"[WAIT]ØØØØØØØØØØØ(Une syllabe en trop)[END]
+13-2E:©Source chaude des taupes[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••••·Eau de source des taupes"[WAIT]•••••••••••(Une syllabe en trop)[END]
 // Repeats: 13-2, 14-2, 17-2, 36-2, 42-2, 55-2, 72-2, 77-2, 80-2, 96-2, 180-2, 181-2, 182-2, 192-2, 203-2, 207-2, 249-2, 250-2, 251-2, 252-2, 263-2, 327-2, 328-2, 329-2, 330-2, 331-2, 332-2, 373-2, 374-2, 375-2, 376-2, 377-2, 378-2, 379-2, 443-2, 467-2, 468-2, 469-2, 471-2, 472-2, 477-2, 803-2, 877-2, 878-2, 880-2, 882-2, 892-2, 900-2
 13-3:@Snowcap Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]      Snowcap Spring Water"[END]
-13-3E:©Source chaude de la crête Neigeuse[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØ··Source de la crête Neigeuse"[WAIT]ØØ(Des syllabes en trop, forcément)[END]
+13-3E:©Source chaude de la crête Neigeuse[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••··Source de la crête Neigeuse"[WAIT]••(Des syllabes en trop, forcément)[END]
 // Repeats: 13-3, 14-3, 17-3, 36-3, 42-3, 55-3, 72-3, 77-3, 80-3, 96-3, 180-3, 181-3, 182-3, 192-3, 203-3, 207-3, 249-3, 250-3, 251-3, 252-3, 263-3, 327-3, 328-3, 329-3, 330-3, 331-3, 332-3, 373-3, 374-3, 375-3, 376-3, 377-3, 378-3, 379-3, 443-3, 467-3, 468-3, 469-3, 471-3, 472-3, 477-3, 803-3, 877-3, 878-3, 880-3, 882-3, 892-3, 900-3
 13-4:[ALTERNATEFONT]@mr. saturn hot[BREAK]  spring[WAIT]  "relax easy"[END]
 13-4E:[ALTERNATEFONT]@source chaude[BREAK]  m. saturne[WAIT]  <détente tranquille>[END]
 // Repeats: 13-4, 14-4, 17-4, 36-4, 42-4, 55-4, 72-4, 77-4, 80-4, 96-4, 180-4, 181-4, 182-4, 192-4, 203-4, 207-4, 249-4, 250-4, 251-4, 252-4, 263-4, 327-4, 328-4, 329-4, 330-4, 331-4, 332-4, 373-4, 374-4, 375-4, 376-4, 377-4, 378-4, 379-4, 443-4, 467-4, 468-4, 469-4, 471-4, 472-4, 477-4, 803-4, 877-4, 878-4, 880-4, 882-4, 892-4, 900-4
 13-5:@Kokori Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]         Kokori Spring Water"[WAIT]          (An extra syllable)[END]
-13-5E:©Source chaude de Kokori[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØØ·Source de Kokori"[WAIT]ØØØØØØØØØØØ(Une syllabe en trop)[END]
+13-5E:©Source chaude de Kokori[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••••••••••·Source de Kokori"[WAIT]•••••••••••(Une syllabe en trop)[END]
 // Repeats: 13-5, 13-6, 14-5, 14-6, 17-5, 17-6, 36-5, 36-6, 42-5, 42-6, 55-5, 55-6, 72-5, 72-6, 77-5, 77-6, 80-5, 80-6, 96-5, 96-6, 180-5, 180-6, 181-5, 181-6, 182-5, 182-6, 192-5, 192-6, 203-5, 203-6, 207-5, 207-6, 249-5, 249-6, 250-5, 250-6, 251-5, 251-6, 252-5, 252-6, 263-5, 263-6, 327-5, 327-6, 328-5, 328-6, 329-5, 329-6, 330-5, 330-6, 331-5, 331-6, 332-5, 332-6, 373-5, 373-6, 374-5, 374-6, 375-5, 375-6, 376-5, 376-6, 377-5, 377-6, 378-5, 378-6, 379-5, 379-6, 443-5, 443-6, 467-5, 467-6, 468-5, 468-6, 469-5, 469-6, 471-5, 471-6, 472-5, 472-6, 477-5, 477-6, 803-5, 803-6, 877-5, 877-6, 878-5, 878-6, 880-5, 880-6, 882-5, 882-6, 892-5, 892-6, 900-5, 900-6
 13-6:@Kokori Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]         Kokori Spring Water"[WAIT]          (An extra syllable)[END]
-13-6E:©Source chaude de Kokori[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØØ·Source de Kokori"[WAIT]ØØØØØØØØØØØ(Une syllabe en trop)[END]
+13-6E:©Source chaude de Kokori[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••••••••••·Source de Kokori"[WAIT]•••••••••••(Une syllabe en trop)[END]
 // Repeats: 13-5, 13-6, 14-5, 14-6, 17-5, 17-6, 36-5, 36-6, 42-5, 42-6, 55-5, 55-6, 72-5, 72-6, 77-5, 77-6, 80-5, 80-6, 96-5, 96-6, 180-5, 180-6, 181-5, 181-6, 182-5, 182-6, 192-5, 192-6, 203-5, 203-6, 207-5, 207-6, 249-5, 249-6, 250-5, 250-6, 251-5, 251-6, 252-5, 252-6, 263-5, 263-6, 327-5, 327-6, 328-5, 328-6, 329-5, 329-6, 330-5, 330-6, 331-5, 331-6, 332-5, 332-6, 373-5, 373-6, 374-5, 374-6, 375-5, 375-6, 376-5, 376-6, 377-5, 377-6, 378-5, 378-6, 379-5, 379-6, 443-5, 443-6, 467-5, 467-6, 468-5, 468-6, 469-5, 469-6, 471-5, 471-6, 472-5, 472-6, 477-5, 477-6, 803-5, 803-6, 877-5, 877-6, 878-5, 878-6, 880-5, 880-6, 882-5, 882-6, 892-5, 892-6, 900-5, 900-6
 13-7:@Murasaki Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]       Murasaki Spring Water"[WAIT]       (A few extra syllables)[END]
-13-7E:©Source chaude de Murasaki[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØSource de Murasaki"[WAIT]ØØØØØ··(Quelques syllabes en trop)[END]
+13-7E:©Source chaude de Murasaki[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]•••••••••••Source de Murasaki"[WAIT]•••••··(Quelques syllabes en trop)[END]
 // need to make it so there aren't so many extra-syllable ones
 // Repeats: 13-7, 14-7, 17-7, 36-7, 42-7, 55-7, 72-7, 77-7, 80-7, 96-7, 180-7, 181-7, 182-7, 192-7, 203-7, 207-7, 249-7, 250-7, 251-7, 252-7, 263-7, 327-7, 328-7, 329-7, 330-7, 331-7, 332-7, 373-7, 374-7, 375-7, 376-7, 377-7, 378-7, 379-7, 443-7, 467-7, 468-7, 469-7, 471-7, 472-7, 477-7, 803-7, 877-7, 878-7, 880-7, 882-7, 892-7, 900-7
 13-8:@His Highness's Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]        His Highness's Water"[WAIT]         (An extra syllable)[END]
-13-8E:©Source chaude de Son Altesse[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØEau de Son Altesse"[END]
+13-8E:©Source chaude de Son Altesse[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]•••••••••••Eau de Son Altesse"[END]
 // Repeats: 13-8, 14-8, 17-8, 36-8, 42-8, 55-8, 72-8, 77-8, 80-8, 96-8, 180-8, 181-8, 182-8, 192-8, 203-8, 207-8, 249-8, 250-8, 251-8, 252-8, 263-8, 327-8, 328-8, 329-8, 330-8, 331-8, 332-8, 373-8, 374-8, 375-8, 376-8, 377-8, 378-8, 379-8, 443-8, 467-8, 468-8, 469-8, 471-8, 472-8, 477-8, 803-8, 877-8, 878-8, 880-8, 882-8, 892-8, 900-8
 13-9:@ [LEFT]West[BREAK]  Argilla Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]        Argilla Spring Water"[WAIT]          (An extra syllable)[END]
-13-9E:© [LEFT] Ouest[BREAK]  Source chaude d'Argilla[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØØØ·Source d'Argilla"[END]
+13-9E:© [LEFT] Ouest[BREAK]  Source chaude d'Argilla[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]•••••••••••••·Source d'Argilla"[END]
 // Repeats: 13-9, 14-9, 17-9, 36-9, 42-9, 55-9, 72-9, 77-9, 80-9, 96-9, 180-9, 181-9, 182-9, 192-9, 203-9, 207-9, 249-9, 250-9, 251-9, 252-9, 263-9, 327-9, 328-9, 329-9, 330-9, 331-9, 332-9, 373-9, 374-9, 375-9, 376-9, 377-9, 378-9, 379-9, 443-9, 467-9, 468-9, 469-9, 471-9, 472-9, 477-9, 803-9, 877-9, 878-9, 880-9, 882-9, 892-9, 900-9
 13-10:@Chimera Lab Rest Facility[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]       No cost to bathe here"[END]
-13-10E:©Zone de repos du Labo chimérique[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØ··Les bains sont gratuits"[END]
+13-10E:©Zone de repos du Labo chimérique[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]•••••••··Les bains sont gratuits"[END]
 // Repeats: 13-10, 14-10, 17-10, 36-10, 42-10, 55-10, 72-10, 77-10, 80-10, 96-10, 180-10, 181-10, 182-10, 192-10, 203-10, 207-10, 249-10, 250-10, 251-10, 252-10, 263-10, 327-10, 328-10, 329-10, 330-10, 331-10, 332-10, 373-10, 374-10, 375-10, 376-10, 377-10, 378-10, 379-10, 443-10, 467-10, 468-10, 469-10, 471-10, 472-10, 477-10, 803-10, 877-10, 878-10, 880-10, 882-10, 892-10, 900-10
 13-11:@Mole Cricket Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]     Mole Cricket Spring Water"[WAIT]           (An extra syllable)[END]
-13-11E:©Source chaude des Taupes-grillons[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØ··Source des Taupes-grillons"[WAIT]ØØØØØ··(Quelques syllabes en trop)[END]
+13-11E:©Source chaude des Taupes-grillons[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••··Source des Taupes-grillons"[WAIT]•••••··(Quelques syllabes en trop)[END]
 // Repeats: 13-11, 14-11, 17-11, 36-11, 42-11, 55-11, 72-11, 77-11, 80-11, 96-11, 180-11, 181-11, 182-11, 192-11, 203-11, 207-11, 249-11, 250-11, 251-11, 252-11, 263-11, 327-11, 328-11, 329-11, 330-11, 331-11, 332-11, 373-11, 374-11, 375-11, 376-11, 377-11, 378-11, 379-11, 443-11, 467-11, 468-11, 469-11, 471-11, 472-11, 477-11, 803-11, 877-11, 878-11, 880-11, 882-11, 892-11, 900-11
 13-12:@Osohe Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]         Osohe Spring Water"[WAIT]           (An extra syllable)[END]
-13-12E:©Source chaude d'Osohé[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØØØØSource d'Osohé"[END]
+13-12E:©Source chaude d'Osohé[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••••••••••••Source d'Osohé"[END]
 // Repeats: 13-12, 14-12, 17-12, 36-12, 42-12, 55-12, 72-12, 77-12, 80-12, 96-12, 180-12, 181-12, 182-12, 192-12, 203-12, 207-12, 249-12, 250-12, 251-12, 252-12, 263-12, 327-12, 328-12, 329-12, 330-12, 331-12, 332-12, 373-12, 374-12, 375-12, 376-12, 377-12, 378-12, 379-12, 443-12, 467-12, 468-12, 469-12, 471-12, 472-12, 477-12, 803-12, 877-12, 878-12, 880-12, 882-12, 892-12, 900-12
 13-13:@Violet's Spa[WAIT]  "Yeah, you can use it."[END]
 13-13E:©Spa de Violine[WAIT]  "Ouais, vous pouvez vous en servir."[END]
@@ -1764,7 +1764,7 @@
 13-19E:©Source chaude de source chaude en poudre[WAIT]  "Pour·la plus·grande·satisfaction·de nos·clients,[WAIT]  nous mélangeons environ·20 sachets de source[BREAK]  chaude en poudre tous les jours."[END]
 // Repeats: 13-19, 14-19, 17-19, 36-19, 42-19, 55-19, 72-19, 77-19, 80-19, 96-19, 180-19, 181-19, 182-19, 192-19, 203-19, 207-19, 249-19, 250-19, 251-19, 252-19, 263-19, 327-19, 328-19, 329-19, 330-19, 331-19, 332-19, 373-19, 374-19, 375-19, 376-19, 377-19, 378-19, 379-19, 443-19, 467-19, 468-19, 469-19, 471-19, 472-19, 477-19, 803-19, 877-19, 878-19, 880-19, 882-19, 892-19, 900-19
 13-20:@Tanetane Hot Spring[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]      Tanetane Spring Water"[WAIT]    (Extra syllables, of course)[END]
-13-20E:©Source chaude de Tanetane[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØ·Source de Tanetane"[WAIT]ØØØØØØØØØØØ(Une syllabe en trop)[END]
+13-20E:©Source chaude de Tanetane[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••••••••·Source de Tanetane"[WAIT]•••••••••••(Une syllabe en trop)[END]
 // Repeats: 13-20, 14-20, 17-20, 36-20, 42-20, 55-20, 72-20, 77-20, 80-20, 96-20, 180-20, 181-20, 182-20, 192-20, 203-20, 207-20, 249-20, 250-20, 251-20, 252-20, 263-20, 327-20, 328-20, 329-20, 330-20, 331-20, 332-20, 373-20, 374-20, 375-20, 376-20, 377-20, 378-20, 379-20, 443-20, 467-20, 468-20, 469-20, 471-20, 472-20, 477-20, 803-20, 877-20, 878-20, 880-20, 882-20, 892-20, 900-20
 13-21:@You'll be punished horribly and severely if you[BREAK]  get your Happy Box wet![WAIT]@Don't risk it! It's not worth it![END]
 13-21E:©Vous serez horriblement et sévèrement puni si[BREAK]  vous mouillez votre Boîte à bonheur·![WAIT]©Ne prenez pas ce risque·! Ça n'en vaut pas la[BREAK]  peine·![END]
@@ -1773,13 +1773,13 @@
 13-22E:@Tu n'as aucune patience, [FLINT 22 01 00]·![END]
 // Repeats: 13-22, 14-22, 17-22, 36-22, 42-22, 55-22, 72-22, 77-22, 80-22, 96-22, 180-22, 181-22, 182-22, 192-22, 203-22, 207-22, 249-22, 250-22, 251-22, 252-22, 263-22, 327-22, 328-22, 329-22, 330-22, 331-22, 332-22, 373-22, 374-22, 375-22, 376-22, 377-22, 378-22, 379-22, 443-22, 467-22, 468-22, 469-22, 471-22, 472-22, 477-22, 803-22, 877-22, 878-22, 880-22, 882-22, 892-22, 900-22
 13-23:@You'll get no results from hot springs[BREAK]  that way![WAIT]@Don't you even know the famous haiku,[WAIT]     "There's no need to rush[BREAK]     Five seconds rejuvenates[WAIT]            Fa-la-la-la-la"?![END]
-13-23E:@Ce n'est pas comme ça que tu profiteras des[BREAK]  sources chaudes·![WAIT]@Tu ne connais pas le fameux haïkuõ:[WAIT]ØØØØØØØØØ··"Prenez votre temps[BREAK]ØØØØØØØCinq secondes qui apaisent[WAIT]ØØØØØØØØØØØØ··La-la-li-la-lère"·?![END]
+13-23E:@Ce n'est pas comme ça que tu profiteras des[BREAK]  sources chaudes·![WAIT]@Tu ne connais pas le fameux haïkuõ:[WAIT]•••••••••··"Prenez votre temps[BREAK]•••••••Cinq secondes qui apaisent[WAIT]••••••••••••··La-la-li-la-lère"·?![END]
 // Repeats: 13-23, 14-23, 17-23, 36-23, 42-23, 55-23, 72-23, 77-23, 80-23, 96-23, 180-23, 181-23, 182-23, 192-23, 203-23, 207-23, 249-23, 250-23, 251-23, 252-23, 263-23, 327-23, 328-23, 329-23, 330-23, 331-23, 332-23, 373-23, 374-23, 375-23, 376-23, 377-23, 378-23, 379-23, 443-23, 467-23, 468-23, 469-23, 471-23, 472-23, 477-23, 803-23, 877-23, 878-23, 880-23, 882-23, 892-23, 900-23
 13-24:@Incredibly enough, there was a hot spring[BREAK]  inside the box![END]
 13-24E:©Aussi incroyable que cela puisse paraître, il y a[BREAK]  une source chaude dans le paquet·![END]
 // Repeats: 13-24, 14-24, 17-24, 36-24, 42-24, 55-24, 72-24, 77-24, 80-24, 96-24, 180-24, 181-24, 182-24, 192-24, 203-24, 207-24, 249-24, 250-24, 251-24, 252-24, 263-24, 327-24, 328-24, 329-24, 330-24, 331-24, 332-24, 373-24, 374-24, 375-24, 376-24, 377-24, 378-24, 379-24, 443-24, 467-24, 468-24, 469-24, 471-24, 472-24, 477-24, 803-24, 877-24, 878-24, 880-24, 882-24, 892-24, 900-24
 13-25:[SOUND 03 00]@Chirp chirp.[WAIT]  (Sparrow Advice![WAIT]  Some people always try to avoid fighting when[BREAK]  there are enemies around.[WAIT]  You know the type, right?[WAIT]  They use the dash ability to zoom right by.[WAIT]  I guess you could say they're followers of[BREAK]  "peace at any price".[WAIT]  ...[PAUSE 20 00]Oh. [PAUSE 18 00] No, no, no.[PAUSE 08 00][BREAK]  I'm not saying that's how you are or anything.[WAIT]  I just think that if you keep running away from[BREAK]  everything now,[WAIT]  later on when you HAVE to fight, you'll have a[BREAK]  really rough time because you lack experience.[WAIT]     "Always running off[PAUSE 18 00][BREAK]    will only lead to regret[PAUSE 18 00][BREAK]      my young disciple."[WAIT]  Please keep this in mind.[WAIT]  Now to end this with a sparrow-like...[EVENT][END]
-13-25E:[SOUND 03 00]@Tchip tchip.[WAIT]  (Conseil de moineau·![WAIT]  Certaines personnes essayent toujours[BREAK]  d'éviter le combat lorsqu'il y a des ennemis.[WAIT]  Tu vois le genre·?[WAIT]  Elles utilisent la capacité de course pour tout[BREAK]  esquiver.[WAIT]  On peut dire qu'elles "courent à leur perte".[WAIT]  ... [PAUSE 20 00]Ah. [PAUSE 18 00]Non, non, non.[PAUSE 08 00][BREAK]  Je n'ai pas dit que tu étais comme ça.[WAIT]  Mais si tu passes ton temps à fuir les ennemis,[BREAK]  le jour où tu DEVRAS combattre,[WAIT]  tu auras de sérieux problèmes à cause de ton[BREAK]  manque d'expérience.[WAIT]ØØØØØØØØ"T'enfuir à tout prix[PAUSE 18 00][BREAK]ØØØØØØà des regrets te conduit[PAUSE 18 00][BREAK]ØØØØØØØØØmon jeune disciple"[WAIT]  Garde ça à l'esprit.[WAIT]  Et pour finir en moineau...[EVENT][END]
+13-25E:[SOUND 03 00]@Tchip tchip.[WAIT]  (Conseil de moineau·![WAIT]  Certaines personnes essayent toujours[BREAK]  d'éviter le combat lorsqu'il y a des ennemis.[WAIT]  Tu vois le genre·?[WAIT]  Elles utilisent la capacité de course pour tout[BREAK]  esquiver.[WAIT]  On peut dire qu'elles "courent à leur perte".[WAIT]  ... [PAUSE 20 00]Ah. [PAUSE 18 00]Non, non, non.[PAUSE 08 00][BREAK]  Je n'ai pas dit que tu étais comme ça.[WAIT]  Mais si tu passes ton temps à fuir les ennemis,[BREAK]  le jour où tu DEVRAS combattre,[WAIT]  tu auras de sérieux problèmes à cause de ton[BREAK]  manque d'expérience.[WAIT]••••••••"T'enfuir à tout prix[PAUSE 18 00][BREAK]••••••à des regrets te conduit[PAUSE 18 00][BREAK]•••••••••mon jeune disciple"[WAIT]  Garde ça à l'esprit.[WAIT]  Et pour finir en moineau...[EVENT][END]
 // Repeats: 13-25, 14-25, 17-25, 36-25, 42-25, 55-25, 72-25, 77-25, 80-25, 96-25, 180-25, 181-25, 182-25, 192-25, 203-25, 207-25, 249-25, 250-25, 251-25, 252-25, 263-25, 327-25, 328-25, 329-25, 330-25, 331-25, 332-25, 373-25, 374-25, 375-25, 376-25, 377-25, 378-25, 379-25, 443-25, 467-25, 468-25, 469-25, 471-25, 472-25, 477-25, 803-25, 877-25, 878-25, 880-25, 882-25, 892-25, 900-25
 13-26:[SOUND 03 00]  chirp-chirp chirp-chirp!)[END]
 13-26E:[SOUND 03 00]  tchip-tchip tchip-tchip·!)[END]
@@ -2987,7 +2987,7 @@
 32-4:@Is there anyone here who puts money in this[BREAK]  thing?[PAUSE 20 00][WAIT]@'Cause I just did, anyway...[END]
 32-4E:@Est-ce qu'il y a quelqu'un ici qui mette de[BREAK]  l'argent dans ce truc·?[PAUSE 20 00][WAIT]@Parce que moi en tout cas,·je·viens·de le·faire...[END]
 32-5:@"If you have any extra money, please put it in[BREAK]  here.[WAIT]    - From your trustworthy and benevolent[BREAK]      Mayor Pusher"[END]
-32-5E:©"Si vous avez de l'argent en trop, merci de le[BREAK]  placer ici.[WAIT]ØØ—·Richard,·votre maire honnête et·bienveillant"[END]
+32-5E:©"Si vous avez de l'argent en trop, merci de le[BREAK]  placer ici.[WAIT]••—·Richard,·votre maire honnête et·bienveillant"[END]
 32-6:@Thomas's Shop[WAIT]@Offering fascinating big-city items faster and[BREAK]  in greater quantities than anyone else![WAIT]  (Things are different now. Don't forget to[BREAK]  bring DP.)[END]
 32-6E:©Magasin de Thomas[WAIT]©Vente d'objets fascinants de la grande ville,[BREAK]  quantités et vitesse de disponibilité inégalées·![WAIT]  (Les choses ont changé maintenant. N'oubliez[BREAK]  pas d'apporter vos DP.)[END]
 32-7:@NOTICE[WAIT]@Our humble little shop, "Caroline's Bakery", has[BREAK]  also adopted the wonderful, new DP system![END]
@@ -3019,7 +3019,7 @@
 32-20:@Cease this violence![WAIT]@I'm no bug! I'm an old man![END]
 32-20E:@Veuillez cesser cette violence·![WAIT]@Je ne suis pas un insecte·! Je suis un vieil[BREAK]  homme·![END]
 32-21:                 @[LUCAS 23 02 00]![WAIT]                   Quit snooping around me![WAIT]                   Don't get in my way![END]
-32-21E:ØØØØØØØØØØØ···@[LUCAS 23 02 00]·![WAIT][MENUSPACEYES]ØØØØØCesse de me tourner autour·![WAIT][MENUSPACEYES]ØØØØØNÄte mets pas en travers[BREAK][MENUSPACEYES]ØØØØØde mon chemin·![END]
+32-21E:•••••••••••···@[LUCAS 23 02 00]·![WAIT][MENUSPACEYES]•••••Cesse de me tourner autour·![WAIT][MENUSPACEYES]•••••NÄte mets pas en travers[BREAK][MENUSPACEYES]•••••de mon chemin·![END]
 32-22:@[LUCAS 23 02 00]...[WAIT]@I really wish you would put a Happy Box in your[BREAK]  home already,[WAIT]  so you can be happy just like everyone else[BREAK]  here.[END]
 32-22E:@[LUCAS 23 02 00]...[WAIT]@J'aimerais tellement que tu aies déjà installé[BREAK]  une Boîte à bonheur chez toi,[WAIT]  pour que tu puisses être heureux comme tout[BREAK]  le monde ici.[END]
 32-23:@I'm always hoping for that day.[END]
@@ -3795,33 +3795,33 @@
 38-19:@Read another?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 38-19E:©Lire un autre message·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 38-20:@I say we remodel the old ruins of Osohe Castle[BREAK]  and turn it into a Tazmily resort facility.[WAIT]                                        (Anonymous)[END]
-38-20E:@Je propose qu'on restaure les vieilles ruines du[BREAK]  château d'Osohé,[WAIT]  pour en faire une attraction touristique.[WAIT]ØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØ(Anonyme)[END]
+38-20E:@Je propose qu'on restaure les vieilles ruines du[BREAK]  château d'Osohé,[WAIT]  pour en faire une attraction touristique.[WAIT]•••••••••••••••••••••••••••••••••••••••••••(Anonyme)[END]
 38-21:@If you wanna ride the train, go to the station![BREAK]  You can ride the train if you go to the station![WAIT]@The train speeds along![BREAK]  Along speeds the train![WAIT]@Let's go-go-go to the factory on the train![BREAK]                        (Train Station Attendants)[END]
-38-21E:@Pour prendre le train, venez à la gare·![BREAK]  Venez à la gare pour prendre le train·![WAIT]@Le train file si vite·![BREAK]  Si vite file le train·![WAIT]@Allons-lons-lons-lons à l'usine en train·![BREAK]ØØØØØØØØØØØØØØØØØØØØØØØ··(Les agents de la gare)[END]
+38-21E:@Pour prendre le train, venez à la gare·![BREAK]  Venez à la gare pour prendre le train·![WAIT]@Le train file si vite·![BREAK]  Si vite file le train·![WAIT]@Allons-lons-lons-lons à l'usine en train·![BREAK]•••••••••••••••••••••••··(Les agents de la gare)[END]
 38-22:@Is the lightning helping us?[WAIT]@Thanks to the lightning, all the dirty, old[BREAK]  houses are being cleaned away.[WAIT]@So, in a way, the lightning is helping all of us.[WAIT]@That's what I think.[BREAK]     (From a popular citizen)[END]
-38-22E:@Et si les éclairs nous rendaient service·?[WAIT]@Grâce à eux, toutes les vieilles maisons[BREAK]  abîmées sont balayées de la surface du village.[WAIT]@Donc, dans un sens, ils nous rendent service.[WAIT]@C'est ce que je pense.[BREAK]ØØ·(Un citoyen populaire)[END]
+38-22E:@Et si les éclairs nous rendaient service·?[WAIT]@Grâce à eux, toutes les vieilles maisons[BREAK]  abîmées sont balayées de la surface du village.[WAIT]@Donc, dans un sens, ils nous rendent service.[WAIT]@C'est ce que je pense.[BREAK]••·(Un citoyen populaire)[END]
 38-23:@Happy Boxes are the greatest![WAIT]@Now to develop even bigger screens![BREAK]                            (Abbot and Abbey)[END]
-38-23E:@Les Boîtes à bonheur, c'est ce qu'il y a de[BREAK]  meilleur·![WAIT]@À quand des écrans encore plus grands·?[WAIT]ØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØ(Abbé et Abbaye)[END]
+38-23E:@Les Boîtes à bonheur, c'est ce qu'il y a de[BREAK]  meilleur·![WAIT]@À quand des écrans encore plus grands·?[WAIT]•••••••••••••••••••••••••••••••••••(Abbé et Abbaye)[END]
 38-24:@I want too bee a Pigmask too.[WAIT]@How can I bee wun?[WAIT]@I no I can bee a gud wun.[WAIT]@Pleese let me bee a Pigmask.[WAIT]@Also, I thought [FAVFOOD] is good.[WAIT]@Well, gudbye.[BREAK]       (Fried Pork Kid)[END]
-38-24E:@Je veu aitre un Maskepor moi ossi.[WAIT]@Coman je peu en aitre un·?[WAIT]@Je ses ke je peu en aitre un cool.[WAIT]@Lessé moi aitre un Maskepor.[WAIT]@Ossi, je pense ke les [FAVFOOD], ses tro[BREAK]  bon.[WAIT]@Allé, enrvoir.[BREAK]ØØØ·(Fils Bacon)[END]
+38-24E:@Je veu aitre un Maskepor moi ossi.[WAIT]@Coman je peu en aitre un·?[WAIT]@Je ses ke je peu en aitre un cool.[WAIT]@Lessé moi aitre un Maskepor.[WAIT]@Ossi, je pense ke les [FAVFOOD], ses tro[BREAK]  bon.[WAIT]@Allé, enrvoir.[BREAK]•••·(Fils Bacon)[END]
 38-25:@After a hard day's work, there's only one[BREAK]  thing to do:[WAIT]  spend every last DP you own at Club Titiboo![WAIT]@Club Titiboo is a paradise of music! And other[BREAK]  stuff, too![WAIT]@Come see the DCMC in concert, live![BREAK]                                   (Club Titiboo)[END]
-38-25E:@Après une dure journée de travail, une seule[BREAK]  chose à faireõ:[WAIT]  dépenser tous ses petits DP jusqu'au dernier[BREAK]  au club Titiboo·![WAIT]@Le club Titiboo est un paradis musical·! Et il[BREAK]  propose bien d'autres choses encore·![WAIT]@Venez voir les DCMC en concert live·![BREAK]ØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØ·(Le club Titiboo)[END]
+38-25E:@Après une dure journée de travail, une seule[BREAK]  chose à faireõ:[WAIT]  dépenser tous ses petits DP jusqu'au dernier[BREAK]  au club Titiboo·![WAIT]@Le club Titiboo est un paradis musical·! Et il[BREAK]  propose bien d'autres choses encore·![WAIT]@Venez voir les DCMC en concert live·![BREAK]••••••••••••••••••••••••••••••••·(Le club Titiboo)[END]
 38-26:@I have sand in my shoes, and I don't know[BREAK]  what to do.[WAIT]@Somebody do something![BREAK]                            (Nana)[END]
-38-26E:@J'ai du sable dans les chaussures, et je ne sais[BREAK]  pas quoi faire.[WAIT]@Que quelqu'un fasse quelque chose·![BREAK]ØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØ··(Nana)[END]
+38-26E:@J'ai du sable dans les chaussures, et je ne sais[BREAK]  pas quoi faire.[WAIT]@Que quelqu'un fasse quelque chose·![BREAK]••••••••••••••••••••••••••••••••••••••••••··(Nana)[END]
 38-27:@Why not consider working at the retirement[BREAK]  home?[WAIT]@Veterans of life are waiting for your kindness.[WAIT]@But please stop quitting one after the other.[BREAK]                         (Retirement Home Director)[END]
-38-27E:@Pourquoi ne pas envisager de travailler à la[BREAK]  maison de retraite·?[WAIT]@Les vétérans de la vie attendent votre[BREAK]  gentillesse.[WAIT]@Mais s'il vous plaît, arrêtez de partir les uns[BREAK]  après les autres.[WAIT]ØØ(Le directeur de la maison de retraite)[END]
+38-27E:@Pourquoi ne pas envisager de travailler à la[BREAK]  maison de retraite·?[WAIT]@Les vétérans de la vie attendent votre[BREAK]  gentillesse.[WAIT]@Mais s'il vous plaît, arrêtez de partir les uns[BREAK]  après les autres.[WAIT]••(Le directeur de la maison de retraite)[END]
 38-28:@Who in the world IS Leder?[WAIT]@Try as hard as I might, I just can't remember[BREAK]  anything about him.[WAIT]  It's keeping me up at night.[WAIT]                                (Mike)[END]
-38-28E:@Mais qui diable est donc cet Écheffe·?[WAIT]@J'ai beau faire tout mon possible, pas moyen[BREAK]  de me souvenir de quoi que ce soit à son sujet.[WAIT]  Je n'en dors plus la nuit.[WAIT]ØØØØØØØØØØØØØØØØØØØØØØØØ··(Michel)[END]
+38-28E:@Mais qui diable est donc cet Écheffe·?[WAIT]@J'ai beau faire tout mon possible, pas moyen[BREAK]  de me souvenir de quoi que ce soit à son sujet.[WAIT]  Je n'en dors plus la nuit.[WAIT]••••••••••••••••••••••••··(Michel)[END]
 38-29:@We've been slowly running out of friends at[BREAK]  the castle lately.[WAIT]@People of Tazmily, please pass away at a[BREAK]  faster pace, if you would be so kind. Thanks.[WAIT]                                      (Anonymous Ghost)[END]
-38-29E:@On commence à manquer d'amis au château[BREAK]  ces derniers temps.[WAIT]@Habitants de Tazmily, veuillez mourir un peu[BREAK]  plus vite, ce serait gentil. Merci.[WAIT]ØØØØØØØØØØØØØØØØØØØØ(Fantôme anonyme)[END]
+38-29E:@On commence à manquer d'amis au château[BREAK]  ces derniers temps.[WAIT]@Habitants de Tazmily, veuillez mourir un peu[BREAK]  plus vite, ce serait gentil. Merci.[WAIT]••••••••••••••••••••(Fantôme anonyme)[END]
 38-30:@Notice.[WAIT]@Scamp has died.[WAIT]  That is all.[WAIT]             (Staff)[END]
-38-30E:@Avis.[WAIT]@Filou est mort.[WAIT]  C'est tout.[WAIT]ØØ(Le personnel)[END]
+38-30E:@Avis.[WAIT]@Filou est mort.[WAIT]  C'est tout.[WAIT]••(Le personnel)[END]
 38-31:@Select, cheerful police officers wanted.[WAIT]@Start a new career as an officer of the[BREAK]  Tazmily police force![WAIT]@Do well, and you could even make some[BREAK]  Pigmask friends![WAIT]            (Pusher, Tazmily Police Dept.)[END]
-38-31E:@On recherche de joyeux officiers de police.[WAIT]@Commencez une nouvelle carrière en tant[BREAK]  qu'officier des forces de police de Tazmily·![WAIT]@Travaillez bien, et vous pourrez même vous[BREAK]  faire des amis Masqueporcs·![WAIT]ØØ(Richard, service de police de Tazmily)[END]
+38-31E:@On recherche de joyeux officiers de police.[WAIT]@Commencez une nouvelle carrière en tant[BREAK]  qu'officier des forces de police de Tazmily·![WAIT]@Travaillez bien, et vous pourrez même vous[BREAK]  faire des amis Masqueporcs·![WAIT]••(Richard, service de police de Tazmily)[END]
 38-32:@Watch out for Chimeras.[WAIT]@Strange animals known as Chimeras seem to[BREAK]  be increasing in number lately.[WAIT]@They are dangerous. Be careful of them.[BREAK]                           (From a brave person)[END]
-38-32E:@Faites attention aux chimères.[WAIT]@La population d'animaux étranges connus sous[BREAK]  le nom de chimères semble être en hausse,[WAIT]  ces derniers temps.[WAIT]@Elles sont dangereuses. Méfiez-vous d'elles.[BREAK]ØØØØØØØØØØØØØØØØØØØØØØØØØ··(Une personne courageuse)[END]
+38-32E:@Faites attention aux chimères.[WAIT]@La population d'animaux étranges connus sous[BREAK]  le nom de chimères semble être en hausse,[WAIT]  ces derniers temps.[WAIT]@Elles sont dangereuses. Méfiez-vous d'elles.[BREAK]•••••••••••••••••••••••••··(Une personne courageuse)[END]
 38-33:@Show courtesy to Mr. Fassad.[WAIT]@There are many ignorant people who complain[BREAK]  about him.[WAIT]@I think that is a very bad thing to do.[WAIT]@"Tazmily is nothing without Mr. Fassad."[WAIT]  Please take this to heart.[BREAK]                            (Isaac)[END]
-38-33E:@Montrez-vous courtois envers M. Fassad.[WAIT]@De nombreuses personnes ignorantes se[BREAK]  plaignent de lui.[WAIT]@Je pense que ce n'est pas une chose à faire.[WAIT]@"Tazmily n'est rien sans M. Fassad."[WAIT]  Ayez à cœur de vous en souvenir.[BREAK]ØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØ··(Isaac)[END]
+38-33E:@Montrez-vous courtois envers M. Fassad.[WAIT]@De nombreuses personnes ignorantes se[BREAK]  plaignent de lui.[WAIT]@Je pense que ce n'est pas une chose à faire.[WAIT]@"Tazmily n'est rien sans M. Fassad."[WAIT]  Ayez à cœur de vous en souvenir.[BREAK]••••••••••••••••••••••••••••••••••••••••··(Isaac)[END]
 38-34:@"Titiboo News"[WAIT]@DCMC to debut a new song soon?![WAIT]  Desperado! [PAUSE 10 00](Reckless!)[WAIT]  Crash! [PAUSE 10 00](Powerful!)[WAIT]  Mambo! [PAUSE 10 00](Sensational!)[WAIT]  Combo! [PAUSE 10 00](Guys!)[WAIT]@No one can stop the DCMC's momentum now![END]
 38-34E:@"Titiboo actus"[WAIT]@Les DCMC sur le point de sortir un nouveau[BREAK]  titre·?![WAIT]  Desperado·! [PAUSE 10 00](Intrépides·!)[WAIT]  Crash·! [PAUSE 10 00](Puissants·!)[WAIT]  Mambo·! [PAUSE 10 00](Incroyables·!)[WAIT]  Combo·! [PAUSE 10 00](Gaillards·!)[WAIT]@Plus personne ne peut arrêter l'ascension des[BREAK]  DCMC·![END]
 38-35:@Pigmasks Wanted![WAIT]@What do you say?[WAIT]@Join the Pigmasks and enjoy life in the big city![END]
@@ -4362,9 +4362,9 @@
 47-25E:@Oh, je vois.[WAIT]@De temps en temps,[WAIT]  il y a des clients idiots qui font le trajet en[BREAK]  marchant le long de ces fichus rails de trains.[WAIT]  Ce serait peut-être plus à votre goût, si je[BREAK]  devais humblement vous faire une suggestion.[END]
 // Repeats: 38-116, 47-25
 47-26:@We are increasing the number of Cattlesnakes.[WAIT]@They are extremely dangerous.[BREAK]  If you see one, stay away.[WAIT]  View them from a distance only![BREAK]                   -Chimera Laboratory[END]
-47-26E:©Nous augmentons la population de[BREAK]  Serpents-vaches.[WAIT]©Ils sont extrêmement dangereux.[BREAK]  Si vous en apercevez un, restez éloignés.[WAIT]  Observez-les en gardant vos distances·![BREAK]ØØØØØØØØØØØØØØØØØ·· — Le Laboratoire chimérique[END]
+47-26E:©Nous augmentons la population de[BREAK]  Serpents-vaches.[WAIT]©Ils sont extrêmement dangereux.[BREAK]  Si vous en apercevez un, restez éloignés.[WAIT]  Observez-les en gardant vos distances·![BREAK]•••••••••••••••••·· — Le Laboratoire chimérique[END]
 47-27:@Youngsters![BREAK]@Here's your chance to sweat beautiful sweat![WAIT]@Part time help wanted at the factory.[WAIT]@All those interested, apply at the factory![BREAK]                                      Right this way[RIGHT][END]
-47-27E:©Avis aux jeunes gens·![BREAK]©Voici votre chance de transpirer le bonheur·![WAIT]©On recherche des travailleurs saisonniers.[WAIT]©Pour les intéressés, venez postuler à l'usine·![BREAK]ØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØØ··Par ici [RIGHT][END]
+47-27E:©Avis aux jeunes gens·![BREAK]©Voici votre chance de transpirer le bonheur·![WAIT]©On recherche des travailleurs saisonniers.[WAIT]©Pour les intéressés, venez postuler à l'usine·![BREAK]••••••••••••••••••••••••••••••••••••••••••••••••••••··Par ici [RIGHT][END]
 47-28:@Casablanca - Humphrey Bogart[BREAK][WAIT]@Breakfast at Tiffany's - Audrey Hepburn[BREAK][WAIT]@Plan 9 from Outer Space - Some nuts[BREAK][END]
 47-28E:©Intouchables — François Cluzet[BREAK][WAIT]©La Grande Vadrouille — Bourvil[BREAK][WAIT]©Devil Story — Des cornichons[BREAK][END]
 // this is very very flexible to change, the original line doesn't make much sense. What I've done here is try to mimic the original text by listing two things and then one thing that doesn't match at all
@@ -4481,7 +4481,7 @@
 48-24:@You know the Caeribe Falls, just to the[BREAK]  northeast of here?[WAIT]@Some mole crickets have been digging some[BREAK]  really deep holes in that area.[WAIT]@Could they be any MORE inconsiderate?![WAIT]@We moles've been digging holes here for a long[BREAK]  time now,[WAIT]  so they should've at least gone through the[BREAK]  proper channels first.[WAIT]@*mumble* *mumble*.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Oh, I'm sorry.[WAIT]@I didn't mean to dump all my complaints onto[BREAK]  complete strangers.[END]
 48-24E:@Tu vois les chutes de Caéribe, au nord-est[BREAK]  d'ici·?[WAIT]@Des taupes-grillons ont creusé des galeries[BREAK]  vraiment profondes là-bas.[WAIT]@Est-ce qu'ils pourraient être encore PLUS[BREAK]  irrespectueux·?![WAIT]@Nous les taupes, on creuse des tunnels dans le[BREAK]  coin depuis longtemps maintenant,[WAIT]  donc ils auraient pu au moins commencer par[BREAK]  utiliser les canaux appropriés.[WAIT]@*marmonne*.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Oh, je suis désolée.[WAIT]@Je ne voulais pas infliger mes états d'âme à de[BREAK]  parfaits étrangers.[END]
 48-25:@The factory is closed down as of today.[WAIT]  We sincerely thank you for many things.[WAIT]@"Song of the Factory"[BREAK]            Lyrics: Director Brown[WAIT]  Everyone's sweat[WAIT]  Everyone's tears[WAIT]  Everyone's strength[WAIT]  Meld it all into clay[WAIT]  The factory will always be[WAIT]  in everyone's memories[WAIT]  Forever and ever[WAIT]  Goodbye, Factory[WAIT]  Thank you, Factory[END]
-48-25E:©L'usine est fermée à compter d'aujourd'hui.[WAIT]  Nous vous remercions sincèrement pour tout.[WAIT]©"Chanson de l'usine"[BREAK]ØØØØØØØØØØØØParolesõ: Directeur Lebrun[WAIT]  Toute la sueur [WAIT]  Toutes les larmes[WAIT]  Toute la force[WAIT]  Faites-en de l'argile[WAIT]  L'usine sera toujours[WAIT]  dans nos souvenirs fragiles.[WAIT]  Pour toujours, et à jamais[WAIT]  Adieu, notre usine[WAIT]  Merci, notre usine[END]
+48-25E:©L'usine est fermée à compter d'aujourd'hui.[WAIT]  Nous vous remercions sincèrement pour tout.[WAIT]©"Chanson de l'usine"[BREAK]••••••••••••Parolesõ: Directeur Lebrun[WAIT]  Toute la sueur [WAIT]  Toutes les larmes[WAIT]  Toute la force[WAIT]  Faites-en de l'argile[WAIT]  L'usine sera toujours[WAIT]  dans nos souvenirs fragiles.[WAIT]  Pour toujours, et à jamais[WAIT]  Adieu, notre usine[WAIT]  Merci, notre usine[END]
 48-26:@The ropeway station is that-a-way.[END]
 48-26E:©La station de téléphérique est par là.[END]
 48-27:[END]
@@ -4623,7 +4623,7 @@
 50-24:@Good job![END]
 50-24E:@Beau travail·![END]
 50-25:@DCMC FAN CLUB[BREAK]  Members Wanted![WAIT]  D    Desperado[WAIT]  C    Crash[WAIT]  M   Mambo[WAIT]  C    Combo[WAIT]@We're looking for help for the cheering squad.[WAIT]@Try your best, and good luck![END]
-50-25E:©FAN-CLUB DCMC[BREAK]  On recherche des membres·![WAIT]  DØØØØDesperado[WAIT]  CØØØØCrash[WAIT]  MØØØMambo[WAIT]  CØØØØCombo[WAIT]©On a besoin d'aide du côté des pom-pom girls.[WAIT]©Merci, et bonne chance·![END]
+50-25E:©FAN-CLUB DCMC[BREAK]  On recherche des membres·![WAIT]  D••••Desperado[WAIT]  C••••Crash[WAIT]  M•••Mambo[WAIT]  C••••Combo[WAIT]©On a besoin d'aide du côté des pom-pom girls.[WAIT]©Merci, et bonne chance·![END]
 50-26:@DCMC Merchandise![BREAK]  Available ONLY at Club Titiboo![WAIT]@Come stop by if you wanna support us.[END]
 50-26E:©Goodies DCMC·![BREAK]  Disponibles EXCLUSIVEMENT au club Titiboo·![WAIT]©Venez faire un tour si vous souhaitez nous[BREAK]  soutenir·![END]
 50-27:@Hey. Dude.[END]
@@ -7125,7 +7125,7 @@
 123-10:@It looks like my dad wasn't hurt as bad as we[BREAK]  thought.[WAIT]@Mr. [FLINT 23 01 00].[BREAK]@Thank you so much.[END]
 123-10E:@Finalement mon papa a l'air d'être blessé moins[BREAK]  sévèrement qu'on le pensait.[WAIT]@M. [FLINT 23 01 00].[BREAK]@Merci beaucoup.[END]
 123-11:@  "Helping others out[BREAK]  Being helped by others[WAIT]    Helping others out"[BREAK]@Well? How do you like it, [FLINT 23 01 00]?[END]
-123-11E:@ØØØØ"Aider tous les autres[BREAK]Ø··Se faire aider par les autres[WAIT]ØØØØØØAider tous les autres"[BREAK]@Bien·? Qu'est-ce·que·tu·en·dis,·[FLINT 23 01 00]·?[END]
+123-11E:@••••"Aider tous les autres[BREAK]•··Se faire aider par les autres[WAIT]••••••Aider tous les autres"[BREAK]@Bien·? Qu'est-ce·que·tu·en·dis,·[FLINT 23 01 00]·?[END]
 // NOTE garder les 5-7-5 syllabes d'un haïku
 123-12:@Isaac said he was going into the mountains to[BREAK]  pick mushrooms...[WAIT]  I hope he's alright...[END]
 123-12E:@Isaac a dit qu'il partait dans les montagnes[BREAK]  pour cueillir des champignons...[WAIT]  J'espère que tout se passe bien...[END]
@@ -8372,7 +8372,7 @@
 
 [Container 163]
 163-0:@Why did you come in here?[WAIT]@What was your reason?[WAIT]    1. Because I was enamoring.[WAIT]    2. So you could flirt with me.[WAIT]    3. Because you like me.[WAIT]    4. Other[WAIT]  Which is it?![END]
-163-0E:@Pourquoi es-tu venu ici·?[WAIT]@Quelle en était la raison·?[WAIT]ØØØØ1. Parce que j'étais irrésistible.[WAIT]ØØØØ2. Pour pouvoir flirter avec moi.[WAIT]ØØØØ3. Parce que tu as des sentiments pour moi.[WAIT]ØØØØ4. Autre.[WAIT]  Alors·?![END]
+163-0E:@Pourquoi es-tu venu ici·?[WAIT]@Quelle en était la raison·?[WAIT]••••1. Parce que j'étais irrésistible.[WAIT]••••2. Pour pouvoir flirter avec moi.[WAIT]••••3. Parce que tu as des sentiments pour moi.[WAIT]••••4. Autre.[WAIT]  Alors·?![END]
 163-1:@I've decided to call you "Other".[WAIT]@You're so boring![END]
 163-1E:@On va dire "autre".[WAIT]@Tu es tellement barbant·![END]
 
@@ -18551,7 +18551,7 @@
 621-0E:©Descendre·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[BREAK][ENDCHOICES][END]
 // Repeats: 621-0, 665-0
 621-1:@This statue's title is written on the plate.[WAIT]          Title: "Heavy Metal"[END]
-621-1E:©Le titre de cette statue est écrit sur la plaque.[WAIT]ØØØØØØØØØØTitreõ: "Le poids des souvenirs"[END]
+621-1E:©Le titre de cette statue est écrit sur la plaque.[WAIT]••••••••••Titreõ: "Le poids des souvenirs"[END]
 // Repeats: 621-1, 665-1
 621-2:@*hop*[BREAK]  No, I'm not a ghost frog.[WAIT]@Shall I save your game?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 621-2E:@*hop*[BREAK]  Non, je ne suis pas une grenouille fantôme.[WAIT]@Dois-je sauvegarder la partie·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
@@ -19673,7 +19673,7 @@
 665-0E:©Descendre·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[BREAK][ENDCHOICES][END]
 // Repeats: 621-0, 665-0
 665-1:@This statue's title is written on the plate.[WAIT]          Title: "Heavy Metal"[END]
-665-1E:©Le titre de cette statue est écrit sur la plaque.[WAIT]ØØØØØØØØØØTitreõ: "Le poids des souvenirs"[END]
+665-1E:©Le titre de cette statue est écrit sur la plaque.[WAIT]••••••••••Titreõ: "Le poids des souvenirs"[END]
 // Repeats: 621-1, 665-1
 665-2:@*hop*[BREAK]  No, I'm not a ghost frog.[WAIT]@Shall I save your game?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 665-2E:@*hop*[BREAK]  Non, je ne suis pas une grenouille fantôme.[WAIT]@Dois-je sauvegarder la partie·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]

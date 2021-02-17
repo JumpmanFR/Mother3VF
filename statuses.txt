@@ -40,13 +40,13 @@
 11:No EXP
 11-E:Pas d'EXP
 12:Off Down (weak)
-12-E:Attÿ- (faible)
+12-E:Attï- (faible)
 13:Off Down(strng)
-13-E:Attÿ- (fort)
+13-E:Attï- (fort)
 14:Def Down (weak)
-14-E:Defÿ- (faible)
+14-E:Defï- (faible)
 15:Def Down(strng)
-15-E:Defÿ- (fort)
+15-E:Defï- (fort)
 16:Shield
 16-E:Bouclier
 17:Counter
@@ -58,27 +58,27 @@
 1A:PSI Counter
 1A-E:PSI Contre
 1B:Off Up (weak)
-1B-E:Attÿ+ (faible)
+1B-E:Attï+ (faible)
 1C:Off Up (strong)
-1C-E:Attÿ+ (fort)
+1C-E:Attï+ (fort)
 1D:Def Up (weak)
-1D-E:Defÿ+ (faible)
+1D-E:Defï+ (faible)
 1E:Def Up (strong)
-1E-E:Defÿ+ (fort)
+1E-E:Defï+ (fort)
 1F:Escape Failure
 1F-E:…chec fuite
 20:Dance
 20-E:Dansant
 21:Off Down (mid)
-21-E:Attÿ- (moyen)
+21-E:Attï- (moyen)
 22:Def Down (mid)
-22-E:Defÿ- (moyen)
+22-E:Defï- (moyen)
 23:Time Bomb
 23-E:Bombe ret.
 24:Parameters Up
-24-E:ParamËtresÿ+
+24-E:ParamËtresï+
 25:Parameters Down
-25-E:ParamËtresÿ-
+25-E:ParamËtresï-
 26:Refresh
 26-E:RafraÓchir 
 27:Fell
@@ -102,8 +102,8 @@
 30:Endure
 30-E:Endurance
 31:Off Up (mid)
-31-E:Attÿ+ (moyen)
+31-E:Attï+ (moyen)
 32:Def Up (mid)
-32-E:Defÿ+ (moyen)
+32-E:Defï+ (moyen)
 33:No Back Sprite
 33-E:Sprite dos abs
