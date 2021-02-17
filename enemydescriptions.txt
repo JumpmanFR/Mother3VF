@@ -314,11 +314,11 @@
 
 
 4E:[BREAK]So big, it needs capital[BREAK]letters. When it rolls into a[BREAK]ball, its shape just begs[BREAK]for it to be dribbled.[END]
-4E-E:Tellement gros qu'il luiÕfaut[BREAK]des majuscules. Quand il[BREAK]se met en boule, sa forme[BREAK]donne presque envie de[BREAK]dribbler avec.[END]
+4E-E:Tellement imposant qu'il lui[BREAK]faut des lettres capitales.[BREAK]Quand il se met en boule,[BREAK]sa forme donne presque[BREAK]envie de dribbler avec.[END]
 
 
 4F:Gets cranky once it's[BREAK]grown tired of acting[BREAK]upbeat, even cursing at[BREAK]the rattling of its own dry[BREAK]bones.[END]
-4F-E:Il devient grognon dès qu'il[BREAK]en a assez de faire le[BREAK]guignol, se plaignant même[BREAK]du cliquetis de ses propres[BREAK]vieux os tout secs.[END]
+4F-E:Il devient grognon dès qu'il[BREAK]en a assez de faire le[BREAK]guignol, se plaignant même[BREAK]du cliquetis de ses propres[BREAK]os tout secs.[END]
 
 
 50:[BREAK]He and Li'l Big Bro can't[BREAK]decide on their names. If[BREAK]it's any help, this little guy[BREAK]is the older bro.[END]
