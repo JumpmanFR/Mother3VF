@@ -23,7 +23,7 @@ Hippocanon
 Néo-Fassad
 Sourire sinistre
 Seigneur Passion
-ArbrÖaux·p'ti.·soós
+ArbrÖaux·p'ti.·soÑs
 PORKY 03
 PORKY 08
 Fassad miraculé
@@ -53,7 +53,7 @@ Buisson ambulant
 Méduse insouciante
 Singe de métal
 Lézard rocheux
-Chenille bouÍie
+Chenille bouƒie
 Yéti glisseur
 Congéloup
 Limace gluante
@@ -137,10 +137,10 @@ Super Robot atom.
 Défaitiste
 Têtelourde
 Joli Poseur
-Giga-ChenÌe bouÍie
+Giga-Chen£e bouƒie
 Patatueuse râpée
 Hippocanon
-Méca-GorÌe d'acier
+Méca-Gor£e d'acier
 Tatou zombifié
 Homme-sushi
 PORKY 07

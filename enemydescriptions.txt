@@ -30,7 +30,7 @@
 
 
 07:[BREAK]This Pigmask weapon[BREAK]raises an awful racket and[BREAK]belches black exhaust[BREAK]fumes without remorse.[END]
-07-E:[BREAK]Cette arme masqueporcine[BREAK]fait·un·raÍut·assourdissant[BREAK]et crache sans remords[BREAK]d'épaisses fumées noires.[END]
+07-E:[BREAK]Cette arme masqueporcine[BREAK]fait·un·raƒut·assourdissant[BREAK]et crache sans remords[BREAK]d'épaisses fumées noires.[END]
 
 
 08:[BREAK]The generator robot of[BREAK]Thunder Tower. It uses[BREAK]paralyzing chop attacks[BREAK]as if to say, "Take that!"[END]
@@ -562,7 +562,7 @@
 
 
 8C:Three years later, the[BREAK]Spud Bug is now a[BREAK]respectable adult. But[BREAK]what does that even mean[BREAK]for a bug?[END]
-8C-E:Trois ans plus tard, la[BREAK]Chenille bouÍie est deve-[BREAK]nue·une·adulte·respectable.[BREAK]Mais qu'est-ce que ça[BREAK]change pour un insecte·?[END]
+8C-E:Trois ans plus tard, la[BREAK]Chenille bouffie est deve-[BREAK]nue·une·adulte·respectable.[BREAK]Mais qu'est-ce que ça[BREAK]change pour un insecte·?[END]
 
 
 8D:[BREAK]A rustic combination of a[BREAK]baked yam and a toy[BREAK]helicopter. It grates its[BREAK]body and sends gunk flying.[END]

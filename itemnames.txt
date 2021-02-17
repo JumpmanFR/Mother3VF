@@ -440,7 +440,7 @@
 00DA: Scary Mask
 00DA-E: Masque effrayant
 00DB: Tickle Stick
-00DB-E: Plumeau ‡ chatouÃes
+00DB-E: Plumeau ‡ chatou£es
 00DC: Drawbridge Key
 00DC-E: ClÈ du pont-levis
 00DD: Noble Spittoon
@@ -470,7 +470,7 @@
 00E9: Carrier Pigeon
 00E9-E: Pigeon voyageur
 00EA: Razor and Lipstick
-00EA-E: Rasoir”∑rouge“lËvres
+00EA-E: Rasoir∆∑rouge¡lËvres
 00EB: Ionia's Memento
 00EB-E: Souvenir de Ionie
 00EC: Doria's Memento
