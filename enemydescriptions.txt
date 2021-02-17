@@ -6,7 +6,7 @@
 
 
 01:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-01-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+01-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 02:[BREAK][BREAK]Someone has modified this[BREAK]gentle reindeer to make it[BREAK]aggressive.[END]
@@ -194,7 +194,7 @@
 
 
 30:[BREAK]The look on his face[BREAK]growls, <Calm boars don't[BREAK]deserve to be called[BREAK]boars!>[END]
-30-E:[BREAK]Son regard semble direõ:[BREAK]<Les sangliers calmes ne[BREAK]méritent pas d'être[BREAK]appelés des sangliers·!>[END]
+30-E:[BREAK]Son regard semble dire•:[BREAK]<Les sangliers calmes ne[BREAK]méritent pas d'être[BREAK]appelés des sangliers·!>[END]
 
 
 31:[BREAK]Compared to snakes that[BREAK]always bite, it doesn't bite[BREAK]as much. But it does bite,[BREAK]so be careful anyway.[END]
@@ -881,144 +881,144 @@ DB-E:[END]
 
 
 DC:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-DC-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+DC-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 DD:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-DD-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+DD-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 DE:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-DE-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+DE-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 DF:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-DF-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+DF-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E0:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E0-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E0-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E1:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E1-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E1-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E2:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E2-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E2-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E3:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E3-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E3-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E4:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E4-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E4-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E5:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E5-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E5-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E6:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E6-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E6-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E7:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E7-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E7-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E8:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E8-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E8-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 E9:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-E9-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+E9-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 EA:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-EA-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+EA-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 EB:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-EB-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+EB-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 EC:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-EC-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+EC-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 ED:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-ED-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+ED-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 EE:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-EE-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+EE-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 EF:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-EF-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+EF-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F0:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F0-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F0-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F1:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F1-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F1-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F2:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F2-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F2-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F3:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F3-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F3-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F4:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F4-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F4-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F5:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F5-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F5-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F6:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F6-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F6-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F7:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F7-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F7-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F8:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F8-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F8-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 F9:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-F9-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+F9-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 FA:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-FA-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+FA-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 FB:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-FB-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+FB-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 FC:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-FC-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+FC-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 FD:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-FD-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+FD-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 FE:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-FE-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+FE-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
 
 
 FF:[BREAK]Ht: 100cm  Wt: 100kg[BREAK]Personality: Atrocious[BREAK]Habitat: Mountains[BREAK]Experience: 12345[END]
-FF-E:[BREAK]Tailleõ: 100cm  Poidsõ: 100kg[BREAK]Personnalitéõ: Atroce[BREAK]Habitatõ: Montagnes[BREAK]Expérience: 12345[END]
+FF-E:[BREAK]Taille•: 100cm  Poids•: 100kg[BREAK]Personnalité•: Atroce[BREAK]Habitat•: Montagnes[BREAK]Expérience: 12345[END]
