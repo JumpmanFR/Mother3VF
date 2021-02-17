@@ -5,15 +5,15 @@ Serpent d'eau Sohé
 Homme d'argile
 Méca-Drago
 Phacochar d'assaut
-Ageßdu·générateÁ
+Agent du·générateur
 Taupe-grillon
 Sourire sinistre
 Sourire radieux
 Porky
 Cyborg T.N.
 Hoýýe ýasqué
-Ýasquep¿c féroce
-Ýasquep¿c féroce
+Ýasqueporc féroce
+Ýasqueporc féroce
 Contrebasse·jalouse
 Porky
 Limace collante
@@ -122,7 +122,7 @@ Autruléphant
 Titanie ailée
 Morsinge
 Kangourequin mat.
-Ýaý'zellÖGúýauve
+Ýaý'zellÖGuiýauve
 Quasi-Méca-Lion
 Rhinocéroquette
 Sanglier remonté
@@ -169,14 +169,14 @@ M3C4-CH13N
 Al Caline
 PORKY 06
 Ýajor Ýasqueporc
-Co¡nel Ýasquep¿c
-Capit. Ýasquep¿c
-Plong. Ýasquep¿c
+Colonel Ýasqueporc
+Capit. Ýasqueporc
+Plong. Ýasqueporc
 Maître Maelström
 Homard rockeur
 Poisson roooond
 Aigle à tête bleue
-Robot dÄsécurité
+Robot de sécurité
 Éner'Vent
 PORKY 09
 PORKY 10

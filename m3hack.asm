@@ -1064,7 +1064,11 @@ org $91E0FD8; dd $000DA801 //Make it so this text box doesn't display its speake
 org $801D74C; bl main_script_hacks.speaker_different_unused_val_setup
 org $80239B8; bl main_script_hacks.speaker_different_unused_val_block
 
-
+//Allow more characters in notebooks
+org $8024F76; bl main_script_hacks.prepare_info_zone
+org $8009428; bl main_script_hacks.improve_notebook_printing; b $8009452
+org $80071D2; bl main_script_hacks.remove_tiles_showing_notebook
+org $80071DC; bl main_script_hacks.remove_tiles_cleaning_notebook
 
 
 //============================================================================================

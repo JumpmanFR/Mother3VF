@@ -182,7 +182,7 @@
 05A:Pigmask
 05A-E:CapòaóÄİasquep¿c
 05B:Pigmask
-05B-E:Co¡nel İasquep¿c
+05B-E:Colonel İasquep¿c
 05C:Clayman
 05C-E:Hoııe d'argile
 05D:Mr. Saturn
@@ -296,7 +296,7 @@
 093:Mole Cricket
 093-E:Taupe-grillon
 094:Elder Cricket
-094-E:Ancìítaupe-grÌon
+094-E:Ancien taupe-grÌon
 095:Duster
 095-E:Duster
 096:Kumatora

@@ -927,7 +927,7 @@
 1CC:New Pork City[END]
 1CC-E:New Pork City[END]
 1CD:New Pork City[BREAK]Leder's House[END]
-1CD-E:New Pork City[BREAK]Appartemeﬂd'…cheÕe[END]
+1CD-E:New Pork City[BREAK]Appartement∑d'…cheÕe[END]
 1CE:Murki Cave[END]
 1CE-E:Grotte obscure[END]
 1CF:Murki Cave[END]
