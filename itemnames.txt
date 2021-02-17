@@ -240,7 +240,7 @@
 0076: Pork Stew
 0076-E: Ragoût de porc
 0077: Sincerity Dumplings
-0077-E: Boulettes·dÖsincérité
+0077-E: Boulettes·dþsincérité
 0078: Strawberry Tofu
 0078-E: Tofu à la fraise
 0079: Lucky Rice
@@ -440,7 +440,7 @@
 00DA: Scary Mask
 00DA-E: Masque effrayant
 00DB: Tickle Stick
-00DB-E: Plumeau à chatou£es
+00DB-E: Plumeau à chatou¡es
 00DC: Drawbridge Key
 00DC-E: Clé du pont-levis
 00DD: Noble Spittoon
@@ -498,7 +498,7 @@
 00F7: Saturn Valley Map
 00F7-E: Carte Saturne
 00F8: Sea Floor Map
-00F8-E: CartÖdes·fonds·marins
+00F8-E: Cartþdes·fonds·marins
 00F9: Cave Map
 00F9-E: Carte de la grotte
 00FA: City Map

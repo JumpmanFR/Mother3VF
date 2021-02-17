@@ -86,19 +86,19 @@
 29:Duster
 29-E:Duster
 2A:Kumatora
-2A-E:Kuýatora
+2A-E:Kuüatora
 2B:Kumatora
-2B-E:Kuýatora
+2B-E:Kuüatora
 2C:Kumatora
-2C-E:Kuýatora
+2C-E:Kuüatora
 2D:Kumatora
-2D-E:Kuýatora
+2D-E:Kuüatora
 2E:Kumatora
-2E-E:Kuýatora
+2E-E:Kuüatora
 2F:Kumatora
-2F-E:Kuýatora
+2F-E:Kuüatora
 30:Kumatora
-30-E:Kuýatora
+30-E:Kuüatora
 31:Salsa
 31-E:Salsa
 32:Salsa
@@ -114,7 +114,7 @@
 37:Salsa
 37-E:Salsa
 38:Omelets
-38-E:Oýelette
+38-E:Oüelette
 39:Pasta
 39-E:Pâtes
 3A:Gratin
@@ -128,7 +128,7 @@
 3E:Rice
 3E-E:Riz
 3F:Love
-3F-E:Aýour
+3F-E:Aüour
 40:Home Run
 40-E:Ligue 1
 41:Mach
@@ -136,8 +136,8 @@
 42:Top Spec
 42-E:Hi-tech
 43:Mt. Fuji
-43-E:Ýt. Fuji
+43-E:Üt. Fuji
 44:Camera
-44-E:Cinéýa
+44-E:Cinéüa
 45:Watering
 45-E:Fleurs

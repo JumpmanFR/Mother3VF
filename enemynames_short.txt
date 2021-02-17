@@ -1,6 +1,6 @@
 (vide)
 Caribou reconstitué
-Ý. Passion
+Ü. Passion
 Serpent d'eau Sohé
 Homme d'argile
 Méca-Drago
@@ -11,9 +11,9 @@ Sourire sinistre
 Sourire radieux
 Porky
 Cyborg T.N.
-Hoýýe ýasqué
-Ýasqueporc féroce
-Ýasqueporc féroce
+Hoüüe üasqué
+Üasqueporc féroce
+Üasqueporc féroce
 Contrebasse·jalouse
 Porky
 Limace collante
@@ -23,16 +23,16 @@ Hippocanon
 Néo-Fassad
 Sourire sinistre
 Seigneur Passion
-ArbrÖaux·p'ti.·soÑs
+Arbrþaux·p'ti.·soÑs
 PORKY 03
 PORKY 08
 Fassad miraculé
-Ýajor Ýasqueporc
+Üajor Üasqueporc
 Grand Fourmilion
 Fenomeno
 Rhinocéroquette II
 Effrobot
-Steve ÝcCouic
+Steve ÜcCouic
 Pyromouche
 Méca-Lion
 Barrage routier
@@ -69,7 +69,7 @@ Titanie
 Pain givré
 Mme Magma
 Homme-volcan
-Hoýýe zoýbifié
+Hoüüe zoübifié
 Chien zombifié
 Âme persistante
 Tombe mobile
@@ -122,12 +122,12 @@ Autruléphant
 Titanie ailée
 Morsinge
 Kangourequin mat.
-Ýaý'zellÖGuiýauve
+Üaü'zellþGuiüauve
 Quasi-Méca-Lion
 Rhinocéroquette
 Sanglier remonté
 Cafard chromé
-VraiÖSouris·volante
+VraiþSouris·volante
 Choc électrique
 Robot inférieur
 Cyclove
@@ -137,30 +137,30 @@ Super Robot atom.
 Défaitiste
 Têtelourde
 Joli Poseur
-Giga-Chen£e bouƒie
+Giga-Chen¡e bouƒie
 Patatueuse râpée
 Hippocanon
-Méca-Gor£e d'acier
+Méca-Gor¡e d'acier
 Tatou zombifié
 Homme-sushi
 PORKY 07
 Octobot le retour
 Monstre du tapis
 Robot éclaireur
-Ýasqueporc
-Feýýe zoýbifiée
+Üasqueporc
+Feüüe zoübifiée
 Champi vicieux
 Batou l'Ancien
 Gigarachnide
 Souris gloutonne
-GuitarÄqui sanglote
+GuitarÞqui sanglote
 Tambour battu
 Taupe reconstituée
 Lion reconstitué
 Robot instable
 Pancarte WC
 Robot cassé
-Tas·d'¿dÁes·dépité
+Tas·d'ÓdÚes·dépité
 Cadeau surprise
 Accumulatueur
 Vis perdue
@@ -168,10 +168,10 @@ Bombe câline
 M3C4-CH13N
 Al Caline
 PORKY 06
-Ýajor Ýasqueporc
-Colonel Ýasqueporc
-Capit. Ýasqueporc
-Plong. Ýasqueporc
+Üajor Üasqueporc
+Colonel Üasqueporc
+Capit. Üasqueporc
+Plong. Üasqueporc
 Maître Maelström
 Homard rockeur
 Poisson roooond
@@ -187,16 +187,16 @@ Noirico
 Forêt minuscule
 PORKY 04
 PORKY 05
-Hoýýe ýasqué
-Hoýýe ýasqué
+Hoüüe üasqué
+Hoüüe üasqué
 (vide)
 Médiator
 Fourmilion
-Ýasquep¿c féroce
+ÜasquepÓc féroce
 Crabe
 Poisson-chat élec.
-Shiýýy Zýizz
-Ýagic
+Shiüüy Züizz
+Üagic
 Duster
 Clavier
 OJ
@@ -213,7 +213,7 @@ Brindille
 Vapeur 2
 Mini-Ascenseur
 Drago
-Ýasquep¿c féroce
+ÜasquepÓc féroce
 Train vert
 Bébé Drago
 Tres amigos
@@ -231,7 +231,7 @@ Explosion
 Fumée
 Tête de statue
 Carrousel
-ArmoirÖdÖNippolyte
+ArmoirþdþNippolyte
 Nuée de Flammou.
 Tissu Hinawa
 Poisson-chat élec.
@@ -243,7 +243,7 @@ Panneau
 Panneau
 (vide)
 Portrait
-Fantôýe aýical
+Fantôüe aüical
 Poubelle
 Boule en acier
 Œuf de lumière
@@ -264,7 +264,7 @@ Loupe
 Phylactère
 Panneau
 Pierre NON
-Kuýatora
+Kuüatora
 Fragment de pierre
 C'te voiture
 Drago noir
@@ -273,7 +273,7 @@ Taupe-grillon
 Vaisseau-truie
 (vide)
 Lydie
-Ýixolydie
+Üixolydie
 Hinaÿa
 Drago gelé
 Porky
@@ -311,7 +311,7 @@ Tente bleue
 Cheval de bois 1
 Cheval de bois 2
 Cheval de bois 3
-Bateau du 100Äétage
+Bateau du 100Þétage
 Mini Robot-Porky
 Panneau
 Charrette

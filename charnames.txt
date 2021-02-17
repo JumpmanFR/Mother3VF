@@ -22,11 +22,11 @@
 00A:Boney
 00A-E:Boney
 00B:Kumatora
-00B-E:Kuýatora
+00B-E:Kuüatora
 00C:Kumatora
-00C-E:Kuýatora
+00C-E:Kuüatora
 00D:Kumatora
-00D-E:Kuýatora
+00D-E:Kuüatora
 00E:Wess
 00E-E:Ÿess
 00F:Duster
@@ -38,7 +38,7 @@
 012:Salsa
 012-E:Salsa
 013:Samba
-013-E:Saýba
+013-E:Saüba
 014:Pusher
 014-E:Richard
 015:Elmore
@@ -62,17 +62,17 @@
 01E:Bateau
 01E-E:Jonas
 01F:Thomas
-01F-E:Thoýas
+01F-E:Thoüas
 020:Thomas
-020-E:Thoýas
+020-E:Thoüas
 021:Thomas
-021-E:Thoýas
+021-E:Thoüas
 022:Lisa
 022-E:Lisa
 023:Mike
-023-E:Ýichel
+023-E:Üichel
 024:Mike
-024-E:Ýichel
+024-E:Üichel
 025:Salsa
 025-E:Salsa
 026:Reggie
@@ -94,9 +94,9 @@
 02E:Abbey
 02E-E:Abbaye
 02F:Matt
-02F-E:Ýat
+02F-E:Üat
 030:Matt
-030-E:Ýat
+030-E:Üat
 031:Butch
 031-E:Boule
 032:Butch
@@ -178,15 +178,15 @@
 058:Alec
 058-E:Alec
 059:Pigmask
-059-E:Ýasqueporc
+059-E:Üasqueporc
 05A:Pigmask
-05A-E:CapitaÑÄÝasquep¿c
+05A-E:CapitaÑÞÜasquepÓc
 05B:Pigmask
-05B-E:Colonel Ýasquep¿c
+05B-E:Colonel ÜasquepÓc
 05C:Clayman
-05C-E:Hoýýe d'argile
+05C-E:Hoüüe d'argile
 05D:Mr. Saturn
-05D-E:Ý. Saturne
+05D-E:Ü. Saturne
 05E:Parrot
 05E-E:Perroquet
 05F:Skinhead
@@ -194,7 +194,7 @@
 060:Neckbeard
 060-E:Barbecou
 061:Guy
-061-E:Jeune hoýýe
+061-E:Jeune hoüüe
 062:Dr. Andonuts
 062-E:Dr Andonuts
 063:Attendant
@@ -206,13 +206,13 @@
 066:Fish
 066-E:Poisson
 067:Hermit Crab
-067-E:Bernard l'erýite
+067-E:Bernard l'erüite
 068:Lady
-068-E:Jeune feýýe
+068-E:Jeune feüüe
 069:M.Butterfly
-069-E:Ý.Papillon
+069-E:Ü.Papillon
 06A:Sheep
-06A-E:Ýouton
+06A-E:Üouton
 06B:Cow
 06B-E:Vache
 06C:Pig
@@ -224,11 +224,11 @@
 06F:OJ
 06F-E:OJ
 070:Shimmy Zmizz
-070-E:Shiýýy Zýizz
+070-E:Shiüüy Züizz
 071:Baccio
 071-E:Baccio
 072:Magic
-072-E:Ýagic
+072-E:Üagic
 073:Drago Pup
 073-E:Bébé Drago
 074:Ionia
@@ -240,7 +240,7 @@
 077:Lydia
 077-E:Lydie
 078:Mixolydia
-078-E:Ýixolydie
+078-E:Üixolydie
 079:Aeolia
 079-E:Éolie
 07A:Locria
@@ -266,21 +266,21 @@
 084:Porky
 084-E:Porky
 085:Man
-085-E:Hoýýe
+085-E:Hoüüe
 086:Frog
 086-E:Grenouille
 087:Bonfire
 087-E:Feu de joie
 088:Guy
-088-E:Jeune hoýýe
+088-E:Jeune hoüüe
 089:Boney
 089-E:Boney
 08A:Guy
-08A-E:Jeune hoýýe
+08A-E:Jeune hoüüe
 08B:Cow
 08B-E:Vache
 08C:Clayman
-08C-E:Hoýýe d'argile
+08C-E:Hoüüe d'argile
 08D:Lucas
 08D-E:Lucas
 08E:Leo-Leo
@@ -288,31 +288,31 @@
 08F:Duster
 08F-E:Duster
 090:Masked Man
-090-E:Hoýýe ýasqué
+090-E:Hoüüe üasqué
 091:Pigmask
-091-E:Ýasqueporc
+091-E:Üasqueporc
 092:Drago Pup
 092-E:Bébé Drago 
 093:Mole Cricket
 093-E:Taupe-grillon
 094:Elder Cricket
-094-E:Ancien taupe-gr£on
+094-E:Ancien taupe-gr¡on
 095:Duster
 095-E:Duster
 096:Kumatora
-096-E:Kuýatora
+096-E:Kuüatora
 097:Arrow Lizard
 097-E:Lézard-flèche
 098:O2 Machine
-098-E:ÝachinÄà oxygène
+098-E:ÜachinÞà oxygène
 099:Explorer
 099-E:Explorateur
 09A:Man
-09A-E:Hoýýe
+09A-E:Hoüüe
 09B:Woman
-09B-E:Feýýe
+09B-E:Feüüe
 09C:Lady
-09C-E:Jeune feýýe
+09C-E:Jeune feüüe
 09D:Alec
 09D-E:Alec
 09E:Ionia
@@ -330,21 +330,21 @@
 0A4:Stray Dog
 0A4-E:Chien errant
 0A5:Item Guy
-0A5-E:Gars dÄÅconsigne
+0A5-E:Gars dÞ£consigne
 0A6:Shadow
-0A6-E:Oýbre
+0A6-E:Oübre
 0A7:Sparrow
-0A7-E:Ýoineau
+0A7-E:Üoineau
 0A8:Sat.Fisher
 0A8-E:Pêcheur Sat.
 0A9:Old Man
-0A9-E:Vieux ýonsieur
+0A9-E:Vieux üonsieur
 0AA:Ocho
 0AA-E:Octo
 0AB:Man
-0AB-E:Hoýýe
+0AB-E:Hoüüe
 0AC:Woman
-0AC-E:Feýýe
+0AC-E:Feüüe
 0AD:Knock!
 0AD-E:Toc·!
 0AE:Knock!
@@ -354,9 +354,9 @@
 0B0:Bow
 0B0-E:Arc
 0B1:Guy
-0B1-E:Jeune hoýýe
+0B1-E:Jeune hoüüe
 0B2:Lady
-0B2-E:Jeune feýýe
+0B2-E:Jeune feüüe
 0B3:Flint
 0B3-E:Flint
 0B4:Fuel
@@ -366,11 +366,11 @@
 0B6:Fuel
 0B6-E:Fioul
 0B7:Old Guy
-0B7-E:Vieil hoýýe
+0B7-E:Vieil hoüüe
 0B8:Policeman
 0B8-E:Agent de police
 0B9:Tomas Jefferson
-0B9-E:Toýas Jefferson
+0B9-E:Toüas Jefferson
 0BA:Lucky
 0BA-E:Lucky
 0BB:Gorgeous
@@ -380,21 +380,21 @@
 0BD:Nut
 0BD-E:Noix
 0BE:Snowman
-0BE-E:Bonhoýýe dÄneige
+0BE-E:Bonhoüüe dÞneige
 0BF:Violet
 0BF-E:Violine
 0C0:Kumatora
-0C0-E:Kuýatora
+0C0-E:Kuüatora
 0C1:Magic
-0C1-E:Ýagic
+0C1-E:Üagic
 0C2:Pork Bomb
-0C2-E:Boýbe porcine
+0C2-E:Boübe porcine
 0C3:Person 195
 0C3-E:Personne 195
 0C4:Hmm...
-0C4-E:Hýý...
+0C4-E:Hüü...
 0C5:Paper Man
-0C5-E:Hoýýe papier
+0C5-E:Hoüüe papier
 0C6:Pork Saucer
 0C6-E:Soucoupe porcine
 0C7:Old Guy
@@ -402,7 +402,7 @@
 0C8:Interpreter
 0C8-E:Interprète
 0C9:Pig Book
-0C9-E:Carnet dÄcochon
+0C9-E:Carnet dÞcochon
 0CA:Fixed Robot
 0CA-E:Robot réparé
 0CB:Frog
@@ -410,19 +410,19 @@
 0CC:Bonfire
 0CC-E:Bonfire
 0CD:Sea Slug
-0CD-E:Liýace de ýer
+0CD-E:Liüace de üer
 0CE:Bucket Bros
 0CE-E:Frères de seaux
 0CF:(EMPTY)
 0CF-E:(VIDE)
 0D0:The Squeekz
-0D0-E:Steve ÝcCouic
+0D0-E:Steve ÜcCouic
 0D1:Pendant
 0D1-E:Pendentif
 0D2:Secrebot
 0D2-E:Secrébot
 0D3:Binoculars
-0D3-E:Juýelles
+0D3-E:Juüelles
 0D4:Robot
 0D4-E:Robot
 0D5:Pancho
@@ -430,13 +430,13 @@
 0D6:Pincho
 0D6-E:Pincho
 0D7:Tired Clayman
-0D7-E:Hoýýe d'argile K.O.
+0D7-E:Hoüüe d'argile K.O.
 0D8:Frog
 0D8-E:Grenouille
 0D9:Frog
 0D9-E:Grenouille
 0DA:Black Sheep
-0DA-E:Ýouton noir
+0DA-E:Üouton noir
 0DB:Jukebox
 0DB-E:Juke-box
 0DC:Scrapped Robot
@@ -446,13 +446,13 @@
 0DE:Talking Bones
 0DE-E:Os parlants
 0DF:Mr. Saturn
-0DF-E:Ý. Saturne
+0DF-E:Ü. Saturne
 0E0:Teddy Bear
 0E0-E:Ours en peluche
 0E1:Pigmask
-0E1-E:Ýasqueporc
+0E1-E:Üasqueporc
 0E2:Ant
-0E2-E:Fourýi
+0E2-E:Fourüi
 0E3:Person 227
 0E3-E:Personne 227
 0E4:Pigskin Rug
@@ -462,23 +462,23 @@
 0E6:Mole
 0E6-E:Taupe
 0E7:Sheep
-0E7-E:Ýouton
+0E7-E:Üouton
 0E8:Person 232
 0E8-E:Personne 232
 0E9:Sheep
-0E9-E:Ýouton
+0E9-E:Üouton
 0EA:CpnExchang
 0EA-E:CpnExchang
 0EB:Guy
-0EB-E:Jeune hoýýe
+0EB-E:Jeune hoüüe
 0EC:Guy
-0EC-E:Jeune hoýýe
+0EC-E:Jeune hoüüe
 0ED:Boney
 0ED-E:Boney
 0EE:Bird
 0EE-E:Oiseau
 0EF:Man
-0EF-E:Hoýýe
+0EF-E:Hoüüe
 0F0:Frog
 0F0-E:Grenouille
 0F1:Lucas
@@ -490,17 +490,17 @@
 0F4:Flint
 0F4-E:Flint
 0F5:Guy
-0F5-E:Jeune hoýýe
+0F5-E:Jeune hoüüe
 0F6:Duster
 0F6-E:Duster
 0F7:Person 249
 0F7-E:Personne 249
 0F8:Limousine
-0F8-E:Liýousine
+0F8-E:Liüousine
 0F9:Slot Machine
-0F9-E:Ýachine à sous
+0F9-E:Üachine à sous
 0FA:Kumatora
-0FA-E:Kuýatora
+0FA-E:Kuüatora
 0FB:Wess
 0FB-E:Ÿess
 0FC:Salsa
@@ -510,27 +510,27 @@
 0FE:Person 254
 0FE-E:Personne 254
 0FF:Thomas
-0FF-E:Thoýas
+0FF-E:Thoüas
 100:Boat
 100-E:Bateau
 101:Man
-101-E:Hoýýe
+101-E:Hoüüe
 102:Mixolydia
-102-E:Ýixolydie
+102-E:Üixolydie
 103:Item Guy
-103-E:Gars dÄÅconsigne
+103-E:Gars dÞ£consigne
 104:Moved Rock
-104-E:Rocher ýouvant
+104-E:Rocher üouvant
 105:Blocking Rock
 105-E:Rocher bloquant
 106:Woman
-106-E:Feýýe
+106-E:Feüüe
 107:Woman
-107-E:Feýýe
+107-E:Feüüe
 108:Woman
-108-E:Feýýe
+108-E:Feüüe
 109:Woman
-109-E:Feýýe
+109-E:Feüüe
 10A:Crowd
 10A-E:Foule
 10B:Host
@@ -538,35 +538,35 @@
 10C:Chauffeur
 10C-E:Chauffeur
 10D:Word on the Wind
-10D-E:Vent des ruýeurs
+10D-E:Vent des ruüeurs
 10E:Man
-10E-E:Hoýýe
+10E-E:Hoüüe
 10F:Frog
 10F-E:Grenouille
 110:Frog
 110-E:Grenouille
 111:O2 Machine
-111-E:ÝachinÄà oxygène
+111-E:ÜachinÞà oxygène
 112:Wan Sum Dung
 112-E:Aboul Labouz
 113:Man
-113-E:Hoýýe
+113-E:Hoüüe
 114:Gift Box
 114-E:Paquet cadeau
 115:Woman
-115-E:Feýýe
+115-E:Feüüe
 116:Man
-116-E:Hoýýe
+116-E:Hoüüe
 117:Guy
-117-E:Jeune hoýýe
+117-E:Jeune hoüüe
 118:Woman
-118-E:Feýýe
+118-E:Feüüe
 119:Old Woman
-119-E:Vieille feýýe
+119-E:Vieille feüüe
 11A:(EMPTY)
 11A-E:(VIDE)
 11B:Kumatora
-11B-E:Kuýatora
+11B-E:Kuüatora
 11C:Hippo Researcher
 11C-E:Hippo-chercheur
 11D:Lucas
@@ -578,24 +578,24 @@
 120:Leder
 120-E:Écheffe
 121:Man
-121-E:Hoýýe
+121-E:Hoüüe
 122:Boy
 122-E:Garçon
 123:Woman
-123-E:Feýýe
+123-E:Feüüe
 124:Cat
 124-E:Chat
 125:Man
-125-E:Hoýýe
+125-E:Hoüüe
 126:Lady
-126-E:Jeune feýýe
+126-E:Jeune feüüe
 127:Guy
-127-E:Jeune hoýýe
+127-E:Jeune hoüüe
 128:(EMPTY)
 128-E:(VIDE)
 129:Man
-129-E:Hoýýe
+129-E:Hoüüe
 12A:Robot
 12A-E:Robot
 12B:Mr. Saturn
-12B-E:Ý. Saturne
+12B-E:Ü. Saturne

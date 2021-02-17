@@ -89,7 +89,7 @@
 29:Scary Mask
 29-E:Masque effrayant
 2A:Tickle Stick
-2A-E:Plumeau à chatou£es
+2A-E:Plumeau à chatou¡es
 2B:Boney: Sniff
 2B-E:Boney : Renifler
 2C:Sniff
