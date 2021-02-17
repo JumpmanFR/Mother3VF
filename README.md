@@ -1,6 +1,6 @@
 # Mother3VF
 
-Ce dépôt contient l’ensemble des sources du projet de traduction de MOTHER 3 en français, et des outils ayant servi à la réalisation de ce projet. Certains fichiers faisaient partie des [sources de la traduction anglaise](http://mother3.fobby.net/tools) et ont été soit modifiés pour nos propres besoins, soit laissés intacts.
+Ce dépôt contient l’ensemble des sources du projet de traduction de MOTHER 3 en français, et des outils ayant servi à la réalisation de ce projet. Certains fichiers faisaient partie des [sources de la traduction anglaise](http://mother3.fobby.net/tools) et ont été soit modifiés pour nos propres besoins, soit repris tels quels.
 
 Vous trouverez ici :
 * l’intégralité des textes français
