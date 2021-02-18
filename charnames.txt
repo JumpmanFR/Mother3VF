@@ -180,7 +180,7 @@
 059:Pigmask
 059-E:‹asqueporc
 05A:Pigmask
-05A-E:Capita—e ‹asqueporc
+05A-E:Capitainﬁ‹asqueporc
 05B:Pigmask
 05B-E:Colonel ‹asqueporc
 05C:Clayman
