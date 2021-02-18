@@ -180,9 +180,9 @@
 059:Pigmask
 059-E:Üasqueporc
 05A:Pigmask
-05A-E:CapitaÑÞÜasquepÓc
+05A-E:CapitaÑe Üasqueporc
 05B:Pigmask
-05B-E:Colonel ÜasquepÓc
+05B-E:Colonel Üasqueporc
 05C:Clayman
 05C-E:Hoüüe d'argile
 05D:Mr. Saturn
@@ -304,7 +304,7 @@
 097:Arrow Lizard
 097-E:Lézard-flèche
 098:O2 Machine
-098-E:ÜachinÞà oxygène
+098-E:Üachine à oxygène
 099:Explorer
 099-E:Explorateur
 09A:Man
@@ -330,7 +330,7 @@
 0A4:Stray Dog
 0A4-E:Chien errant
 0A5:Item Guy
-0A5-E:Gars dÞ£consigne
+0A5-E:Gars de la consigne
 0A6:Shadow
 0A6-E:Oübre
 0A7:Sparrow
@@ -380,7 +380,7 @@
 0BD:Nut
 0BD-E:Noix
 0BE:Snowman
-0BE-E:Bonhoüüe dÞneige
+0BE-E:Bonhoüüe de neige
 0BF:Violet
 0BF-E:Violine
 0C0:Kumatora
@@ -402,7 +402,7 @@
 0C8:Interpreter
 0C8-E:Interprète
 0C9:Pig Book
-0C9-E:Carnet dÞcochon
+0C9-E:Carnet de cochon
 0CA:Fixed Robot
 0CA-E:Robot réparé
 0CB:Frog
@@ -518,7 +518,7 @@
 102:Mixolydia
 102-E:Üixolydie
 103:Item Guy
-103-E:Gars dÞ£consigne
+103-E:Gars de la consigne
 104:Moved Rock
 104-E:Rocher üouvant
 105:Blocking Rock
@@ -546,7 +546,7 @@
 110:Frog
 110-E:Grenouille
 111:O2 Machine
-111-E:ÜachinÞà oxygène
+111-E:Üachine à oxygène
 112:Wan Sum Dung
 112-E:Aboul Labouz
 113:Man

@@ -5,7 +5,7 @@ Serpent d'eau Sohé
 Homme d'argile
 Méca-Drago
 Phacochar d'assaut
-Agent du·générateur
+Agent·du·générateur
 Taupe-grillon
 Sourire sinistre
 Sourire radieux
@@ -53,7 +53,7 @@ Buisson ambulant
 Méduse insouciante
 Singe de métal
 Lézard rocheux
-Chenille bouƒie
+Chenille bouffie
 Yéti glisseur
 Congéloup
 Limace gluante
@@ -122,7 +122,7 @@ Autruléphant
 Titanie ailée
 Morsinge
 Kangourequin mat.
-Üaü'zellþGuiüauve
+Üaü'zelle·Guiüauve
 Quasi-Méca-Lion
 Rhinocéroquette
 Sanglier remonté
@@ -137,7 +137,7 @@ Super Robot atom.
 Défaitiste
 Têtelourde
 Joli Poseur
-Giga-Chen¡e bouƒie
+Giga-Chen¡e·bouffie
 Patatueuse râpée
 Hippocanon
 Méca-Gor¡e d'acier
@@ -160,7 +160,7 @@ Lion reconstitué
 Robot instable
 Pancarte WC
 Robot cassé
-Tas·d'ÓdÚes·dépité
+Tas·d'ordÚes·dépité
 Cadeau surprise
 Accumulatueur
 Vis perdue
@@ -192,7 +192,7 @@ Hoüüe üasqué
 (vide)
 Médiator
 Fourmilion
-ÜasquepÓc féroce
+Üasqueporc féroce
 Crabe
 Poisson-chat élec.
 Shiüüy Züizz
@@ -213,7 +213,7 @@ Brindille
 Vapeur 2
 Mini-Ascenseur
 Drago
-ÜasquepÓc féroce
+Üasqueporc féroce
 Train vert
 Bébé Drago
 Tres amigos
@@ -231,7 +231,7 @@ Explosion
 Fumée
 Tête de statue
 Carrousel
-ArmoirþdþNippolyte
+Armoire de Nippo.
 Nuée de Flammou.
 Tissu Hinawa
 Poisson-chat élec.
@@ -311,7 +311,7 @@ Tente bleue
 Cheval de bois 1
 Cheval de bois 2
 Cheval de bois 3
-Bateau du 100Þétage
+Bateau du 100e étg.
 Mini Robot-Porky
 Panneau
 Charrette

@@ -92,13 +92,13 @@
 2D:(EMPTY)
 2D-E:(VIDE)
 2E:Offense Up [ALPHA]
-2E-E:Attaquþaugmentée·[ALPHA]
+2E-E:Attaque·augmentée·[ALPHA]
 2F:Offense Up [OMEGA]
-2F-E:Attaquþaugmentée·[OMEGA]
+2F-E:Attaque·augmentée·[OMEGA]
 30:Defense Up [ALPHA]
-30-E:Défensþaugmentée·[ALPHA]
+30-E:Défense·augmentée·[ALPHA]
 31:Defense Up [OMEGA]
-31-E:Défensþaugmentée·[OMEGA]
+31-E:Défense·augmentée·[OMEGA]
 32:(EMPTY)
 32-E:(VIDE)
 33:Hypnosis [ALPHA]
@@ -116,13 +116,13 @@
 39:(EMPTY)
 39-E:(VIDE)
 3A:Offense Down [ALPHA]
-3A-E:AttaquÞdiminuée•[ALPHA]
+3A-E:Attaque diminuée•[ALPHA]
 3B:Offense Down [OMEGA]
-3B-E:AttaquÞdiminuée•[OMEGA]
+3B-E:Attaque diminuée•[OMEGA]
 3C:Defense Down [ALPHA]
-3C-E:DéfensÞdiminuée•[ALPHA]
+3C-E:Défense diminuée•[ALPHA]
 3D:Defense Down [OMEGA]
-3D-E:DéfensÞdiminuée•[OMEGA]
+3D-E:Défense diminuée•[OMEGA]
 3E:(EMPTY)
 3E-E:(VIDE)
 3F:(EMPTY)
