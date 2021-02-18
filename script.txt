@@ -3019,7 +3019,7 @@
 32-20:@Cease this violence![WAIT]@I'm no bug! I'm an old man![END]
 32-20E:@Veuillez cesser cette violence·![WAIT]@Je ne suis pas un insecte·! Je suis un vieil[BREAK]¬homme·![END]
 32-21:                 @[LUCAS 23 02 00]![WAIT]¬                 Quit snooping around me![WAIT]¬                 Don't get in my way![END]
-32-21E:•••••••••••···@[LUCAS 23 02 00]·![WAIT][MENUSPACEYES]•••••Cesse de me tourner autour·![WAIT][MENUSPACEYES]•••••NÞte mets pas en travers[BREAK][MENUSPACEYES]•••••de mon chemin·![END]
+32-21E:•••••••••••···@[LUCAS 23 02 00]·![WAIT][MENUSPACEYES]•••¬Cesse de me tourner autour·![WAIT][MENUSPACEYES]•••¬Ne te mets pas en travers de[BREAK]•••••••••••••¬mon chemin·![END]
 32-22:@[LUCAS 23 02 00]...[WAIT]@I really wish you would put a Happy Box in your[BREAK]¬home already,[WAIT]¬so you can be happy just like everyone else[BREAK]¬here.[END]
 32-22E:@[LUCAS 23 02 00]...[WAIT]@J'aimerais tellement que tu aies déjà installé[BREAK]¬une Boîte à bonheur chez toi,[WAIT]¬pour que tu puisses être heureux comme tout[BREAK]¬le monde ici.[END]
 32-23:@I'm always hoping for that day.[END]
@@ -16494,7 +16494,7 @@
 443-27:@I AM LI'L MISS MARSHMALLOW.[WAIT]@THIS IS MASTER KING P'S ROOM.[END]
 443-27E:@JE SUIS LA P'TITE MAM'ZELLE GUIMAUVE.[WAIT]@ICI, C'EST LA CHAMBRE DE MAÎTRE LE ROI P.[END]
 443-28:@IF YOU TAKE MASTER KING P'S VERY[BREAK]¬PRECIOUS "FRIEND'S YO-YO" I WILL BE MAD.[WAIT]¬MAD! MAD![BREAK]¬VERY MAD MAD MAD MAD!!!!!![END]
-443-28E:@SI VOUS TOUCHEZ AU TRÈS PRÉCIEUX "YO-YO[BREAK]¬DU·COPAIN"·DE MAÎTRE LE ROI·P,·ÇA·IRA·MAL.[WAIT]¬MAL·! MAL·![BREAK]¬TRÈS TRÈS TRÈS TRÈS MAL·!!!!!![END]
+443-28E:@SI VOUS TOUCHEZ AU TRÈS PRÉCIEUX "YO-YO[BREAK]¬DU·COPAIN"·DE MAÎTRE LE ROI·P,·ÇA IRA·MAL.[WAIT]¬MAL·! MAL·![BREAK]¬TRÈS TRÈS TRÈS TRÈS MAL·!!!!!![END]
 // have to manually write the name here so it will be all-caps
 // ITEM
 443-29:@YOU REAP WHAT YOU SOW SO SEW SO-SO[WAIT]¬GREETINGS CHEESE POPSICLE[WAIT]¬THE NUMBER YOU HAVE DIALED[WAIT]¬IS CURRENTLY OUT OF PORK CHOPS[WAIT]¬FROM EAST TO WEST IT GOES GOES[WAIT]¬BROKEN BROKEN[WAIT]¬OH SO SOW SEW BROKEN[WAIT]¬*whir* *clank* *clunk*[END]
@@ -22209,7 +22209,7 @@
 894-9E:@Quelle table·?[BREAK][MENU 06 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Table 1[RIGHT][BREAK]¬[LEFT]Table 2[RIGHT][BREAK]¬[LEFT]Table 3[RIGHT][BREAK]¬[LEFT]Table 4[RIGHT][BREAK]¬[LEFT]Table 5[RIGHT][BREAK][ENDCHOICES][END]
 // Repeats: 894-0, 894-9
 894-10:@GET ITEM [ITEM 5D 00]?[BREAK][MENU 02 00][MENUSPACENO]No[MENUSPACENO]Yes[ENDCHOICES][END]
-894-10E:@PRENDRE L'OBJET [ITEM 5D 00]·?[BREAK][MENU 02 00][MENUSPACENO]Non[MENUSPACENO]Oui[ENDCHOICES][END]
+894-10E:@OBTENIR [ITEM 5D 00]·?[BREAK][MENU 02 00][MENUSPACEYES]Non[MENUSPACENO]Oui[ENDCHOICES][END]
 894-11:@Got [EF 11][ITEM 6F 00]![END]
 894-11E:©Vous obtenez [EF 11][ITEM 6F 00]·![END]
 894-12:@SAVE?[BREAK][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
