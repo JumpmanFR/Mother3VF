@@ -11,12 +11,12 @@ public class CheckOverflow
 	static Map<String, String> charTags;
 	static Map<String, String> items;
 	
-	static int DEFAULT_CHAR_LENGTH = 10;
-	static int MAX_LINE_LENGTH = 210;
+	static final int DEFAULT_CHAR_LENGTH = 10;
+	static final int MAX_LINE_LENGTH = 210;
     
-    static boolean CHECK_TOO_SHORT_MODE = false;
+	static int TOO_SHORT_MODE_MIN_LINE_LENGTH = 170;
     
-    static String testFirstWord = "";
+	static boolean checkTooShortMode = false;
     
 	public static void main(String[] args) {
 		fillWidths();
@@ -27,6 +27,7 @@ public class CheckOverflow
 		int nbDone = 0;
 			
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(args[0]), "UTF8"))) {
+			checkTooShortMode = (args.length > 1 && "1".equals(args[1]));
 			String line;
 			while ((line = br.readLine()) != null) {
 			   int result = checkLine(line);
@@ -39,6 +40,7 @@ public class CheckOverflow
 			}
 		} catch (IOException e) {
 			System.out.println("FILE ERROR");
+			System.exit(-1);
 		}
 		System.out.println("Nombre de lignes : " + nbLines);
 		System.out.println("Effectué : " + nbDone);
@@ -79,22 +81,29 @@ public class CheckOverflow
 		
 		if (line.matches("^.*\\[ITEM ([0-9A-F]+) [0-9A-F]+\\]?.*$")) {
 		    String itemId = line.replaceAll("^.*\\[ITEM ([0-9A-F]+) [0-9A-F]+\\]?.*$", "$1");
-    		line = line.replaceAll("\\[ITEM ([0-9A-F]+) [0-9A-F]+\\]", items.get(itemId));
+			String item;
+			if (items.containsKey(itemId)) {
+				item = items.get(itemId);
+			} else {
+				item = "WWWWWWWWWWWWWWWW";
+			}
+    		line = line.replaceAll("\\[ITEM ([0-9A-F]+) [0-9A-F]+\\]", item);
 		}
-
+		line = line.replaceAll("\"(.*)\"", "<$1>");
+		line = line.replaceAll("\"", "<");
 		line = line.replaceAll("\\[ENEMYNAME [0-9A-F]+ [0-9A-F]+\\]", "WWWWWWWWWWWW");
 		line = line.replaceAll("\\[SOUND [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[HOTSPRING [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[PAUSE [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[COLOR [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[[0-9A-F][0-9A-F] [0-9A-F][0-9A-F] [0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]", "WWWWWWWW");
-		line = line.replaceAll("\\[EF E[0-9A-F]\\]", "e");
+		line = line.replaceAll("\\[EF E[0-9A-F]\\]", "e•");
 		line = line.replaceAll("\\[[0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]", "00");
 		line = line.replaceAll("\\[[A-Z]+ [0-9A-F]+ [0-9A-F]+ [0-9A-F]+\\]", "WWWWWWWW");
 		line = line.replaceAll("\\[[A-Z]+ [0-9A-F]+ [0-9A-F]+ [0-9A-F]+ [0-9A-F]+ [0-9A-F]+\\]", "WWWWWWWW");
 		line = line.replaceAll("\\[FAVFOOD\\]", "WWWWWWWWW");
 		line = line.replaceAll("\\[FAVTHING\\]", "WWWWWWWW");
-		line = line.replaceAll("\\[MENU [0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]", "");
+		line = line.replaceAll("\\[MENU [0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]", "µ");
 		line = line.replaceAll("\\[ENDCHOICES]", "");
 		line = line.replaceAll("\\[CENTER\\]", "");
 		line = line.replaceAll("\\[EVENT\\]", "");
@@ -106,8 +115,9 @@ public class CheckOverflow
             String subline = sublines[k];
             String[] subsublines = subline.split("\\[BREAK\\]");
             
-            boolean checkTooShort = subline.startsWith("@");
+            boolean doCheckTooShort = subline.startsWith("@"); // filter out Hinawa’s letter and such
             int previousSubsublineWidth = 0;
+            String firstWordInSubsubline = "";
             int firstWordInSubsublineWidth = 0;
                     
             for (int i = 0; i < subsublines.length; i++) {
@@ -118,19 +128,25 @@ public class CheckOverflow
                     width += getStringWidth(spans[j], (j % 2) == 1);
                 }
                 if (spans.length > 0) {
-                    firstWordInSubsublineWidth = getFirstWordWidth(spans[0], false);
+                    firstWordInSubsubline = getFirstWord(spans[0], false);
+					firstWordInSubsublineWidth = getStringWidth(firstWordInSubsubline, false);
                 }
                 if (width > MAX_LINE_LENGTH) {
                     /*try {
                         System.in.read();
                     } catch (IOException e) {}*/
                     if (lineId.endsWith("E")) {
-                        System.out.println("LIGNE TROP LONGUE À " + lineId + " (width : " + width + ") : " + subsubline);
+                        System.out.println("\u001B[31mLIGNE TROP LONGUE À " + lineId + " (taille : " + width + ") : " + subsubline);
                     }
                 }
                 
-                if (CHECK_TOO_SHORT_MODE && checkTooShort && previousSubsublineWidth > 0 && previousSubsublineWidth + firstWordInSubsublineWidth < MAX_LINE_LENGTH && lineId.endsWith("E")) {
-                    System.out.println("LIGNE TROP COURTE À " + lineId + "(taille : " + previousSubsublineWidth + " : " + subsublines[i - 1] + " // " + subsublines[i]);
+                if (checkTooShortMode && doCheckTooShort
+				&& previousSubsublineWidth > 0
+				&& previousSubsublineWidth > TOO_SHORT_MODE_MIN_LINE_LENGTH
+				&& firstWordInSubsublineWidth > 0
+				&& previousSubsublineWidth + firstWordInSubsublineWidth < MAX_LINE_LENGTH
+				&& lineId.endsWith("E")) {
+                    System.out.println("\u001B[35mLIGNE TROP COURTE À " + lineId + " (taille : " + previousSubsublineWidth + " : " + subsublines[i - 1] + " // " + firstWordInSubsubline + "(" + firstWordInSubsublineWidth + ")");
                 }
                 previousSubsublineWidth = width;
             }
@@ -160,14 +176,22 @@ public class CheckOverflow
 		return string;
 	}
     
-    private static int getFirstWordWidth(String string, boolean alternate) {
+    private static String getFirstWord(String string, boolean alternate) {
         String[] words = string.split(" ");
-        if (words.length > 2) {
-            String firstWord = words[2];
-            testFirstWord = string;
-            return getStringWidth(firstWord + " ", false);
+        if (words.length > 0) {
+            String firstWord = words[0];
+			if (firstWord.startsWith("¬")) {
+				firstWord = firstWord.substring(1);
+			} else if (firstWord.startsWith("@") || (firstWord.startsWith("µ"))) { // paragraph or menu
+				return "";
+			}
+			if (words.length > 1 && 
+				(firstWord.matches("M\\.|Maître|\\d+|PK|\\.\\.\\.") || words[1].matches("♥"))) {
+				firstWord += " " + words[1];
+			}
+            return firstWord + " ";
         }
-        return 0;
+        return "";
     }
 	
 	private static int getStringWidth(String string, boolean alternate) {
@@ -376,6 +400,7 @@ public class CheckOverflow
 		normalWidths.put("¶", 15);
 		normalWidths.put("", 0);
 		normalWidths.put("♥", 8);
+		normalWidths.put("µ", 0); // menu mark
 
 		saturnWidths.put(" ", 5);
 		saturnWidths.put("@", 10);
@@ -447,6 +472,7 @@ public class CheckOverflow
 		saturnWidths.put("É", 12);
 		saturnWidths.put("Œ", 15);
 		saturnWidths.put("È", 12);
+		saturnWidths.put("µ", 0); // menu mark
 	}
 	
 	private static void fillItems() {
@@ -691,21 +717,5 @@ public class CheckOverflow
 		items.put("ED", "Souvenir de Phrygie");
 		items.put("EE", "Souvenir de Lydie");
 		items.put("EF", "Souvenir de Mixie");
-		items.put("F0", "Souvenir d'Éolie");
-		items.put("F1", "Carte de Tazmily");
-		items.put("F2", "Plan d'Osohé");
-		items.put("F3", "Carte souterraine");
-		items.put("F4", "Carte ferroviaire");
-		items.put("F5", "Carte de zone");
-		items.put("F6", "Plan du grenier");
-		items.put("F7", "Carte Saturne");
-		items.put("F8", "Cartþdes·fonds·marins");
-		items.put("F9", "Carte de la grotte");
-		items.put("FA", "Carte de la ville");
-		items.put("FB", "Plan de la tour");
-		items.put("FC", "Carte du labo");
-		items.put("FD", "Carte du terrier");
-		items.put("FE", "Carte routière");
-		items.put("FF", "Plan de l'usine");		
 	}
 }
