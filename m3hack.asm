@@ -673,6 +673,14 @@ org $804F56C; db $32,$F6
 //org $8053D1C; db $09
 //org $8053D8C; db $09
 
+// Make the game reprint stuff only when needed
+org $804DC7A; bl naming_screen_hacks.pressed_a_check_print
+org $804DCEC; bl naming_screen_hacks.pressed_b_check_print
+org $8042968; bl naming_screen_hacks.compare_currently_displayed_entry
+org $8042B90; bl naming_screen_hacks.compare_currently_displayed_entry
+org $8042EFC; bl naming_screen_hacks.compare_currently_displayed_entry
+org $804C77E; bl naming_screen_hacks.reprint_invalid_duplicated
+org $804E560; bl naming_screen_hacks.reprint_after_invalid_duplicated
 
 // Disable L and R alphabet switching
 org $803E79F; db $E0
@@ -2184,27 +2192,16 @@ org $9199A8C; dd {NEW_PLACE_2}-$9198C10
 
 
 //============================================================================================
-//                                    SUMMARY FIXING
+//                                   SUMMARY FIXING
 //============================================================================================
 
+//OAM hacks for the summary
 
-// OAM hacks for the summary
-
-
-// Set/Reset the flag, so everything works
-org $804A2EA; bl summary_hacks.flag_reset
-
-
-// If the cursor’s position changes, refresh the OAM
-org $8042F30; bl summary_hacks.check_change
-
+//Set/Reset the flag, so everything works
+org $804A2EA; bl naming_screen_hacks.flag_reset
 
 //Stop the refreshing of the OAM if the flag is set
-org $803E6F0; bl summary_hacks.impede_refresh_oam
-
-
-
-
+org $803E6F0; bl naming_screen_hacks.impede_refresh_oam
 
 
 //============================================================================================

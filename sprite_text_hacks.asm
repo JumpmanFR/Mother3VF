@@ -1592,10 +1592,15 @@ bx r0
 
 .main_routine:
 push {r4-r7,lr}
-ldr r4,=#0x2003F04 //Do we need to print?
+ldr  r4,=#0x2003F04
 ldrb r7,[r4,#0]
-cmp r7,#2 //If this is 2, we don’t!
-beq .way_out
+cmp  r7,#2
+bne  +
+ldr  r7,=#0x201A288                       //If this is the naming screen, then stop printing if the flag is active.
+ldrb r7,[r7,#0]
+cmp  r7,#0x11
+beq  .way_out
++
 mov  r7,r10
 mov  r6,r9
 mov  r5,r8
