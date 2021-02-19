@@ -87,6 +87,7 @@
 !logic_pointer_36C.bin
 !logic_1CF_pointers.bin
 !logic_142_pointers.bin
+!gfx_menu_text_swapped_palette.bin
 !gfx_chaptertitles_\[c\].bin
 !gfx_debug_\[c\].bin
 !gfx_flavours.bin
@@ -192,12 +193,16 @@
 !gfx_starsprite.bin
 !gfx_statues_\[c\].bin
 !gfx_statues_pal.bin
+!CheckOverflow.java
+!CheckRepeats.java
 !textconv.exe
 !soundconv.exe
 !m3preweld.exe
 !M3FontEditor.exe
 !TextInjector.exe
+!ups.exe
 !xkas.exe
+!checkoverflow.bat
+!checkrepeats.bat
 !j.bat
 !makeups.bat
-!gfx_menu_text_swapped_palette.bin

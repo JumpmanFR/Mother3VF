@@ -138,7 +138,7 @@
 0-59E:©Vous obtenez [EF 11][81 FF]·![END]
 0-60:@Your map's been marked![END]
 0-60E:©L'endroit est à présent indiqué sur votre carte·![END]
-// Repeats: 0-60, 3-10, 10-50, 32-50, 222-50, 506-50
+// Repeats: 0-60, 3-10, 32-50
 0-61:@There's a hole inside the fireplace.[WAIT]@Fall down it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 0-61E:©Il y a un trou dans la cheminée.[WAIT]©Sauter dedans·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 0-62:@It's empty...[END]
@@ -772,7 +772,7 @@
 3-9E:@Allez vite voir s'il a besoin d'aide.[WAIT]@Ah, oups. Où ai-je la tête·?[PAUSE 0F 00][WAIT]¬J'ai oublié de vous expliquer comment regarder[BREAK]¬la carte, n'est-ce pas·?[WAIT]@Pour regarder la carte, vous devez — hum,[BREAK]¬comment dire·?[WAIT]¬Mettez toute votre volonté dans votre index[BREAK]¬droit.[WAIT]¬Pour le dire plus directement, faites appel à[BREAK]¬une chose de type bouton [COLOR 03 00]R[COLOR 00 00], je suppose·?[END]
 3-10:@Your map's been marked![END]
 3-10E:©L'endroit est à présent indiqué sur votre carte·![END]
-// Repeats: 3-10, 10-50, 32-50, 222-50, 506-50
+// Repeats: 0-60, 3-10, 32-50
 3-11:@[FLINT 23 01 00]![BREAK]¬Took you long enough![WAIT]@Go check out the fire! Quickly! Chop-chop![WAIT]@If the fire spreads here, to Tazmily Village,[WAIT]¬my honor, my estate, and I will all go up in[BREAK]¬smoke, literally![WAIT]@So go north![BREAK]@North, I say![WAIT]@North, as in north-south-east-west![WAIT]@Why do you force me to explain such simple[BREAK]¬things to you?![END]
 3-11E:@[FLINT 23 01 00]·![BREAK]¬Tu en as mis du temps·![WAIT]@Va voir l'incendie·! Vite·! Hop-hop·![WAIT]@Si le feu se propage ici, au village de Tazmily,[WAIT]¬c'est mon honneur, mon domaine et moi-même[BREAK]¬qui partirons en fumée. Littéralement·![WAIT]@Alors direction le nord·![BREAK]@Le nord, je te dis·![WAIT]@Le nord, comme dans nord-sud-est-ouest·![WAIT]@Pourquoi tu m'obliges à t'expliquer des choses[BREAK]¬aussi simples·?![END]
 3-12:@Please don't make me repeat myself![WAIT]@North, as in north-south-east-west![WAIT]@Just go north![WAIT]@Do things simply not register with you the first[BREAK]¬time you hear them or something?![END]
@@ -1383,7 +1383,7 @@
 // Repeats: 10-49, 222-49, 506-49
 10-50:@Your map's been marked![END]
 10-50E:©Des indications ont été ajoutées à votre carte·![END]
-// Repeats: 3-10, 10-50, 32-50, 222-50, 506-50
+// Repeats: 10-50, 222-50, 506-50
 10-51:@If you need something from the map-loving,[BREAK]¬map-owning Mapson, it must be a map, yes?[WAIT]@I can talk about non-map stuff too, you know.[WAIT]@You're out delivering happiness to people, but[BREAK]¬you actually seem to be the unhappiest of all.[END]
 10-51E:@Si Cartier, le possesseur et amateur de cartes,[BREAK]¬peut vous apporter quelque chose,[WAIT]¬ça doit certainement être une carte, non·?[WAIT]@Tu sais, je peux aussi parler d'autres choses[BREAK]¬que de cartes.[WAIT]@Tu es là, à livrer du bonheur aux gens, mais tu[BREAK]¬as l'air d'être le plus malheureux de tous.[END]
 // Repeats: 10-51, 222-51, 506-51
@@ -1559,7 +1559,7 @@
 12-24E:[SOUND 03 00]@Ouaf-ouuh·![BREAK]¬(Ouaf-ouuh·!)[END]
 // Repeats: 2-24, 12-24
 12-25:[SOUND 03 00]@*whimper*[BREAK]¬(I'm a member of the family too, you know...)[END]
-12-25E:[SOUND 03 00]@*gémit*[BREAK]¬(Je fais partie de la·famille moi aussi,·tu sais...)[END]
+12-25E:[SOUND 03 00]@*gémit*[BREAK]¬(Je·fais partie de la famille moi aussi,·tu sais...)[END]
 // Repeats: 2-25, 12-25
 12-26:@Take [BONEY 22 09 00] with you?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 12-26E:©Prendre [BONEY 22 09 00] avec vous·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
@@ -3079,7 +3079,7 @@
 32-49E:@Si Cartier, le possesseur et amateur de cartes,[BREAK]¬peut vous apporter quelque chose,[WAIT]¬ça doit certainement être une carte, non·?[WAIT]@Oh, salut, [LUCAS 23 02 00].[WAIT]@C'est un drôle d'ami que tu as là.[WAIT]@Non, non, non.[WAIT]@Il n'y a rien de mal à cela.[WAIT]@Quoi·?[WAIT]@La maison d'Éolie, tu dis·?[WAIT]@Je ne sais pas qui c'est, mais je pense que[BREAK]¬c'est par là.[WAIT]@Je vais l'indiquer sur ta carte.[END]
 32-50:@Your map's been marked![END]
 32-50E:©L'endroit est à présent indiqué sur votre carte·![END]
-// Repeats: 0-60, 3-10, 10-50, 32-50, 222-50, 506-50
+// Repeats: 0-60, 3-10, 32-50
 32-51:@That peddler hasn't been around lately.[WAIT]@What was it? Fassad or something? I forget.[END]
 32-51E:@On ne revoit plus le colporteur ces derniers[BREAK]¬temps.[WAIT]@Comment c'était·? Fassad ou quelque chose du[BREAK]¬genre·? J'ai oublié.[END]
 32-52:@Oh, hi there, [LUCAS 23 02 00].[WAIT]@You know, you should really be mindful of who[BREAK]¬you make friends with...[END]
@@ -4723,7 +4723,7 @@
 [Container 53]
 53-0:@The door doesn't budge at all.[END]
 53-0E:©La porte ne bouge pas d'un pouce.[END]
-// Repeats: 53-0, 54-0, 222-75, 506-75, 507-3, 660-15
+// Repeats: 53-0, 54-0, 660-15
 53-1:@There's a door here.[WAIT]@Dancing figures are depicted on it.[END]
 53-1E:©Il y a une porte ici.[WAIT]©Des silhouettes dansantes y sont[BREAK]¬représentées.[END]
 // Repeats: 53-1, 54-1
@@ -4758,7 +4758,7 @@
 [Container 54]
 54-0:@The door doesn't budge at all.[END]
 54-0E:©La porte ne bouge pas d'un pouce.[END]
-// Repeats: 53-0, 54-0, 222-75, 506-75, 507-3, 660-15
+// Repeats: 53-0, 54-0, 660-15
 54-1:@There's a door here.[WAIT]@Dancing figures are depicted on it.[END]
 54-1E:©Il y a une porte ici.[WAIT]©Des silhouettes dansantes y sont[BREAK]¬représentées.[END]
 // Repeats: 53-1, 54-1
@@ -7201,7 +7201,7 @@
 124-3:@I guess the fear of punishment's turned you[BREAK]¬into a spineless wimp.[WAIT]@Nwehehehehe![END]
 124-3E:@Je suppose que la peur de la punition t'a[BREAK]¬transformé en poule mouillée.[WAIT]@Nwihihihihi·![END]
 124-4:@Stupid monkey![WAIT]@I told you to sleep![WAIT]@I guess you didn't listen to me, did you?![BREAK]¬Then it's punishment time![END]
-124-4E:@Singe stupide·![WAIT]@Je t'ai dit de dormir·![WAIT]@Je suppose que tu ne m'as pas écouté,[BREAK]¬n'est-ce pas·?! Alors c'est l'heure de la punition·![END]
+124-4E:@Singe stupide·![WAIT]@Je t'ai dit de dormir·![WAIT]@Je suppose que·tu ne m'as pas écouté,·n'est-ce[BREAK]¬pas·?! Alors c'est l'heure de la punition·![END]
 124-5:@Now go to sleep![END]
 124-5E:@Maintenant, dors·![END]
 124-6:@How long are you going to sleep?![BREAK]¬You stupid monkey![END]
@@ -9386,13 +9386,11 @@
 // Kumatora
 192-38:@Let's try to find something to eat.[END]
 192-38E:@Faut qu'on trouve un truc à manger.[END]
-// Repeats: 192-38, 192-40
 192-39:@Crap...[WAIT]@All our items got washed away, and we have[BREAK]¬no energy left...[END]
 192-39E:@Zut...[WAIT]@Tous nos objets ont été emportés, et nous[BREAK]¬n'avons plus d'énergie...[END]
 // Duster
 192-40:@Let's try to find something to eat.[END]
 192-40E:@Essayons de trouver quelque chose à manger.[END]
-// Repeats: 192-38, 192-40
 192-41:@Woof![WAIT]¬(All our items are gone!)[END]
 192-41E:@Ouaf·![WAIT]¬(Tous nos objets ont disparu·!)[END]
 192-42:@Woo-woof![WAIT]¬(We need to find some food! It doesn't matter[BREAK]¬what it is!)[END]
@@ -10419,7 +10417,7 @@
 212-23E:©Où aller sur l'île de Tanetane·?[BREAK][MENU 08 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Plage Tanetane[RIGHT][BREAK]¬[LEFT]Plage malsaine[RIGHT][BREAK]¬[LEFT]Chez Mixie[RIGHT][BREAK]¬[LEFT]Colline dÞl'île[RIGHT][BREAK]¬[LEFT]Vaincus[RIGHT][BREAK]¬[LEFT]Tour de poulpe[RIGHT][BREAK]¬[LEFT]Plage Azurée[RIGHT][BREAK][ENDCHOICES][END]
 // Repeats: 11-23, 212-23, 213-23
 212-24:[SOUND 03 00]@Chirp chirp.[WAIT]¬(Sparrow Advice![WAIT]¬Allow me to discuss one of the main tricks to[BREAK]¬fighting.[WAIT]¬How you and the enemy come into contact[WAIT]¬can give you the advantage or disadvantage[BREAK]¬in the battle that follows.[WAIT]¬The truth is, you won't always encounter the[BREAK]¬enemy head-to-head every time.[WAIT]¬If you manage to sneak up on the enemy from[BREAK]¬behind or the side, you'll have the upper hand.[WAIT]¬The enemy will be facing backwards when you[BREAK]¬enter battle, you see.[WAIT]¬Conversely, if the enemy sneaks up on you[BREAK]¬from behind or from the side,[WAIT]¬YOU'LL be facing backwards at the start of[BREAK]¬the battle, putting you at a real disadvantage.[WAIT]¬When the upper hand is yours, you'll see the[BREAK]¬things in front of you turn green before battle,[WAIT]¬and when the enemy has the upper hand, you'll[BREAK]¬see red instead.[WAIT]¬When you're on equal terms, everything will[BREAK]¬seem blue-ish, for lack of a better term.[WAIT]¬Anyway, to sum everything up,[WAIT]¬"Go forth,[PAUSE 18 00] young man.[PAUSE 18 00] Go, go, go!"[PAUSE 20 00] and all that.[WAIT]¬So there you have it.[WAIT]¬Now to end this with a sparrow-like...[EVENT][END]
-212-24E:[SOUND 03 00]@Tchip tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬Laisse-moi t'expliquer une des principales[BREAK]¬astuces de combat.[WAIT]¬La façon dont tu entres en contact avec ton[BREAK]¬ennemi peut t'avantager ou te désavantager[WAIT]¬dans le combat qui s'ensuit.[WAIT]¬En vérité, tu ne rencontreras pas toujours tes[BREAK]¬ennemis en face-à-face.[WAIT]¬Si·tu arrives à surprendre l'ennemi par-derrière[BREAK]¬ou de côté, tu auras l'avantage.[WAIT]¬L'ennemi te tournera le dos au début du[BREAK]¬combat.[WAIT]¬À l'inverse, si l'ennemi te surprend[BREAK]¬par-derrière ou de côté,[WAIT]¬c'est TOI qui lui tourneras le dos au début du[BREAK]¬combat, ce qui te handicapera sérieusement.[WAIT]¬Quand tu as l'avantage, tu vois les choses[BREAK]¬devant toi devenir vertes avant le combat,[WAIT]¬et quand c'est l'ennemi qui a l'avantage, tu[BREAK]¬vois du rouge à la place.[WAIT]¬Quand vous êtes sur un pied d'égalité, tout[BREAK]¬apparaît, disons, dans un ton bleu.[WAIT]¬Bref, pour tout résumer,[WAIT]¬"Fonce,[PAUSE 18 00] mon garçon.[PAUSE 18 00] Va, va de l'avant·!"[BREAK]¬[PAUSE 20 00]et toutes ces choses.[WAIT]¬Voilà, c'est tout pour cette fois.[WAIT]¬Et pour finir en moineau...[EVENT][END]
+212-24E:[SOUND 03 00]@Tchip tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬Laisse-moi t'expliquer une des principales[BREAK]¬astuces de combat.[WAIT]¬La façon dont tu entres en contact avec ton[BREAK]¬ennemi peut t'avantager ou te désavantager[WAIT]¬dans le combat qui s'ensuit.[WAIT]¬En vérité, tu ne rencontreras pas toujours tes[BREAK]¬ennemis en face-à-face.[WAIT]¬Si tu arrives à surprendre l'ennemi par-derrière[BREAK]¬ou de côté, tu auras l'avantage.[WAIT]¬L'ennemi te tournera le dos au début du[BREAK]¬combat.[WAIT]¬À l'inverse, si l'ennemi te surprend[BREAK]¬par-derrière ou de côté,[WAIT]¬c'est TOI qui lui tourneras le dos au début du[BREAK]¬combat, ce qui te handicapera sérieusement.[WAIT]¬Quand tu as l'avantage, tu vois les choses[BREAK]¬devant toi devenir vertes avant le combat,[WAIT]¬et quand c'est l'ennemi qui a l'avantage, tu[BREAK]¬vois du rouge à la place.[WAIT]¬Quand vous êtes sur un pied d'égalité, tout[BREAK]¬apparaît, disons, dans un ton bleu.[WAIT]¬Bref, pour tout résumer,[WAIT]¬"Fonce,[PAUSE 18 00] mon garçon.[PAUSE 18 00] Va, va de l'avant·!"[BREAK]¬[PAUSE 20 00]et toutes ces choses.[WAIT]¬Voilà, c'est tout pour cette fois.[WAIT]¬Et pour finir en moineau...[EVENT][END]
 // Repeats: 11-24, 212-24, 213-24
 212-25:[SOUND 03 00]¬...chirp chirp chirp!)[END]
 212-25E:[SOUND 03 00]¬... tchip tchip tchip·!)[END]
@@ -10449,10 +10447,10 @@
 213-0E:©C'est une carte des alentours.[END]
 // Repeats: 11-0, 212-0, 212-31, 213-0, 213-30, 223-19
 213-1:@Anty anty antant![WAIT]¬(From nowhere in particular, you hear a voice.[WAIT]¬And that voice is mine![PAUSE 30 00] Watch where you're[BREAK]¬steppin', will ya?![WAIT]¬I'm, like, standing right here![WAIT]¬I'm an ant! Don't you dare step on me![WAIT]¬I've been watching you fight for a while now...[PAUSE 1E 00][BREAK]¬but I just can't take it anymore![WAIT]¬Fights are all about rhythm![WAIT]¬You know, like[PAUSE 1E 00] "boom boom boo-boom boom,[BREAK]¬boom boom"[PAUSE 1E 00] and stuff![WAIT]¬When you're in battle, there's a very specific[BREAK]¬rhythm that matches the enemy's beat![WAIT]¬Pick up on that rhythm, and victory will be[BREAK]¬yours![WAIT]¬If you're really good, you can even pull off[BREAK]¬16-hit combos![WAIT]¬I hereby name these [PAUSE 5A 00]"Sound Battles"![WAIT]¬Thant you very mantch!)[END]
-213-1E:@*grat* *grat* *grat*[WAIT]¬(Semblant venir de nulle part, un petit bruit[BREAK]¬sourd se fait entendre.[WAIT]¬Et ce bruit, c'est moi·![PAUSE 30 00] Tu ne peux pas regarder[BREAK]¬où tu mets les pieds·?![WAIT]¬Je suis là, juste devant toi·![WAIT]¬Je suis une fourmi·! Ne t'avise pas de me[BREAK]¬marcher dessus·![WAIT]¬Bon, ça fait déjà un petit moment que je[BREAK]¬t'observe au combat...[PAUSE 1E 00] Ça ne peut plus durer·![WAIT]¬Les combats, c'est une question de rythme·![WAIT]¬Tu sais, le rythme, du genre[PAUSE 1E 00] "bam bam balam[BREAK]¬bam, bam bam"[PAUSE 1E 00] et tous ces trucs-là·![WAIT]¬En combat, il y a un rythme bien spécifique qui[BREAK]¬correspond à la pulsation de ton ennemi.[WAIT]¬Cale-toi sur ce rythme, et la victoire sera[BREAK]¬tienne·![WAIT]¬Si tu es vraiment bon, tu pourras même[BREAK]¬enchaîner des combos de 16 coups·![WAIT]¬Je déclare que désormais, on appellera ça des[BREAK]¬[PAUSE 5A 00]"combats sonores"·![WAIT]¬Tu as compris·? Fourmidable.·Merci beaucoup·!)[END]
+213-1E:@*grat* *grat* *grat*[WAIT]¬(Semblant venir de nulle part, un petit bruit[BREAK]¬sourd se fait entendre.[WAIT]¬Et ce bruit, c'est moi·![PAUSE 30 00] Tu ne peux pas regarder[BREAK]¬où tu mets les pieds·?![WAIT]¬Je suis là, juste devant toi·![WAIT]¬Je suis une fourmi·! Ne t'avise pas de me[BREAK]¬marcher dessus·![WAIT]¬Bon, ça fait déjà un petit moment que je[BREAK]¬t'observe au combat...[PAUSE 1E 00] Ça ne peut plus durer·![WAIT]¬Les combats, c'est une question de rythme·![WAIT]¬Tu sais, le rythme, du genre[PAUSE 1E 00] "bam bam balam[BREAK]¬bam, bam bam"[PAUSE 1E 00] et tous ces trucs-là·![WAIT]¬En combat, il y a un rythme bien spécifique qui[BREAK]¬correspond à la pulsation de ton ennemi.[WAIT]¬Cale-toi sur ce rythme, et la victoire sera[BREAK]¬tienne·![WAIT]¬Si tu es vraiment bon, tu pourras même[BREAK]¬enchaîner des combos de 16 coups·![WAIT]¬Je déclare que désormais, on appellera ça des[BREAK]¬[PAUSE 5A 00]"combats sonores"·![WAIT]¬Tu as compris·? Fourmidable. Merci beaucoup·!)[END]
 // Repeats: 11-1, 212-1, 213-1
 213-2:@Anty anty antant![WAIT]¬(Watch where you're steppin', will ya?![WAIT]¬I'm standing right here, you know![WAIT]¬I'm an ant! Don't you dare step on me![WAIT]¬Looks like you still haven't gotten the hang of[BREAK]¬battle rhythms.[WAIT]¬To really grasp a rhythm, you gotta learn the[BREAK]¬enemy's beat.[WAIT]¬Wait. You didn't know you can hear the[BREAK]¬enemy's heartbeat by putting it to sleep?[WAIT]¬Well, I knew!![BREAK]¬So now you better know, too![WAIT]¬...[PAUSE 1E 00]Don't worry, though.[WAIT]¬You can still fight just fine without doing any[BREAK]¬of this rhythm stuff, of course.[WAIT]¬Well, that's all. Thank you very mantch!)[END]
-213-2E:@*grat* *grat* *grat*[WAIT]¬(Tu ne peux pas·regarder·où·tu mets·les·pieds·?![WAIT]¬Tu vois, je suis juste devant toi·![WAIT]¬Je suis une fourmi·! Ne t'avise pas de me[BREAK]¬marcher dessus·![WAIT]¬Tu ne maîtrises toujours pas les rythmes de[BREAK]¬combats, on dirait.[WAIT]¬Pour entrer dans le rythme, tu dois assimiler la[BREAK]¬pulsation de ton ennemi.[WAIT]¬Attends. Tu ne savais pas que tu pouvais[BREAK]¬écouter les pulsations du cœur de ton ennemi·?[WAIT]¬Si tu endors l'ennemi, tu les entendras.[WAIT]¬Tu ferais bien de garder ça en tête·![WAIT]¬... [PAUSE 1E 00]Mais ne t'inquiète pas.[WAIT]¬Tu peux aussi parfaitement t'en sortir sans[BREAK]¬t'occuper de ces histoires de rythme, bien sûr.[WAIT]¬Voilà, c'est tout. Tu as compris·? Fourmidable.[BREAK]¬Merci beaucoup·!)[END]
+213-2E:@*grat* *grat* *grat*[WAIT]¬(Tu ne peux pas·regarder·où tu mets·les·pieds·?![WAIT]¬Tu vois, je suis juste devant toi·![WAIT]¬Je suis une fourmi·! Ne t'avise pas de me[BREAK]¬marcher dessus·![WAIT]¬Tu ne maîtrises toujours pas les rythmes de[BREAK]¬combats, on dirait.[WAIT]¬Pour entrer dans le rythme, tu dois assimiler la[BREAK]¬pulsation de ton ennemi.[WAIT]¬Attends. Tu ne savais pas que tu pouvais[BREAK]¬écouter les pulsations du cœur de ton ennemi·?[WAIT]¬Si tu endors l'ennemi, tu les entendras.[WAIT]¬Tu ferais bien de garder ça en tête·![WAIT]¬... [PAUSE 1E 00]Mais ne t'inquiète pas.[WAIT]¬Tu peux aussi parfaitement t'en sortir sans[BREAK]¬t'occuper de ces histoires de rythme, bien sûr.[WAIT]¬Voilà, c'est tout. Tu as compris·? Fourmidable.[BREAK]¬Merci beaucoup·!)[END]
 // Repeats: 11-2, 212-2, 213-2
 213-3:@Oh, it's old man Wess's son, What's-His-Name.[WAIT]@You made it through that underground passage[BREAK]¬without being done in by all them monsters?[WAIT]@That's really somethin'.[END]
 213-3E:@Oh mais c'est Machin, l'fils du vieux Wess.[WAIT]@T'as réussi à traverser c'passage souterrain[BREAK]¬sans t'faire aplatir par tous ces monstres·?[WAIT]@C'est quand même quelqu'chose·![END]
@@ -10464,7 +10462,7 @@
 213-5E:@Y'a personne là-d'dans, pas même le roi[BREAK]¬d'Osohé ou la reine Senaka.[WAIT]@C'est juste un vieux château en ruine,[BREAK]¬maintenant.[WAIT]@Les seules choses qui bougent à l'intérieur,[BREAK]¬c'est des fantômes et d'aut' trucs effrayants.[WAIT]@Ça vaut pas l'coup d'grimper au mur pour[BREAK]¬entrer, s'tu veux mon avis.[END]
 // Repeats: 11-5, 212-5, 213-5
 213-6:@Come ta think of it, I heard the princess of this[BREAK]¬castle is bein' raised somewhere else.[WAIT]@Word is she's one hell of a princess, quicker[BREAK]¬than a monkey and stronger than a bear.[END]
-213-6E:@Maintenant qu'j'y pense, paraît qu'y'a la[BREAK]¬princesse de c'château qui grandit ailleurs.[WAIT]@Apparemment, c'est une sacrée princesse,[BREAK]¬plus rapide qu'un singe et plus·forte qu'un ours.[END]
+213-6E:@Maintenant qu'j'y pense, paraît qu'y'a la[BREAK]¬princesse de c'château qui grandit ailleurs.[WAIT]@Apparemment, c'est une sacrée princesse,[BREAK]¬plus rapide qu'un singe et plus forte qu'un ours.[END]
 // Repeats: 11-6, 212-6, 213-6
 213-7:@Seems this here area was once a flower[BREAK]¬garden,[WAIT]¬but as you can see, I done turned it into a[BREAK]¬vegetable field.[WAIT]@Flowers are pretty 'n all, but they don't fill the[BREAK]¬belly, y'know?[END]
 213-7E:@J'crois bien qu'y'avait un parterre de fleurs ici[BREAK]¬dans l'temps,[WAIT]¬mais comme tu peux l'voir, j'en ai fait un[BREAK]¬potager.[WAIT]@Les fleurs, c'est beau et tout, mais ça remplit[BREAK]¬pas la panse, tu vois·?[END]
@@ -10923,7 +10921,7 @@
 // Repeats: 10-49, 222-49, 506-49
 222-50:@Your map's been marked![END]
 222-50E:©Des indications ont été ajoutées à votre carte·![END]
-// Repeats: 0-60, 3-10, 10-50, 32-50, 222-50, 506-50
+// Repeats: 10-50, 222-50, 506-50
 222-51:@If you need something from the map-loving,[BREAK]¬map-owning Mapson, it must be a map, yes?[WAIT]@I can talk about non-map stuff too, you know.[WAIT]@You're out delivering happiness to people, but[BREAK]¬you actually seem to be the unhappiest of all.[END]
 222-51E:@Si Cartier, le possesseur et amateur de cartes,[BREAK]¬peut vous apporter quelque chose,[WAIT]¬ça doit certainement être une carte, non·?[WAIT]@Tu sais, je peux aussi parler d'autres choses[BREAK]¬que de cartes.[WAIT]@Tu es là, à livrer du bonheur aux gens, mais tu[BREAK]¬as l'air d'être le plus malheureux de tous.[END]
 // Repeats: 10-51, 222-51, 506-51
@@ -10999,7 +10997,7 @@
 // Repeats: 222-74, 506-74, 507-2
 222-75:@The door doesn't budge at all.[END]
 222-75E:©La trappe ne bouge pas d'un pouce.[END]
-// Repeats: 53-0, 54-0, 222-75, 506-75, 507-3, 660-15
+// Repeats: 222-75, 506-75, 507-3
 222-76:@The Transceiver seems to be reacting to the[BREAK]¬door.[WAIT]@Try pressing the button on the Transceiver?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 222-76E:©Le Talkie-walkie semble réagir à proximité de la[BREAK]¬trappe.[WAIT]©Appuyer sur le bouton du Talkie-walkie·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // retrouver ingame cette ligne et la suivante (retour au cimetière juste après la crête Neigeuse)
@@ -11189,7 +11187,7 @@
 225-14E:@Oh, redescendez sur terre.[END]
 // Repeats: 225-14, 254-14
 225-15:@We couldn't care less about you humans, here[BREAK]¬one minute and gone the next.[END]
-225-15E:@On se moque bien de ce qui pourrait vous[BREAK]¬arriver à vous, les humains.[WAIT]¬Vous pouvez disparaître d'une minute·à l'autre.[END]
+225-15E:@On se moque bien de ce qui pourrait vous[BREAK]¬arriver à vous, les humains.[WAIT]¬Vous pouvez disparaître·d'une minute·à l'autre.[END]
 // Repeats: 225-15, 254-15
 225-16:@You poor things barely live a hundred years, if[BREAK]¬that![WAIT]@That's a blink of an eye to us Magypsies.[WAIT]@Why would anyone bother to care about such[BREAK]¬short lives?[END]
 225-16E:@Vous autres, pauvres petites choses, ne vivez[BREAK]¬qu'une centaine d'années, si ce n'est moins·![WAIT]@Ce n'est qu'un clignement d'œil, pour nous les[BREAK]¬Magypsy.[WAIT]@Qui prendrait la peine de s'inquiéter pour de si[BREAK]¬courtes vies·?[END]
@@ -12055,7 +12053,7 @@
 254-14E:@Oh, redescendez sur terre.[END]
 // Repeats: 225-14, 254-14
 254-15:@We couldn't care less about you humans, here[BREAK]¬one minute and gone the next.[END]
-254-15E:@On se moque bien de ce qui pourrait vous[BREAK]¬arriver à vous, les humains.[WAIT]¬Vous pouvez disparaître d'une minute·à l'autre.[END]
+254-15E:@On se moque bien de ce qui pourrait vous[BREAK]¬arriver à vous, les humains.[WAIT]¬Vous pouvez disparaître·d'une minute·à l'autre.[END]
 // Repeats: 225-15, 254-15
 254-16:@You poor things barely live a hundred years, if[BREAK]¬that![WAIT]@That's a blink of an eye to us Magypsies.[WAIT]@Why would anyone bother to care about such[BREAK]¬short lives?[END]
 254-16E:@Vous autres, pauvres petites choses, ne vivez[BREAK]¬qu'une centaine d'années, si ce n'est moins·![WAIT]@Ce n'est qu'un clignement d'œil, pour nous les[BREAK]¬Magypsy.[WAIT]@Qui prendrait la peine de s'inquiéter pour de si[BREAK]¬courtes vies·?[END]
@@ -18122,7 +18120,7 @@
 // Repeats: 10-49, 222-49, 506-49
 506-50:@Your map's been marked![END]
 506-50E:©Des indications ont été ajoutées à votre carte·![END]
-// Repeats: 0-60, 3-10, 10-50, 32-50, 222-50, 506-50
+// Repeats: 10-50, 222-50, 506-50
 506-51:@If you need something from the map-loving,[BREAK]¬map-owning Mapson, it must be a map, yes?[WAIT]@I can talk about non-map stuff too, you know.[WAIT]@You're out delivering happiness to people, but[BREAK]¬you actually seem to be the unhappiest of all.[END]
 506-51E:@Si Cartier, le possesseur et amateur de cartes,[BREAK]¬peut vous apporter quelque chose,[WAIT]¬ça doit certainement être une carte, non·?[WAIT]@Tu sais, je peux aussi parler d'autres choses[BREAK]¬que de cartes.[WAIT]@Tu es là, à livrer du bonheur aux gens, mais tu[BREAK]¬as l'air d'être le plus malheureux de tous.[END]
 // Repeats: 10-51, 222-51, 506-51
@@ -18198,7 +18196,7 @@
 // Repeats: 222-74, 506-74, 507-2
 506-75:@The door doesn't budge at all.[END]
 506-75E:©La trappe ne bouge pas d'un pouce.[END]
-// Repeats: 53-0, 54-0, 222-75, 506-75, 507-3, 660-15
+// Repeats: 222-75, 506-75, 507-3
 506-76:@The Transceiver seems to be reacting to the[BREAK]¬door.[WAIT]@Try pressing the button on the Transceiver?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 506-76E:©Le Talkie-walkie semble réagir à proximité de la[BREAK]¬trappe.[WAIT]©Appuyer sur le bouton du Talkie-walkie·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 222-76, 506-76, 507-4
@@ -18262,7 +18260,7 @@
 // Repeats: 222-74, 506-74, 507-2
 507-3:@The door doesn't budge at all.[END]
 507-3E:©La trappe ne bouge pas d'un pouce.[END]
-// Repeats: 53-0, 54-0, 222-75, 506-75, 507-3, 660-15
+// Repeats: 222-75, 506-75, 507-3
 507-4:@The Transceiver seems to be reacting to the[BREAK]¬door.[WAIT]@Try pressing the button on the Transceiver?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 507-4E:©Le Talkie-walkie semble réagir à proximité de la[BREAK]¬trappe.[WAIT]©Appuyer sur le bouton du Talkie-walkie·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 222-76, 506-76, 507-4
@@ -18825,7 +18823,7 @@
 627-10E:@Excusez-moi·![BREAK]@C'est un bien bel objet que vous avez là·![WAIT]@Je parle de ce [ITEM 68 00] dans votre[BREAK]¬inventaire.[WAIT]@Si vous me le laissez, je vous donnerai l'objet[BREAK]¬très rare que je cache derrière moi en échange.[WAIT]@Qu'est-ce que vous en dites·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // ITEM (Rotten Bavarois)
 627-11:@I know it's not my place to say this, but that[BREAK]¬[ITEM 68 00] isn't good for you.[WAIT]@It's rotten, you know![EVENT][END]
-627-11E:@Je sais que ce n'est pas mon rôle de dire ça,[BREAK]¬mais ce [ITEM 68 00] n'est pas bon pour vous.[WAIT]@Il est avarié, vous savez·![EVENT][END]
+627-11E:@Je sais que ça ne me regarde pas, mais ce[BREAK]¬[ITEM 68 00] n'est pas bon pour vous.[WAIT]@Il est avarié, vous savez·![EVENT][END]
 627-12:[SOUND 03 00]@Keeheehee![END]
 627-12E:[SOUND 03 00]@Kiihiihii·![END]
 627-13:@Thanks![WAIT]@It looks like we both profited![WAIT]@Treasure it for the rest of your life![END]
@@ -19496,7 +19494,7 @@
 660-14E:©Vous apprenez la danse d'Osohé, partie C·![END]
 660-15:@The door doesn't budge at all.[END]
 660-15E:©La porte ne bouge pas d'un pouce.[END]
-// Repeats: 53-0, 54-0, 222-75, 506-75, 507-3, 660-15
+// Repeats: 53-0, 54-0, 660-15
 660-16:@Alright. We go through here.[END]
 660-16E:@Bon. On va passer par ici.[END]
 660-17:@Hey![WAIT]@Stupid monkey![WAIT]@Do something to open it![END]
@@ -22188,7 +22186,6 @@
 [Container 894]
 894-0:@NO OPERATION[END]
 894-0E:@Que voulez-vous faire·?[BREAK][MENU 05 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Changer table[RIGHT][BREAK]¬[LEFT]Mode attractif[RIGHT][BREAK]¬[LEFT]Débloquer PSI[RIGHT][BREAK]¬[LEFT]Soigner équipe[RIGHT][BREAK]¬[LEFT]Défaite équipe[RIGHT][BREAK][ENDCHOICES][END]
-// Repeats: 894-0, 894-9
 894-1:@CHAPTER 1    START[BREAK][MENU 02 00][MENUSPACEYES]No[MENUSPACENO]Yes[ENDCHOICES][END]
 894-1E:@CHAPITRE 1    DÉBUT[BREAK][MENU 02 00][MENUSPACEYES]Non[MENUSPACENO]Oui[ENDCHOICES][END]
 894-2:@CHAPTER 2    START[BREAK][MENU 02 00][MENUSPACEYES]No[MENUSPACENO]Yes[ENDCHOICES][END]
@@ -22207,7 +22204,6 @@
 894-8E:@CHAPITRE 8    DÉBUT[BREAK][MENU 02 00][MENUSPACEYES]Non[MENUSPACENO]Oui[ENDCHOICES][END]
 894-9:@NO OPERATION[END]
 894-9E:@Quelle table·?[BREAK][MENU 06 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Table 1[RIGHT][BREAK]¬[LEFT]Table 2[RIGHT][BREAK]¬[LEFT]Table 3[RIGHT][BREAK]¬[LEFT]Table 4[RIGHT][BREAK]¬[LEFT]Table 5[RIGHT][BREAK][ENDCHOICES][END]
-// Repeats: 894-0, 894-9
 894-10:@GET ITEM [ITEM 5D 00]?[BREAK][MENU 02 00][MENUSPACENO]No[MENUSPACENO]Yes[ENDCHOICES][END]
 894-10E:@OBTENIR [ITEM 5D 00]·?[BREAK][MENU 02 00][MENUSPACEYES]Non[MENUSPACENO]Oui[ENDCHOICES][END]
 894-11:@Got [EF 11][ITEM 6F 00]![END]
