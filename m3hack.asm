@@ -673,6 +673,14 @@ org $804F56C; db $32,$F6
 //org $8053D1C; db $09
 //org $8053D8C; db $09
 
+// Make the game reprint stuff only when needed
+org $804DC7A; bl naming_screen_hacks.pressed_a_check_print
+org $804DCEC; bl naming_screen_hacks.pressed_b_check_print
+org $8042968; bl naming_screen_hacks.compare_currently_displayed_entry
+org $8042B90; bl naming_screen_hacks.compare_currently_displayed_entry
+org $8042EFC; bl naming_screen_hacks.compare_currently_displayed_entry
+org $804C77E; bl naming_screen_hacks.reprint_invalid_duplicated
+org $804E560; bl naming_screen_hacks.reprint_after_invalid_duplicated
 
 // Disable L and R alphabet switching
 org $803E79F; db $E0
@@ -2092,6 +2100,16 @@ org $9199364; dd {logic_0EA_new_address}-$9198C10; dd {logic_0EA_new_address}+$1
 org $8D2DCC8; dd extra_hacks.push_battle_memo_status+1 //04 00 9C 00
 org $8D2D8CC; dd $0
 
+//Fix issue in which Lucas' sprite would become Boney's because of missing ifs, we're also shuffling other stuff to save space
+org $934E4A4; incbin logic_pointer_36C.bin
+org $934E4B4; incbin logic_code_36C.bin
+org $919A784; dd $001B8338
+org $919A788; dd $001B8354
+org $919A78C; dd $00E383F0
+org $919A790; dd $00E38400
+org $9350F48; incbin logic_36D.bin
+org $9FD1000; incbin logic_36E.bin
+
 
 //============================================================================================
 //                                  MEMO SCREEN STUFF
@@ -2174,27 +2192,16 @@ org $9199A8C; dd {NEW_PLACE_2}-$9198C10
 
 
 //============================================================================================
-//                                    SUMMARY FIXING
+//                                   SUMMARY FIXING
 //============================================================================================
 
+//OAM hacks for the summary
 
-// OAM hacks for the summary
-
-
-// Set/Reset the flag, so everything works
-org $804A2EA; bl summary_hacks.flag_reset
-
-
-// If the cursor’s position changes, refresh the OAM
-org $8042F30; bl summary_hacks.check_change
-
+//Set/Reset the flag, so everything works
+org $804A2EA; bl naming_screen_hacks.flag_reset
 
 //Stop the refreshing of the OAM if the flag is set
-org $803E6F0; bl summary_hacks.impede_refresh_oam
-
-
-
-
+org $803E6F0; bl naming_screen_hacks.impede_refresh_oam
 
 
 //============================================================================================

@@ -226,35 +226,25 @@ strb r4,[r0,#0]
 .cursorfix_end:
 pop  {r3-r7,pc}
 
-
 //--------------------------------------------------------
-//
-//                     New summary hacks!
+//                 New summary & naming screen hacks!
 //--------------------------------------------------------
-
-
-summary_hacks:
-
-
 //First part of the new hacks
-
 
 .impede_refresh_oam:
 push {r4-r5,lr}
-mov r5,r1
-ldr r1,=#0x2003F04                                    //Let's check in our flag what's happening
+mov  r5,r1
+ldr  r1,=#0x2003F04                 //Let's check in our flag what's happening
 ldrb r0,[r1,#0]
-cmp r0,#1                                                    //If the value is one, then we need to print the text ONE time and set it to - not printing
-bne .keep_going
-mov r0,#2
-strb r0,[r1,#0]                                            //Sets the flag to - not printing
-b .keep_keep
-
-
+cmp  r0,#1                          //If the value is one, then we need to print the text ONE time and set it to - not printing
+bne  .keep_going
+mov  r0,#2
+strb r0,[r1,#0]                     //Sets the flag to - not printing
+b    .keep_keep
 
 
 .keep_going:
-cmp r0,#2                                                    //Is this 2? If it is, we don't print, but we need to make some checks to avoid some stuff...
+cmp  r0,#2                          //Is this 2? If it is, we don't print, but we need to make some checks to avoid some stuff...
 bne  .keep_keep
 ldr  r0,=#0x201A288
 ldrb r0,[r0,#0]
@@ -263,140 +253,354 @@ beq  .partially
 mov  r0,#0
 strb r0,[r1,#0]
 
-
 .keep_keep:
-bl $8050EED
-
+bl   $8050EEC                       //This is the standard OAM refreshing routine, call it in case it's 1 or 0, since we need to print
 
 .rest:
-pop {r4-r5,pc}
-
+pop  {r4-r5,pc}
 
 .partially:
-ldr r4,=#0x2003F08                                    //This cicle, we don't print a thing...
-ldrb r0,[r4,#0]
-cmp r0,r12                                                    //Do we need to print the cursor/New text? If we do, r12 will have changed! What a handy register!
-beq .handy_check
-ldr r4,=#0x2015D98                                    //Address that tells us if we're still in the yes/no portion of the summary screen, if we aren't, we don't need to print anything!
-ldrb r0,[r4,#0]
-mov r4,#2
-cmp r0,#2                                                    //If this is 2, the cursor still needs to be printed!
-bne +
-mov r4,#1                                                    //Reset the flag
-+
-cmp r0,#0                                                    //The same address goes to 0 every time we enter a new menu, resetting for us and avoiding a lot of problems!
-bne +
-mov r4,#0                                                    //If this is not 0 or 2, then just keep it 2 and avoid printing!
-+
-mov r0,r4
-ldr r4,=#0x2003F08
-sub r4,#4
-strb r0,[r4,#0]
-add r4,#4
-mov r0,r12
-strb r0,[r4,#0]
+bl   .special_restore_objs
 
+b    .keep_keep
 
-.handy_check:
-cmp r0,#1
-beq +
-cmp r0,#0x1A                       //If this isn't 0x1A or 0x1, we're not in the summary screen! Let's store 0. This is to prevent some possible glitches.
-beq +
-mov r0,#0
-sub r4,#4
-strb r0,[r4,#0]
+//--------------------------------------------------------
+//Picks the text's old OAM entries and adds them back to the new OAM
+//--------------------------------------------------------
+.special_restore_objs:
+push {r4-r6,lr}
+mov  r6,#2
+lsl  r6,r6,#8
+ldr  r4,=#0x7000000
+ldr  r0,=#0x2022648
+ldr  r5,[r0,#0]                        //Where the new OAM entries are
+mov  r2,r5
+sub  r2,#8
+
+-
+add  r2,#8
+ldrh r1,[r2,#0]
+and  r1,r6                             //Is this entry enabled?
+cmp  r1,#0
+beq  -
+
+mov  r5,r2                             //Get the address the first blank is at
+
+.special_restore_objs_cycle:
+mov  r0,r4
+bl   .find_oam_text                    //Find the closest text oam
+
+ldrh r1,[r0,#0]
+and  r1,r6
+cmp  r1,#0                             //End search if the end of the entries has been found instead
+bne  .special_restore_objs_end
+
+mov  r4,r0                             //This is the address of the first text oam entry found
+bl   .find_oam_end_of_text             //Find the end of the text oam entry
+
+ldr  r1,=#0x40000D4
+sub  r3,r0,r4
+lsr  r3,r3,#1                          //How many 16-bit units we must copy
+mov  r0,#8
+lsl  r2,r0,#28                         //Enable DMA Transfer
+orr  r3,r2
+
+str  r4,[r1,#0]
+str  r5,[r1,#4]
+str  r3,[r1,#8]                        //Start the actual transfer
+ldr  r0,[r1,#8]
+
+cmp  r0,#0
+bge  +
+-
+ldr  r0,[r1,#8]                        //Make sure the transfer happens properly
+and  r0,r2
+cmp  r0,#0
+bne  -
 +
-b .rest
 
+lsl  r3,r3,#1
+add  r5,r5,r3
+add  r4,r4,r3
+b    .special_restore_objs_cycle
+
+.special_restore_objs_end:
+pop  {r4-r6,pc}
 
 //--------------------------------------------------------------------------------------------------
+//This function returns the address of the nearest text entry to the address in r0
+//--------------------------------------------------------------------------------------------------
+.find_oam_text:
+lsl  r3,r6,#1
+sub  r3,r3,#1
+mov  r2,r0
+sub  r2,#8
+mov  r0,#0x18
+lsl  r0,r0,#4
 
+-
+add  r2,#8
+ldrh r1,[r2,#0]
+and  r1,r6
+cmp  r1,#0                             //End search if the end of the entries has been found
+bne  +
+ldrh r1,[r2,#4]
+and  r1,r3                             //Is this entry a text one? If it is, we found one!
+cmp  r1,r0
+bge  -
 
++
+mov  r0,r2
+bx   lr
+
+//--------------------------------------------------------------------------------------------------
+//This function returns the address of the end of the sequence of text entries after r0
+//--------------------------------------------------------------------------------------------------
+.find_oam_end_of_text:
+lsl  r3,r6,#1
+sub  r3,r3,#1
+mov  r2,r0
+mov  r0,#0x18
+lsl  r0,r0,#4
+
+-
+add  r2,#8
+ldrh r1,[r2,#0]
+and  r1,r6
+cmp  r1,#0                             //End text if the end of the entries has been found
+bne  +
+ldrh r1,[r2,#4]
+and  r1,r3                             //Is this entry a text one? Check if we're at the end
+cmp  r1,r0
+blt  -
+
++
+mov  r0,r2
+bx   lr
+
+//--------------------------------------------------------------------------------------------------
+//This function manually fixes the save copying bug (New Game Plus)
+//--------------------------------------------------------------------------------------------------
+.fix_copy_bug:
+ldr  r1,=#0x2004F80
+mov  r5,#0
+str  r5,[r1,#0]
+str  r5,[r1,#4]
+str  r5,[r1,#0x1C]
+strh r5,[r1,#0x20]
+ldr  r5,=#0x880                     //Reset PSI flags
+add  r1,#0x1A
+strh r5,[r1,#0]
+//ldr  r1,=#0x2004947
+//mov  r5,#0
+//strb r5,[r1,#0]
+//str  r5,[r1,#4]                     //Reset Duster's items
+ldr  r1,=#0x20041B0                 //Reset Equipments, Flint
+ldr  r5,=#0x0410000
+str  r5,[r1,#0]
+add  r1,#0x6C                       //Next character, Lucas
+mov  r5,#0
+str  r5,[r1,#0]
+add  r1,#0x6C                       //Next character, Duster
+ldr  r5,=#0x4E002516
+str  r5,[r1,#0]
+add  r1,#0x6C                       //Next character, Kumatora
+ldr  r5,=#0x4F46B50D
+str  r5,[r1,#0]
+add  r1,#0x6C                       //Next character, Boney
+ldr  r5,=#0x2E00
+str  r5,[r1,#0]
+add  r1,#0x6C                       //Next character, Salsa
+mov  r5,#0
+str  r5,[r1,#0]
+bx   lr
+
+//--------------------------------------------------------------------------------------------------
 //Second part of the new hacks
-
-
+//--------------------------------------------------------------------------------------------------
 .flag_reset:
 push {lr}
-cmp r0,#0x4F
-bne .NotCycle
+cmp  r0,#0x4F                       //Summary's arrangement is being loaded?
+bne  .CheckOtherArrangements
 
+bl   .fix_copy_bug
+b    .Flag_Stuff
 
-.Fix_Copy_Bug:                                 //Let's manually fix the save coping bug while we're at it
-ldr r1,=#0x2004F80
-mov r5,#0
-str r5,[r1,#0]
-str r5,[r1,#4]
-str r5,[r1,#0x1C]
-strh r5,[r1,#0x20]
-ldr r5,=#0x880                                   //Reset PSI flags
-add r1,#0x1A
-strh r5,[r1,#0]
-//ldr r1,=#0x2004947
-//mov r5,#0
-//strb r5,[r1,#0]
-//str r5,[r1,#4]                                  //Reset Duster's items
-ldr r1,=#0x20041B0                              //Reset Equipments, Flint
-ldr r5,=#0x0410000
-str r5,[r1,#0]
-add r1,#0x6C                                    //Next character, Lucas
-mov r5,#0
-str r5,[r1,#0]
-add r1,#0x6C                                    //Next character, Duster
-ldr r5,=#0x4E002516
-str r5,[r1,#0]
-add r1,#0x6C                                    //Next character, Kumatora
-ldr r5,=#0x4F46B50D
-str r5,[r1,#0]
-add r1,#0x6C                                    //Next character, Boney
-ldr r5,=#0x2E00
-str r5,[r1,#0]
-add r1,#0x6C                                    //Next character, Salsa
-mov r5,#0
-str r5,[r1,#0]
-
+.CheckOtherArrangements:
+cmp  r0,#0x51                       //Text Speed/Window flavour arrangement
+beq  .Flag_Stuff
+cmp  r0,#0x48                       //Naming screen arrangements for the player's name are at 0x48
+beq  .Flag_Stuff
+cmp  r0,#0x47                       //Naming screen arrangements are at 0x47
+bne  .NotCycle
 
 .Flag_Stuff:
-ldr r1,=#0x2003F04                                                             //Flag
-mov r5,#1
-strb r5,[r1,#0]                                                                    //Set the flag
-mov r5,#0
-b .ending
-
+ldr  r1,=#0x2003F04                 //Flag
+mov  r5,#1
+strb r5,[r1,#0]                     //Set the flag
+mov  r5,#0
+strb r5,[r1,#8]
+b    .ending
 
 .NotCycle:
-ldr r1,=#0x2003F04                                                             //Reset the Flag
-mov r5,#0
+ldr  r1,=#0x2003F04                 //Reset the Flag
+mov  r5,#0
 strb r5,[r1,#0]
-b .ending
-
+b    .ending
 
 .ending:
-mov r1,r0
-lsl r1,r1,#0x10 //Stuff the game does
-pop {pc}                                        //Return to the cycle
+mov  r1,r0
+lsl  r1,r1,#0x10                    //Stuff the game does
+pop  {pc}                           //Return to the cycle
 
-
-//---------------------------------------------------------------------------------------------------
-
-
-//Third part of the new hacks
-
-
-.check_change:
+//--------------------------------------------------------------------------------------------------
+//Make the game print the naming screen only when the name changes - "A" version
+//--------------------------------------------------------------------------------------------------
+.pressed_a_check_print:
 push {lr}
-ldr r1,=#0x2003F00
-ldrb r3,[r1,#0]
-cmp r3,r2
-beq .check_ending
-ldrb r3,[r1,#4]                      //Load our flag
-cmp r3,#2                            //Is it set to -not printing?
-bne +
-mov r3,#1                            //If it is, set it to printing, the cursor just changed position!
-strb r3,[r1,#4]
+add  sp,#-0x24
+mov  r0,sp
+bl   .save_name                     //Save the current name to stack
+
+mov  r0,r6
+bl   $804F51C                       //Default code which can change the name
+
+mov  r0,sp
+bl   .reprint_if_updated
+
+add  sp,#0x24
+pop  {pc}
+
+//--------------------------------------------------------------------------------------------------
+//Make the game print the naming screen only when the name changes - "B" version
+//--------------------------------------------------------------------------------------------------
+.pressed_b_check_print:
+push {lr}
+add  sp,#-0x24
+mov  r0,sp
+bl   .save_name                     //Save the current name to stack
+
+bl   $8050628                       //Default code which can change the name
+
+mov  r0,sp
+bl   .reprint_if_updated
+
+add  sp,#0x24
+pop  {pc}
+
+//--------------------------------------------------------------------------------------------------
+//If the name changed from the one in r0, it sets the flag for re-printing
+//--------------------------------------------------------------------------------------------------
+.reprint_if_updated:
+push  {lr}
+bl   .has_name_changed              //Has the name changed?
+cmp  r0,#1
+bne  +
+ldr  r0,=#0x2003F04                 //Flag
+mov  r1,#1
+strb r1,[r0,#0]                     //Set it to 1, so it prints
 +
-strb r2,[r1,#0]                      //Store the new position of the cursor
-.check_ending:
-mov r1,#3                            //Normal OAM setting the game does
-mov r3,#0x92
-pop {pc}
+pop  {pc}
+
+//--------------------------------------------------------------------------------------------------
+//Save the currently selected name to stack
+//--------------------------------------------------------------------------------------------------
+.save_name:
+push {lr}
+mov  r1,r0                          //r0 has the address of the stack
+ldr  r0,=#0x201AE1C                 //The currently selected name's address is here
+ldr  r0,[r0,#0]
+str  r0,[r1,#0]                     //Save the current name's address as well
+add  r1,#4
+mov  r2,#0x10                       //How many halfwords
+swi  #0xB                           //Copy to stack
+pop  {pc}
+
+//--------------------------------------------------------------------------------------------------
+//Compare the currently selected name to the one saved in the stack
+//--------------------------------------------------------------------------------------------------
+.has_name_changed:
+push {r4,lr}
+mov  r4,r0                          //r0 has the address of the stack
+ldr  r0,=#0x201AE1C                 //The currently selected name's address is here
+mov  r3,#0
+ldr  r0,[r0,#0]
+ldr  r1,[r4,#0]                     //Check if the currently loaded name changed
+cmp  r1,r0
+bne  +
+add  r4,#4
+-
+ldrh r1,[r0,#0]
+ldrh r2,[r4,#0]
+cmp  r1,r2
+bne  +
+add  r0,#2
+add  r4,#2
+add  r3,#1
+cmp  r3,#0x10
+blt  -
+
+mov  r0,#0
+b    .has_name_changed_end          //Name hasn't changed
+
++
+mov  r0,#1                          //Name has changed
+
+.has_name_changed_end:
+pop  {r4,pc}
+
+//--------------------------------------------------------------------------------------------------
+//Compare the currently diplayed entry to the one saved.
+//If they don't match, set re-printing
+//--------------------------------------------------------------------------------------------------
+.compare_currently_displayed_entry:
+push {lr}
+ldr  r1,=#0x2003F04
+ldrb r2,[r1,#4]
+cmp  r2,r0                          //Is the entry that has to be displayed the same?
+beq  +
+strb r0,[r1,#4]                     //If it isn't, re-print and update the value
+mov  r2,#1
+strb r2,[r1,#0]
++
+bl   $80486A0                       //Default code
+pop  {pc}
+
+//--------------------------------------------------------------------------------------------------
+//Set the flag for reprinting, the Invalid/Duplicated name window popped up
+//--------------------------------------------------------------------------------------------------
+.reprint_invalid_duplicated:
+push {lr}
+ldr  r0,=#0x2003F04
+mov  r1,#1                          //Set to printing
+strb r1,[r0,#0]
+
+mov  r0,#0                          //Default code
+mov  r1,#4
+pop  {pc}
+
+//--------------------------------------------------------------------------------------------------
+//Set the flag for reprinting, the Invalid/Duplicated name window has been closed
+//--------------------------------------------------------------------------------------------------
+.reprint_after_invalid_duplicated:
+push {lr}
+ldr  r1,=#0x41CC
+ldr  r4,=#0x2016028                 //Default code
+add  r0,r4,r1
+ldrh r0,[r0,#0]
+cmp  r0,#0x33                       //Is this the right window? If it is, the displayed entry is 0x33
+bne  +
+
+ldr  r0,=#0x201A288
+ldrb r0,[r0,#0]
+cmp  r0,#0x11                       //Make sure this is the naming menu
+bne  +
+
+ldr  r0,=#0x2003F04
+mov  r1,#1                          //Set to printing
+strb r1,[r0,#0]
+ldr  r1,=#0x41CC                    //Set this back to what it should be
+
++
+pop  {pc}
 
