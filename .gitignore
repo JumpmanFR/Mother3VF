@@ -80,7 +80,11 @@
 !logic_00E.bin
 !logic_00F.bin
 !logic_0EA.bin
+!logic_36D.bin
+!logic_36E.bin
 !logic_code_0E9.bin
+!logic_code_36C.bin
+!logic_pointer_36C.bin
 !logic_1CF_pointers.bin
 !logic_142_pointers.bin
 !gfx_chaptertitles_\[c\].bin

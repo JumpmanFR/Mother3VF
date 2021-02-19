@@ -2092,6 +2092,16 @@ org $9199364; dd {logic_0EA_new_address}-$9198C10; dd {logic_0EA_new_address}+$1
 org $8D2DCC8; dd extra_hacks.push_battle_memo_status+1 //04 00 9C 00
 org $8D2D8CC; dd $0
 
+//Fix issue in which Lucas' sprite would become Boney's because of missing ifs, we're also shuffling other stuff to save space
+org $934E4A4; incbin logic_pointer_36C.bin
+org $934E4B4; incbin logic_code_36C.bin
+org $919A784; dd $001B8338
+org $919A788; dd $001B8354
+org $919A78C; dd $00E383F0
+org $919A790; dd $00E38400
+org $9350F48; incbin logic_36D.bin
+org $9FD1000; incbin logic_36E.bin
+
 
 //============================================================================================
 //                                  MEMO SCREEN STUFF
