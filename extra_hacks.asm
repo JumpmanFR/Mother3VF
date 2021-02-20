@@ -1150,7 +1150,7 @@ pop  {r4-r7,pc}
 //------------------------------------------------------------------------------------------------------------------------------
 // Jumpman’s function for French elision.
 // Input parameter: r1
-// r1 values from 0 to D: Flint, Lucas, Duster, Kumatora, Boney, Salsa, Wess, Thomas, Ionia, Fuel, Alec, Fassad, Claus, Hinawa
+// r1 values from 0 to D: 0 Flint, 1 Lucas, 2 Duster, 3 Kumatora, 4 Boney, 5 Salsa, 6 Wess, 7 Thomas, 8 Ionia, 9 Fuel, A Alec, B Fassad, C Claus, D Hinawa
 // r1 = E => current party leader
 // r1 = F => favorite food
 // Returns 1 in r0 if the fav food or character name starts with a vowel, 0 otherwise.
