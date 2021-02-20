@@ -298,7 +298,7 @@
 0-123E:@Pas par là·!![END]
 0-124:@It's locked.[END]
 0-124E:©C'est fermé à clé.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 0-125:@Seems to be hungry.[END]
 0-125E:©Il a l'air affamé.[END]
 // context???
@@ -500,7 +500,7 @@
 0-218:[END]
 0-218E:[END]
 0-219:@[42 FF 00 00] pocketed the Chimera Tickets.[END]
-0-219E:©[42 FF 00 00] récupère les·Tickets chimériques.[END]
+0-219E:©[42 FF 00 00] récupère les·Tickets[BREAK]¬chimériques.[END]
 0-220:@There are ants at your feet.[WAIT]@You might accidentally step on them, so please[BREAK]¬don't continue in that direction.[END]
 0-220E:©Il y a des fourmis à vos pieds.[WAIT]©Vous pourriez accidentellement les piétiner,[BREAK]¬alors merci de ne pas continuer par ici.[END]
 0-221:@Relaxing in the hot spring made [42 FF 00 00][BREAK]¬feel alive again.[END]
@@ -1343,7 +1343,7 @@
 // Repeats: 10-36, 222-36, 506-36
 10-37:@It's locked.[END]
 10-37E:©C'est fermé à clé.[END]
-// Repeats: 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 10-38:@Oh, it's old man Wess's son, What's-His-Name.[WAIT]@You sure do love to walk around *huff*[PAUSE 20 00] at[BREAK]¬night, you do.[END]
 10-38E:@Oh mais c'est Machin, l'fils du vieux Wess.[WAIT]@T'aimes vraiment t'balader *pfiu*[PAUSE 20 00] la nuit toi, on[BREAK]¬dirait.[END]
 // This Nippolyte guy, I really imagine him always talking like some British guy.
@@ -1438,7 +1438,7 @@
 // Repeats: 11-10, 212-10, 212-27, 213-10
 11-11:@It's locked.[END]
 11-11E:©Une serrure fermée bloque l'accès.[END]
-// Repeats: 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 11-11, 212-11, 213-11
 11-12:@Potatoto.[END]
 11-12E:©Patatate.[END]
 // Repeats: 11-12, 212-12, 212-29, 213-12, 213-28
@@ -1839,7 +1839,7 @@
 13-49E:@On dirait que ces sales histoires ne s'arrêtent[BREAK]¬plus.[WAIT]¬D'abord une, puis une autre... *hic*[PAUSE 10 00][WAIT]@Ou pas, j'sais pas.[END]
 13-50:@It's locked.[END]
 13-50E:©C'est fermé à clé.[END]
-// Repeats: 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 13-51:[END]
 13-51E:[END]
 
@@ -2893,7 +2893,7 @@
 31-8E:@Hé·! Toi, là·! Jeune homme·![WAIT]@Je vais peut-être t'embêter, mais s'il te plaît,[BREAK]¬viens donc me voir.[WAIT][PAUSE 3C 00]@J'ai des informations importantes pour toi.[END]
 // repeat partiel 31-11
 31-9:@From this day forth, you'll be rewarded for[BREAK]¬your hard work.[WAIT]@It'll be given in units called DP (Dragon Power).[WAIT]@You can use DP in shops and other places[BREAK]¬in exchange for goods and services.[WAIT]@It seems you've already earned[BREAK]¬[80 FF F0 FF] DP so far.[WAIT]@You can save and withdraw DP anytime by[BREAK]¬talking to nearby frogs.[WAIT]@Some frogs in special locations can't conduct[BREAK]¬DP transactions, though.[WAIT]@Shall I explain all that again?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-31-9E:@Désormais, tu seras récompensé pour ton dur[BREAK]¬labeur.[WAIT]@Tu recevras des unités appelées DP (dragons[BREAK]¬du pouvoir).[WAIT]@Tu peux utiliser les DP dans les magasins et[BREAK]¬ailleurs, en échange d'objets ou de services.[WAIT]@Il semblerait que tu aies déjà gagné [80 FF F0 FF] DP[BREAK]¬à ce jour.[WAIT]@Tu peux déposer ou retirer des DP quand tu le[BREAK]¬souhaites en parlant aux grenouilles.[WAIT]@Cependant, il y a des grenouilles, dans certains[BREAK]¬lieux, qui ne peuvent pas faire de transactions.[WAIT]@Veux-tu que je te réexplique tout ça·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+31-9E:@Désormais, tu seras récompensé pour ton dur[BREAK]¬labeur.[WAIT]@Tu recevras des unités appelées DP (dragons[BREAK]¬du pouvoir).[WAIT]@Tu peux utiliser les DP dans les magasins et[BREAK]¬ailleurs, en échange d'objets ou de services.[WAIT]@Il semblerait que tu aies déjà gagné [BREAK]¬[80 FF F0 FF] DP à ce jour.[WAIT]@Tu peux déposer ou retirer des DP quand tu le[BREAK]¬souhaites en parlant aux grenouilles.[WAIT]@Cependant, il y a des grenouilles, dans certains[BREAK]¬lieux, qui ne peuvent pas faire de transactions.[WAIT]@Veux-tu que je te réexplique tout ça·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 31-10:@Alright, then. Let's try it out.[END]
 31-10E:@Très bien. Alors essayons.[END]
 31-11:@Hey, now. I asked you nicely, didn't I?[WAIT]@I realize this might be a bit of a bother, [PAUSE 0C 00]but[BREAK]¬[PAUSE 0C 00]please [PAUSE 0C 00]come [PAUSE 0C 00]talk [PAUSE 0C 00]to [PAUSE 0C 00]me![END]
@@ -3049,9 +3049,9 @@
 32-35:@Have you ever heard of the DCMC?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 32-35E:@T'as déjà entendu parler des DCMC·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 32-36:@They're the greatest band to ever play at[BREAK]¬Club Titiboo! Wouldn't you agree?[WAIT]@...Actually, I don't really know who they are.[BREAK]¬I was just pretending.[END]
-32-36E:@C'est le meilleur groupe qui ait jamais joué au[BREAK]¬club Titiboo·! T'es pas d'accord·?[WAIT]@... En fait, je sais pas vraiment qui c'est.[BREAK]¬Je faisais semblant.[END]
+32-36E:@C'est le meilleur groupe qui ait jamais joué au[BREAK]¬club Titiboo·! T'es pas d'accord·?[WAIT]@... En fait, je sais pas vraiment qui c'est. [BREAK]¬Je faisais semblant.[END]
 32-37:@They're the greatest band to ever play at[BREAK]¬Club Titiboo![WAIT]@...Actually, I don't really know who they are.[BREAK]¬I was just pretending.[END]
-32-37E:@C'est le meilleur groupe qui ait jamais joué au[BREAK]¬club Titiboo·![WAIT]@... En fait, je sais pas vraiment qui c'est.[BREAK]¬Je faisais semblant.[END]
+32-37E:@C'est le meilleur groupe qui ait jamais joué au[BREAK]¬club Titiboo·![WAIT]@... En fait, je sais pas vraiment qui c'est. [BREAK]¬Je faisais semblant.[END]
 32-38:@Take me there sometime if I ever get over[BREAK]¬seven feet tall, okay?[END]
 32-38E:@Emmène-moi là-bas si un jour je dépasse deux[BREAK]¬mètres, d'accord·?[END]
 // changed 2m to 7 feet, also, not sure who's talking
@@ -3463,7 +3463,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 36-27:@The door is firmly shut.[END]
 36-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 36-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 36-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -6018,7 +6018,7 @@
 91-8:@I guess they still haven't found [HINAWA 22 08 00][BREAK]¬yet.[END]
 91-8E:@Je suppose qu'ils n'ont toujours pas trouvé[BREAK]¬[HINAWA 22 08 00].[END]
 91-9:@Brrr... So cold...[WAIT]@I hope [HINAWA 22 08 00]...[BREAK]¬Aaaa...[PAUSE 20 00] Aaaa...[PAUSE 20 00] Aaachooo![WAIT]@...doesn't catch cold too...[BREAK]¬*sniffle*[END]
-91-9E:@Brrr... Ce froid...[WAIT]@J'espère qu[EF ED][HINAWA 22 08 00]...[BREAK]¬Aaaa...[PAUSE 20 00] Aaaa...[PAUSE 20 00] Aaatchouum·![WAIT]@... ne va pas attraper froid elle aussi...[BREAK]¬*snif*[END]
+91-9E:@Brrr... Ce froid...[WAIT]@J'espère qu[EF ED][HINAWA 22 08 00]...[BREAK]¬Aaaa...[PAUSE 20 00] Aaaa...[PAUSE 20 00] Aaatchouum·![WAIT]@... ne va pas attraper froid elle aussi... [BREAK]¬*snif*[END]
 91-10:@Aaa...[PAUSE 20 00] Aaaa...[PAUSE 20 00][WAIT]@It's almost like the entire forest...[BREAK]¬Aaaa...[PAUSE 20 00]choooo![WAIT]@...has suddenly cooled down all at once...[BREAK]¬*sniffle*[END]
 91-10E:@Aaa...[PAUSE 20 00] Aaaa...[PAUSE 20 00][WAIT]@C'est comme si la forêt entière...[BREAK]¬Aaaa...[PAUSE 20 00] tchouum·![WAIT]@... s'était subitement refroidie d'un seul coup...[BREAK]¬*snif*[END]
 91-11:@Everyone seems so cold.[WAIT]@I'm actually burning up, though...[END]
@@ -6211,7 +6211,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 96-27:@The door is firmly shut.[END]
 96-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 96-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 96-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -7010,7 +7010,7 @@
 122-14:@Y'know that visitor with the monkey?[WAIT]¬He's a generous guy. He treated me to some[BREAK]¬bourbon...[WAIT]¬So this one's for him![WAIT]¬Cheers![END]
 122-14E:@T'as vu ce visiteur avec son singe·?[WAIT]¬C'est un type généreux. Il m'a offert un petit[BREAK]¬bourbon...[WAIT]¬Alors à la sienne·![WAIT]¬Santé·![END]
 122-15:@"Keep at it, monkey!" [PAUSE 1E 00]is what I want to say.[WAIT]@"Keep at it, me!" [PAUSE 1E 00]is what I also want to say.[WAIT]@Monkey gives me[PAUSE 3C 00] cafe au lait?[END]
-122-15E:@J'aimerais bien pouvoir dire•: [PAUSE 1E 00]"Allez p'tit singe,[BREAK]¬courage·!"[WAIT]@Mais j'aimerais bien pouvoir dire aussi•:[BREAK]¬[PAUSE 1E 00]"Allez bibi, courage·!"[WAIT]@Est-ce que le singe me donnerait[PAUSE 3C 00] un petit[BREAK]¬remontant·?[END]
+122-15E:@J'aimerais bien pouvoir dire•: [PAUSE 1E 00]"Allez p'tit singe,[BREAK]¬courage·!"[WAIT]@Mais j'aimerais bien pouvoir dire aussi•: [BREAK]¬[PAUSE 1E 00]"Allez bibi, courage·!"[WAIT]@Est-ce que le singe me donnerait[PAUSE 3C 00] un petit[BREAK]¬remontant·?[END]
 // wtf is this
 122-16:@...[EVENT][END]
 122-16E:@...[EVENT][END]
@@ -7019,7 +7019,7 @@
 122-17E:©Il s'est apparemment endormi.[END]
 122-18:@It's locked.[END]
 122-18E:©C'est fermé à clé.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 122-19:@Last night, the guest in the middle room gave[BREAK]¬me a lot of money.[WAIT]@What am I supposed to do with it?[END]
 122-19E:@Hier soir, l'hôte de la chambre du milieu m'a[BREAK]¬donné plein d'argent.[WAIT]@Qu'est-ce que je suis censée faire avec ça·?[END]
 122-20:@I don't feel like bein' lectured by you![WAIT]@I already know! I don't need you to tell me![BREAK]¬[PAUSE 3C 00]...*hic*[END]
@@ -7211,7 +7211,7 @@
 124-8:@Do a good job, and I'll set you free.[WAIT]¬I'll even take you back to that girlie monkey.[END]
 124-8E:@Fais du bon travail et tu seras libre.[WAIT]¬Je vais même te ramener à cette guenon.[END]
 124-9:@But if you bore the audience...[WAIT]@You'll get an extra heaping of punishment![BREAK]¬Got that?![END]
-124-9E:@Mais si tu lasses le public...[WAIT]@Tu auras une nouvelle dose de punitions·![BREAK]¬C'est compris·?![END]
+124-9E:@Mais si tu lasses le public...[WAIT]@Tu auras une nouvelle dose de punitions·! [BREAK]¬C'est compris·?![END]
 124-10:@Yeah. It's me.[WAIT]@What is it? Did you find it?[END]
 124-10E:@Oui. C'est moi.[WAIT]@Qu'y a-t-il·? Vous l'avez trouvé·?[END]
 124-11:@What?![WAIT]@There are other people inside the castle?![END]
@@ -7364,7 +7364,7 @@
 128-21E:©Une boîte à Boîte à bonheur.[BREAK]¬Elle est vide.[END]
 // Repeats: 118-5, 128-21
 128-22:@I can think of all kinds of things a Happy Box[BREAK]¬could be.[WAIT]@Like, maybe there's happiness inside,[WAIT]¬or happiness gets sent to it,[BREAK]¬or it makes you feel happy or something.[WAIT]@I think I might already be feeling happier now.[WAIT]@Hahahahaha![END]
-128-22E:@Je m'imagine des tas de choses sur ce que[BREAK]¬peut être une Boîte à bonheur.[WAIT]@Peut-être qu'il y a du bonheur à l'intérieur,[BREAK]¬ou qu'elle reçoit du bonheur,[WAIT]¬ou qu'elle vous fait vous sentir heureux ou[BREAK]¬quelque chose comme ça.[WAIT]@Je crois que je me sens déjà plus heureux, là.[WAIT]@Hahahahaha·![END]
+128-22E:@Je m'imagine des tas de choses sur ce que[BREAK]¬peut être une Boîte à bonheur.[WAIT]@Peut-être qu'il y a du bonheur à l'intérieur, [BREAK]¬ou qu'elle reçoit du bonheur,[WAIT]¬ou qu'elle vous fait vous sentir heureux ou[BREAK]¬quelque chose comme ça.[WAIT]@Je crois que je me sens déjà plus heureux, là.[WAIT]@Hahahahaha·![END]
 128-23:@I kept watching the pretty light coming from[BREAK]¬the box we got![WAIT]@And then I suddenly felt uplifted and now I'm[BREAK]¬REALLY happy![END]
 128-23E:@Je regardais fixement la jolie lumière[BREAK]¬provenant de la boîte qu'on a reçue.[WAIT]@Puis d'un coup j'ai senti comme une chaleur, et[BREAK]¬maintenant, je me sens VRAIMENT heureuse·![END]
 128-24:@Potted Tazmily Poinsettias.[END]
@@ -7593,7 +7593,7 @@
 [Container 137]
 137-0:@It's locked.[END]
 137-0E:©C'est fermé à clé.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 137-1:@Lydia's prized fluffy bed.[END]
 137-1E:©Le cher lit douillet de Lydie.[END]
 137-2:@Lydia's favorite warm drink.[END]
@@ -7779,7 +7779,7 @@
 139-44:[ALTERNATEFONT]@sprinkle water[BREAK]¬on floor?[WAIT]¬no sprinkle?[WAIT]@is dry.[END]
 139-44E:[ALTERNATEFONT]@verser eau[BREAK]¬par terre ?[WAIT]¬pas verser ?[WAIT]@est sec.[END]
 139-45:@There are some things I want to forget...[PAUSE 20 00][BREAK]¬and some things I have forgotten...[WAIT][PAUSE 0F 00]¬but have you forgotten me?[WAIT]@It's me, the Rope Snake.[WAIT]@I apologize for the trouble I caused before.[WAIT]@No,[PAUSE 0F 00] I'm not depressed.[WAIT]@I'm not.[WAIT]@Really. I'm not depressed.[END]
-139-45E:@Il y a des choses que j'aimerais oublier...[PAUSE 20 00][BREAK]¬et il y a des choses que j'ai oubliées...[WAIT][PAUSE 0F 00]¬mais m'avez-vous oublié·?[WAIT]@C'est moi, le Serpent-corde.[WAIT]@Je m'excuse pour les problèmes que j'ai pu[BREAK]¬causer par le passé.[WAIT]@Non,[PAUSE 0F 00] je ne suis pas déprimé.[WAIT]@Non non.[WAIT]@Vraiment. Je ne suis pas déprimé.[END]
+139-45E:@Il y a des choses que j'aimerais oublier... [PAUSE 20 00][BREAK]¬et il y a des choses que j'ai oubliées...[WAIT][PAUSE 0F 00]¬mais m'avez-vous oublié·?[WAIT]@C'est moi, le Serpent-corde.[WAIT]@Je m'excuse pour les problèmes que j'ai pu[BREAK]¬causer par le passé.[WAIT]@Non,[PAUSE 0F 00] je ne suis pas déprimé.[WAIT]@Non non.[WAIT]@Vraiment. Je ne suis pas déprimé.[END]
 139-46:@Until the day comes when I can be useful[BREAK]¬again...[WAIT]¬I'll...[PAUSE 20 00] I'll...[PAUSE 20 00][BREAK]¬I'll devote myself to being patient![END]
 139-46E:@En attendant que vienne le jour où je pourrai à[BREAK]¬nouveau être utile...[WAIT]¬Je vais...[PAUSE 20 00] Je vais...[PAUSE 20 00][BREAK]¬Je vais m'atteler à être patient·![END]
 139-47:[ALTERNATEFONT]@pig person.[WAIT]@broke tunnel and[BREAK]¬left.[END]
@@ -8180,7 +8180,7 @@
 
 [Container 156]
 156-0:@The guy who looks just like [DUSTER 23 03 00]?[BREAK]¬He's over at Club Titiboo.[WAIT]@He's got different hair, but other than that, he[BREAK]¬definitely looks like him.[WAIT]@Especially that bum-like vibe he has.[END]
-156-0E:@Le type qui ressemble à [DUSTER 23 03 00]·?[BREAK]¬Il est au club Titiboo.[WAIT]@Il n'a pas les mêmes cheveux, mais à part ça, il[BREAK]¬lui ressemble exactement.[WAIT]@Surtout avec ses airs de vagabond.[END]
+156-0E:@Le type qui ressemble à [DUSTER 23 03 00]·? [BREAK]¬Il est au club Titiboo.[WAIT]@Il n'a pas les mêmes cheveux, mais à part ça, il[BREAK]¬lui ressemble exactement.[WAIT]@Surtout avec ses airs de vagabond.[END]
 156-1:@Everyone who works at the factory loves Club[BREAK]¬Titiboo.[WAIT]@But do they admit people who don't work at[BREAK]¬the factory? I can't remember...[END]
 156-1E:@Tous les employés de l'usine adorent le club[BREAK]¬Titiboo.[WAIT]@Mais est-ce que les personnes qui ne[BREAK]¬travaillent pas à l'usine sont acceptées·?[WAIT]¬Je ne me souviens pas...[END]
 156-2:@The factory? Like I said, you go faaaaaar east,[BREAK]¬along the tracks.[WAIT]@It's waaaay east of the hot spring.[END]
@@ -8619,7 +8619,7 @@
 
 [Container 175]
 175-0:@Ooh, just look at him swagger away so[BREAK]¬confidently! [HEART][WAIT]@He leaves the stage with such a calm air[BREAK]¬about him![WAIT]@A natural if I ever saw one![BREAK]¬What a casanova! [HEART][WAIT][PAUSE 20 00]@Bravo, Mr. Pump! [HEART][END]
-175-0E:@Ooh, non mais regardez avec quelle assurance[BREAK]¬il se pavane·! [HEART][WAIT]@Il quitte la scène d'un air si imperturbable·![WAIT]@D'un naturel, comme je n'en ai jamais vu·![BREAK]¬Quel casanova·! [HEART][WAIT][PAUSE 20 00]@Bravo, M. Pompe·! [HEART][END]
+175-0E:@Ooh, non mais regardez avec quelle assurance[BREAK]¬il se pavane·! [HEART][WAIT]@Il quitte la scène d'un air si imperturbable·![WAIT]@D'un naturel, comme je n'en ai jamais vu·! [BREAK]¬Quel casanova·! [HEART][WAIT][PAUSE 20 00]@Bravo, M. Pompe·! [HEART][END]
 175-1:@There it is! [HEART][WAIT]@That's the Needle! [HEART][WAIT]@One of the seven Needles sealing the Dragon[BREAK]¬away![END]
 175-1E:@La voilà·! [HEART][WAIT]@L'Aiguille·! [HEART][WAIT]@Une des sept Aiguilles qui retiennent le Dragon[BREAK]¬enfermé·![END]
 175-2:@What's gonna happen when you pull it?[WAIT]@I dunno yet, either.[END]
@@ -8808,7 +8808,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 180-27:@The door is firmly shut.[END]
 180-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 180-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 180-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -8975,7 +8975,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 181-27:@The door is firmly shut.[END]
 181-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 181-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 181-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -9096,7 +9096,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 182-27:@The door is firmly shut.[END]
 182-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 182-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 182-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -9112,7 +9112,7 @@
 182-32E:@[LUCAS 23 02 00]·! On se retrouve enfin·![WAIT]@C'est moi. [CLAUS 22 05 00].[WAIT]@Touche mon cœur.[BREAK]¬Tu sens comme il bat·?[WAIT]@[LUCAS 23 02 00]·![BREAK]¬Tu n'as plus à t'inquiéter maintenant.[WAIT]@C'est moi·! [CLAUS 22 05 00]·![END]
 182-33:@The door is firmly shut.[END]
 182-33E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 182-34:@The bell has rung![WAIT]@You're weak![BREAK]¬You're weak![WAIT]@Lotus rooooot![END]
 182-34E:@La cloche a sonné·![WAIT]@Tu es faible·![BREAK]¬Tu es faible·![WAIT]@Racine de lotuuuuus·![END]
 182-35:@A shiny car.[BREAK]¬It would be dangerous if it suddenly took off.[WAIT]@A shiny car.[BREAK]¬It's scary even when it's stopped.[END]
@@ -9215,7 +9215,7 @@
 186-26:@And then there's one in Chupichupyoi Temple,[BREAK]¬deep in the Oriander Mountains.[WAIT]¬I believe Ionia is protecting it.[END]
 186-26E:@Et il y en a une au temple de Chupichupyoi, au[BREAK]¬cœur des montagnes d'Oriandre.[WAIT]¬Je crois que Ionie la protège.[END]
 186-27:@And one other one...[WAIT]@The Needle said to be sticking out of the Dark[BREAK]¬Dragon's head...[WAIT][PAUSE 5A 00]¬I can't seem to locate it at all.[WAIT]@Nor Locria, who's supposed to protect that[BREAK]¬particular Needle...[WAIT]@I'm so picky about details, yet I have no idea[BREAK]¬where they are...[WAIT]@Having to disappear without finding out...[BREAK][PAUSE 0F 00]¬It's a little bit sad.[END]
-186-27E:@Et il y en a une autre...[WAIT]@L'Aiguille dont on dit qu'elle est plantée dans la[BREAK]¬tête du Dragon ténébreux...[WAIT][PAUSE 5A 00]¬Je ne crois pas pouvoir la localiser.[WAIT]@Ni même Locrie, qui est censé protéger cette[BREAK]¬Aiguille en particulier...[WAIT]@J'ai le souci du détail, mais pourtant, je n'ai[BREAK]¬aucune idée d'où ils se trouvent...[WAIT]@Devoir disparaître sans avoir trouvé...[BREAK][PAUSE 0F 00]¬C'est un peu triste.[END]
+186-27E:@Et il y en a une autre...[WAIT]@L'Aiguille dont on dit qu'elle est plantée dans la[BREAK]¬tête du Dragon ténébreux...[WAIT][PAUSE 5A 00]¬Je ne crois pas pouvoir la localiser.[WAIT]@Ni même Locrie, qui est censé protéger cette[BREAK]¬Aiguille en particulier...[WAIT]@J'ai le souci du détail, mais pourtant, je n'ai[BREAK]¬aucune idée d'où ils se trouvent...[WAIT]@Devoir disparaître sans avoir trouvé... [BREAK][PAUSE 0F 00]¬C'est un peu triste.[END]
 186-28:@I wrote down everything I just told you in this[BREAK]¬secret notebook.[WAIT]@Take it with you. [HEART][END]
 186-28E:@J'ai noté tout ce que je viens de dire dans ce[BREAK]¬carnet secret.[WAIT]@Prenez-le avec vous. [HEART][END]
 186-29:@Please... don't forget me.[WAIT]@Here, this is a memento of me. [HEART][WAIT]@A razor and lipstick...[PAUSE 20 00][BREAK]¬Please take good care of them, okay? [HEART][END]
@@ -9357,7 +9357,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 192-27:@The door is firmly shut.[END]
 192-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 192-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 192-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -10143,7 +10143,7 @@
 211-1:@Oh, pardon me. I wasn't paying attention.[END]
 211-1E:@Oh, mes excuses. Je ne faisais pas attention.[END]
 211-2:@I'm sorry, but we're in a terrible hurry.[BREAK]¬If you'll excuse us.[END]
-211-2E:@Je suis désolé, nous sommes très pressés.[BREAK]¬Si vous voulez bien nous excuser.[END]
+211-2E:@Je suis désolé, nous sommes très pressés. [BREAK]¬Si vous voulez bien nous excuser.[END]
 211-3:@Come now, little monkey.[BREAK]¬We should be off.[END]
 211-3E:@Viens, petit singe.[BREAK]¬On y est bientôt.[END]
 211-4:@[DUSTER 22 0F 00]![END]
@@ -10177,7 +10177,7 @@
 211-16:@Oh, [DUSTER 22 0F 00].[WAIT]@I haven't seen you in so long.[END]
 211-16E:@Oh, [DUSTER 22 0F 00].[WAIT]@Ça fait longtemps.[END]
 211-17:@Oh, you're so shabby, Mr. Wess.[BREAK]¬Your clothes are all wrinkled![END]
-211-17E:@Oh, vous n'avez pas fière allure, M. Wess.[BREAK]¬Vos vêtements sont tout froissés·![END]
+211-17E:@Oh, vous n'avez pas fière allure, M. Wess. [BREAK]¬Vos vêtements sont tout froissés·![END]
 211-18:@So much has happened...[WAIT]@Are you having trouble sleeping, too?[END]
 211-18E:@Tellement de choses se sont passées...[WAIT]@Tu as du mal à dormir, toi aussi·?[END]
 211-19:@I take it that after all this time, you're finally[BREAK]¬trying to fix your nocturnal lifestyle?[END]
@@ -10377,7 +10377,7 @@
 // Repeats: 11-10, 212-10, 212-27, 213-10
 212-11:@It's locked.[END]
 212-11E:©Une serrure fermée bloque l'accès.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 11-11, 212-11, 213-11
 212-12:@Potatoto.[END]
 212-12E:©Patatate.[END]
 // Repeats: 11-12, 212-12, 212-29, 213-12, 213-28
@@ -10478,7 +10478,7 @@
 // Repeats: 11-10, 212-10, 212-27, 213-10
 213-11:@It's locked.[END]
 213-11E:©Une serrure fermée bloque l'accès.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 11-11, 212-11, 213-11
 213-12:@Potatoto.[END]
 213-12E:©Patatate.[END]
 // Repeats: 11-12, 212-12, 212-29, 213-12, 213-28
@@ -10882,7 +10882,7 @@
 // Repeats: 10-36, 222-36, 506-36
 222-37:@It's locked.[END]
 222-37E:©C'est fermé à clé.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 222-38:@Oh, it's old man Wess's son, What's-His-Name.[WAIT]@You sure do love to walk around *huff*[PAUSE 20 00] at[BREAK]¬night, you do.[END]
 222-38E:@Oh mais c'est Machin, l'fils du vieux Wess.[WAIT]@T'aimes vraiment t'balader *pfiu*[PAUSE 20 00] la nuit toi, on[BREAK]¬dirait.[END]
 // Repeats: 10-38, 222-38, 506-38
@@ -12298,9 +12298,9 @@
 
 [Container 258]
 258-0:@This is the Empire Porky Building, headquarters[BREAK]¬for the Porky Corporation.[WAIT]@Don't you dare touch it with your filthy, sticky[BREAK]¬fingers![PAUSE 40 00] If you'd be so kind.[WAIT]@*smile* *smile*[END]
-258-0E:@Voici le siège de la Porky Corporation•:[BREAK]¬l'Empire Porky Building.[WAIT]@Ne vous avisez pas d'y toucher avec vos sales[BREAK]¬doigts collants·![PAUSE 40 00] Vous serez bien aimables.[WAIT]@*sourire* *sourire*[END]
+258-0E:@Voici le siège de la Porky Corporation•: [BREAK]¬l'Empire Porky Building.[WAIT]@Ne vous avisez pas d'y toucher avec vos sales[BREAK]¬doigts collants·![PAUSE 40 00] Vous serez bien aimables.[WAIT]@*sourire* *sourire*[END]
 258-1:@This is the Empire Porky Building, headquarters[BREAK]¬for the Porky Corporation.[WAIT]@So you're the ones who...[PAUSE 3C 00] Heh heh heh.[WAIT]@No, no, no! It's nothing at all! Never mind me![WAIT]@*smile* *smile*[END]
-258-1E:@Voici le siège de la Porky Corporation•:[BREAK]¬l'Empire Porky Building.[WAIT]@Alors c'est vous qui...[PAUSE 3C 00] Hé hé hé.[WAIT]@Non, non, non·! Ce n'est rien du tout·! Ne vous[BREAK]¬occupez pas de moi·![WAIT]@*sourire* *sourire*[END]
+258-1E:@Voici le siège de la Porky Corporation•: [BREAK]¬l'Empire Porky Building.[WAIT]@Alors c'est vous qui...[PAUSE 3C 00] Hé hé hé.[WAIT]@Non, non, non·! Ce n'est rien du tout·! Ne vous[BREAK]¬occupez pas de moi·![WAIT]@*sourire* *sourire*[END]
 258-2:@Do I look like a hermit crab?![WAIT]@Oh! [LUCAS 23 02 00]! We were just practicing[BREAK]¬our comedy routine.[END]
 258-2E:@Je ressemble à un bernard l'ermite·?![WAIT]@Oh·! [LUCAS 23 02 00]·! On était en train de[BREAK]¬répéter notre numéro comique.[END]
 258-3:@Do I look like a hermit crab?![END]
@@ -13279,7 +13279,7 @@
 321-56E:@Tu es prêt·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 321-34, 321-41, 321-56
 321-57:@Is it best if I win...?[BREAK][PAUSE 3C 00]¬No, I'll leave that up to destiny.[WAIT]@Stoooone, sheeeet, clippers![END]
-321-57E:@Est-ce qu'il vaut mieux que je gagne...·?[BREAK][PAUSE 3C 00]¬Non, c'est le destin qui décidera.[WAIT]@Rooooc, partooooche, cisaille·![END]
+321-57E:@Est-ce qu'il vaut mieux que je gagne...·? [BREAK][PAUSE 3C 00]¬Non, c'est le destin qui décidera.[WAIT]@Rooooc, partooooche, cisaille·![END]
 321-58:@AAAAAAAchooooo!![WAIT]@*sniffle* *sniffle*...[WAIT]@Sorry. Do-over.[WAIT]@Stoooone, sheeeet, clippers![END]
 321-58E:@AAAAAaatchouum·!![WAIT]@*snif* *snif*...[WAIT]@Désolé. On la refait.[WAIT]@Rooooc, partooooche, cisaille·![END]
 321-59:@Again! Stoooone, sheeeet, clippers![END]
@@ -13512,7 +13512,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 327-27:@The door is firmly shut.[END]
 327-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 327-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 327-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -13624,7 +13624,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 328-27:@The door is firmly shut.[END]
 328-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 328-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 328-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -13734,7 +13734,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 329-27:@The door is firmly shut.[END]
 329-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 329-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 329-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -13838,7 +13838,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 330-27:@The door is firmly shut.[END]
 330-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 330-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 330-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -13955,7 +13955,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 331-27:@The door is firmly shut.[END]
 331-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 331-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 331-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -14055,7 +14055,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 332-27:@The door is firmly shut.[END]
 332-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 332-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 332-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15161,7 +15161,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 373-27:@The door is firmly shut.[END]
 373-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 373-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 373-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15261,7 +15261,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 374-27:@The door is firmly shut.[END]
 374-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 374-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 374-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15361,7 +15361,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 375-27:@The door is firmly shut.[END]
 375-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 375-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 375-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15461,7 +15461,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 376-27:@The door is firmly shut.[END]
 376-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 376-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 376-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15561,7 +15561,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 377-27:@The door is firmly shut.[END]
 377-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 377-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 377-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15661,7 +15661,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 378-27:@The door is firmly shut.[END]
 378-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 378-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 378-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15765,7 +15765,7 @@
 // Repeats: 13-26, 14-26, 17-26, 36-26, 42-26, 55-26, 72-26, 77-26, 80-26, 96-26, 180-26, 181-26, 182-26, 192-26, 203-26, 207-26, 249-26, 250-26, 251-26, 252-26, 263-26, 327-26, 328-26, 329-26, 330-26, 331-26, 332-26, 373-26, 374-26, 375-26, 376-26, 377-26, 378-26, 379-26, 443-26, 467-26, 468-26, 469-26, 471-26, 472-26, 477-26, 803-26, 877-26, 878-26, 880-26, 882-26, 892-26, 900-26
 379-27:@The door is firmly shut.[END]
 379-27E:©La porte est verrouillée.[END]
-// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27, 431-1
+// Repeats: 36-27, 96-27, 180-27, 181-27, 182-27, 182-33, 192-27, 327-27, 328-27, 329-27, 330-27, 331-27, 332-27, 373-27, 374-27, 375-27, 376-27, 377-27, 378-27, 379-27
 379-28:@We may be tiny, but we're still living beings.[BREAK]¬We eke out our lives as mole crickets.[WAIT]@And actually, we've started to branch out into[BREAK]¬the business world.[WAIT]@With franchises opening up everywhere, we're[BREAK]¬now at the forefront of business evolution.[WAIT]@We have all sorts of wonderful goods that we[BREAK]¬found lying on the... [PAUSE 0F 00]I mean, stocked up on.[WAIT]@I could let you have some of them, if you'd[BREAK]¬like.[WAIT]@Well? Would you like to take a look?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 379-28E:@Nous sommes peut-être petits, mais nous[BREAK]¬sommes quand même des êtres vivants.[WAIT]¬Nous vivotons en tant que taupes-grillons.[WAIT]@En fait, nous nous sommes récemment lancés[BREAK]¬dans le monde des affaires.[WAIT]@Avec des succursales qui ouvrent de partout,[WAIT]¬nous sommes désormais au premier rang de[BREAK]¬l'évolution du business.[WAIT]¬Nous avons toutes sortes de merveilleux[BREAK]¬produits que nous avons trouvés par t...[PAUSE 0F 00][WAIT]¬je veux dire, que nous avons financés.[WAIT]@Je peux vous en proposer quelques-uns, si[BREAK]¬vous le souhaitez. Vous voulez jeter un œil·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 36-28, 43-7, 96-28, 180-28, 181-28, 182-28, 192-28, 327-28, 328-28, 329-28, 330-28, 331-28, 332-28, 373-28, 374-28, 375-28, 376-28, 377-28, 378-28, 379-28
@@ -15924,7 +15924,7 @@
 388-26:@Oh, it looks like your inventory's full.[BREAK]¬I guess you can't take my little bro with you.[END]
 388-26E:@Ah, on dirait que votre inventaire est plein.[WAIT]¬Je crois que vous n'allez pas pouvoir prendre[BREAK]¬mon p'tit frère avec vous.[END]
 388-27:@*mumble* *mumble* *murmur*...[BREAK]¬What wonderful times![END]
-388-27E:@*marmonne* *marmonne* *murmure*...[BREAK]¬Quelle époque merveilleuse·![END]
+388-27E:@*marmonne* *marmonne* *murmure*... [BREAK]¬Quelle époque merveilleuse·![END]
 388-28:@After meeting you guys, the elder's suddenly[BREAK]¬full of life and enthusiastically asleep.[END]
 388-28E:@Depuis qu'il vous a rencontrés,[WAIT]¬l'Ancien est devenu subitement plein de vie et[BREAK]¬enthousiaste dans son sommeil.[END]
 388-29:@Our elder knows everything.[WAIT]@Our elder has many acquaintances.[END]
@@ -16887,16 +16887,16 @@
 462-10:@At some point, the world wound up destroyed.[WAIT]@Naturally, it was humans who destroyed it.[WAIT]@In the back of their minds, everyone had an[BREAK]¬inkling that it would happen at some point.[WAIT]@And then it really did happen.[WAIT]@...And so, the world is no more.[END]
 462-10E:@À un moment donné, le monde finit par être[BREAK]¬détruit.[WAIT]@Naturellement, ce sont les humains qui furent[BREAK]¬responsables de sa destruction.[WAIT]@Tous, au fond d'eux-mêmes, s'étaient doutés[BREAK]¬que cet événement finirait par se produire.[WAIT]@Et en fin de compte, il se produisit réellement.[WAIT]@... Ainsi, le monde n'est plus.[END]
 462-11:@Everything so far has been about[BREAK]¬"The End of the World".[WAIT]@Did you understand all of it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-462-11E:@Tout ce qui a été dit jusque-là concernait[BREAK]¬"La fin du monde".[WAIT]@Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+462-11E:@Tout ce qui a été dit jusque-là concernait [BREAK]¬"La fin du monde".[WAIT]@Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 462-12:@Just before the end of the world, a[BREAK]¬"White Ship" came to these islands.[WAIT]@On it were all the people of Tazmily Village.[WAIT]@Yes.[WAIT]@Aboard the White Ship were those few who[BREAK]¬had managed to escape the "world".[WAIT]@The people on the ship still went by their[BREAK]¬names from the previous world.[WAIT]@This "White Ship" plan had been set in place[BREAK]¬before the world was destroyed.[WAIT]@And, although they're part of the world, these[BREAK]¬Nowhere Islands are a special place.[WAIT]@They were the one place that would remain,[BREAK]¬even if the world was lost.[WAIT]@The one and only place where people could[BREAK]¬survive.[WAIT]@And so the White Ship arrived at these islands.[END]
 462-12E:@Juste avant la fin du monde,·une·"Nef·blanche"[BREAK]¬parvint sur ces îles.[WAIT]@À son bord, tous ceux qui allaient devenir les[BREAK]¬habitants du village de Tazmily.[WAIT]@Oui.[WAIT]@À bord de la Nef blanche étaient réunies les[BREAK]¬quelques personnes[WAIT]¬qui avaient réussi à s'échapper du "monde".[WAIT]@Des personnes qui conservèrent l'usage de leur[BREAK]¬ancien nom.[WAIT]@Ce plan de la "Nef blanche" avait été établi[BREAK]¬avant la destruction du monde.[WAIT]@Et, bien qu'elles fissent partie du monde, ces[BREAK]¬îles de Nullepart étaient un endroit particulier.[WAIT]@C'était l'endroit qui allait continuer à exister,[BREAK]¬même si le monde disparaissait.[WAIT]@Le seul et unique lieu où l'on pourrait survivre.[WAIT]@Ainsi, la Nef blanche arriva sur ces îles.[END]
 // NOTE attention tout ce texte est répété dans le fichier-bloc 0-42E.txt (avec tout de même des différences), les modifs qu'on effectue doivent y être reportées
 462-13:@Everything so far has been about[BREAK]¬"The White Ship".[WAIT]@Did you understand all of it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-462-13E:@Tout ce qui a été dit jusque-là concernait[BREAK]¬"La Nef blanche".[WAIT]@Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+462-13E:@Tout ce qui a été dit jusque-là concernait [BREAK]¬"La Nef blanche".[WAIT]@Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 462-14:@The reason these islands are special[WAIT]¬is because they harbor a giant dragon nearly[BREAK]¬as large as the islands themselves.[WAIT]@Long, long ago, people lived together with the[BREAK]¬Dragon.[WAIT]@However, at some point in time, the people[BREAK]¬and the Dragon could no longer coexist.[WAIT]@So, using the seven Needles, the Dragon was[BREAK]¬placed into a long, long sleep[WAIT]¬by the ancestors of the Magypsy people, who[BREAK]¬have lived here since ancient times.[WAIT]@Ever since, the Magypsies have guarded the[BREAK]¬Needles,[WAIT]¬in an effort to prevent the Dragon from being[BREAK]¬woken until its power is truly needed.[WAIT]@Thus, until the time of its awakening,[WAIT]¬the Dragon continued to sleep, as the power of[BREAK]¬the earth itself.[WAIT]@And so, because of the tremendous energy of[BREAK]¬the Dragon hidden deep below,[WAIT]¬these islands were protected from the end of[BREAK]¬the world.[END]
 462-14E:@La raison pour laquelle ces îles sont[BREAK]¬particulières, c'est qu'elles abritent un dragon[WAIT]¬aussi gigantesque que les îles elles-mêmes.[WAIT]@Il y a très, très longtemps, les hommes et le[BREAK]¬Dragon vivaient ensemble.[WAIT]@Cependant, à un moment donné, ils ne purent[BREAK]¬plus cohabiter.[WAIT]@Alors, avec l'aide des sept Aiguilles, le Dragon[BREAK]¬fut plongé dans un très long sommeil[WAIT]¬par les ancêtres des Magypsy, qui vivaient ici[BREAK]¬depuis des temps très anciens.[WAIT]@Depuis lors, les Magypsy se sont consacrés à[BREAK]¬garder les Aiguilles,[WAIT]¬dans le but d'empêcher le Dragon de s'éveiller[BREAK]¬jusqu'à ce que son pouvoir soit nécessaire.[WAIT]@En attendant l'heure de son éveil,[WAIT]¬le Dragon continua alors de dormir, comme le[BREAK]¬pouvoir de la terre elle-même.[WAIT]@Et ainsi, grâce à l'énergie colossale qui émanait[BREAK]¬du Dragon depuis les profondeurs,[WAIT]¬ces îles furent protégées de la fin du monde.[END]
 462-15:@Everything so far has been about[BREAK]¬"The Dragon and the Magypsies".[WAIT]@Did you understand all of it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-462-15E:@Tout ce qui a été dit jusque-là concernait[BREAK]¬"Le Dragon et les Magypsy".[WAIT]@Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+462-15E:@Tout ce qui a été dit jusque-là concernait [BREAK]¬"Le Dragon et les Magypsy".[WAIT]@Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 462-16:@Those who came here aboard the White Ship[WAIT]¬feared another "End of the World" more than[BREAK]¬anything else.[WAIT]@They felt that the world's destruction was a[BREAK]¬direct result of the way they had lived.[WAIT]@The people of the White Ship discussed things[BREAK]¬at great length.[WAIT]@They shared their wisdom and spoke with[BREAK]¬grave seriousness.[WAIT]@And then they arrived at their conclusion.[WAIT]@They decided to completely erase everyone's[BREAK]¬memories of the previous "world"[WAIT]¬and start their lives over with new rules and[BREAK]¬new roles.[EVENT][END]
 462-16E:@Ceux qui arrivèrent à bord de la Nef blanche[WAIT]¬craignaient une autre "fin du monde" plus que[BREAK]¬toute autre chose.[WAIT]@Ils estimaient que la destruction du monde était[BREAK]¬une conséquence directe[WAIT]¬de leur mode de vie passé.[WAIT]@Les gens de la Nef blanche discutèrent[BREAK]¬longuement.[WAIT]@Ils partagèrent leur sagesse et se parlèrent[BREAK]¬avec une profonde gravité.[WAIT]@Et enfin, ils en vinrent à leur conclusion.[WAIT]@Ils décidèrent d'effacer complètement leurs[BREAK]¬souvenirs du précédent "monde",[WAIT]¬et de recommencer leur vie avec de nouvelles[BREAK]¬règles et de nouveaux rôles.[EVENT][END]
 462-17:@Yes.[WAIT]@In short, everyone would play out the ideal[BREAK]¬"story" that they had come up with.[WAIT]@That is what happened.[WAIT]@The people would restart their lives in a[BREAK]¬simple, peaceful village,[WAIT]¬in the kind of place they wished they had[BREAK]¬grown up in.[WAIT]@They would erase their memory of everything:[BREAK]¬the world, their belongings, their rules...[WAIT]¬...and then they would begin their new lives.[WAIT]@Everyone's old memories would be reset and[BREAK]¬replaced with their newly-created "story".[WAIT]@And thus the village of Tazmily came to be.[EVENT][END]
@@ -16906,7 +16906,7 @@
 462-19:@And there's one other thing. Me.[WAIT]@It was essential that one person retain[BREAK]¬memory of the previous world[WAIT]¬to sort of "keep watch" over things.[WAIT]@I was the only one in the village of Tazmily[BREAK]¬who wasn't given a role in the new "story".[WAIT]@The sound of my bell served as a "suggestion",[WAIT]¬to keep everyone's fabricated memories from[BREAK]¬reverting.[WAIT]@My name "Leder" comes from the word[BREAK]¬"Leader".[WAIT]@No, no, that doesn't mean I was anyone[BREAK]¬special.[WAIT]@It was just that I was particularly taller than[BREAK]¬all the others.[WAIT]@So, upon discussion, I was selected because it[BREAK]¬would be easier for me to stand out.[WAIT]@Being so tall, people would want to come see[BREAK]¬me, you know?[WAIT]@And so I was given the role of revealing these[BREAK]¬secrets when the time truly called for it.[END]
 462-19E:@Et il y a un autre détail. Moi-même.[WAIT]@Il était essentiel que quelqu'un puisse[BREAK]¬conserver les souvenirs du précédent monde[WAIT]¬pour en quelque sorte "surveiller" les choses.[WAIT]@J'étais le seul de Tazmily à n'avoir pas reçu de[BREAK]¬rôle dans la nouvelle "histoire".[WAIT]@Le son de ma cloche faisait office de[BREAK]¬"suggestion"[WAIT]¬pour éviter que les souvenirs refabriqués de[BREAK]¬chacun ne basculent.[WAIT]@Mon nom "Écheffe" vient du mot "chef".[WAIT]@Non, non, ça ne veut pas dire que j'étais[BREAK]¬quelqu'un de spécial.[WAIT]@C'est simplement que j'étais beaucoup plus[BREAK]¬grand que tous les autres.[WAIT]@Au terme des discussions, on m'a choisi[WAIT]¬parce que ce serait plus simple pour moi de me[BREAK]¬démarquer.[WAIT]@Du fait que·j'étais si grand, les gens viendraient[BREAK]¬me voir plus naturellement, tu comprends·?[WAIT]@Et ainsi, on m'a confié la tâche de révéler ces[BREAK]¬secrets lorsque les circonstances l'exigeraient.[END]
 462-20:@Everything so far has been about[BREAK]¬"Those Who Lost Everything".[WAIT]¬Although Tazmily Village exists in reality, it[BREAK]¬was originally created as part of a story.[WAIT]@I know this may be difficult to believe, but do[BREAK]¬you understand so far?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-462-20E:@Tout ce qui a été dit jusque-là concernait[BREAK]¬"Ceux qui ont tout perdu".[WAIT]¬Même si le village de Tazmily existe réellement,[WAIT]¬il a été à l'origine créé pour faire partie d'une[BREAK]¬histoire.[WAIT]@Je sais que c'est peut-être difficile à croire,[BREAK]¬mais est-ce que tu comprends jusqu'ici·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+462-20E:@Tout ce qui a été dit jusque-là concernait [BREAK]¬"Ceux qui ont tout perdu".[WAIT]¬Même si le village de Tazmily existe réellement,[WAIT]¬il a été à l'origine créé pour faire partie d'une[BREAK]¬histoire.[WAIT]@Je sais que c'est peut-être difficile à croire,[BREAK]¬mais est-ce que tu comprends jusqu'ici·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 462-21:@Let me also talk about Osohe Castle.[WAIT]@Apparently, long ago, a kingdom existed on this[BREAK]¬island, centered around the king of Osohe.[WAIT]@However, when we arrived on the White Ship,[BREAK]¬the people of this kingdom were gone.[WAIT]@It seems they had left the islands, fearing the[BREAK]¬Dragon's eventual awakening someday.[WAIT]@Before boarding the White Ship,[WAIT]¬Princess [KUMATORA 23 04 00] was an infant who[BREAK]¬had lost her mother and father.[WAIT]@Upon coming to these islands, she was given[BREAK]¬to the Magypsies to raise,[WAIT]¬and given the role of princess of Osohe Castle.[WAIT]@Wess and [DUSTER 23 03 00] being her retainers[BREAK]¬was another part of the fabricated "story".[EVENT][END]
 462-21E:@Laisse-moi aussi te parler du château d'Osohé.[WAIT]@Visiblement, sur cette île existait autrefois un[BREAK]¬royaume, centré sur le roi d'Osohé.[WAIT]@Cependant, lorsque nous arrivâmes sur la Nef[BREAK]¬blanche,[WAIT]¬les habitants de ce royaume n'étaient plus là.[WAIT]@On pense qu'ils ont quitté les îles, craignant un[BREAK]¬possible éveil du Dragon.[WAIT]@Avant d'embarquer sur la Nef blanche,[WAIT]¬la princesse [KUMATORA 23 04 00] était un nouveau-[BREAK]¬né qui avait perdu sa mère et son père.[WAIT]@À son arrivée sur ces îles, elle fut confiée aux[BREAK]¬Magypsy qui se chargèrent de son éducation,[WAIT]¬et elle reçut le rôle de princesse du château[BREAK]¬d'Osohé.[WAIT]@Un autre élément de l'"histoire" inventée[WAIT]¬spécifiait que Wess et [DUSTER 23 03 00] lui[BREAK]¬feraient office de serviteurs.[EVENT][END]
 462-22:@Osohe Castle is one of the few and precious[BREAK]¬relics of this island's "past".[WAIT]@We crafted our story in haste, so the people[BREAK]¬inside it have very little "past" or "history".[WAIT]@Have you noticed no one in Tazmily can talk[BREAK]¬about things from 100 or 1000 years ago?[WAIT]@In truth, we HAD wanted to create an entire[BREAK]¬plethora of myths and legends...[WAIT]¬...but our story was made in such a hurry that[BREAK]¬we weren't able to. It's a real shame.[WAIT]@I'm sure that much of what I'm saying, you'd[BREAK]¬rather not hear,[WAIT]¬but it's the truth.[WAIT]¬Have you listened to everything so far?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
@@ -18081,7 +18081,7 @@
 // Repeats: 10-36, 222-36, 506-36
 506-37:@It's locked.[END]
 506-37E:©C'est fermé à clé.[END]
-// Repeats: 0-124, 10-37, 11-11, 13-50, 122-18, 137-0, 212-11, 213-11, 222-37, 506-37
+// Repeats: 0-124, 10-37, 13-50, 122-18, 137-0, 222-37, 506-37
 506-38:@Oh, it's old man Wess's son, What's-His-Name.[WAIT]@You sure do love to walk around *huff*[PAUSE 20 00] at[BREAK]¬night, you do.[END]
 506-38E:@Oh mais c'est Machin, l'fils du vieux Wess.[WAIT]@T'aimes vraiment t'balader *pfiu*[PAUSE 20 00] la nuit toi, on[BREAK]¬dirait.[END]
 // Repeats: 10-38, 222-38, 506-38
@@ -18801,7 +18801,7 @@
 627-2E:@C'est de la [ITEM F0 FF].[WAIT]@Si vous avez des Éclairs avariés, je vous en[BREAK]¬prends [80 FF F1 FF] en échange de cet article·![WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[BREAK][ENDCHOICES][END]
 // ITEM
 627-3:@That's a not-very-tasty [ITEM F0 FF].[WAIT]@I'll trade it for [80 FF F1 FF] [ITEM 67 00]![WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[BREAK][ENDCHOICES][END]
-627-3E:@C'est un reste de [ITEM F0 FF] un[BREAK]¬peu fade.[WAIT]@Si vous avez des Éclairs avariés, je vous en[BREAK]¬prends [80 FF F1 FF] en échange de cet article·![WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[BREAK][ENDCHOICES][END]
+627-3E:@C'est un reste de [ITEM F0 FF] un [BREAK]¬peu fade.[WAIT]@Si vous avez des Éclairs avariés, je vous en[BREAK]¬prends [80 FF F1 FF] en échange de cet article·![WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[BREAK][ENDCHOICES][END]
 // ITEM
 // I think this is a Nut Cookie, but I'm not sure
 // tournure qui fonctionne avec un objet masculin ou féminin, et un ou plusieurs éclairs avariés :)
@@ -20217,7 +20217,7 @@
 805-5:@Come, [BONEY 23 05 00].[WAIT]@[PAUSE 20 00][LUCAS 23 02 00]. This is it...[PAUSE 30 00][BREAK]¬This is finally it...[END]
 805-5E:@Viens, [BONEY 23 05 00].[WAIT]@[PAUSE 20 00][LUCAS 23 02 00]. Nous y sommes...[PAUSE 30 00][BREAK]¬Nous y sommes enfin...[END]
 805-6:@Have we managed to corner the enemy...[BREAK]¬or have we all been dragged here?[WAIT]@Hmm. I suppose it doesn't matter either way.[WAIT]@Right, [DUSTER 23 03 00]?[END]
-805-6E:@Avons-nous réussi à encercler l'ennemi...[BREAK]¬ou avons-nous tous été entraînés ici·?[WAIT]@Hmm. Je suppose que ça n'a pas vraiment[BREAK]¬d'importance.[WAIT]@N'est-ce pas, [DUSTER 23 03 00]·?[END]
+805-6E:@Avons-nous réussi à encercler l'ennemi... [BREAK]¬ou avons-nous tous été entraînés ici·?[WAIT]@Hmm. Je suppose que ça n'a pas vraiment[BREAK]¬d'importance.[WAIT]@N'est-ce pas, [DUSTER 23 03 00]·?[END]
 805-7:@*cough*[PAUSE 28 00] *wheeze*[PAUSE 28 00] *cough*[WAIT]@Come a little closer[PAUSE 30 00] so I can see your face[BREAK]¬better...[END]
 805-7E:@*kof*[PAUSE 28 00] *fiou*[PAUSE 28 00] *kof*[WAIT]@Rapproche-toi un peu[PAUSE 30 00], que je te voie mieux...[END]
 805-8:@Oh, is that what you look like?[PAUSE 3C 00][WAIT]@I was the one who brought you here.[WAIT]@A traveler who has journeyed to and from[BREAK]¬past and future.[WAIT]@I'm the most clever, most charming, and[BREAK]¬most trouble-making boy ever...[WAIT]¬...Master Porky Minch![END]
@@ -20977,7 +20977,7 @@
 863-13E:@... Oxygène·![END]
 // this is a pun that doesn't work in translation so I've left it literal
 863-14:@Your attention, please.[BREAK]¬We have a report of lost children.[WAIT]@The detestable [LUCAS 23 02 00] and his pals[BREAK]¬appear to be lost[PAUSE 1E 00] in Master Porky's fan room.[WAIT]¬Hehehehe.[WAIT]@Attention, [LUCAS 23 02 00] and friends![PAUSE 0F 00][BREAK]¬Attention, [LUCAS 23 02 00] and friends![PAUSE 0F 00][WAIT]¬Come to the real 100th floor immediately,[PAUSE 30 00][BREAK]¬if you dare![WAIT]@Ahahahahaha![END]
-863-14E:@Votre attention, s'il vous plaît. On nous signale[BREAK]¬que des enfants se sont égarés.[WAIT]@L'odieux [LUCAS 23 02 00] et ses petits amis[WAIT]¬semblent s'être égarés[PAUSE 1E 00] dans la chambre[BREAK]¬d'adoration de Maître Porky.[WAIT]¬Héhéhéhé.[WAIT]@On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00][BREAK]¬On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00][WAIT]¬Montez au vrai 100e étage immédiatement,[PAUSE 30 00][BREAK]¬si vous osez·![WAIT]@Ahahahahaha·![END]
+863-14E:@Votre attention, s'il vous plaît. On nous signale[BREAK]¬que des enfants se sont égarés.[WAIT]@L'odieux [LUCAS 23 02 00] et ses petits amis[WAIT]¬semblent s'être égarés[PAUSE 1E 00] dans la chambre[BREAK]¬d'adoration de Maître Porky.[WAIT]¬Héhéhéhé.[WAIT]@On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00] [BREAK]¬On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00][WAIT]¬Montez au vrai 100e étage immédiatement,[PAUSE 30 00][BREAK]¬si vous osez·![WAIT]@Ahahahahaha·![END]
 863-15:[END]
 863-15E:[END]
 
