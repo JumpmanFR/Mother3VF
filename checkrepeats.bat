@@ -1,9 +1,9 @@
 @echo off
 @echo ---------------------------------------------------------
-@echo Building java file...
+@echo G‚n‚ration du binaire Java...
 @echo ---------------------------------------------------------
 @javac -encoding utf8 CheckRepeats.java
 @echo ---------------------------------------------------------
-@echo Checking repeats in script
+@echo V‚rification des r‚p‚titions dans le script
 @echo ---------------------------------------------------------
 @java CheckRepeats script.txt

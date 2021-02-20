@@ -10,6 +10,7 @@ public class CheckOverflow
 	static Map<String, Integer> saturnWidths;
 	static Map<String, String> charTags;
 	static Map<String, String> items;
+	static Map<String, String> itemsAtLines;
 	
 	static final int DEFAULT_CHAR_LENGTH = 10;
 	static final int MAX_LINE_LENGTH = 210;
@@ -22,6 +23,7 @@ public class CheckOverflow
 		fillWidths();
 		fillCharTags();
 		fillItems();
+		fillIemsAtLines();
 		
 		int nbLines = 0;
 		int nbDone = 0;
@@ -39,9 +41,10 @@ public class CheckOverflow
 			   }
 			}
 		} catch (IOException e) {
-			System.out.println("FILE ERROR");
+			System.out.println("ERREUR DE FICHIER");
 			System.exit(-1);
 		}
+		System.out.println("FIN");
 		System.out.println("Nombre de lignes : " + nbLines);
 		System.out.println("Effectué : " + nbDone);
 		System.out.println("Progression : " + (nbDone * 100.0 / nbLines) + "%");
@@ -83,19 +86,22 @@ public class CheckOverflow
 		    String itemId = line.replaceAll("^.*\\[ITEM ([0-9A-F]+) [0-9A-F]+\\]?.*$", "$1");
 			String item;
 			if (items.containsKey(itemId)) {
-				item = items.get(itemId);
+				item = items.get(itemId).replaceAll(" ","•");
+			} else if (itemsAtLines.containsKey(lineId)) {
+				item = items.get(itemsAtLines.get(lineId)).replaceAll(" ","•");
 			} else {
-				item = "WWWWWWWWWWWWWWWW";
+				item = "WWWWWWWWWW"; // this one is a bit at random
 			}
     		line = line.replaceAll("\\[ITEM ([0-9A-F]+) [0-9A-F]+\\]", item);
 		}
 		line = line.replaceAll("\"(.*)\"", "<$1>");
 		line = line.replaceAll("\"", "<");
-		line = line.replaceAll("\\[ENEMYNAME [0-9A-F]+ [0-9A-F]+\\]", "WWWWWWWWWWWW");
+		line = line.replaceAll("\\[ENEMYNAME [0-9A-F]+ [0-9A-F]+\\]", "WWWWWWWWWW");
 		line = line.replaceAll("\\[SOUND [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[HOTSPRING [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[PAUSE [0-9A-F]+ [0-9A-F]+\\]", "");
 		line = line.replaceAll("\\[COLOR [0-9A-F]+ [0-9A-F]+\\]", "");
+		line = line.replaceAll("\\[80 FF F\\d FF\\]", "0000");
 		line = line.replaceAll("\\[[0-9A-F][0-9A-F] [0-9A-F][0-9A-F] [0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]", "WWWWWWWW");
 		line = line.replaceAll("\\[EF E[0-9A-F]\\]", "e•");
 		line = line.replaceAll("\\[[0-9A-F][0-9A-F] [0-9A-F][0-9A-F]\\]", "00");
@@ -131,12 +137,13 @@ public class CheckOverflow
                     firstWordInSubsubline = getFirstWord(spans[0], false);
 					firstWordInSubsublineWidth = getStringWidth(firstWordInSubsubline, false);
                 }
-                if (width > MAX_LINE_LENGTH) {
+				
+                if (width > getMaxLengthForLine(subsubline, i)) {
                     /*try {
                         System.in.read();
                     } catch (IOException e) {}*/
                     if (lineId.endsWith("E")) {
-                        System.out.println("\u001B[31mLIGNE TROP LONGUE À " + lineId + " (taille : " + width + ") : " + subsubline);
+                        System.out.println("\u001B[31mLIGNE TROP LONGUE À " + lineId + " (taille : " + width + ") : " + subsubline + "\u001B[0m");
                     }
                 }
                 
@@ -146,9 +153,12 @@ public class CheckOverflow
 				&& firstWordInSubsublineWidth > 0
 				&& previousSubsublineWidth + firstWordInSubsublineWidth < MAX_LINE_LENGTH
 				&& lineId.endsWith("E")) {
-                    System.out.println("\u001B[35mLIGNE TROP COURTE À " + lineId + " (taille : " + previousSubsublineWidth + " : " + subsublines[i - 1] + " // " + firstWordInSubsubline + "(" + firstWordInSubsublineWidth + ")");
+                    System.out.println("\u001B[35mLIGNE TROP COURTE À " + lineId + " (taille : " + previousSubsublineWidth + " : " + subsublines[i - 1] + " // " + firstWordInSubsubline + "(" + firstWordInSubsublineWidth + ")" + "\u001B[0m");
                 }
                 previousSubsublineWidth = width;
+				if (subsubline.endsWith(" ")) { // to indicate a forced break
+					previousSubsublineWidth = 0;
+				}
             }
 
         }
@@ -206,6 +216,24 @@ public class CheckOverflow
 			}
 		}
 		return length;
+	}
+	
+	private static int getMaxLengthForLine(String text, int subsublineId) {
+		int maxLength = MAX_LINE_LENGTH;
+		
+		if (subsublineId == 0) {
+			maxLength++; // first line can be slightly longer
+			if (text.contains("WWWW")) {
+				maxLength++; // let’s allow an extra margin for variable words
+			}
+		} else {
+			if (text.matches(".*WWWW.* .*WWWW.*")) {
+				maxLength++;
+			}
+		}
+		
+
+		return maxLength;
 	}
 	
 	private static void fillCharTags() {
@@ -717,5 +745,14 @@ public class CheckOverflow
 		items.put("ED", "Souvenir de Phrygie");
 		items.put("EE", "Souvenir de Lydie");
 		items.put("EF", "Souvenir de Mixie");
+	}
+	
+	private static void fillIemsAtLines() {
+		itemsAtLines = new HashMap<String, String>();
+		
+		itemsAtLines.put("466-18E", "2B");
+		itemsAtLines.put("637-1E", "67");
+		itemsAtLines.put("664-16E", "68");
+		
 	}
 }

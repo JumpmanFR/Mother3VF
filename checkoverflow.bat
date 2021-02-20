@@ -1,9 +1,9 @@
 @echo off
 @echo ---------------------------------------------------------
-@echo Building java file...
+@echo G‚n‚ration du binaire Java...
 @echo ---------------------------------------------------------
 @javac -encoding utf8 CheckOverflow.java
 @echo ---------------------------------------------------------
-@echo Checking overflows in script
+@echo V‚rification des d‚passements dans le script
 @echo ---------------------------------------------------------
 @java CheckOverflow script.txt %1
