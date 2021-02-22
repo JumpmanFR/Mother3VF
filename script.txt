@@ -2902,7 +2902,7 @@
 31-12:@You must really love being unhappy if you still[BREAK]¬refuse to get a Happy Box after all this.[END]
 31-12E:@Vous devez vraiment aimer être malheureux,[WAIT]¬pour encore refuser d'avoir une Boîte à[BREAK]¬bonheur malgré tout ce qui vous arrive.[END]
 31-13:@So, this is Tazmily's famous Lightning House?![WAIT]@It really is incredible![WAIT]@It was definitely worth coming all the way here[BREAK]¬to see![END]
-31-13E:@Alors c'est ça, la fameuse Maison aux éclairs[BREAK]¬de Tazmily·?![WAIT]@C'est vraiment incroyable·![WAIT]@Ça valait totalement la peine de faire tout ce[BREAK]¬chemin pour la voir·![END]
+31-13E:@Alors c'est ça, la fameuse Maison de la foudre[BREAK]¬de Tazmily·?![WAIT]@C'est vraiment incroyable·![WAIT]@Ça valait totalement la peine de faire tout ce[BREAK]¬chemin pour la voir·![END]
 31-14:@This simple atmosphere...[BREAK]¬This smell of livestock and sea breezes...[WAIT]@This is the only part of Tazmily that hasn't[BREAK]¬changed a bit in the past three years.[END]
 31-14E:@Cette atmosphère légère...[BREAK]¬Ce parfum de bétail et de brise marine...[WAIT]@C'est le seul endroit de Tazmily qui n'ait pas[BREAK]¬changé d'un pouce en trois ans.[END]
 31-15:@Time certainly flies, doesn't it?[WAIT][PAUSE 5A 00]@*hop*[BREAK]¬Do you need something?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
@@ -2914,11 +2914,11 @@
 31-18:@Being an annoying onlooker is actually pretty[BREAK]¬tough work.[WAIT]@I have to stand in this one spot for a really[BREAK]¬long time, for example.[END]
 31-18E:@Être un observateur agaçant est en réalité un[BREAK]¬travail très difficile.[WAIT]@Par exemple, je dois rester debout à cet[BREAK]¬endroit pendant très longtemps.[END]
 31-19:@Baaa.[WAIT]¬(Lightning is scaryyyy. *smile*)[END]
-31-19E:@Bêêê.[WAIT]¬(Les éclairs sont teeerrifiants. *sourire*)[END]
+31-19E:@Bêêê.[WAIT]¬(La foudre, ça fait peuuuur. *sourire*)[END]
 31-20:@Baa.[WAIT]¬(I got charred black. *smile*)[END]
 31-20E:@Bêê.[WAIT]¬(Je me suis fait carboniser. *sourire*)[END]
 31-21:@Baaaa.[WAIT]¬(Wild animals are afraid of lightning, but[BREAK]¬livestock are actually pretty okay with it.)[END]
-31-21E:@Bêêêê.[WAIT]¬(Les bêtes sauvages ont peur des éclairs,[BREAK]¬mais le bétail n'est pas trop gêné, lui.)[END]
+31-21E:@Bêêêê.[WAIT]¬(Les bêtes sauvages ont peur de la foudre,[BREAK]¬mais le bétail n'est pas trop gêné, lui.)[END]
 31-22:@Baaa.[WAIT]¬(Just in case you've forgotten, I'm a charred[BREAK]¬sheep, not a black sheep. *smile*)[END]
 31-22E:@Bêêê.[WAIT]¬(Au cas où tu l'aurais oublié, je suis un mouton[BREAK]¬carbonisé, pas un mouton noir. *sourire*)[END]
 31-23:@Baaa.[WAIT]¬(You'll get dirty if you touch me. *smile*)[END]
@@ -3009,7 +3009,7 @@
 32-15:@Fassad![WAIT]@Stop it![WAIT]@Quit ruining this town any more than you[BREAK]¬already have![END]
 32-15E:@Fassad·![WAIT]@Arrêtez ça·![WAIT]@Arrêtez de détruire ce village plus que vous ne[BREAK]¬l'avez déjà fait·![END]
 32-16:@There's something not right about all this[BREAK]¬lightning, especially today's![WAIT]@I think you guys are behind it somehow![WAIT]@Leave this instant![WAIT]@Keep your grubby hands out of this town's[BREAK]¬affairs![END]
-32-16E:@Il y a quelque chose de louche dans cette[BREAK]¬histoire d'éclairs, surtout ceux d'aujourd'hui·![WAIT]@Je pense que d'une certaine manière, vous[BREAK]¬êtes derrière tout ça, vous autres·![WAIT]@Allez-vous-en immédiatement·![WAIT]@Gardez vos mains crasseuses en dehors des[BREAK]¬affaires de ce village·![END]
+32-16E:@Il y a quelque chose de louche derrière toute[BREAK]¬cette foudre, surtout celle d'aujourd'hui·![WAIT]@Je pense que d'une certaine façon, vous êtes[BREAK]¬derrière tout ça, vous autres·![WAIT]@Allez-vous-en immédiatement·![WAIT]@Gardez vos mains crasseuses en dehors des[BREAK]¬affaires de ce village·![END]
 32-17:@Why, hello there, Mr. Wess.[WAIT]@You know, if you keep making the veins on[BREAK]¬your forehead pop out like that,[WAIT]¬happiness will only escape you.[WAIT]@By which I mean your hair,[PAUSE 20 00] in this case.[END]
 32-17E:@Eh bien, salutations, M. Wess.[WAIT]@Vous savez, si vous continuez à faire ressortir[BREAK]¬les veines de votre front comme ça,[WAIT]¬le bonheur ne fera que vous échapper.[WAIT]@Et par cela je veux dire vos cheveux,[PAUSE 20 00] dans le[BREAK]¬cas présent.[END]
 32-18:@In any case, I haven't the slightest idea what[BREAK]¬you're talking about.[END]
@@ -3045,7 +3045,7 @@
 32-33:@You're going out to look for [DUSTER 23 03 00]?[WAIT]@You do know he's the one who stole all of[BREAK]¬Butch's money, right?[WAIT]@I guess it's up to you if you wanna look for him[BREAK]¬and all,[WAIT]¬but I'd keep my nose out of other people's[BREAK]¬business if I were you.[WAIT]@You'll only wind up hurting your reputation[BREAK]¬even more.[END]
 32-33E:@Tu pars à la recherche d[EF E2][DUSTER 23 03 00]·?[WAIT]@Tu le sais que c'est lui qui a volé tout l'argent[BREAK]¬de Boule, n'est-ce pas·?[WAIT]@J'imagine que c'est à toi de décider si tu veux[BREAK]¬partir à sa recherche et tout ce qui te chante,[WAIT]¬mais à ta place j'éviterais de mettre mon nez[BREAK]¬dans les affaires des autres.[WAIT]@Ça ne fera que continuer à entacher ta[BREAK]¬réputation.[END]
 32-34:@Oh, [LUCAS 23 02 00].[WAIT]@Some more lightning struck yesterday.[WAIT]¬I see you're all right, though.[END]
-32-34E:@Hé, [LUCAS 23 02 00].[WAIT]@Des éclairs sont encore tombés hier.[WAIT]¬Mais bon, je vois que tu vas bien.[END]
+32-34E:@Hé, [LUCAS 23 02 00].[WAIT]@La foudre a encore frappé hier.[WAIT]¬Mais bon, je vois que tu vas bien.[END]
 32-35:@Have you ever heard of the DCMC?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 32-35E:@T'as déjà entendu parler des DCMC·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 32-36:@They're the greatest band to ever play at[BREAK]¬Club Titiboo! Wouldn't you agree?[WAIT]@...Actually, I don't really know who they are.[BREAK]¬I was just pretending.[END]
@@ -3085,7 +3085,7 @@
 32-52:@Oh, hi there, [LUCAS 23 02 00].[WAIT]@You know, you should really be mindful of who[BREAK]¬you make friends with...[END]
 32-52E:@Ah, salut, [LUCAS 23 02 00].[WAIT]@Tu sais, tu devrais vraiment faire attention à[BREAK]¬bien choisir tes fréquentations...[END]
 32-53:@The lightning has stopped recently.[WAIT]@But I have a Happy Box at home, though, so I[BREAK]¬guess it doesn't really matter to me anyway.[END]
-32-53E:@Les éclairs ont cessé depuis quelque temps.[WAIT]@Mais j'ai une Boîte à bonheur à la maison,[WAIT]¬donc je suppose que ça n'a plus vraiment[BREAK]¬d'importance pour moi de toute façon.[END]
+32-53E:@La foudre s'est arrêtée depuis quelque temps.[WAIT]@Mais j'ai une Boîte à bonheur à la maison,[WAIT]¬donc je suppose que ça n'a plus vraiment[BREAK]¬d'importance pour moi de toute façon.[END]
 32-54:@Have you finally started to go crazy too?[END]
 32-54E:@Tu as commencé à devenir fou toi aussi·?[END]
 32-55:@What should I buy on my next payday?[WAIT]@Hmm, maybe I'll enroll Dona in a cram school...[END]
@@ -3103,7 +3103,7 @@
 32-61:@Can I come with you, too?[WAIT]@Oh. I guess not...[END]
 32-61E:@Je peux venir avec toi, moi aussi·?[WAIT]@Oh. Je suppose que non...[END]
 32-62:@The lightning used to rain down every day, but[BREAK]¬then it suddenly stopped.[WAIT]@The attack seemed so intense at first, but[BREAK]¬now it's almost casual and like, "Whatever."[WAIT]@Kind of like you. Heh.[END]
-32-62E:@Avant, les éclairs frappaient tous les jours,[BREAK]¬mais ça s'est arrêté d'un coup.[WAIT]@Les attaques paraissaient vraiment violentes[BREAK]¬au début, puis c'est devenu presque banal,[WAIT]¬du genre "oh, peu importe".[WAIT]@Un peu comme toi. Ha.[END]
+32-62E:@Avant, la foudre frappait tous les jours, mais[BREAK]¬ça s'est arrêté d'un coup.[WAIT]@Les attaques paraissaient vraiment violentes[BREAK]¬au début, puis c'est devenu presque banal,[WAIT]¬du genre "oh, peu importe".[WAIT]@Un peu comme toi. Ha.[END]
 32-63:@Club Titiboo closed down, so I came all the way[BREAK]¬here to look for work.[WAIT]¬*chew* *chew*[WAIT]@But wow, is this place the sticks or what?[WAIT]¬*chew* *chew*[WAIT]@Maybe I should've gone to New Pork instead.[WAIT]¬*chew* *chew*[END]
 32-63E:@Le club Titiboo a fermé, donc je suis venue[BREAK]¬jusqu'ici pour chercher du travail.[WAIT]¬*mâche* *mâche*[WAIT]@Mais waouh, c'est la cambrousse ici ou quoi·?[WAIT]¬*mâche* *mâche*[WAIT]@J'aurais p'tet mieux fait d'aller à New Pork.[WAIT]¬*mâche* *mâche*[END]
 32-64:@I'm the mayor here, which means I'll be one of[BREAK]¬the last people to leave for the big city.[WAIT]@Even so, I really want to go.[WAIT]@I should just ditch this miserable little village[BREAK]¬and be done with it.[WAIT]@...[PAUSE 1E 00]Oh, [LUCAS 23 02 00]![WAIT]¬You didn't hear me talking to myself just now,[BREAK]¬did you?[END]
@@ -3157,13 +3157,13 @@
 33-10E:@Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00][WAIT]@Je suis Rami, le nouveau membre du Club[BREAK]¬nautique de Tazmily.[WAIT]@Mis à part le fait que nous n'avons pas de[BREAK]¬bateau, tout va très bien.[WAIT]@Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00][END]
 // Repeats: 33-10, 219-10
 33-11:@Bow-wow![WAIT]¬(I keep getting hit by lightning![WAIT]¬Did someone find out I peed on that Happy Box[BREAK]¬or something?)[END]
-33-11E:@Wouf-wouf·![WAIT]¬(Les éclairs n'arrêtent pas de me frapper·![WAIT]¬Quelqu'un s'est aperçu que je m'étais soulagé[BREAK]¬sur cette Boîte à bonheur ou quoi·?)[END]
+33-11E:@Wouf-wouf·![WAIT]¬(La foudre n'arrête pas de me frapper·![WAIT]¬Quelqu'un s'est aperçu que je m'étais soulagé[BREAK]¬sur cette Boîte à bonheur ou quoi·?)[END]
 // Repeats: 33-11, 219-11
 33-12:@Bow-wow. Bow-wow.[WAIT]¬(I'm a charred dog, not a black dog.[WAIT]¬Actually, there are some sheep like me, too.)[END]
 33-12E:@Wouf-wouf. Wouf-wouf.[WAIT]¬(Je suis un chien carbonisé, pas un chien noir.[WAIT]¬En fait, il y a des moutons comme moi aussi.)[END]
 // Repeats: 33-12, 219-12
 33-13:@Bow-wow bow-wow![WAIT]¬(Now that the lightning has stopped, I feel[BREAK]¬much tougher.)[END]
-33-13E:@Wouf-wouf wouf-wouf·![WAIT]¬(Maintenant que les éclairs ont cessé, je me[BREAK]¬sens bien plus fort.)[END]
+33-13E:@Wouf-wouf wouf-wouf·![WAIT]¬(Maintenant que la foudre s'est arrêtée, je me[BREAK]¬sens bien plus fort.)[END]
 // Repeats: 33-13, 219-13
 33-14:@Bow-wow-wow-wow.[WAIT]¬(When you hang around sheep as a stray dog,[BREAK]¬you start to feel more like a pet dog.)[END]
 33-14E:@Wouf-wouf-wouf-wouf.[WAIT]¬(Quand tu es un chien errant et que tu traînes[BREAK]¬avec des moutons,[WAIT]¬tu commences à te sentir un peu comme un[BREAK]¬chien de compagnie.)[END]
@@ -3332,7 +3332,7 @@
 35-2E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 35-3:@This village sure has a lot of lightning lately...[END]
-35-3E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+35-3E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 35-4:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 35-4E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -3483,7 +3483,7 @@
 36-33E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 36-34:@This village sure has a lot of lightning lately...[END]
-36-34E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+36-34E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 36-35:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 36-35E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -3746,7 +3746,7 @@
 38-2E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 38-3:@This village sure has a lot of lightning lately...[END]
-38-3E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+38-3E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 38-4:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 38-4E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -3799,7 +3799,7 @@
 38-21:@If you wanna ride the train, go to the station![BREAK]¬You can ride the train if you go to the station![WAIT]@The train speeds along![BREAK]¬Along speeds the train![WAIT]@Let's go-go-go to the factory on the train![BREAK]¬                      (Train Station Attendants)[END]
 38-21E:@Pour prendre le train, venez à la gare·![BREAK]¬Venez à la gare pour prendre le train·![WAIT]@Le train file si vite·![BREAK]¬Si vite file le train·![WAIT]@Allons-lons-lons-lons à l'usine en train·![BREAK]¬•••••••••••••••••••••··(Les agents de la gare)[END]
 38-22:@Is the lightning helping us?[WAIT]@Thanks to the lightning, all the dirty, old[BREAK]¬houses are being cleaned away.[WAIT]@So, in a way, the lightning is helping all of us.[WAIT]@That's what I think.[BREAK]¬   (From a popular citizen)[END]
-38-22E:@Et si les éclairs nous rendaient service·?[WAIT]@Grâce à eux, toutes les vieilles maisons[BREAK]¬abîmées sont balayées de la surface du village.[WAIT]@Donc, dans un sens, ils nous rendent service.[WAIT]@C'est ce que je pense.[BREAK]¬·(Un citoyen populaire)[END]
+38-22E:@Et si la foudre nous rendait service·?[WAIT]@Grâce à elle, toutes les vieilles maisons[BREAK]¬abîmées sont balayées de la surface du village.[WAIT]@Donc, dans un sens, elle nous rend service.[WAIT]@C'est ce que je pense.[BREAK]¬·(Un citoyen populaire)[END]
 38-23:@Happy Boxes are the greatest![WAIT]@Now to develop even bigger screens![BREAK]¬                          (Abbot and Abbey)[END]
 38-23E:@Les Boîtes à bonheur, c'est ce qu'il y a de[BREAK]¬meilleur·![WAIT]@À quand des écrans encore plus grands·?[WAIT]¬•••••••••••••••••••••••••••••••••(Abbé et Abbaye)[END]
 38-24:@I want too bee a Pigmask too.[WAIT]@How can I bee wun?[WAIT]@I no I can bee a gud wun.[WAIT]@Pleese let me bee a Pigmask.[WAIT]@Also, I thought [FAVFOOD] is good.[WAIT]@Well, gudbye.[BREAK]¬     (Fried Pork Kid)[END]
@@ -4423,7 +4423,7 @@
 48-2E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 48-3:@This village sure has a lot of lightning lately...[END]
-48-3E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+48-3E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 48-4:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 48-4E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -4501,7 +4501,7 @@
 49-2E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 49-3:@This village sure has a lot of lightning lately...[END]
-49-3E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+49-3E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 49-4:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 49-4E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -5568,7 +5568,7 @@
 81-7:@What's going on?![WAIT]@What's happening to the world we live in?![END]
 81-7E:@Que se passe-t-il·?![WAIT]@Qu'arrive-t-il au monde dans lequel nous[BREAK]¬vivons·?![END]
 81-8:@And that's not all![WAIT]@Not by a long shot![WAIT]@The word on the wind says that in the very[BREAK]¬near future,[WAIT]¬lightning powerful enough to burn down forests[BREAK]¬and woods will rain down on us almost daily![END]
-81-8E:@Et ce n'est pas tout·![WAIT]@Loin de là·![WAIT]@La rumeur prétend que, dans un avenir proche,[WAIT]¬des éclairs suffisamment puissants pour[BREAK]¬réduire des forêts en cendres[WAIT]¬s'abattront sur nous presque quotidiennement·![END]
+81-8E:@Et ce n'est pas tout·![WAIT]@Loin de là·![WAIT]@La rumeur prétend que, dans un avenir proche,[WAIT]¬une foudre suffisamment puissante pour[BREAK]¬réduire des forêts en cendres[WAIT]¬s'abattra sur nous presque quotidiennement·![END]
 81-9:@Oh! You laughed at that, didn't you?[WAIT]@You thought to yourself, "Get real! Something[BREAK]¬like that would never happen!"[WAIT]@But I truly believe this will soon be a reality.[END]
 81-9E:@Ah·! Vous en avez ri, n'est-ce pas·?[WAIT]@Vous vous êtes dit•: "Sérieusement·! Ça ne[BREAK]¬pourrait jamais arriver une chose pareille·!"[WAIT]@Pourtant, je crois sincèrement que ça[BREAK]¬deviendra bientôt une réalité.[END]
 81-10:@And in times like this, isn't it human nature to[BREAK]¬want to be happy?[WAIT]@To live with a smile on your face?[END]
@@ -6376,7 +6376,7 @@
 101-2:[END]
 101-2E:[END]
 101-3:@There's simply been far too much lightning[BREAK]¬lately.[WAIT]@This lightning somehow doesn't seem natural.[WAIT]@That said, I can't imagine there being such a[BREAK]¬thing as artificial lightning...[END]
-101-3E:@Il y a vraiment eu beaucoup trop d'éclairs ces[BREAK]¬derniers temps.[WAIT]@Cette foudre a quelque chose de pas naturel.[WAIT]@Cela dit, je n'imagine pas qu'une foudre[BREAK]¬artificielle puisse exister...[END]
+101-3E:@On a beaucoup trop vu tomber la foudre, ces[BREAK]¬derniers temps.[WAIT]@Cette foudre a quelque chose de pas naturel.[WAIT]@Cela dit, je n'imagine pas qu'une foudre[BREAK]¬artificielle puisse exister...[END]
 
 
 
@@ -10630,13 +10630,13 @@
 219-10E:@Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00][WAIT]@Je suis Rami, le nouveau membre du Club[BREAK]¬nautique de Tazmily.[WAIT]@Mis à part le fait que nous n'avons pas de[BREAK]¬bateau, tout va très bien.[WAIT]@Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00] Oh hisse·![PAUSE 18 00][END]
 // Repeats: 33-10, 219-10
 219-11:@Bow-wow![WAIT]¬(I keep getting hit by lightning![WAIT]¬Did someone find out I peed on that Happy Box[BREAK]¬or something?)[END]
-219-11E:@Wouf-wouf·![WAIT]¬(Les éclairs n'arrêtent pas de me frapper·![WAIT]¬Quelqu'un s'est aperçu que je m'étais soulagé[BREAK]¬sur cette Boîte à bonheur ou quoi·?)[END]
+219-11E:@Wouf-wouf·![WAIT]¬(La foudre n'arrête pas de me frapper·![WAIT]¬Quelqu'un s'est aperçu que je m'étais soulagé[BREAK]¬sur cette Boîte à bonheur ou quoi·?)[END]
 // Repeats: 33-11, 219-11
 219-12:@Bow-wow. Bow-wow.[WAIT]¬(I'm a charred dog, not a black dog.[WAIT]¬Actually, there are some sheep like me, too.)[END]
 219-12E:@Wouf-wouf. Wouf-wouf.[WAIT]¬(Je suis un chien carbonisé, pas un chien noir.[WAIT]¬En fait, il y a des moutons comme moi aussi.)[END]
 // Repeats: 33-12, 219-12
 219-13:@Bow-wow bow-wow![WAIT]¬(Now that the lightning has stopped, I feel[BREAK]¬much tougher.)[END]
-219-13E:@Wouf-wouf wouf-wouf·![WAIT]¬(Maintenant que les éclairs ont cessé, je me[BREAK]¬sens bien plus fort.)[END]
+219-13E:@Wouf-wouf wouf-wouf·![WAIT]¬(Maintenant que la foudre s'est arrêtée, je me[BREAK]¬sens bien plus fort.)[END]
 // Repeats: 33-13, 219-13
 219-14:@Bow-wow-wow-wow.[WAIT]¬(When you hang around sheep as a stray dog,[BREAK]¬you start to feel more like a pet dog.)[END]
 219-14E:@Wouf-wouf-wouf-wouf.[WAIT]¬(Quand tu es un chien errant et que tu traînes[BREAK]¬avec des moutons,[WAIT]¬tu commences à te sentir un peu comme un[BREAK]¬chien de compagnie.)[END]
@@ -10944,7 +10944,7 @@
 222-57E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 222-58:@This village sure has a lot of lightning lately...[END]
-222-58E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+222-58E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 222-59:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 222-59E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -11056,7 +11056,7 @@
 223-2E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 223-3:@This village sure has a lot of lightning lately...[END]
-223-3E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+223-3E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 223-4:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 223-4E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
@@ -16326,7 +16326,7 @@
 
 [Container 439]
 439-0:@Today's weather forecast...[WAIT]@Tazmily region:[BREAK][PAUSE 30 00]¬Sunny,[PAUSE 30 00] with occasional[PAUSE 30 00] lightning in places.[WAIT]@Mt. Oriander region, Cerulean Beach region:[BREAK]¬Lightning, once preparations are complete.[END]
-439-0E:@Les prévisions météo pour aujourd'hui...[WAIT]@Région de Tazmily•:[BREAK][PAUSE 30 00]¬Ensoleillé,[PAUSE 30 00] avec quelques[PAUSE 30 00] éclairs par endroits.[WAIT]@Région du mont Oriandre, plage Azurée•:[BREAK]¬Éclairs, une fois les préparatifs terminés.[END]
+439-0E:@Les prévisions météo pour aujourd'hui...[WAIT]@Région de Tazmily•: [PAUSE 30 00]Ensoleillé,[PAUSE 30 00] avec quelques[BREAK]¬[PAUSE 30 00]impacts de foudre par endroits.[WAIT]@Région du mont Oriandre, plage Azurée•:[BREAK]¬Foudre, une fois les préparatifs terminés.[END]
 439-1:@Tomorrow's lightning schedule has arrived,[BREAK]¬so I'm trying my best to program it all in.[WAIT]¬It's tough work, especially when dry-eye[BREAK]¬starts to set in.[END]
 439-1E:@Le planning des foudroiements pour demain est[BREAK]¬arrivé,[WAIT]¬donc je fais mon possible pour tout[BREAK]¬programmer.[WAIT]¬C'est un travail difficile, surtout quand les[BREAK]¬yeux commencent à piquer.[END]
 439-2:@Yeah, I went and visited that Tazmily place for[BREAK]¬the first time the other day.[WAIT]@And then, well... I'm not quite sure how to put[BREAK]¬it, but... charred?[WAIT]¬People who disobeyed all had their houses[BREAK]¬charred.[WAIT]@We're doing terrible things here, aren't we?[END]
@@ -18143,7 +18143,7 @@
 506-57E:@Dégagez·! Dégagez·![WAIT]@Rahhh·! Tu es pénible·![WAIT]@Ouste, gamin·! Ouste·! Va-t'en·![END]
 // Repeats: 35-2, 36-33, 38-2, 48-2, 49-2, 222-57, 223-2, 506-57
 506-58:@This village sure has a lot of lightning lately...[END]
-506-58E:@Il y a vraiment beaucoup d'éclairs qui[BREAK]¬s'abattent sur le village, ces derniers temps...[END]
+506-58E:@La foudre s'est beaucoup abattue sur le village,[BREAK]¬ces derniers temps...[END]
 // Repeats: 35-3, 36-34, 38-3, 48-3, 49-3, 222-58, 223-3, 506-58
 506-59:@Pay attention, now! Let this be a lesson![WAIT]@Punishment falls upon the homes of all bad[BREAK]¬guys![END]
 506-59E:@Prenez garde·! Que ça serve de leçon·![WAIT]@Des châtiments s'abattent sur les maisons de[BREAK]¬tous les malfaiteurs·![END]
