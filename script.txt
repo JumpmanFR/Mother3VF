@@ -3009,7 +3009,7 @@
 32-15:@Fassad![WAIT]@Stop it![WAIT]@Quit ruining this town any more than you[BREAK]¬already have![END]
 32-15E:@Fassad·![WAIT]@Arrêtez ça·![WAIT]@Arrêtez de détruire ce village plus que vous ne[BREAK]¬l'avez déjà fait·![END]
 32-16:@There's something not right about all this[BREAK]¬lightning, especially today's![WAIT]@I think you guys are behind it somehow![WAIT]@Leave this instant![WAIT]@Keep your grubby hands out of this town's[BREAK]¬affairs![END]
-32-16E:@Il y a quelque chose de louche derrière toute[BREAK]¬cette foudre, surtout celle d'aujourd'hui·![WAIT]@Je pense que d'une certaine façon, vous êtes[BREAK]¬derrière tout ça, vous autres·![WAIT]@Allez-vous-en immédiatement·![WAIT]@Gardez vos mains crasseuses en dehors des[BREAK]¬affaires de ce village·![END]
+32-16E:@Il y a quelque chose de louche derrière toute[BREAK]¬cette foudre, surtout celle d'aujourd'hui·![WAIT]@Je pense que d'une certaine manière, vous[BREAK]¬êtes derrière tout ça, vous autres·![WAIT]@Allez-vous-en immédiatement·![WAIT]@Gardez vos mains crasseuses en dehors des[BREAK]¬affaires de ce village·![END]
 32-17:@Why, hello there, Mr. Wess.[WAIT]@You know, if you keep making the veins on[BREAK]¬your forehead pop out like that,[WAIT]¬happiness will only escape you.[WAIT]@By which I mean your hair,[PAUSE 20 00] in this case.[END]
 32-17E:@Eh bien, salutations, M. Wess.[WAIT]@Vous savez, si vous continuez à faire ressortir[BREAK]¬les veines de votre front comme ça,[WAIT]¬le bonheur ne fera que vous échapper.[WAIT]@Et par cela je veux dire vos cheveux,[PAUSE 20 00] dans le[BREAK]¬cas présent.[END]
 32-18:@In any case, I haven't the slightest idea what[BREAK]¬you're talking about.[END]
