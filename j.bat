@@ -4,7 +4,7 @@
 @echo ---------------------------------------------------------
 @echo.
 @textconv
-@call customtextfix
+@fix_custom_text text_custom_text.bin
 @echo.
 @echo.
 @echo ---------------------------------------------------------
