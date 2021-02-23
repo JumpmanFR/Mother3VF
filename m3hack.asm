@@ -2093,7 +2093,7 @@ org {logic_0EA_new_address}; incbin logic_0EA.bin
 org $9199364; dd {logic_0EA_new_address}-$9198C10; dd {logic_0EA_new_address}+$10-$9198C10;
 
 org $8D2DCC8; dd extra_hacks.push_battle_memo_status+1 //04 00 9C 00
-org $8D2D8CC; dd $0
+org $8D2D8C8; dd $0
 
 //Fix issue in which Lucas' sprite would become Boney's because of missing ifs, we're also shuffling other stuff to save space
 org $934E4A4; incbin logic_pointer_36C.bin
