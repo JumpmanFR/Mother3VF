@@ -649,10 +649,6 @@ org $9B8FF74; incbin data_namingscreen1.bin
 org $80C6AAC; incbin data_namingscreen2.bin
 
 
-// Make the incorrect tile on the text speed/window flavour screen go away
-org $9BC04AA; db $97
-
-
 // Fully covers/erases “Don’t Care” on the player naming screens
 org $804A3C4; db $06
 
@@ -764,7 +760,6 @@ org $8055BD8; dd $2004F26
 
 // New credits tileset
 org $9C5FE60; dd $00326614
-org $9C8D24E; db $00,$00,$00,$00,$00,$00
 org $9F86140; incbin data_creditstable.bin
 org $9F86340; incbin gfx_credits_[c].bin
 org $9C86E98; incbin gfx_credits_arrangement.bin
