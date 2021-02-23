@@ -1573,70 +1573,70 @@ org $9B6A9DC; incbin gfx_sketch_lab_arrangement.bin
 
 // Insert New Pork Welcome
 org $8D3DDB0; dd $124D104
-org $9F885E4; incbin gfx_welcome_[c].bin // causes errors on rooms 254 (itself), 261!
+org $9F885E4; incbin gfx_welcome_[c].bin // mapviewer errors on rooms 254 (itself), 261!
 
 
 // Insert New Pork Theater
 org $8D3DE64; dd $124DB84
-org $9F89064; incbin gfx_theater_[c].bin // causes error on 259 (itself)
+org $9F89064; incbin gfx_theater_[c].bin // mapviewer error on 259 (itself)
 
 
 // Insert Ropeway
 org $8D3BF2C; dd $124F630
-org $9F8AB10; incbin gfx_ropeway1_[c].bin // causes errors on rooms 49 (itself), 254, 260!
+org $9F8AB10; incbin gfx_ropeway1_[c].bin // mapviewer errors on rooms 49 (itself), 254, 260!
 org $8D3C5D4; dd $01D1FA0
-org $8F0D480; incbin gfx_ropeway2_[c].bin // causes errors on rooms 49 (itself), 254, 260!
+org $8F0D480; incbin gfx_ropeway2_[c].bin // mapviewer errors on rooms 49 (itself), 254, 260!
 
 
 // Insert Beauty & Tasty inside
 org $8D3D33C; dd $124E004
-org $9F894E4; incbin gfx_beautytasty_in1_[c].bin // causes error on room 172 (itself)
+org $9F894E4; incbin gfx_beautytasty_in1_[c].bin // mapviewer error on room 172 (itself)
 org $8D3D340; dd $124E580
-org $9F89A60; incbin gfx_beautytasty_in2_[c].bin // causes error on room 172 (itself)
+org $9F89A60; incbin gfx_beautytasty_in2_[c].bin // mapviewer error on room 172 (itself)
 
 
 // Insert Beauty & Tasty outside
 org $8D3DE48; dd $124E974
-org $9F89E54; incbin gfx_beautytasty_out_[c].bin // no error
+org $9F89E54; incbin gfx_beautytasty_out_[c].bin
 
 
 // Insert Porky Amusement Park
 org $8D3DE3C; dd $124D680
-org $9F88B60; incbin gfx_amusement_[c].bin // no error
+org $9F88B60; incbin gfx_amusement_[c].bin
 
 
 // Insert Porky Park
 org $8D3DED8; dd $124F048
-org $9F8A528; incbin gfx_porkypark_[c].bin // causes error on room 262 (itself)
+org $9F8A528; incbin gfx_porkypark_[c].bin // mapviewer error on room 262 (itself)
 
 
 // Insert Arcade
-org $8F0CE20; incbin gfx_game1_[c].bin // causes errors on rooms 254 (itself), 261!
-org $8F0D144; incbin gfx_game2_[c].bin // causes errors on rooms 254 (itself), 261!
+org $8F0CE20; incbin gfx_game1_[c].bin // mapviewer error on rooms 254 (itself), 261!
+org $8F0D144; incbin gfx_game2_[c].bin // mapviewer error on rooms 254 (itself), 261!
 
 
 // Insert ending screen
-org $8EEE358; incbin gfx_end1_[c].bin // causes error on room 268 (itself)
-org $8EEDE28; incbin gfx_end2_[c].bin // causes error on room 268 (itself)
+org $8EEE358; incbin gfx_end1_[c].bin // mapviewer error on room 268 (itself)
+org $8EEDE28; incbin gfx_end2_[c].bin // mapviewer error on room 268 (itself)
 org $8D3CB9C; dd $1254420
 org $9F8F900; incbin gfx_end3_[c].bin
 
 
 // Insert sheriff
-org $8DD5D60; incbin gfx_sheriff1_[c].bin // no error
-org $8DD6054; incbin gfx_sheriff2_[c].bin // no error
+org $8DD5D60; incbin gfx_sheriff1_[c].bin
+org $8DD6054; incbin gfx_sheriff2_[c].bin
 
 
 // Insert Movie
-org $8D5CC7C; incbin gfx_movie_[c].bin // causes errors on rooms 343 345 346 347 348 349 356 369!
+org $8D5CC7C; incbin gfx_movie_[c].bin // mapviewer errors on rooms 343 345 346 347 348 349 356 369!
 
 
 // Insert Debug Room text
-org $8DB555C; incbin gfx_debug_[c].bin // causes no error
+org $8DB555C; incbin gfx_debug_[c].bin
 
 
 // Insert Keep Out
-org $8D50A00; incbin gfx_keepout_[c].bin // causes errors on rooms 301 302 303 321 322!
+org $8D50A00; incbin gfx_keepout_[c].bin // mapviewer errors on rooms 301 302 303 321 322!
 
 
 // Insert Thomas Bazaar
