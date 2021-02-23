@@ -194,6 +194,7 @@
 !gfx_statues_\[c\].bin
 !gfx_statues_pal.bin
 !fix_custom_text.cpp
+!check_overlap.py
 !CheckOverflow.java
 !CheckRepeats.java
 !textconv.exe
