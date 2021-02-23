@@ -1611,8 +1611,8 @@ org $9F8A528; incbin gfx_porkypark_[c].bin // mapviewer error on room 262 (itsel
 
 
 // Insert Arcade
-org $8F0CE20; incbin gfx_game1_[c].bin // mapviewer error on rooms 254 (itself), 261!
-org $8F0D144; incbin gfx_game2_[c].bin // mapviewer error on rooms 254 (itself), 261!
+org $8F0CE20; incbin gfx_game1_[c].bin // mapviewer errors on rooms 254 (itself), 261!
+org $8F0D144; incbin gfx_game2_[c].bin // mapviewer errors on rooms 254 (itself), 261!
 
 
 // Insert ending screen
