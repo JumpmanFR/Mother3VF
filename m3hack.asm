@@ -1189,6 +1189,11 @@ org $801A1A4; bl outside_hacks.block_loading_map
 org $8026E4A; bl outside_hacks.decrement_block_map_inside
 org $802704C; bl outside_hacks.block_loading_map_inside
 
+
+//Fix option "Clay Factory" of Chapter 5's NPC in the Debug Room
+org $9362AC8; dd $00000A01
+
+
 //============================================================================================
 //                              SOUND PLAYER & BATTLE HACKS
 //============================================================================================
