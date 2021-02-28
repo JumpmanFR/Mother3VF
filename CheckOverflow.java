@@ -419,10 +419,10 @@ public class CheckOverflow
 		normalWidths.put("ý", 5);
 		normalWidths.put("ü", 8);
 		normalWidths.put("ÿ", 8);
-		normalWidths.put("→", 11);
-		normalWidths.put("←", 11);
-		normalWidths.put("↑", 6);
-		normalWidths.put("↓", 6);
+		normalWidths.put("→", 12);
+		normalWidths.put("←", 12);
+		normalWidths.put("↑", 8);
+		normalWidths.put("↓", 8);
 		normalWidths.put("	", 30);
 		normalWidths.put("	", 34);
 		normalWidths.put("¶", 15);

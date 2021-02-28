@@ -1194,6 +1194,12 @@ org $802704C; bl outside_hacks.block_loading_map_inside
 org $9362AC8; dd $00000A01
 
 
+//Change where multi-break menus are stored and how they work
+org $80226F8; dd $203F800-$201B7A0
+org $80226A8; b $80226BA
+org $80226C0; bl main_script_hacks.end_line_multi_menu
+
+
 //============================================================================================
 //                              SOUND PLAYER & BATTLE HACKS
 //============================================================================================
