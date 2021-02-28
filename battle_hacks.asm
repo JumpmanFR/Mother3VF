@@ -539,9 +539,14 @@ mov  r3,#0                   // r3 will be our total # of bytes changed
 ldr  r0,=#0x2014322          // load the # of enemies
 ldrb r0,[r0,#0]
 cmp  r0,#1
-beq  .cc_plural_verb_end         // don't print anything if there's only one enemy
+beq  .cc_plural_verb_end     // don't print anything if there's only one enemy
  
-ldr  r0,=#0x8D08314          // copy "nt "
+mov  r0,#3
+mov  r2,#0x28
+mul  r0,r2
+ldr  r2,=#0x8D0829C
+add  r0,r0,r2                // r0 now has the address of "nt "
+
 bl   custom_strlen           // count the length of our special string, store its length in r2
 add  r3,r3,r0
  
@@ -564,26 +569,6 @@ ldr  r0,=#0x2014322          // load the # of enemies
 ldrb r0,[r0,#0]
 cmp  r0,#1
 beq  .cc_cohorts_end         // don't print anything if there's only one enemy
-
-
-//ldr  r0,=#0x8D08314          // copy "and "
-//bl   custom_strlen           // count the length of our special string, store its length in r2
-//add  r3,r3,r0
-
-
-//ldr  r0,=#0x2014320          // load our current enemy #
-//ldrb r0,[r0,#0]
-//mov  r2,#6
-//mul  r0,r2
-//ldr  r2,=#0x8D098E0
-//add  r0,r0,r2
-//ldrb r0,[r0,#0x4]            // load the line # for this enemy's possessive pronoun
-//mov  r2,#40
-//mul  r0,r2
-//ldr  r2,=#0x8D0829C
-//add  r0,r0,r2                // r0 now has the address to the appropriate possessive pronoun string
-//bl   custom_strlen           // count the length of our special string, store its length in r2
-//add  r3,r3,r0
 
 
 ldr  r0,=#0x2014322          // load the # of enemies
@@ -1946,7 +1931,12 @@ ldrb r0,[r0,#0]
 cmp  r0,#1
 beq  +                       // don't print anything if there's only one enemy
  
-ldr  r0,=#0x8D08314          // copy "nt "
+mov  r0,#3
+mov  r2,#0x28
+mul  r0,r2
+ldr  r2,=#0x8D0829C
+add  r0,r0,r2                // r0 now has the address of "nt "
+
 bl   custom_strcopy          // r0 gets the # of bytes copied afterwards
 add  r1,r1,r0
 add  r3,r3,r0
@@ -1971,28 +1961,6 @@ ldr  r0,=#0x2014322          // load the # of enemies
 ldrb r0,[r0,#0]
 cmp  r0,#1
 beq  +                       // don't print anything if there's only one enemy
-
-
-//ldr  r0,=#0x8D08314          // copy "and "
-//bl   custom_strcopy          // r0 gets the # of bytes copied afterwards
-//add  r1,r1,r0
-//add  r3,r3,r0
-
-
-//ldr  r0,=#0x2014320          // load our current enemy #
-//ldrb r0,[r0,#0]
-//mov  r2,#6
-//mul  r0,r2
-//ldr  r2,=#0x8D098E0
-//add  r0,r0,r2
-//ldrb r0,[r0,#0x4]            // load the line # for this enemy's possessive pronoun
-//mov  r2,#40
-//mul  r0,r2
-//dr  r2,=#0x8D0829C
-//add  r0,r0,r2                // r0 now has the address to the appropriate possessive pronoun string
-//bl   custom_strcopy          // r0 gets the # of bytes copied afterwards
-//add  r1,r1,r0
-//add  r3,r3,r0
 
 
 ldr  r0,=#0x2014322          // load the # of enemies
