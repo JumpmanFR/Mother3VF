@@ -2588,7 +2588,7 @@
 22-18E:©On dirait qu'il n'y a personne à la maison.[END]
 // Repeats: 22-18, 23-18
 22-19:@Squeeeeak-squeak squeeeak squeeeeak.[WAIT]¬(Not wasting food is a commendable thing.[WAIT]¬But that does make things a little harder for[BREAK]¬me.)[END]
-22-19E:@Cooouic-couic cooouic cooouic.[WAIT]¬(C'est bien d'éviter de gâcher la nourriture.[WAIT]¬Mais ça me rend les choses plus compliquées.)[END]
+22-19E:@Couiiiic-couic couiiic couiiiic.[WAIT]¬(C'est bien d'éviter de gâcher la nourriture.[WAIT]¬Mais ça me rend les choses plus compliquées.)[END]
 // Repeats: 22-19, 23-19
 22-20:@Squeeeeeeeeak. (S)[WAIT]¬Squeak-squeak-squeak. (O)[WAIT]¬Squeeeeeeeeak. (S)[WAIT]@Squeeak-squeak.[WAIT]¬(This is no time to be doing Morse Code, is it?)[END]
 22-20E:@Couiiiiiiiic. (S)[WAIT]¬Couic-couic-couic. (O)[WAIT]¬Couiiiiiiiic. (S)[WAIT]@Couic-couic.[WAIT]¬(C'est pas le moment de faire du morse, si·?)[END]
@@ -2659,7 +2659,7 @@
 23-18E:©On dirait qu'il n'y a personne à la maison.[END]
 // Repeats: 22-18, 23-18
 23-19:@Squeeeeak-squeak squeeeak squeeeeak.[WAIT]¬(Not wasting food is a commendable thing.[WAIT]¬But that does make things a little harder for[BREAK]¬me.)[END]
-23-19E:@Cooouic-couic cooouic cooouic.[WAIT]¬(C'est bien d'éviter de gâcher la nourriture.[WAIT]¬Mais ça me rend les choses plus compliquées.)[END]
+23-19E:@Couiiiic-couic couiiic couiiiic.[WAIT]¬(C'est bien d'éviter de gâcher la nourriture.[WAIT]¬Mais ça me rend les choses plus compliquées.)[END]
 // Repeats: 22-19, 23-19
 23-20:@Squeeeeeeeeak. (S)[WAIT]¬Squeak-squeak-squeak. (O)[WAIT]¬Squeeeeeeeeak. (S)[WAIT]@Squeeak-squeak.[WAIT]¬(This is no time to be doing Morse Code, is it?)[END]
 23-20E:@Couiiiiiiiic. (S)[WAIT]¬Couic-couic-couic. (O)[WAIT]¬Couiiiiiiiic. (S)[WAIT]@Couic-couic.[WAIT]¬(C'est pas le moment de faire du morse, si·?)[END]
