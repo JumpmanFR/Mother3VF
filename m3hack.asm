@@ -1726,8 +1726,9 @@ org $9C68744; incbin gfx_credits_bazaar.bin
 
 
 //Fix pigmask in debug room changing sprite
-org $93682E8; dd $0000130E; dd $0000130E; dd $0000130E
-org $93683F4; dd $0000130E; dd $0000130E; dd $0000130E
+org $9369CD0; incbin logic_fix_debug_pigmask.bin
+org $93682E8; dd $270B000C
+org $93683F4; dd $270E000C
 
 
 //Fix 16x16 wall tile being walkable on in Tanetane’s cliff
@@ -2079,8 +2080,17 @@ org $8D2D8D0; dd $1
 org $8D2D8D4; dd $0
 org $9FD6B98; incbin object_tables_debug.bin
 org $9137120; dd $00EA4040; dd $00EA4220; dd $00EA42E0; dd $00EA4388; dd $00EA4430
-org $9FD7078; incbin logic_blocks_37F_380.bin
+org $9FD7078; incbin logic_blocks_37F_380_381_382.bin
 org $919A80C; dd $00E3E468; dd $00E3E474; dd $00E3E4DC; dd $00E3E4EC
+org $919A81C; dd $00E3E77C; dd $00E3E788; dd $00E3E820; dd $00E3E82C
+
+//Fix Chapter 7's Kumatora when warping from Debug entries
+org $9369CE8; incbin logic_fix_debug_chapter7_kumatora.bin
+org $93676CC; dd $2730000C
+org $93676F8; dd $2733000C
+org $9367724; dd $2736000C
+org $9367750; dd $2739000C
+org $936777C; dd $273C000C
 
 //Fix issue with equip and status showing old data when going from a non-valid character to a valid character
 org $80470B4; bl main_menu_hacks.delete_vram_equip; nop //Equip

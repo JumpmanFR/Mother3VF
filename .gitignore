@@ -70,12 +70,14 @@
 !data_target_table.bin
 !logic_leder_fix_counter_fireplace.bin
 !logic_leder_fix_song.bin
+!logic_fix_debug_pigmask.bin
+!logic_fix_debug_chapter7_kumatora.bin
 !logic_pointer_283.bin
 !logic_set_porky.bin
 !logic_set_ssc.bin
 !logic_leder_memo.bin
 !logic_new_npc_debug.bin
-!logic_blocks_37F_380.bin
+!logic_blocks_37F_380_381_382.bin
 !logic_multi_debug.bin
 !logic_00E.bin
 !logic_00F.bin
