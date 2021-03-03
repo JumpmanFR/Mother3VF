@@ -30,6 +30,11 @@ public class CheckOverflow
 			
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(args[0]), "UTF8"))) {
 			checkTooShortMode = (args.length > 1 && "1".equals(args[1]));
+			if (checkTooShortMode) {
+				System.out.println("Liste des lignes trop longues ou trop courtes :");
+			} else {
+				System.out.println("Liste des lignes trop longues :");
+			}
 			String line;
 			while ((line = br.readLine()) != null) {
 			   int result = checkLine(line);
