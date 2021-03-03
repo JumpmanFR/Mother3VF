@@ -5636,7 +5636,7 @@
 81-39:@Geezer. Go steal that zapper gizmo while that[BREAK]¬lyin' freak's still asleep.[END]
 81-39E:@Hé le schnock. Va voler l'appareil de torture de[BREAK]¬ce baratineur tant qu'il est encore endormi.[END]
 81-40:@Oh, right.[WAIT]@I should've swiped it earlier.[WAIT]@I'll be right back.[END]
-81-40E:@Ah, oui.[WAIT]@J'aurais dû lui faucher tout à l'heure.[WAIT]@Je reviens.[END]
+81-40E:@Ah, oui.[WAIT]@J'aurais dû le lui faucher tout à l'heure.[WAIT]@Je reviens.[END]
 81-41:@You'll be free in a minute, monkey.[WAIT]@You must've had it rough.[END]
 81-41E:@Tu seras libre dans une minute, p'tit singe.[WAIT]@T'as dû en baver.[END]
 81-42:@Hey, monkey.[WAIT]@I stole the doohickey.[END]
