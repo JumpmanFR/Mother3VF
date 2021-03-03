@@ -210,7 +210,7 @@
 
 
 34:[BREAK]Kindly heals people who[BREAK]are hurt, whether they like[BREAK]it or not. But its name is a[BREAK]little iffy.[END]
-34-E:Soigne gracieusement les[BREAK]gens blessés, que ça leur[BREAK]plaise ou non. Certains[BREAK]trouvent sa démarche un[BREAK]peu douteuse.[END]
+34-E:Soigne gracieusement les[BREAK]gens blessés, que ça leur[BREAK]plaise ou non. Certains[BREAK]peuvent trouver sa[BREAK]démarche un peu·douteuse.[END]
 
 
 35:Eastward one day and[BREAK]westward the next, it[BREAK]goes with the tidal flow[BREAK]like a plastic bag in the[BREAK]wind.[END]
