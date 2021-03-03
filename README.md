@@ -21,7 +21,7 @@ Vos modifications vous permettront ensuite de générer une ROM adaptée à vos 
 
 Pour cela, il vous faut :
 * une ROM japonaise originale de MOTHER 3 (à vous procurer par vos propres moyens)
-* un PC équipé de Windows et de [.NET Framework](https://docs.microsoft.com/fr-fr/dotnet/framework/install/on-windows-10)
+* un PC équipé de Windows et de [.NET Framework](https://docs.microsoft.com/fr-fr/dotnet/framework/install/on-windows-10) (Python et Java sont également nécessaires pour certains outils)
 
 Pour générer la ROM :
 * clonez le dépôt (ou téléchargez l’archive) dans un dossier de votre choix
