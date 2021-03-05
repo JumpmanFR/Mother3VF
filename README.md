@@ -29,3 +29,5 @@ Pour générer la ROM :
 * ouvrez TextInjector.exe, décochez *Encode the script* dans le menu *Encoding*, cliquez sur *Load script…* et ouvrez *script.txt*, puis cliquez sur *Dump to binfile* et enregistrez avec le nom par défaut
 * lancez j.bat, de préférence depuis l’invite de commandes Windows (si vous avez les connaissances requises), ou bien depuis l’Explorateur Windows
 * attendez que le script se termine (environ 30 secondes), et votre ROM traduite sera alors générée sous le nom *mother3_fr.gba*
+
+Si vous voulez plus de détails, contactez-moi [sur Twitter](https://twitter.com/jumpmanfr) ou rendez-vous [sur notre serveur Discord](http://mother3vf.free.fr/discord).
