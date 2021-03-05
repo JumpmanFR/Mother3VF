@@ -2,6 +2,7 @@
 *
 !.gitignore
 !README.md
+!README.en.md
 !battle_hacks.asm
 !m3hack.asm
 !outside_hacks.asm
