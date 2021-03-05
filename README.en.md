@@ -1,5 +1,7 @@
 # Mother3VF
 
+[🇬🇧 En français](README.md)
+
 This repository contains all the sources for the Mother 3 French fan translation project, along with tools we used during this project. Some files come from [the tools that were provided by the English fan translation 1.2](http://mother3.fobby.net/tools), and we have edited them for our own needs in a few instances.
 
 Here you’ll find:
