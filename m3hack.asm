@@ -1659,8 +1659,8 @@ org $9FAA3C4; incbin gfx_bazaar2_[c].bin
 
 
 // Insert graphic for the CAST sprite
-org $9658CB0; incbin gfx_cast.bin
 org $9659AB0; incbin gfx_castleft.bin
+org $9658CB0; incbin gfx_castright.bin
 org $1A87871; db $00 // right part position
 org $1A87875; db $E0,$70,$61 // left part position, tile id and size respectively
 org $143710E; db $30 // collision
