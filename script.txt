@@ -2212,7 +2212,7 @@
 18-48:@[DUSTER 23 03 00]...[WAIT]@At long last, it is time to put the thief skills[BREAK]¬you've studied since childhood to the test.[WAIT]@Now, show us your Wall Staple technique![BREAK]¬Right here, right now![END]
 18-48E:@[DUSTER 23 03 00]...[WAIT]@Il est temps de mettre enfin à l'épreuve tes[BREAK]¬compétences de voleur,[WAIT]¬que tu as acquises depuis ton enfance.[WAIT]@Montre-nous ta technique des Agrafes[BREAK]¬murales, ici, et maintenant·![END]
 18-49:@I did study that technique, but this is my first[BREAK]¬time using it for real...[WAIT]@I hope this works.[PAUSE 08 00].[PAUSE 08 00].[PAUSE 10 00][END]
-18-49E:@J'ai bien étudié cette technique, mais c'est la[BREAK]¬première fois que je l'utilise en vrai...[WAIT]@J'espère que ça va marcher.[PAUSE 08 00].[PAUSE 08 00].[PAUSE 10 00][END]
+18-49E:@J'ai étudié cette technique, mais c'est la[BREAK]¬première·fois que·je l'utilise en situation réelle...[WAIT]@J'espère que ça va marcher.[PAUSE 08 00].[PAUSE 08 00].[PAUSE 10 00][END]
 18-50:@This area looks scalable here.[END]
 18-50E:@Cet endroit a l'air praticable.[END]
 18-51:@Mr. [FLINT 23 01 00]! Where are you going?![WAIT]@[BONEY 23 05 00] is trying to tell us something![END]
