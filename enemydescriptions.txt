@@ -422,7 +422,7 @@
 
 
 69:[BREAK]A drop kick from any one[BREAK]of its eight legs is intense.[BREAK]Its third leg from the right[BREAK]is World Cup class.[END]
-69-E:Un coup de pied retourné[BREAK]d'une de ses huit jambes[BREAK]peut être fatal. Sa 3e[BREAK]jambe sur la droite est[BREAK]dans le livre des records.[END]
+69-E:Un coup de pied retourné[BREAK]d'une de ses huit jambes[BREAK]peut être fatal. Sa 3²[BREAK]jambe sur la droite est[BREAK]dans le livre des records.[END]
 
 
 6A:[BREAK]This piggy plant snorts and[BREAK]blooms from spring to fall.[BREAK]It disperses pollen that[BREAK]causes watery eyes.[END]
@@ -526,7 +526,7 @@
 
 
 83:[BREAK]Flies out of power conduits[BREAK]with lots of energy and...[BREAK]Hectic! Energetic! Electric![BREAK]That's its slogan.[END]
-83-E:Il s'échappe des conduits[BREAK]électriques avec beaucoup[BREAK]d'énergie et... Frénétique·![BREAK]Énergique·! Électrique·![BREAK]C'est sa devise.[END]
+83-E:Il s'échappe des câbles[BREAK]électriques avec beaucoup[BREAK]d'énergie et... Frénétique·![BREAK]Énergique·! Électrique·![BREAK]C'est sa devise.[END]
 
 
 84:[BREAK]It's minor because, first of[BREAK]all, it's terrible at math,[BREAK]and second, it needs 64 C[BREAK]batteries.[END]

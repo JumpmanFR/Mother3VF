@@ -6998,7 +6998,7 @@
 122-8:@Oh, you're old man Wess's son.[WAIT]@I heard about that wall-climbing stuff you did in[BREAK]¬the Sunshine Forest.[END]
 122-8E:@Oh, tu es le fils du vieux Wess.[WAIT]@On m'a parlé de ce truc d'escalade que tu as[BREAK]¬fait dans la forêt Ensoleillée.[END]
 122-9:@Do you know about the seven mysteries of[BREAK]¬this village?[WAIT]@I think my favorite is Tazmily Mystery No. 3:[WAIT]¬"Tall Mr. Beanstalk of Cross Road".[WAIT]@Yeah, that's actually the entire story.[END]
-122-9E:@Tu connais les sept mystères de ce village·?[WAIT]@Je crois que mon préféré, c'est le Mystère de[BREAK]¬Tazmily n°3•:[WAIT]¬"Monsieur la Grande Perche, de la Croisée".[WAIT]@Oui, c'était vraiment l'histoire tout entière.[END]
+122-9E:@Tu connais les sept mystères de ce village·?[WAIT]@Je crois que mon préféré, c'est le Mystère de[BREAK]¬Tazmily n° 3•:[WAIT]¬"Monsieur la Grande Perche, de la Croisée".[WAIT]@Oui, c'était vraiment l'histoire tout entière.[END]
 122-10:@I'd like to finally close up for the night, but Bob[BREAK]¬just won't leave.[END]
 122-10E:@J'aimerais enfin pouvoir fermer pour la nuit,[BREAK]¬mais Bob ne veut vraiment pas partir.[END]
 122-11:@Sheesh![END]
@@ -12211,7 +12211,7 @@
 256-0E:@Bienvenue.[WAIT]@J'avais entendu dire par Maître Porky que[BREAK]¬vous viendriez ici.[WAIT]@Il dit que vous êtes très forts.[WAIT]@À votre manière.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][END]
 // Repeats: 256-0, 260-0
 256-1:@You can go anywhere you want, aside from[BREAK]¬the 100th floor of the Empire Porky Building.[WAIT]@In fact, go have a look around at everything.[END]
-256-1E:@Vous pouvez aller où ça vous chante, excepté[BREAK]¬au 100e étage de l'Empire Porky Building.[WAIT]@En fait, vous devriez faire un tour pour tout[BREAK]¬visiter.[END]
+256-1E:@Vous pouvez aller où ça vous chante, excepté[BREAK]¬au 100² étage de l'Empire Porky Building.[WAIT]@En fait, vous devriez faire un tour pour tout[BREAK]¬visiter.[END]
 // Repeats: 256-1, 260-1
 256-2:@They say the DCMC are gonna have a concert[BREAK]¬in this city.[WAIT]@I guess in that way, this city might not be half[BREAK]¬bad at all.[END]
 256-2E:@Il paraît que les DCMC·vont faire un concert ici.[WAIT]@Du coup, dans un sens, cette ville n'est[BREAK]¬peut-être pas si mal.[END]
@@ -12310,7 +12310,7 @@
 258-5:@Even nobodies like us have been caught up in[BREAK]¬something really big...[END]
 258-5E:@Même des moins que rien comme nous se sont[BREAK]¬fait entraîner dans quelque chose d'immense...[END]
 258-6:@If I were to, say, compare my life to a story,[WAIT]¬I'd say we're at the start of the 15th chapter,[BREAK]¬out of 16 total.[END]
-258-6E:@Si·je devais comparer ma vie,·disons,·à un livre,[WAIT]¬je dirais qu'on en est au début du 15e chapitre,[BREAK]¬sur un total de 16.[END]
+258-6E:@Si·je devais comparer ma vie,·disons,·à un livre,[WAIT]¬je dirais qu'on en est au début du 15² chapitre,[BREAK]¬sur un total de 16.[END]
 258-7:@I'll go with Abbot wherever he goes.[WAIT]@Even if the world was a four-chapter story, I'd[BREAK]¬spend all four of those chapters with him.[END]
 258-7E:@Je suivrai Abbé où qu'il aille.[WAIT]@Si le monde était une histoire en 4 chapitres, je[BREAK]¬passerais ces 4 chapitres entiers avec lui.[END]
 258-8:@Master Porky referred to you as very dear[BREAK]¬and captivating guests.[WAIT]@You're dear? And captivating?[WAIT]@You don't seem all that special to me.[END]
@@ -12386,7 +12386,7 @@
 260-0E:@Bienvenue.[WAIT]@J'avais entendu dire par Maître Porky que[BREAK]¬vous viendriez ici.[WAIT]@Il dit que vous êtes très forts.[WAIT]@À votre manière.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][END]
 // Repeats: 256-0, 260-0
 260-1:@You can go anywhere you want, aside from[BREAK]¬the 100th floor of the Empire Porky Building.[WAIT]@In fact, go have a look around at everything.[END]
-260-1E:@Vous pouvez aller où ça vous chante, excepté[BREAK]¬au 100e étage de l'Empire Porky Building.[WAIT]@En fait, vous devriez faire un tour pour tout[BREAK]¬visiter.[END]
+260-1E:@Vous pouvez aller où ça vous chante, excepté[BREAK]¬au 100² étage de l'Empire Porky Building.[WAIT]@En fait, vous devriez faire un tour pour tout[BREAK]¬visiter.[END]
 // Repeats: 256-1, 260-1
 260-2:@They say the DCMC are gonna have a concert[BREAK]¬in this city.[WAIT]@I guess in that way, this city might not be half[BREAK]¬bad at all.[END]
 260-2E:@Il paraît que les DCMC·vont faire un concert ici.[WAIT]@Du coup, dans un sens, cette ville n'est[BREAK]¬peut-être pas si mal.[END]
@@ -16935,11 +16935,11 @@
 462-33:@That was a long story, but that is the end of[BREAK]¬everything I have to tell you.[WAIT]¬Did you understand it all?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 462-33E:@C'était une longue histoire, mais nous arrivons[BREAK]¬à la fin de ce que j'avais à te dire.[WAIT]¬Est-ce que tu as tout compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 462-34:@Only the Magypsies really know the Needles'[BREAK]¬locations, so I don't know where to find them.[WAIT]¬But, from the way Porky and the others have[BREAK]¬been acting,[WAIT]¬I would say they're now very close to reaching[BREAK]¬the seventh Needle.[WAIT]@Please, [LUCAS 23 02 00].[BREAK]¬Be the one who pulls the final Needle.[WAIT]@Porky issues his orders from the 100th floor[BREAK]¬of the Empire Porky Building.[WAIT]@Start by jumping into the fray and storming[BREAK]¬the building.[WAIT]@After that, you can start looking for clues.[END]
-462-34E:@Seuls les Magypsy connaissent l'emplacement[BREAK]¬des Aiguilles, j'ignore où elles se trouvent.[WAIT]¬Mais, vu la façon dont Porky et les autres se[BREAK]¬comportent,[WAIT]¬je pense qu'ils sont actuellement très près[BREAK]¬d'atteindre la septième Aiguille.[WAIT]@Je t'en prie, [LUCAS 23 02 00].[BREAK]¬Sois celui qui retirera la dernière Aiguille.[WAIT]@Porky envoie ses ordres depuis le 100e étage[BREAK]¬de l'Empire Porky Building.[WAIT]@Commence par te jeter dans la mêlée en[BREAK]¬prenant d'assaut le bâtiment.[WAIT]@Ensuite, tu pourras commencer à chercher des[BREAK]¬pistes.[END]
+462-34E:@Seuls les Magypsy connaissent l'emplacement[BREAK]¬des Aiguilles, j'ignore où elles se trouvent.[WAIT]¬Mais, vu la façon dont Porky et les autres se[BREAK]¬comportent,[WAIT]¬je pense qu'ils sont actuellement très près[BREAK]¬d'atteindre la septième Aiguille.[WAIT]@Je t'en prie, [LUCAS 23 02 00].[BREAK]¬Sois celui qui retirera la dernière Aiguille.[WAIT]@Porky envoie ses ordres depuis le 100² étage[BREAK]¬de l'Empire Porky Building.[WAIT]@Commence par te jeter dans la mêlée en[BREAK]¬prenant d'assaut le bâtiment.[WAIT]@Ensuite, tu pourras commencer à chercher des[BREAK]¬pistes.[END]
 462-35:@It's been such a long time since I've spoken to[BREAK]¬anyone. And now I'm exhausted.[WAIT]@This stinkbug should remember everything[BREAK]¬I've just said.[WAIT]@Take him with you.[WAIT]¬That way, if you happen to forget anything[BREAK]¬I've said here, you can ask him to repeat it.[WAIT]@Will you go with them, Mr. Stinkbug?[END]
 462-35E:@Cela faisait longtemps que je n'avais pas parlé[BREAK]¬à quelqu'un. Et maintenant, je suis épuisé.[WAIT]@Cette punaise devrait pouvoir se souvenir de[BREAK]¬tout ce que j'ai dit.[WAIT]@Prends-la avec toi.[WAIT]¬Ainsi, si tu oublies une partie de ce que j'ai dit[BREAK]¬ici, tu pourras lui demander de te le répéter.[WAIT]@Voulez-vous bien aller avec eux, Mme la[BREAK]¬Punaise·?[END]
 462-36:@Porky issues his orders from the 100th floor[BREAK]¬of the Empire Porky Building.[WAIT]@Start by jumping into the fray and storming[BREAK]¬the place.[WAIT]@After that, you can start looking for clues.[WAIT]@Don't worry about me.[WAIT]@If your battle goes well, I'm sure I'll regain my[BREAK]¬freedom, just as everyone else will.[WAIT]@Be confident in yourself, and go forth.[END]
-462-36E:@Porky envoie ses ordres depuis le 100e étage[BREAK]¬de l'Empire Porky Building.[WAIT]@Commence par te jeter dans la mêlée en[BREAK]¬prenant d'assaut le bâtiment.[WAIT]@Ensuite, tu pourras commencer à chercher des[BREAK]¬pistes.[WAIT]@Ne t'inquiète pas pour moi.[WAIT]@Si la bataille se déroule bien, je suis sûr que je[BREAK]¬retrouverai ma liberté, comme tous les autres.[WAIT]@Aie confiance en toi, et mets-toi en route.[END]
+462-36E:@Porky envoie ses ordres depuis le 100² étage[BREAK]¬de l'Empire Porky Building.[WAIT]@Commence par te jeter dans la mêlée en[BREAK]¬prenant d'assaut le bâtiment.[WAIT]@Ensuite, tu pourras commencer à chercher des[BREAK]¬pistes.[WAIT]@Ne t'inquiète pas pour moi.[WAIT]@Si la bataille se déroule bien, je suis sûr que je[BREAK]¬retrouverai ma liberté, comme tous les autres.[WAIT]@Aie confiance en toi, et mets-toi en route.[END]
 // Repeat partiel
 462-37:@For some strange reason, [LUCAS 23 02 00] is[BREAK]¬unable to leave the room.[END]
 462-37E:©Pour une raison inconnue, [LUCAS 23 02 00] est[BREAK]¬incapable de quitter la pièce.[END]
@@ -19172,7 +19172,7 @@
 642-1:@This book is shaking all by itself.[END]
 642-1E:©Ce livre semble s'agiter de lui-même.[END]
 642-2:@I am Mr. Passion.[WAIT]@The music I am playing is[BREAK]¬"Family Matters, 2nd Movement".[WAIT]@Listen thoroughly.[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-642-2E:@Je suis M. Passion.[WAIT]@La musique que j'interprète s'intitule[BREAK]¬"Affaires de famille, 2e mouvement".[WAIT]@Écoutez attentivement.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+642-2E:@Je suis M. Passion.[WAIT]@La musique que j'interprète s'intitule[BREAK]¬"Affaires de famille, 2² mouvement".[WAIT]@Écoutez attentivement.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 642-3:@Listen and marvel to your heart's content.[END]
 642-3E:@Écoutez et émerveillez-vous autant que votre[BREAK]¬cœur le désire.[END]
 642-4:@This is what artistic know-nothings like you[BREAK]¬get![END]
@@ -19194,7 +19194,7 @@
 642-11E:©La couverture et la reliure de ce livre sont de[BREAK]¬qualité, mais il n'y a rien d'écrit à l'intérieur.[END]
 // Repeats: 626-1, 642-11
 642-12:@I am Lord Passion.[WAIT]@The music I am playing is[BREAK]¬"Ode to Ancestors, 8th Movement".[WAIT]@Listen thoroughly.[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-642-12E:@Je suis le Seigneur Passion.[WAIT]@La musique que j'interprète s'intitule[BREAK]¬"Ode aux ancêtres, 8e mouvement".[WAIT]@Écoutez attentivement.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+642-12E:@Je suis le Seigneur Passion.[WAIT]@La musique que j'interprète s'intitule[BREAK]¬"Ode aux ancêtres, 8² mouvement".[WAIT]@Écoutez attentivement.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 642-13:@Yes. I thought you would like it.[WAIT]@Actually, my music isn't the only thing that's[BREAK]¬splendid.[WAIT]@I've added two new curls to my hairstyle.[WAIT]@What do you think? Isn't it wonderful?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 642-13E:@Oui. J'étais sûr qu'elle vous plairait.[WAIT]@En réalité, il n'y a pas que ma musique qui soit[BREAK]¬splendide.[WAIT]@Il se trouve que j'ai ajouté deux boucles à ma[BREAK]¬coiffure.[WAIT]@Qu'en dites-vous·? N'est-elle pas fabuleuse·?[WAIT][MENU 02 00][MENUSPACEYES]Si[MENUSPACENO]Non[ENDCHOICES][END]
 642-14:@Is too![END]
@@ -19784,7 +19784,7 @@
 
 [Container 694]
 694-0:@I made it to the 30th floor today! Yes![WAIT]¬...Though I made it to the 30th floor[BREAK]¬yesterday, too.[END]
-694-0E:@Je suis monté jusqu'au 30e étage aujourd'hui·![BREAK]¬Ouais·![WAIT]¬... Même si je suis monté jusqu'au 30e étage[BREAK]¬hier aussi.[END]
+694-0E:@Je suis monté jusqu'au 30² étage aujourd'hui·![BREAK]¬Ouais·![WAIT]¬... Même si je suis monté jusqu'au 30² étage[BREAK]¬hier aussi.[END]
 694-1:@Gaah...[BREAK] ...My legs are killing me...[END]
 694-1E:@Aaah...[BREAK]¬... J'ai trop mal aux jambes...[END]
 
@@ -19802,9 +19802,9 @@
 
 [Container 696]
 696-0:@*gasp*[PAUSE 20 00] *gasp*[PAUSE 20 00] *gasp*[WAIT]¬I've climbed for so long, but I'm still only at the[BREAK]¬20th floor...[END]
-696-0E:@*pff*[PAUSE 20 00] *pff*[PAUSE 20 00] *pff*[WAIT]¬Je grimpe depuis une éternité, et je ne suis[BREAK]¬encore qu'au 20e étage...[END]
+696-0E:@*pff*[PAUSE 20 00] *pff*[PAUSE 20 00] *pff*[WAIT]¬Je grimpe depuis une éternité, et je ne suis[BREAK]¬encore qu'au 20² étage...[END]
 696-1:@W-with our i-intellect...[WAIT]¬...reaching th-the 100th floor...[WAIT]¬...was supposed to be so easy...[END]
-696-1E:@A-avec notre in-intelligence...[WAIT]¬... c'était censé être f-facile...[WAIT]¬... d'arriver au 100e étage...[END]
+696-1E:@A-avec notre in-intelligence...[WAIT]¬... c'était censé être f-facile...[WAIT]¬... d'arriver au 100² étage...[END]
 
 
 
@@ -20066,7 +20066,7 @@
 
 [Container 800]
 800-0:@[LUCAS 23 02 00].[WAIT]@Welcome to my room![WAIT]@This is the REAL 100th floor that you wanted[BREAK]¬to come to oh-so-badly![PAUSE 0F 00][WAIT]@Again, I welcome you, my beloved, detestable[BREAK]¬pests.[WAIT]@I was the one who invited you here.[WAIT]@So you're free to come inside if you wish.[WAIT]@It's just,[PAUSE 1E 00] I've given orders to let no one enter[BREAK]¬my room[WAIT]¬to that little attack toy you see right there.[PAUSE 1E 00][WAIT]@Who knows, maybe this is where we'll say[BREAK]¬goodbye, even though I invited you here.[WAIT]@Alright, let's turn it on![BREAK]¬Say hello to the Natural Killer Cyborg![END]
-800-0E:@[LUCAS 23 02 00].[WAIT]@Bienvenue dans ma chambre·![WAIT]@C'est ici, le VRAI 100e étage que vous aviez[BREAK]¬tellement envie d'atteindre·![PAUSE 0F 00][WAIT]@Encore une fois, soyez les bienvenus, mes[BREAK]¬sales petits gêneurs adorés.[WAIT]@C'est moi qui vous ai invités.[WAIT]@Vous êtes libres d'entrer si vous le souhaitez.[WAIT]@C'est juste que[PAUSE 1E 00] j'ai donné l'ordre de ne laisser[BREAK]¬entrer personne dans ma chambre[WAIT]¬à ce petit joujou de combat que vous voyez là.[PAUSE 1E 00][WAIT]@Qui sait, peut-être que c'est ici que nous nous[BREAK]¬dirons au revoir,[WAIT]¬malgré le fait que je vous ai invités.[WAIT]@Allez, mettons-le en route·![BREAK]¬Dites bonjour au Cyborg tueur naturel·![END]
+800-0E:@[LUCAS 23 02 00].[WAIT]@Bienvenue dans ma chambre·![WAIT]@C'est ici, le VRAI 100² étage que vous aviez[BREAK]¬tellement envie d'atteindre·![PAUSE 0F 00][WAIT]@Encore une fois, soyez les bienvenus, mes[BREAK]¬sales petits gêneurs adorés.[WAIT]@C'est moi qui vous ai invités.[WAIT]@Vous êtes libres d'entrer si vous le souhaitez.[WAIT]@C'est juste que[PAUSE 1E 00] j'ai donné l'ordre de ne laisser[BREAK]¬entrer personne dans ma chambre[WAIT]¬à ce petit joujou de combat que vous voyez là.[PAUSE 1E 00][WAIT]@Qui sait, peut-être que c'est ici que nous nous[BREAK]¬dirons au revoir,[WAIT]¬malgré le fait que je vous ai invités.[WAIT]@Allez, mettons-le en route·![BREAK]¬Dites bonjour au Cyborg tueur naturel·![END]
 800-1:[END]
 800-1E:[END]
 
@@ -20280,7 +20280,7 @@
 808-1:@Wha...?![BREAK]¬Aren't you...[WAIT]¬Aren't you Gorgeous, the bass player for the[BREAK]¬DCMC?![WAIT]@Sweet! Gorgeous is back![WAIT]@That incredible bass line is finally back![WAIT]@Let's go, Mr. Gorgeous! Let's go![END]
 808-1E:@Qu'est-ce qu...·?![BREAK]¬Vous ne seriez pas...[WAIT]¬Vous ne seriez pas Gorgeous, le[BREAK]¬contrebassiste des DCMC·?![WAIT]@Génial·! Gorgeous est de retour·![WAIT]@Cette fabuleuse ligne de basse est enfin de[BREAK]¬retour·![WAIT]@Allez, M. Gorgeous·! Allez·![END]
 808-2:@Next stop, 100th floor.[END]
-808-2E:@Prochain arrêt, 100e étage.[END]
+808-2E:@Prochain arrêt, 100² étage.[END]
 808-3:[END]
 808-3E:[END]
 
@@ -20714,7 +20714,7 @@
 
 [Container 834]
 834-0:@Heheheh![BREAK]¬You seem to be having quite the tough time![WAIT]@Did you enjoy my special all-you-can-pee toilet[BREAK]¬dungeon?[WAIT]@Now, then! I have some sad news for you![WAIT]@This place you're at now[PAUSE 3C 00] isn't really the 100th[BREAK]¬floor! It's a fake![WAIT]@Ahahahahaha![WAIT]@You're nothing but a cheap toy crawling around[BREAK]¬in the palm of my hand![WAIT]@Alright! Allow me to invite you to the REAL[BREAK]¬100th floor![WAIT]¬Heh heh.[WAIT]@Board the elevator just ahead.[WAIT]@I'll be waiting for you![END]
-834-0E:@Héhéhé·![BREAK]¬Vous avez l'air d'en baver·![WAIT]@Vous avez aimé mon donjon des toilettes[BREAK]¬spécial pipi à volonté·?[WAIT]@Bon, alors·! J'ai une triste nouvelle pour vous·![WAIT]@L'endroit où vous vous trouvez[PAUSE 3C 00] n'est pas le[BREAK]¬100e étage en réalité·! C'est un faux·![WAIT]@Ahahahahaha·![WAIT]@Vous n'êtes que de pauvres jouets·qui évoluent[BREAK]¬laborieusement dans le creux de ma main·![WAIT]@Bon·! Permettez-moi de vous inviter au VRAI[BREAK]¬100e étage·![WAIT]¬Hé hé.[WAIT]@Grimpez dans l'ascenseur juste devant vous.[WAIT]@Je vous attends·![END]
+834-0E:@Héhéhé·![BREAK]¬Vous avez l'air d'en baver·![WAIT]@Vous avez aimé mon donjon des toilettes[BREAK]¬spécial pipi à volonté·?[WAIT]@Bon, alors·! J'ai une triste nouvelle pour vous·![WAIT]@L'endroit où vous vous trouvez[PAUSE 3C 00] n'est pas le[BREAK]¬100² étage en réalité·! C'est un faux·![WAIT]@Ahahahahaha·![WAIT]@Vous n'êtes que de pauvres jouets·qui évoluent[BREAK]¬laborieusement dans le creux de ma main·![WAIT]@Bon·! Permettez-moi de vous inviter au VRAI[BREAK]¬100² étage·![WAIT]¬Hé hé.[WAIT]@Grimpez dans l'ascenseur juste devant vous.[WAIT]@Je vous attends·![END]
 834-1:@There are signs that someone was here.[END]
 834-1E:©Il y a des signes qui indiquent que quelqu'un est[BREAK]¬passé par ici.[END]
 // TODO voir earthbound ?
@@ -20790,7 +20790,7 @@
 
 [Container 839]
 839-0:@We bring you a breaking news alert.[WAIT]@Some idiots have been seen pretending to be[BREAK]¬sea monkeys in the middle of a pond.[WAIT]@Wahahahahaha! I'm talking about you guys![WAIT]@Getting all covered in mud so you can fight for[BREAK]¬your lives...[WAIT]¬It's all so ridiculous![BREAK]¬*snicker*[WAIT]@Alright, then. Get on the next elevator.[WAIT]¬I think I'm gonna sit back and watch even[BREAK]¬more of your stupidity in action.[WAIT]@Come on! Don't give up![WAIT]¬You're so close to the real 100th floor now![WAIT]@Ahahahahaha![END]
-839-0E:@Voici un flash info de dernière minute.[WAIT]@Des crétins ont été aperçus se faisant passer[BREAK]¬pour des crustacés au milieu d'un bassin.[WAIT]@Wahahahahaha·! Je parle de vous, les gars·![WAIT]@Se couvrir de boue pour pouvoir aller se battre[BREAK]¬pour sa survie...[WAIT]¬C'est tellement ridicule·![BREAK]¬*ricane*[WAIT]@Bon, allez. Montez dans le prochain ascenseur.[WAIT]¬Je crois que je vais m'asseoir tranquillement[BREAK]¬pour mieux observer votre stupidité en action.[WAIT]@Allez·! Ne lâchez rien·![WAIT]¬Vous êtes tout près du vrai 100e étage,[BREAK]¬maintenant·![WAIT]@Ahahahahaha·![END]
+839-0E:@Voici un flash info de dernière minute.[WAIT]@Des crétins ont été aperçus se faisant passer[BREAK]¬pour des crustacés au milieu d'un bassin.[WAIT]@Wahahahahaha·! Je parle de vous, les gars·![WAIT]@Se couvrir de boue pour pouvoir aller se battre[BREAK]¬pour sa survie...[WAIT]¬C'est tellement ridicule·![BREAK]¬*ricane*[WAIT]@Bon, allez. Montez dans le prochain ascenseur.[WAIT]¬Je crois que je vais m'asseoir tranquillement[BREAK]¬pour mieux observer votre stupidité en action.[WAIT]@Allez·! Ne lâchez rien·![WAIT]¬Vous êtes tout près du vrai 100² étage,[BREAK]¬maintenant·![WAIT]@Ahahahahaha·![END]
 839-1:@This room's temperature and humidity are[BREAK]¬displayed here.[WAIT]@That's all.[END]
 839-1E:©La température et l'humidité de cette pièce[BREAK]¬sont affichées ici.[WAIT]©C'est tout.[END]
 // Repeats: 835-2, 839-1
@@ -20927,7 +20927,7 @@
 
 [Container 860]
 860-0:@You guys have no tact whatsoever, do you?[WAIT]@Get out of there and get on the next elevator.[WAIT]@And then make it to the REAL 100th floor![END]
-860-0E:@Vous n'avez absolument aucun tact, pas vrai·?[WAIT]@Sortez de là et rejoignez le prochain·ascenseur.[WAIT]@Et ensuite, montez au VRAI 100e étage·![END]
+860-0E:@Vous n'avez absolument aucun tact, pas vrai·?[WAIT]@Sortez de là et rejoignez le prochain·ascenseur.[WAIT]@Et ensuite, montez au VRAI 100² étage·![END]
 860-1:@There's a wooden box here.[BREAK]¬The scent of bananas wafts from it.[END]
 860-1E:©Il y a une caisse en bois ici.[BREAK]¬Une odeur de banane s'en dégage.[END]
 // Repeats: 253-1, 859-0, 860-1, 861-1
@@ -20977,7 +20977,7 @@
 863-13E:@... Oxygène·![END]
 // this is a pun that doesn't work in translation so I've left it literal
 863-14:@Your attention, please.[BREAK]¬We have a report of lost children.[WAIT]@The detestable [LUCAS 23 02 00] and his pals[BREAK]¬appear to be lost[PAUSE 1E 00] in Master Porky's fan room.[WAIT]¬Hehehehe.[WAIT]@Attention, [LUCAS 23 02 00] and friends![PAUSE 0F 00][BREAK]¬Attention, [LUCAS 23 02 00] and friends![PAUSE 0F 00][WAIT]¬Come to the real 100th floor immediately,[PAUSE 30 00][BREAK]¬if you dare![WAIT]@Ahahahahaha![END]
-863-14E:@Votre attention, s'il vous plaît. On nous signale[BREAK]¬que des enfants se sont égarés.[WAIT]@L'odieux [LUCAS 23 02 00] et ses petits amis[WAIT]¬semblent s'être égarés[PAUSE 1E 00] dans la chambre[BREAK]¬d'adoration de Maître Porky.[WAIT]¬Héhéhéhé.[WAIT]@On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00] [BREAK]¬On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00][WAIT]¬Montez au vrai 100e étage immédiatement,[PAUSE 30 00][BREAK]¬si vous osez·![WAIT]@Ahahahahaha·![END]
+863-14E:@Votre attention, s'il vous plaît. On nous signale[BREAK]¬que des enfants se sont égarés.[WAIT]@L'odieux [LUCAS 23 02 00] et ses petits amis[WAIT]¬semblent s'être égarés[PAUSE 1E 00] dans la chambre[BREAK]¬d'adoration de Maître Porky.[WAIT]¬Héhéhéhé.[WAIT]@On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00] [BREAK]¬On demande [LUCAS 23 02 00] et ses amis·![PAUSE 0F 00][WAIT]¬Montez au vrai 100² étage immédiatement,[PAUSE 30 00][BREAK]¬si vous osez·![WAIT]@Ahahahahaha·![END]
 863-15:[END]
 863-15E:[END]
 
@@ -21313,7 +21313,7 @@
 871-10E:©Du béton coule à flots.[END]
 // Repeats: 864-10, 865-10, 866-10, 867-10, 868-10, 869-10, 870-10, 871-10, 872-10, 873-10, 874-10
 871-11:@What's that?![BREAK]¬Is this the 100th floor, you ask?[WAIT]@Of course it isn't! Duh![END]
-871-11E:@Quoi donc·?![BREAK]¬Est-ce que c'est le 100e étage, vous dites·?[WAIT]@Bien sûr que non·! Pff·![END]
+871-11E:@Quoi donc·?![BREAK]¬Est-ce que c'est le 100² étage, vous dites·?[WAIT]@Bien sûr que non·! Pff·![END]
 871-12:@This building's made out of concrete and[BREAK]¬lumber![END]
 871-12E:@Ce bâtiment est fait de béton et de bois·![END]
 871-13:[END]
@@ -21451,7 +21451,7 @@
 874-11:@Future site of the Great Porky Swimming Bath.[END]
 874-11E:©Futur site de la Grande Piscine Porky.[END]
 874-12:@Attention, workers.[WAIT]@Some idiots have snuck onto the construction[BREAK]¬site and are causing loads of trouble.[PAUSE 3C 00][WAIT]@Idiots! Idiots! Idiots![BREAK]¬You idiots! I'm talking about you guys![WAIT]@Come on, now. How about you actually try to[BREAK]¬come to the 100th floor already?[WAIT]@You're really starting to irritate me![WAIT]@You're making my dentures itch like crazy![WAIT]@Get on the next elevator already![END]
-874-12E:@Votre attention, travailleurs.[WAIT]@Des crétins se sont infiltrés sur le chantier et[BREAK]¬sèment le trouble.[PAUSE 3C 00][WAIT]@Crétins·! Crétins·! Crétins·![BREAK]¬Bande de crétins·! Je parle de vous, les gars·![WAIT]@Bon, allez, maintenant. Et si enfin vous tentiez[BREAK]¬pour de vrai de monter au 100e étage·?[WAIT]@Vous commencez sérieusement à m'agacer·![WAIT]@À cause de vous, j'ai mon dentier qui me[BREAK]¬gratte comme c'est pas permis·![WAIT]@Allez, montez dans l'ascenseur maintenant·![END]
+874-12E:@Votre attention, travailleurs.[WAIT]@Des crétins se sont infiltrés sur le chantier et[BREAK]¬sèment le trouble.[PAUSE 3C 00][WAIT]@Crétins·! Crétins·! Crétins·![BREAK]¬Bande de crétins·! Je parle de vous, les gars·![WAIT]@Bon, allez, maintenant. Et si enfin vous tentiez[BREAK]¬pour de vrai de monter au 100² étage·?[WAIT]@Vous commencez sérieusement à m'agacer·![WAIT]@À cause de vous, j'ai mon dentier qui me[BREAK]¬gratte comme c'est pas permis·![WAIT]@Allez, montez dans l'ascenseur maintenant·![END]
 874-13:[END]
 874-13E:[END]
 
@@ -21926,13 +21926,13 @@
 883-5:@Hey, now.[WAIT]@You're sort of in the way.[END]
 883-5E:@Hé, là.[WAIT]@Vous bloquez le passage, pour ainsi dire.[END]
 883-6:@This elevator broke, so I rushed to fix it.[WAIT]¬For some reason, it wouldn't stop at the[BREAK]¬concert hall on the 24th floor anymore.[WAIT]@But it works fine now.[END]
-883-6E:@Cet ascenseur était tombé en panne, alors j'ai[BREAK]¬couru pour venir le réparer.[WAIT]¬Curieusement, il ne voulait plus s'arrêter au[BREAK]¬niveau de la salle de concert au 24e étage.[WAIT]@Mais c'est réglé maintenant.[END]
+883-6E:@Cet ascenseur était tombé en panne, alors j'ai[BREAK]¬couru pour venir le réparer.[WAIT]¬Curieusement, il ne voulait plus s'arrêter au[BREAK]¬niveau de la salle de concert au 24² étage.[WAIT]@Mais c'est réglé maintenant.[END]
 883-7:@Wait a minute. You weren't thinking of going to[BREAK]¬the 100th floor, were you?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-883-7E:@Attendez une minute. Vous n'aviez pas[BREAK]¬l'intention de monter au 100e étage, si·?[WAIT][MENU 02 00][MENUSPACEYES]Si[MENUSPACENO]Non[ENDCHOICES][END]
+883-7E:@Attendez une minute. Vous n'aviez pas[BREAK]¬l'intention de monter au 100² étage, si·?[WAIT][MENU 02 00][MENUSPACEYES]Si[MENUSPACENO]Non[ENDCHOICES][END]
 883-8:@Oh, I take it you're going to the concert hall,[BREAK]¬then.[WAIT]@Then you'll get to hear that cool, groovy, and[BREAK]¬slightly-indecent and giggle-tastic DCMC sound[WAIT]¬that you so long for![END]
 883-8E:@Ah, alors je suppose que vous allez à la salle[BREAK]¬de concert.[WAIT]@Donc vous allez pouvoir entendre ce son des[BREAK]¬DCMC qui vous fait tant envie,[WAIT]¬cool, déjanté, légèrement indécent et[BREAK]¬gloussifiant à souhait·![END]
 883-9:@Then I apologize.[WAIT]@The repairs I just made allow the elevator to[BREAK]¬stop at the 24th floor concert hall only.[WAIT]@So, please just take it to the 24th floor.[WAIT]@Please![WAIT]@Really, I think that would be for the best.[END]
-883-9E:@Dans ce cas, je suis navré.[WAIT]@Avec les réparations que j'ai effectuées,[BREAK]¬l'ascenseur ne s'arrête qu'au 24e étage.[WAIT]@Alors prenez-le pour monter à la salle de[BREAK]¬concert au 24e étage.[WAIT]@S'il vous plaît·![WAIT]@Vraiment, je pense que c'est ce que vous avez[BREAK]¬de mieux à faire.[END]
+883-9E:@Dans ce cas, je suis navré.[WAIT]@Avec les réparations que j'ai effectuées,[BREAK]¬l'ascenseur ne s'arrête qu'au 24² étage.[WAIT]@Alors prenez-le pour monter à la salle de[BREAK]¬concert au 24² étage.[WAIT]@S'il vous plaît·![WAIT]@Vraiment, je pense que c'est ce que vous avez[BREAK]¬de mieux à faire.[END]
 
 
 
@@ -22054,9 +22054,9 @@
 886-27:@*tsk* *tsk* *tsk*[WAIT]@Looks like someone's stopped our concert by[BREAK]¬force.[END]
 886-27E:@*tss* *tss* *tss*[WAIT]@On dirait que quelqu'un a interrompu notre[BREAK]¬concert de force.[END]
 886-28:@Attention, all goody two-shoes inside the[BREAK]¬Empire Porky Building.[WAIT]@The final game has begun.[WAIT]@Please gather up what puny wisdom and[BREAK]¬pathetic courage you have[WAIT]¬and come to the 100th floor.[END]
-886-28E:@Avis à tous les gentils petits enfants présents[BREAK]¬dans l'Empire Porky Building.[WAIT]@Le match final a commencé.[WAIT]@Veuillez rassembler le peu de sagesse et de[BREAK]¬courage que vous avez,[WAIT]¬et venir au 100e étage.[END]
+886-28E:@Avis à tous les gentils petits enfants présents[BREAK]¬dans l'Empire Porky Building.[WAIT]@Le match final a commencé.[WAIT]@Veuillez rassembler le peu de sagesse et de[BREAK]¬courage que vous avez,[WAIT]¬et venir au 100² étage.[END]
 886-29:@However, there's no guarantee the elevator[BREAK]¬will work how you want it to![WAIT]@Wahahahaha![WAIT]@Well, I'll be waiting for you on the 100th floor![END]
-886-29E:@Malheureusement, je ne vous garantis pas que[BREAK]¬l'ascenseur fonctionnera comme·vous·voudrez·![WAIT]@Wahahahaha·![WAIT]@Bon, je vous attends au 100e étage·![END]
+886-29E:@Malheureusement, je ne vous garantis pas que[BREAK]¬l'ascenseur fonctionnera comme·vous·voudrez·![WAIT]@Wahahahaha·![WAIT]@Bon, je vous attends au 100² étage·![END]
 886-30:@You're the only bassist the DCMC can ever[BREAK]¬have.[WAIT]@Without you, we're without a bass.[END]
 886-30E:@Tu es le seul contrebassiste que les DCMC[BREAK]¬puissent avoir.[WAIT]@Sans toi, nous n'avons plus de contrebasse.[END]
 886-31:@The concert got stopped, but we ain't glum.[WAIT]@We got luck on our side.[WAIT]@We've always had dumb luck on our side![WAIT]@Tonda Gossa![END]
@@ -22234,7 +22234,7 @@
 894-23:@Chapter 7: Event Selection[BREAK][MENU 09 00]¬[LEFT]END SELECTION[RIGHT][BREAK]¬[LEFT]Nursing Home[RIGHT][BREAK]¬[LEFT]Aeolia's House[RIGHT][BREAK]¬[LEFT]Courtyard[RIGHT][BREAK]¬[LEFT]Cemetery[RIGHT][BREAK]¬[LEFT]Cross Road[RIGHT][BREAK]¬[LEFT]Stumble Pass[RIGHT][BREAK]¬[LEFT]Ionia's House[RIGHT][BREAK]¬[LEFT]Chupi Temple[RIGHT][BREAK][ENDCHOICES][END]
 894-23E:©Chapitre 7•: Choix de l'événement[BREAK][MENU 09 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Maison de repos[RIGHT][BREAK]¬[LEFT]Chez Éolie[RIGHT][BREAK]¬[LEFT]Aiguille du nombril[RIGHT][BREAK]¬[LEFT]Recueillement au cimetière[RIGHT][BREAK]¬[LEFT]Recherche des Aiguilles[RIGHT][BREAK]¬[LEFT]Passage du Faux-Pas[RIGHT][BREAK]¬[LEFT]Chez Ionie[RIGHT][BREAK]¬[LEFT]Temple de Chupichupyoi[RIGHT][BREAK][ENDCHOICES][END]
 894-24:@Chapter 8: Event Selection[BREAK][MENU 0D 00]¬[LEFT]END SELECTION[RIGHT][BREAK]¬[LEFT]Inside Limo[RIGHT][BREAK]¬[LEFT]NPC Arrival[RIGHT][BREAK]¬[LEFT]Arcade[RIGHT][BREAK]¬[LEFT]Sewers[RIGHT][BREAK]¬[LEFT]24 F Reunion[RIGHT][BREAK]¬[LEFT]To 100 F[RIGHT][BREAK]¬[LEFT]Game 1[RIGHT][BREAK]¬[LEFT]Game 2[RIGHT][BREAK]¬[LEFT]Game 3[RIGHT][BREAK]¬[LEFT]NK Cyborg[RIGHT][BREAK]¬[LEFT]Mecha-Porkies[RIGHT][BREAK]¬[LEFT]Final Needle[RIGHT][BREAK][ENDCHOICES][END]
-894-24E:©Chapitre 8•: Choix de l'événement[BREAK][MENU 0D 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Dans la limousine[RIGHT][BREAK]¬[LEFT]Arrivée à New Pork City[RIGHT][BREAK]¬[LEFT]Salle d'arcade•: en direction du chef[RIGHT][BREAK]¬[LEFT]Égouts•: l'envolée miraculeuse[RIGHT][BREAK]¬[LEFT]Réunification au 24e étage[RIGHT][BREAK]¬[LEFT]Vers le 100e étage[RIGHT][BREAK]¬[LEFT]Jeu n°1[RIGHT][BREAK]¬[LEFT]Jeu n°2[RIGHT][BREAK]¬[LEFT]Jeu n°3[RIGHT][BREAK]¬[LEFT]100e étage spirituel•: Cyborg T.N.[RIGHT][BREAK]¬[LEFT]Vrai 100e étage[RIGHT][BREAK]¬[LEFT]Dernière Aiguille•: la chute du roi porcin[RIGHT][BREAK][ENDCHOICES][END]
+894-24E:©Chapitre 8•: Choix de l'événement[BREAK][MENU 0D 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Dans la limousine[RIGHT][BREAK]¬[LEFT]Arrivée à New Pork City[RIGHT][BREAK]¬[LEFT]Salle d'arcade•: en direction du chef[RIGHT][BREAK]¬[LEFT]Égouts•: l'envolée miraculeuse[RIGHT][BREAK]¬[LEFT]Réunification au 24² étage[RIGHT][BREAK]¬[LEFT]Vers le 100² étage[RIGHT][BREAK]¬[LEFT]Jeu n° 1[RIGHT][BREAK]¬[LEFT]Jeu n° 2[RIGHT][BREAK]¬[LEFT]Jeu n° 3[RIGHT][BREAK]¬[LEFT]100² étage spirituel•: Cyborg T.N.[RIGHT][BREAK]¬[LEFT]Vrai 100² étage[RIGHT][BREAK]¬[LEFT]Dernière Aiguille•: la chute du roi porcin[RIGHT][BREAK][ENDCHOICES][END]
 894-25:@Select Lucas and Kumatora's ages:[BREAK][MENU 02 00][MENUSPACEYES]Kids[MENUSPACENO]Adolescents[ENDCHOICES][END]
 894-25E:©Âges de Lucas et Kumatora•:[BREAK][MENU 02 00][MENUSPACEYES]Enfants[MENUSPACENO]Adolescents[ENDCHOICES][END]
 894-26:@Turned off 50 flags.[END]
