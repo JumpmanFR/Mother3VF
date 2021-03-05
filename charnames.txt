@@ -468,7 +468,7 @@
 0E9:Sheep
 0E9-E:Üouton
 0EA:CpnExchang
-0EA-E:CpnExchang
+0EA-E:ÉchangeCpn
 0EB:Guy
 0EB-E:Jeune hoüüe
 0EC:Guy
