@@ -885,7 +885,7 @@
 4-9:@If you need something from the map-loving and[BREAK]¬map-owning Mapson, it must be a map, yes?[WAIT]@I can talk about non-map stuff too, you know.[WAIT]@Just look for old man Nippolyte.[WAIT]@What do you mean, "Who is that?"[WAIT]@He's the old man who was at the cemetery[BREAK]¬during [HINAWA 22 08 00]'s funeral.[END]
 4-9E:@Si Cartier, le possesseur et amateur de cartes,[BREAK]¬peut vous apporter quelque chose,[WAIT]¬ça doit certainement être une carte, non·?[WAIT]@Tu sais, je peux aussi parler d'autres choses[BREAK]¬que de cartes.[WAIT]@Va trouver le vieux Nippolyte.[WAIT]@Comment ça, "qui est-ce"·?[WAIT]@C'est le vieil homme qui était au cimetière[BREAK]¬pendant les funérailles d[EF ED][HINAWA 22 08 00].[END]
 4-10:@Oh, you're up rather early today,[BREAK]¬[DUSTER 22 0F 00].[WAIT]@It isn't healthy to stay out of the sunlight, you[BREAK]¬know.[END]
-4-10E:@Oh, tu es levé de bon matin aujourd'hui,[BREAK]¬[DUSTER 22 0F 00].[WAIT]@Ce n'est pas très sain d'éviter la lumière du[BREAK]¬soleil, tu sais.[END]
+4-10E:@Oh, tu es levé de bon matin aujourd'hui,[BREAK]¬[DUSTER 22 0F 00].[WAIT]@Ce n'est pas très sain de rester à l'écart de la[BREAK]¬lumière du soleil, tu sais.[END]
 4-11:@Oh, Wess! You're so silly![WAIT]@I'm not that pretty at all![END]
 4-11E:@Oh, Wess·! Tu es bête·![WAIT]@Je ne suis vraiment pas si belle que ça·![END]
 4-12:@Oh, hello.[WAIT]@Are you an acquaintance of Wess's?[END]
@@ -6928,7 +6928,7 @@
 120-1:@This appears to be one of Reggie's artistic[BREAK]¬creations.[END]
 120-1E:©Ça a l'air d'être une des créations artistiques[BREAK]¬de Reggie.[END]
 120-2:@[DUSTER 23 03 00]. Be careful of water.[WAIT]@Reggie gets that feeling.[END]
-120-2E:@[DUSTER 23 03 00]. Méfie-toi de l'eau.[WAIT]@Reggie a comme une impression.[END]
+120-2E:@[DUSTER 23 03 00]. Fais attention à l'eau.[WAIT]@Reggie sent quelque chose.[END]
 120-3:@Do you come from far away?[END]
 120-3E:@Tu viens de loin·?[END]
 
