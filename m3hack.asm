@@ -992,9 +992,10 @@ org $8006C30; dw $0D8A
 org $800A09A; bl main_script_hacks.change_clear_amount
 org $8008A22
   mov r1,#0xC8
-  add r6,r2,r1
-  nop
-
+  bl  main_script_hacks.optimized_character_search_overworld
+  
+// saves data used in order to print overworld text faster
+org $8008B18; bl main_script_hacks.save_data_optimized_printing
 
 // fixes the flyover text, only 50 letters per line allowed
 org $80098F0; bl main_script_hacks.flyover_fix1
