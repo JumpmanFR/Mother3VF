@@ -7023,7 +7023,7 @@
 122-19:@Last night, the guest in the middle room gave[BREAK]¬me a lot of money.[WAIT]@What am I supposed to do with it?[END]
 122-19E:@Hier soir, l'hôte de la chambre du milieu m'a[BREAK]¬donné plein d'argent.[WAIT]@Qu'est-ce que je suis censée faire avec ça·?[END]
 122-20:@I don't feel like bein' lectured by you![WAIT]@I already know! I don't need you to tell me![BREAK]¬[PAUSE 3C 00]...*hic*[END]
-122-20E:@J'veux pas de recevoir de leçons de ta part·![WAIT]@Je sais déjà·! Pas besoin que tu m'expliques·![BREAK]¬[PAUSE 3C 00]... *hic*[END]
+122-20E:@J'veux pas recevoir de leçons de ta part·![WAIT]@Je sais déjà·! Pas besoin que tu m'expliques·![BREAK]¬[PAUSE 3C 00]... *hic*[END]
 122-21:@You know ol' "Beanstalk" Leder, the guy at[BREAK]¬Cross Road?[WAIT]@Have you and him ever talked before?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 122-21E:@Tu vois Écheffe "la Grande Perche", le mec[BREAK]¬de la Croisée·?[WAIT]@Tu as déjà parlé avec lui·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 122-22:@Whaaaat?! He can talk?![END]
