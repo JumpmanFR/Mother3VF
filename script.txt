@@ -6928,7 +6928,7 @@
 120-1:@This appears to be one of Reggie's artistic[BREAK]¬creations.[END]
 120-1E:©Ça a l'air d'être une des créations artistiques[BREAK]¬de Reggie.[END]
 120-2:@[DUSTER 23 03 00]. Be careful of water.[WAIT]@Reggie gets that feeling.[END]
-120-2E:@[DUSTER 23 03 00]. Méfie-toi de l'eau.[WAIT]@Reggie a comme une impression.[END]
+120-2E:@[DUSTER 23 03 00]. Fais attention à l'eau.[WAIT]@Reggie sent quelque chose.[END]
 120-3:@Do you come from far away?[END]
 120-3E:@Tu viens de loin·?[END]
 
