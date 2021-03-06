@@ -231,7 +231,7 @@
 0071: Praying Mantis
 0071-E: Mante religieuse
 0072: Ancient Dragonfly
-0072-E: Ancien·Dragon-mouche
+0072-E: Ancien Dragon-mouche
 0073: Filthy Attack Roach
 0073-E: Cafard cracra
 0074: Muttshroom
@@ -629,7 +629,7 @@
 0138: Wooden Table Horse 3
 0138-E: Cheval de bois 3
 0139: Boat on Mind's 100F
-0139-E: Bateau du 100e étage
+0139-E: Bateau du 100² étage
 013A: Mini Porky-Bot
 013A-E: Mini Robot-Porky
 013B: Sign
