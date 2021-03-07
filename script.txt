@@ -6731,7 +6731,7 @@
 114-0:@Whenever I was having family problems,[BREAK]¬[HINAWA 22 08 00] was always there for me.[WAIT]@But now that she's gone...[WAIT]@My problems just get worse and worse now.[END]
 114-0E:@Quand j'avais des problèmes familiaux,[BREAK]¬[HINAWA 22 08 00] était toujours là pour moi.[WAIT]@Maintenant qu'elle est partie...[WAIT]@Mes problèmes ne font qu'empirer.[END]
 114-1:@I want out of this pathetic little village this[BREAK]¬instant![WAIT]¬...That's how I always feel, anyways.[WAIT]@But I can't even begin to imagine what the[BREAK]¬outside world is like.[END]
-114-1E:@Je veux tout de suite m'en aller de ce petit[BREAK]¬village minable·![WAIT]¬... Voilà ce que je ressens, du moins.[WAIT]@Mais je peux à peine imaginer à quoi ressemble[BREAK]¬le monde extérieur.[END]
+114-1E:@Je veux tout de suite m'en aller de ce petit[BREAK]¬village minable·![WAIT]¬... Voilà ce que je ressens, en tout cas.[WAIT]@Mais je peux à peine imaginer à quoi ressemble[BREAK]¬le monde extérieur.[END]
 114-2:@Do you know how to say "monkey" in English?[WAIT]@.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 10 00]Ahh![WAIT]@I gave the answer away![END]
 114-2E:@Tu sais comment on dit "singe" en français·?[WAIT]@.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 10 00] Ahh·![WAIT]@J'ai donné la réponse·![END]
 114-3:@What at first appeared to be a fishing rod[BREAK]¬actually turned out to be a gymnastics baton.[END]
