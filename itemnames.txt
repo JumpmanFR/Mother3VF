@@ -310,7 +310,7 @@
 0099: Pencil Rocket
 0099-E: Crayon-missile
 009A: Bomb
-009A-E: Bombe classique
+009A-E: Bombe
 009B: Super Bomb
 009B-E: Super Bombe
 009C: New Year's Eve Bomb

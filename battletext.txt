@@ -1634,7 +1634,7 @@
 032B: Friends gathered![END]
 032B-E: Le groupe ennemi s'agrandit·![END]
 032C: [04 EF][11 FF] threw a Bomb![END]
-032C-E: [04 EF][11 FF] lance une Bombe classique·![END]
+032C-E: [04 EF][11 FF] lance une Bombe·![END]
 032D: [04 EF][11 FF] threw a Super Bomb![END]
 032D-E: [04 EF][11 FF] lance une Super Bombe·![END]
 032E: [04 EF][11 FF] threw a time bomb![END]
