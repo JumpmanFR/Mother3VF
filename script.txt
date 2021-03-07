@@ -943,7 +943,7 @@
 5-14:@Oink?[BREAK]¬(Do you really wanna know?)[END]
 5-14E:@Gruik·?[BREAK]¬(Tu veux vraiment savoir·?)[END]
 5-15:@Oink oink-oink.[WAIT]¬(During MOTHER 2's creation, a tonkatsu shop[BREAK]¬named Katsuman opened up in Kanda,[WAIT]¬and it was so great it managed to get into the[BREAK]¬game.[WAIT]@But this time, with MOTHER 3, the croquette[BREAK]¬rolls they sell at the Lonlon shop in Kichijoji[WAIT]¬got all the attention.)[END]
-5-15E:@Gruik gruik-gruik.[WAIT]¬(Durant la création de MOTHER·2,·un·restaurant[BREAK]¬de tonkatsu appelé Katsuman a ouvert à Kanda[WAIT]¬et il était tellement génial qu'il a fini par arriver[BREAK]¬dans le jeu.[WAIT]@Mais cette fois, avec MOTHER 3,[WAIT]¬ce sont les croquettes vendues au centre[BREAK]¬commercial Lonlon de Kichijoji[WAIT]¬qui ont reçu une attention particulière.)[END]
+5-15E:@Gruik gruik-gruik.[WAIT]¬(Durant la création de MOTHER·2,·un·restaurant[BREAK]¬de tonkatsu appelé Katsuman a ouvert à Kanda[WAIT]¬et c'était un si bon restaurant qu'il a fini par[BREAK]¬être intégré dans le jeu.[WAIT]@Mais cette fois, avec MOTHER 3,[WAIT]¬ce sont les croquettes vendues au centre[BREAK]¬commercial Lonlon de Kichijoji[WAIT]¬qui ont fait l'objet d'une attention particulière.)[END]
 5-16:@Oink-oink-oink-oink oink oink oinka-oink![WAIT]¬(My rendition of a musical fanfare.)[END]
 5-16E:@Gruik-gruik-gruik-gruik gruik gruik gruiki-gruik·![WAIT]¬(Ma tentative d'imitation d'une fanfare.)[END]
 5-17:@Oink, oink-oink.[BREAK]¬(Pigs...)[END]
