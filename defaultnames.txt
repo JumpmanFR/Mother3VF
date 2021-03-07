@@ -136,7 +136,7 @@
 42:Top Spec
 42-E:Hi-tech
 43:Mt. Fuji
-43-E:Üt. Fuji
+43-E:Üt Fuji
 44:Camera
 44-E:Cinéüa
 45:Watering
