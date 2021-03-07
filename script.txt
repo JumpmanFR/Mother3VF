@@ -2740,24 +2740,24 @@
 28-3:@[42 FF 00 00] felt much better![END]
 28-3E:©[42 FF 00 00] se sent beaucoup mieux·![END]
 28-4:@I am Wan Sum Dung.[WAIT]@I don't have any dung to roll, so I'm not a true[BREAK]¬dung beetle.[WAIT]@I'm so sad.[END]
-28-4E:@Moi c'est Aboul Labouz.[WAIT]@Je n'ai pas de bouse à rouler, donc je ne suis[BREAK]¬pas un vrai bousier.[WAIT]@Je suis trop triste.[END]
+28-4E:@Moi c'est Aboul Labouz.[WAIT]@Je n'ai pas de bouse à rouler, donc je ne suis[BREAK]¬pas un vrai bousier.[WAIT]@Je suis tellement triste...[END]
 28-5:@If you ever happen to come across some dung,[BREAK]¬please bring it to me.[WAIT]@I'll always be here, so please bring me some.[END]
 28-5E:@Si par hasard tu trouves de la bouse,[BREAK]¬apporte-la-moi.[WAIT]@Je ne bouge pas d'ici, donc s'il te plaît,[BREAK]¬apporte-m'en un peu.[END]
 // ITEM
 28-6:@If you're tired, have a drink from this oasis.[END]
 28-6E:@Si tu es fatigué, tu peux te désaltérer à cette[BREAK]¬oasis.[END]
 28-7:@I wonder how everyone else got their dung...[END]
-28-7E:@Je me demande comment les autres ont[BREAK]¬trouvé leurs bouses...[END]
+28-7E:@Je me demande comment les autres ont fait[BREAK]¬pour trouver leur bouse...[END]
 // ITEM
 28-8:@I finally tried rolling that dung you gave me...[WAIT]¬...but I was so nervous that I accidentally[BREAK]¬dropped it in the oasis.[WAIT]@Think you could get me some more?[END]
-28-8E:@J'ai essayé de faire rouler la bouse que tu m'as[BREAK]¬donnée...[WAIT]¬... mais j'étais tellement nerveux que je l'ai[BREAK]¬accidentellement fait tomber dans l'oasis.[WAIT]@Tu crois que tu pourrais m'en rapporter·?[END]
+28-8E:@J'ai essayé de faire rouler la bouse que tu m'as[BREAK]¬donnée...[WAIT]¬... mais j'étais tellement nerveux que je l'ai fait[BREAK]¬tomber dans l'oasis.[WAIT]@Tu crois que tu pourrais m'en rapporter·?[END]
 // ITEM
 28-9:@I want to roll dung!![BREAK]¬I don't even care what kind it is!!![WAIT]@...*sigh*[WAIT]@Now I'm all upset and confused![WAIT]@Wait, you brought me some dung?![WAIT][PAUSE 20 00]@And you're giving it to me? For free?[WAIT]@Oh, thank you, thank you, thank you![WAIT]@Yeaaaaaaaah![PAUSE 10 00] Let's roll!!![BREAK]¬Let's roll to the ends of the desert! Yeah![END]
-28-9E:@Je veux faire rouler de la bouse·!![BREAK]¬J'veux même pas·savoir·de·quel genre elle·est·!!![WAIT]@... *soupir*[WAIT]@Je me sens perdu et contrarié, maintenant·![WAIT]@Attends, tu m'as apporté de la bouse·?![WAIT][PAUSE 20 00]@Et tu me la donnes·? Gratuitement·?[WAIT]@Oh, merci, merci, merci·![WAIT]@Ouaiiiiiiiis·![PAUSE 10 00] Allez, on roule·!!![BREAK]¬On roule jusqu'au fin fond du désert·! Ouais·![END]
+28-9E:@Je veux faire rouler de la bouse·!![BREAK]¬J'veux même pas·savoir·de·quel genre elle·est·!!![WAIT]@... *soupir*[WAIT]@Je suis désemparé·![WAIT]@Attends, tu m'as apporté de la bouse·?![WAIT][PAUSE 20 00]@Et tu me la donnes·? Gratuitement·?[WAIT]@Oh, merci, merci, merci·![WAIT]@Ouaiiiiiiiis·![PAUSE 10 00] Allez, on roule·!!![BREAK]¬On roule jusqu'au fin fond du désert·! Ouais·![END]
 28-10:@Everyone in [42 FF 00 00]'s party gained[BREAK]¬[80 FF 05 00] experience points![PAUSE 40 00][END]
 28-10E:©[42 FF 00 00] et son équipe gagnent[BREAK]¬[80 FF 05 00] points d'expérience·![PAUSE 40 00][END]
 28-11:@I want to roll dung!![BREAK]¬I don't even care what kind it is!!![WAIT]@...*sigh*[WAIT]@Now I'm all upset and confused![WAIT]@Wait, you brought me some dung?![WAIT][PAUSE 20 00]@And you're giving it to me? For free?[WAIT]@Oh! This is quite rare, exquisitely-aged dung! [WAIT]@Oh, thank you, thank you, thank you![WAIT]@Yeaaaaaaaah![PAUSE 10 00] Let's roll!!![BREAK]¬Let's roll to the ends of the desert! Yeah![END]
-28-11E:@Je veux faire rouler de la bouse·!![BREAK]¬J'veux même pas·savoir·de·quel genre elle·est·!!![WAIT]@... *soupir*[WAIT]@Je me sens perdu et contrarié, maintenant·![WAIT]@Attends, tu m'as apporté de la bouse·?![WAIT][PAUSE 20 00]@Et tu me la donnes·? Gratuitement·?[WAIT]@Oh·! C'est une bouse très rare, d'une[BREAK]¬ancienneté exquise, de grande qualité·![WAIT]@Oh, merci, merci, merci·![WAIT]@Ouaiiiiiiiis·![PAUSE 10 00] Allez, on roule·!!![BREAK]¬On roule jusqu'au fin fond du désert·! Ouais·![END]
+28-11E:@Je veux faire rouler de la bouse·!![BREAK]¬J'veux même pas·savoir·de·quel genre elle·est·!!![WAIT]@... *soupir*[WAIT]@Je suis désemparé·![WAIT]@Attends, tu m'as apporté de la bouse·?![WAIT][PAUSE 20 00]@Et tu me la donnes·? Gratuitement·?[WAIT]@Oh·! C'est une bouse très rare, d'une[BREAK]¬ancienneté exquise, de grande qualité·![WAIT]@Oh, merci, merci, merci·![WAIT]@Ouaiiiiiiiis·![PAUSE 10 00] Allez, on roule·!!![BREAK]¬On roule jusqu'au fin fond du désert·! Ouais·![END]
 // ITEM
 28-12:@Everyone in [42 FF 00 00]'s party gained[BREAK]¬[80 FF 0A 00] experience points![PAUSE 40 00][END]
 28-12E:©[42 FF 00 00] et son équipe gagnent[BREAK]¬[80 FF 0A 00] points d'expérience·![PAUSE 40 00][END]
@@ -2765,7 +2765,7 @@
 28-13E:©Vous éprouvez une sensation de chaleur au[BREAK]¬fond de votre cœur.[END]
 // Repeats: 0-90, 28-13, 28-16, 642-8
 28-14:@I want to roll dung!![BREAK]¬I don't even care what kind it is!!![WAIT]@...*sigh*[WAIT]@Now I'm all upset and confused![WAIT]@Wait, you brought me some dung?![WAIT][PAUSE 20 00]@And you're giving it to me? For free?[WAIT]@Oh, my![WAIT]@This is the Legendary Dung, which is said to be[BREAK]¬dung but also NOT dung![WAIT]@Oh, thank you, thank you, thank you![WAIT]@Yeaaaaaaaah![PAUSE 10 00] Let's roll!!![BREAK]¬Let's roll to the ends of the desert! Yeah![END]
-28-14E:@Je veux faire rouler de la bouse·!![BREAK]¬J'veux même pas·savoir·de·quel genre elle·est·!!![WAIT]@... *soupir*[WAIT]@Je me sens perdu et contrarié, maintenant·![WAIT]@Attends, tu m'as apporté de la bouse·?![WAIT][PAUSE 20 00]@Et tu me la donnes·? Gratuitement·?[WAIT]@Oh c'est pas vrai·![WAIT]@C'est la Bouse légendaire, dont on dit qu'elle[BREAK]¬est ET n'est pas de la bouse·![WAIT]@Oh, merci, merci, merci·![WAIT]@Ouaiiiiiiiis·![PAUSE 10 00] Allez, on roule·!!![BREAK]¬On roule jusqu'au fin fond du désert·! Ouais·![END]
+28-14E:@Je veux faire rouler de la bouse·!![BREAK]¬J'veux même pas·savoir·de·quel genre elle·est·!!![WAIT]@... *soupir*[WAIT]@Je suis désemparé·![WAIT]@Attends, tu m'as apporté de la bouse·?![WAIT][PAUSE 20 00]@Et tu me la donnes·? Gratuitement·?[WAIT]@Oh c'est pas vrai·![WAIT]@C'est la Bouse légendaire, dont on dit qu'elle[BREAK]¬est ET n'est pas de la bouse·![WAIT]@Oh, merci, merci, merci·![WAIT]@Ouaiiiiiiiis·![PAUSE 10 00] Allez, on roule·!!![BREAK]¬On roule jusqu'au fin fond du désert·! Ouais·![END]
 // ITEM
 28-15:@Everyone in [42 FF 00 00]'s party gained[BREAK]¬[80 FF 32 00] experience points![PAUSE 40 00][END]
 28-15E:©[42 FF 00 00] et son équipe gagnent[BREAK]¬[80 FF 32 00] points d'expérience·![PAUSE 40 00][END]
@@ -7152,7 +7152,7 @@
 123-23:@Sometimes you look at people with such sad[BREAK]¬eyes, monkey.[END]
 123-23E:@Tu regardes les gens avec des yeux tellement[BREAK]¬tristes par moments, petit singe.[END]
 123-24:@Now that their house is gone, we're in a real[BREAK]¬bind, too.[WAIT]¬We used to live there and mooch off of them,[BREAK]¬you see.[WAIT]@But this place is nice and comfy, too.[WAIT]@Plus, Tessie is here. Heheh.[END]
-123-24E:@Maintenant que leur maison n'est plus là, on[BREAK]¬est un peu dans le pétrin aussi.[WAIT]¬Nous, on vivait là-bas et on en profitait un peu,[BREAK]¬tu vois.[WAIT]@Mais cet endroit est sympa et confortable[BREAK]¬aussi.[WAIT]@Et puis, il y a Thérèse. Héhé.[END]
+123-24E:@Maintenant que leur maison n'est plus là, on[BREAK]¬est un peu dans le pétrin aussi.[WAIT]¬Nous, on vivait là-bas et on en profitait un peu,[BREAK]¬tu vois.[WAIT]@Mais cet endroit est agréable aussi.[WAIT]@Et puis, il y a Thérèse. Héhé.[END]
 123-25:@I wonder what Tessie thinks about getting[BREAK]¬married.[WAIT]@Have you ever asked her, [DUSTER 23 03 00]?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 123-25E:@Je me demande ce que Thérèse pense de l'idée[BREAK]¬de se marier.[WAIT]@Tu lui as déjà demandé, [DUSTER 23 03 00]·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 123-26:@Whaat?! Why would you ask her about that?![END]
