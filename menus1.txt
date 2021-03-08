@@ -214,7 +214,7 @@
 0069: Nauseated[END]
 0069-E: Nauséeux[END]
 006A: Fleas[END]
-006A-E: Puces[END]
+006A-E: Couvert de puces[END]
 006B: [END]
 006B-E: [END]
 006C: [END]
