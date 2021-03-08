@@ -7421,7 +7421,7 @@
 129-18:@Oh, you're up early today.[WAIT]@Are you eating properly?[END]
 129-18E:@Oh, tu t'es levé tôt aujourd'hui.[WAIT]@Tu manges comme il faut·?[END]
 129-19:@Oh, Mr. Wess.[PAUSE 20 00][BREAK]¬...My, you're such a flatterer.[WAIT]@I'm not very young or pretty at all.[END]
-129-19E:@Oh, M. Wess.[PAUSE 20 00][BREAK]¬... Ma parole, quel flatteur vous faites.[WAIT]@Je ne suis vraiment plus très jeune, et pas[BREAK]¬très jolie non plus.[END]
+129-19E:@Oh, M. Wess.[PAUSE 20 00][BREAK]¬... Ma parole, quel flatteur vous faites.[WAIT]@Je ne suis plus vraiment très jeune, et pas[BREAK]¬très jolie non plus.[END]
 129-20:@Was I spacing out and thinking to myself again?[END]
 129-20E:@Est-ce que j'étais encore en train de rêvasser[BREAK]¬et de penser à autre chose·?[END]
 129-21:@Oh, what a cute little monkey![END]
