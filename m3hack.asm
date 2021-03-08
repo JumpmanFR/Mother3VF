@@ -517,7 +517,7 @@ org $804CB52; bl refreshes.lr
 org $804CC24; bl refreshes.up_and_down
 
 //Inventory submenu
-//org $804E81C; bl refreshes.inv_submenu_a
+org $804E7E0; bl refreshes.inv_submenu_a
 org $804FD6A; bl refreshes.inv_use_throw; nop; nop //use
 org $804FBA4; bl refreshes.inv_use_throw; nop; nop //use, chicken/chick case
 org $804FEF4; bl refreshes.inv_use_throw; nop; nop //throw
@@ -554,14 +554,14 @@ org $804EDE6; bl refreshes.psi_used //Party-wide PSI, also fixes a bug in the ba
 org $804FFC2; bl refreshes.psi_used; nop; nop //Single-target PSI
 
 //Status
-org $804CE78; bl refreshes.status_a; nop
+org $804EE46; bl refreshes.status_a
 org $804CEB2; bl refreshes.status_block_input_lr; nop
 org $804CEBE; bl refreshes.status_lr
 org $804CEF4; bl main_menu_hacks.move_and_print
 org $804CF0A; bl main_menu_hacks.move_and_print
 
 //Skills
-org $804CF4C; bl refreshes.b; nop
+org $804CF4C; bl refreshes.skills_b; nop
 org $804CFA0; bl refreshes.lr
 org $804D050; bl refreshes.up_and_down
 
@@ -1428,12 +1428,14 @@ org $808DBC4; nop; nop
  
 // Insert new 16x16 font + cast roll pre-welded font
 //org $8CE39F8; fill $8192,$0
-org $8CE39F8; incbin font_mainfont.bin
+define main_font $8CE39F8
+org {main_font}; incbin font_mainfont.bin
 org $8CE59F8; incbin font_castroll.bin
 
 
 // Insert new 8x8 font
-org $8D0B010; incbin font_smallfont.bin
+define small_font $8D0B010
+org {small_font}; incbin font_smallfont.bin
 
 
 // insert ATM graphics
@@ -1779,11 +1781,13 @@ incsrc sound_hacks.asm
 
 
 // Insert new font width table
-org $8D1CE78; incbin font_mainwidths.bin
+define main_font_width $8D1CE78
+org {main_font_width}; incbin font_mainwidths.bin
 
 
 // insert 8x8 font width table
-org $8D1CF78; incbin font_smallwidths.bin
+define small_font_width $8D1CF78
+org {small_font_width}; incbin font_smallwidths.bin
 
 
 // insert translated item names
@@ -2130,6 +2134,9 @@ org $919A78C; dd $00E383F0
 org $919A790; dd $00E38400
 org $9350F48; incbin logic_36D.bin
 org $9FD1000; incbin logic_36E.bin
+
+//Change priority of top text in the naming screens to allow better caching
+org $8042974; mov r2,#0
 
 
 //============================================================================================
