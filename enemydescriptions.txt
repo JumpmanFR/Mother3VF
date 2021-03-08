@@ -470,7 +470,7 @@
 
 
 75:[BREAK]A Chimera with a Ramblin'[BREAK]Mushroom on its head. In[BREAK]rare cases, its own spores[BREAK]will make it feel strange.[END]
-75-E:Un chien avec un Champi[BREAK]vadrouilleur sur la tête.[BREAK]Dans de rares cas, ses[BREAK]propres spores peuvent le[BREAK]faire se sentir bizarre.[END]
+75-E:Un chien qui a sur la tête[BREAK]un champinocif ambulant.[BREAK]Dans de rares cas, ses[BREAK]propres spores peuvent le[BREAK]faire se sentir bizarre.[END]
 
 
 76:Even this provincial[BREAK]tortoise was built into a[BREAK]fighting machine, but it's[BREAK]still as slow in the head as[BREAK]ever.[END]
