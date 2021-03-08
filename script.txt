@@ -7088,7 +7088,7 @@
 122-51:@This is Tazmily Village.[WAIT]@Everyone is nice.[END]
 122-51E:@Ici c'est le village de Tazmily.[WAIT]@Tout le monde est adorable.[END]
 122-52:@Go show a trick to Mike in Thomas's house.[WAIT]@If he likes it, I'm sure he'll give you a cookie.[END]
-122-52E:@Va montrer un de tes tours à Michel, qui doit[BREAK]¬être chez Thomas.[WAIT]@Si ça lui plaît, je suis sûr qu'il te donnera un[BREAK]¬cookie.[END]
+122-52E:@Va voir Michel au bazar de Thomas et[BREAK]¬montre-lui un de tes tours.[WAIT]@Si ça lui plaît, je suis sûr qu'il te donnera un[BREAK]¬cookie.[END]
 122-53:@My happiness is inside a bottle at Jackie's bar.[END]
 122-53E:@Mon bonheur est dans une bouteille au bar de[BREAK]¬Jackie.[END]
 122-54:@Hey there, monkey.[BREAK]@Do you not have a girlfriend?[END]
