@@ -1767,7 +1767,7 @@
 13-20E:©Source chaude de Tanetane[WAIT]¬•••••••··"Prenez votre temps[BREAK]¬•••••Cinq secondes qui apaisent[WAIT]¬••••••••·Source de Tanetane"[WAIT]¬•••••••••(Une syllabe en trop)[END]
 // Repeats: 13-20, 14-20, 17-20, 36-20, 42-20, 55-20, 72-20, 77-20, 80-20, 96-20, 180-20, 181-20, 182-20, 192-20, 203-20, 207-20, 249-20, 250-20, 251-20, 252-20, 263-20, 327-20, 328-20, 329-20, 330-20, 331-20, 332-20, 373-20, 374-20, 375-20, 376-20, 377-20, 378-20, 379-20, 443-20, 467-20, 468-20, 469-20, 471-20, 472-20, 477-20, 803-20, 877-20, 878-20, 880-20, 882-20, 892-20, 900-20
 13-21:@You'll be punished horribly and severely if you[BREAK]¬get your Happy Box wet![WAIT]@Don't risk it! It's not worth it![END]
-13-21E:©Vous serez horriblement et sévèrement puni si[BREAK]¬vous mouillez votre Boîte à bonheur·![WAIT]©Ne prenez pas ce risque·! Ça n'en vaut pas la[BREAK]¬peine·![END]
+13-21E:©Vous serez sévèrement puni si vous mouillez[BREAK]¬votre Boîte à bonheur·![WAIT]©Ne prenez pas ce risque·! Ça n'en vaut pas la[BREAK]¬peine·![END]
 // Repeats: 13-21, 14-21, 17-21, 36-21, 42-21, 55-21, 72-21, 77-21, 80-21, 96-21, 180-21, 181-21, 182-21, 192-21, 203-21, 207-21, 249-21, 250-21, 251-21, 252-21, 263-21, 327-21, 328-21, 329-21, 330-21, 331-21, 332-21, 373-21, 374-21, 375-21, 376-21, 377-21, 378-21, 379-21, 443-21, 467-21, 468-21, 469-21, 471-21, 472-21, 477-21, 803-21, 877-21, 878-21, 880-21, 882-21, 892-21, 900-21
 13-22:@You're way too impatient, [FLINT 22 01 00]![END]
 13-22E:@Tu n'as aucune patience, [FLINT 22 01 00]·![END]
@@ -7276,7 +7276,7 @@
 126-6:@Hello, there.[WAIT]@I certainly have been meeting a lot of new[BREAK]¬people lately...[END]
 126-6E:@Bonjour.[WAIT]@Je rencontre décidément beaucoup de[BREAK]¬nouvelles personnes ces derniers temps...[END]
 126-7:@You're troubled, aren't you?[WAIT]@You may find yourself in painful situations...[WAIT]@But I'm a bit pained myself.[WAIT]@...*mutter* *mumble*[END]
-126-7E:@Tu as des soucis, n'est-ce pas·?[WAIT]@Peut-être que tu fais face à des situations[BREAK]¬douloureuses...[WAIT]@Mais la douleur,·je connais un·peu·ça moi-même.[WAIT]@... *murmure* *marmonne*[END]
+126-7E:@Tu as des soucis, n'est-ce pas·?[WAIT]@Peut-être que tu fais face à des situations[BREAK]¬douloureuses...[WAIT]@Mais la douleur, je connais un peu ça[BREAK]¬moi-même.[WAIT]@... *murmure* *marmonne*[END]
 126-8:@......[WAIT]@I'm sorry, but I don't understand monkey[BREAK]¬language.[END]
 126-8E:@......[WAIT]@Je suis désolé, je ne comprends pas le langage[BREAK]¬des singes.[END]
 126-9:@Hello, Mr. Monkey.[END]
