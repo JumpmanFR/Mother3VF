@@ -1422,6 +1422,11 @@ org $808D5EC; bl battle_menus_improvement_hacks.skills_printing_routine_enter_ca
 org $808DB74; nop; nop
 org $808DBC4; nop; nop
 
+//Change the PSI window to make more room on the left
+org $9CF7C10; incbin gfx_battle_psi_arrangement.bin
+org $808B60E; db $62
+org $808C96C; db $51
+
 //============================================================================================
 //                                    GRAPHICS HACKS
 //============================================================================================

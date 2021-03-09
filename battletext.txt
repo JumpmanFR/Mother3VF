@@ -357,7 +357,7 @@
 00AD: Attack[END]
 00AD-E: Attaque[END]
 00AE: Recovery[END]
-00AE-E: Récup.[END]
+00AE-E: Récupération[END]
 00AF: Assist[END]
 00AF-E: Soutien[END]
 00B0: MONSTER ENCOUNTER MESSAGE[END]

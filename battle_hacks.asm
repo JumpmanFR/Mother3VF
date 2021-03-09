@@ -4243,7 +4243,7 @@ bl   $806DB38
 ldr  r3,[sp,#0x70]
 mov  r1,#0
 ldsb r1,[r3,r1]
-mov  r2,#0x49
+mov  r2,#0x51
 lsl  r0,r1,#1
 add  r0,r0,r1
 lsl  r0,r0,#2

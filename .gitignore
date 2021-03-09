@@ -196,6 +196,7 @@
 !gfx_starsprite.bin
 !gfx_statues_\[c\].bin
 !gfx_statues_pal.bin
+!gfx_battle_psi_arrangement.bin
 !fix_custom_text.cpp
 !check_overlap.py
 !CheckOverflow.java
