@@ -23,7 +23,7 @@ Hippocanon
 Néo-Fassad
 Sourire sinistre
 Seigneur Passion
-Arbrþaux·p'tits·sÓ…
+ArbrÞaux p'ti… sÓns
 PORKY 03
 PORKY 08
 Fassad miraculé
@@ -36,7 +36,7 @@ Steve ÜcCouic
 Pyromouche
 Méca-Lion
 Barrage routier
-Champinocif galop…
+Champi galopeur
 Pétard piailleur
 Poisson-molosse
 M. Batou
@@ -58,7 +58,7 @@ Yéti glisseur
 Congéloup
 Limace gluante
 Minerali
-Champinocif ambul…
+Champi ambulant
 Taupe-grillon
 Boa transistor
 Taupe malicieuse
@@ -117,30 +117,30 @@ Cafard cracra
 Chienpignon
 Méca-Tortue
 Duo de Frères
-Chauve-sourang-o…
+Chauve¯souÃng¯out…
 Autruléphant
 Titanie ailée
 Morsinge
-Kangourequin mat…
+Kangourequin·mater…
 Üaü'zelle·Guiüauve
 Quasi-Méca-Lion
 Rhinocéroquette
 Sanglier remonté
 Cafard chromé
-VraiþSouris·volante
+VraiÞSouris·volante
 Choc électrique
 Robot inférieur
 Cyclove
 Sourire sinistre
 Robot atomique
-Super Robot atomi…
+Super Robot atom…
 Défaitiste
 Têtelourde
 Joli Poseur
-Giga-Chen¡e·bouffie
+Giga-Chen¡e bouffie
 Patatueuse râpée
 Hippocanon
-Méca-Gorillþd'acier
+Méca-GorillÞd'acier
 Tatou zombifié
 Homme-sushi
 PORKY 07
@@ -149,7 +149,7 @@ Monstre du tapis
 Robot éclaireur
 Üasqueporc
 Feüüe zoübifiée
-Champinocif vicieux
+Champi vicieux
 Batou l'Ancien
 Gigarachnide
 Souris gloutonne
@@ -170,8 +170,8 @@ Al Caline
 PORKY 06
 Üajor Üasqueporc
 Colonel Üasqueporc
-Capitaine Üasquep…
-Plongeur Üasquep…
+Capit… Üasqueporc
+Plong… Üasqueporc
 Maître Maelström
 Homard rockeur
 Poisson roooond
