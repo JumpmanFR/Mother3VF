@@ -3019,7 +3019,7 @@
 32-20:@Cease this violence![WAIT]@I'm no bug! I'm an old man![END]
 32-20E:@Veuillez cesser cette violence·![WAIT]@Je ne suis pas un insecte·! Je suis un vieil[BREAK]¬homme·![END]
 32-21:                 @[LUCAS 23 02 00]![WAIT]¬                 Quit snooping around me![WAIT]¬                 Don't get in my way![END]
-32-21E:•••••••••••···@[LUCAS 23 02 00]·![WAIT][MENUSPACEYES]•••¬Cesse de me tourner autour·![WAIT][MENUSPACEYES]•••¬Ne te mets pas en travers de[BREAK]•••••••••••••¬mon chemin·![END]
+32-21E:•••••••••••···@[LUCAS 23 02 00]·![WAIT]•••••••••••••¬Cesse de me tourner autour·![WAIT]•••••••••••••¬Ne te mets pas en travers de[BREAK]•••••••••••••¬mon chemin·![END]
 32-22:@[LUCAS 23 02 00]...[WAIT]@I really wish you would put a Happy Box in your[BREAK]¬home already,[WAIT]¬so you can be happy just like everyone else[BREAK]¬here.[END]
 32-22E:@[LUCAS 23 02 00]...[WAIT]@J'aimerais tellement que tu aies déjà installé[BREAK]¬une Boîte à bonheur chez toi,[WAIT]¬pour que tu puisses être heureux comme tout[BREAK]¬le monde ici.[END]
 32-23:@I'm always hoping for that day.[END]
