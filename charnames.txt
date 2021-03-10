@@ -430,7 +430,7 @@
 0D6:Pincho
 0D6-E:Pincho
 0D7:Tired Clayman
-0D7-E:Hoüüe d'argile K.O.
+0D7-E:HoüüŞd'argilŞépuisé
 0D8:Frog
 0D8-E:Grenouille
 0D9:Frog

@@ -2779,7 +2779,7 @@
 28-19:@Thanks for saving me when I needed help.[WAIT]@Anyways, while we're at it...[WAIT]@*hop*[BREAK]¬Save your game?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 28-19E:@Merci de m'avoir sauvée alors que j'étais dans[BREAK]¬le pétrin.[WAIT]@Bon, tant qu'on y est...[WAIT]@*hop*[BREAK]¬Sauvegarder la partie·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 28-20:@So dizzyyyy![WAIT]@Help me, ribbiiit![END]
-28-20E:@J'ai le tourniiiis·![WAIT]@Aide-moi, coâââ·![END]
+28-20E:@J'ai le tourniiiis·![WAIT]@Aidez-moi, coâââ·![END]
 28-21:@Listen, monkey![WAIT]@That's a Cactus Wolf, the meanest thing in the[BREAK]¬desert.[WAIT]@But we can't get inside with him standing[BREAK]¬there.[WAIT]@Go beat him up.[WAIT]¬Lose, and I'll have an extra serving of[BREAK]¬punishment ready just for you![END]
 28-21E:@Bon, le singe, écoute-moi·![WAIT]@Ça, c'est un Loup à cactus, la chose la plus[BREAK]¬cruelle qui existe dans le désert.[WAIT]@Mais on ne pourra pas·entrer·s'il reste planté·là.[WAIT]@Va le terrasser.[WAIT]¬Échoue, et je concocterai un lot de punitions[BREAK]¬supplémentaires rien que pour toi·![END]
 28-22:@Get in, you![END]
@@ -4623,7 +4623,7 @@
 50-24:@Good job![END]
 50-24E:@Beau travail·![END]
 50-25:@DCMC FAN CLUB[BREAK]¬Members Wanted![WAIT]¬D    Desperado[WAIT]¬C    Crash[WAIT]¬M   Mambo[WAIT]¬C    Combo[WAIT]@We're looking for help for the cheering squad.[WAIT]@Try your best, and good luck![END]
-50-25E:©FAN-CLUB DCMC[BREAK]¬On recherche des membres·![WAIT]¬D••••Desperado[WAIT]¬C••••Crash[WAIT]¬M•••Mambo[WAIT]¬C••••Combo[WAIT]©On a besoin d'aide du côté des pom-pom girls.[WAIT]©Merci, et bonne chance·![END]
+50-25E:©FAN-CLUB DCMC[BREAK]¬On recherche des membres·![WAIT]¬D••••Desperado[WAIT]¬C••••Crash[WAIT]¬M••··Mambo[WAIT]¬C••••Combo[WAIT]©On a besoin d'aide du côté des pom-pom girls.[WAIT]©Merci, et bonne chance·![END]
 50-26:@DCMC Merchandise![BREAK]¬Available ONLY at Club Titiboo![WAIT]@Come stop by if you wanna support us.[END]
 50-26E:©Goodies DCMC·![BREAK]¬Disponibles EXCLUSIVEMENT au club Titiboo·![WAIT]©Venez faire un tour si vous souhaitez nous[BREAK]¬soutenir·![END]
 50-27:@Hey. Dude.[END]
@@ -8112,7 +8112,7 @@
 154-4:@Hey! Hey![WAIT]¬So, how was Titiboo?[END]
 154-4E:@Hé·! Alors·?[WAIT]¬C'était comment, Titiboo·?[END]
 154-5:@What...?[BREAK]¬What?! What?! What?![WAIT]@Oh, it's nothing?[WAIT]@Oh.[WAIT]@Peaches are my favorite food.[END]
-154-5E:@Quoi...·?[BREAK]¬Quoi·?! Quoi·?! Quoi·?![WAIT]@Oh, ce n'est rien·?[WAIT]@Oh.[WAIT]@Les pêches, c'est mon aliment préféré.[END]
+154-5E:@Quoi...·?[BREAK]¬Quoi·?! Quoi·?! Quoi·?![WAIT]@Oh, ce n'est rien·?[WAIT]@Oh.[WAIT]@Les pêches, c'est ma nourriture préférée.[END]
 154-6:@Happy Boxes are wonderful, you know![WAIT]@Just looking at one makes you feel happy.[WAIT]@[LUCAS 22 03 00]. Why don't you try looking at[BREAK]¬one, just once?[END]
 154-6E:@Les Boîtes à bonheur c'est fabuleux, tu sais·![WAIT]@Le simple fait d'en regarder une rend heureux.[WAIT]@[LUCAS 22 03 00]. Pourquoi n'essayes-tu pas[BREAK]¬d'en regarder une, juste une fois·?[END]
 154-7:@Do you know about the big city?[WAIT]@I bet there's much more happiness there than[BREAK]¬in this entire village![END]
@@ -10987,7 +10987,7 @@
 222-71E:©Ça a été anéanti par la foudre.[END]
 // Repeats: 35-16, 36-47, 38-16, 48-16, 49-16, 222-71, 223-16, 506-71
 222-72:@Please refrain from throwing Running Bombs[BREAK]¬while indoors.[WAIT]¬It makes things all smoky.[END]
-222-72E:©Merci de ne pas jeter de Bombes à pattes à[BREAK]¬l'intérieur.[WAIT]¬Cela enfume les alentours.[END]
+222-72E:©Merci de ne pas jeter de Bombes à pattes à[BREAK]¬l'intérieur.[WAIT]¬Ça met de la fumée partout.[END]
 // Repeats: 222-72, 506-72, 507-0
 // ITEM
 222-73:@There's a button here.[WAIT]@Press it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
@@ -12777,7 +12777,7 @@
 302-0:@Heya! How's it goin'?![WAIT]@I got some homemade DCMC merchandise for[BREAK]¬ ya right here![WAIT]@If it breaks or rips, I'll stay up all night to fix it![WAIT]@Nah! Just kiddin'![WAIT]@I kid a lot![WAIT]@But never mind that, buy some o' these here[BREAK]¬DCMC goods![END]
 302-0E:@Salut·! Comment va·?![WAIT]@J'ai des goodies DCMC faits main, rien que[BREAK]¬pour toi·![WAIT]@Si ça finit abîmé ou déchiré, je passe la nuit ici[BREAK]¬pour les réparer·![WAIT]@Nan·! J'blague·![WAIT]@Je blague beaucoup moi·![WAIT]@Bon c'est pas grave, achète donc quelques[BREAK]¬p'tits goodies DCMC·![END]
 302-1:@All the waitresses here giggle at the end of[BREAK]¬everything they say.[WAIT]@I really wish they'd get rid of that rule, though.[BREAK]¬It's so stupid.[WAIT]@*giggle*[END]
-302-1E:@Ici les serveuses n'arrêtent pas de glousser à[BREAK]¬la fin de chaque phrase.[WAIT]@Ce serait bien si elles pouvaient changer cette[BREAK]¬habitude. C'est tellement stupide.[WAIT]@*glousse*[END]
+302-1E:@Ici les serveuses n'arrêtent pas de glousser à[BREAK]¬chaque fois qu'elles disent quelque chose.[WAIT]@Ce serait bien si elles pouvaient changer cette[BREAK]¬habitude. C'est tellement stupide.[WAIT]@*glousse*[END]
 302-2:@Tonda Gossa![WAIT]@That's the greeting. You know, THE greeting?[WAIT]@Tonda Gossa![WAIT]@You should at least learn the DCMC greeting,[BREAK]¬you know![END]
 302-2E:@Tonda gossa·![WAIT]@C'est la formule. Tu sais, LA formule·![WAIT]@Tonda gossa·![WAIT]@Tu devrais au moins apprendre à saluer comme[BREAK]¬les DCMC·![END]
 302-3:@We don't have restrooms for dogs here.[WAIT]@Oh, you're not a dog?[PAUSE 28 00] My apologies.[WAIT]@*giggle*[END]
@@ -18186,7 +18186,7 @@
 506-71E:©Ça a été anéanti par la foudre.[END]
 // Repeats: 35-16, 36-47, 38-16, 48-16, 49-16, 222-71, 223-16, 506-71
 506-72:@Please refrain from throwing Running Bombs[BREAK]¬while indoors.[WAIT]¬It makes things all smoky.[END]
-506-72E:©Merci de ne pas jeter de Bombes à pattes à[BREAK]¬l'intérieur.[WAIT]¬Cela enfume les alentours.[END]
+506-72E:©Merci de ne pas jeter de Bombes à pattes à[BREAK]¬l'intérieur.[WAIT]¬Ça met de la fumée partout.[END]
 // Repeats: 222-72, 506-72, 507-0
 // ITEM
 506-73:@There's a button here.[WAIT]@Press it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
@@ -18250,7 +18250,7 @@
 
 [Container 507]
 507-0:@Please refrain from throwing Running Bombs[BREAK]¬while indoors.[WAIT]¬It makes things all smoky.[END]
-507-0E:©Merci de ne pas jeter de Bombes à pattes à[BREAK]¬l'intérieur.[WAIT]¬Cela enfume les alentours.[END]
+507-0E:©Merci de ne pas jeter de Bombes à pattes à[BREAK]¬l'intérieur.[WAIT]¬Ça met de la fumée partout.[END]
 // Repeats: 222-72, 506-72, 507-0
 // ITEM
 507-1:@There's a button here.[WAIT]@Press it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
@@ -18409,7 +18409,7 @@
 
 [Container 552]
 552-0:@When we zap Claymen low on energy here,[BREAK]¬they start moving again.[END]
-552-0E:@Ici, on remet en mouvement les hommes[BREAK]¬d'argile épuisés en leur donnant un coup de jus.[END]
+552-0E:@Ici, quand on donne un coup de jus aux hommes[BREAK]¬d'argile épuisés, ils se remettent à bouger.[END]
 552-1:@These machines almost seem to invite you to[BREAK]¬use them.[WAIT]@But you can't touch 'em.[WAIT]@People can't touch 'em, or else they'll get[BREAK]¬zapped somethin' fierce![WAIT]@I've never touched them, of course![WAIT]@...But I really want to.[WAIT]@Ignore the urges. Ignore the urges.[END]
 552-1E:@Ces machines donnent presque l'impression de[BREAK]¬nous inciter à jouer avec.[WAIT]@Mais il ne faut pas y toucher.[WAIT]@Personne ne doit y toucher, sous peine de se[BREAK]¬faire électriser violemment·![WAIT]@Moi je n'y ai jamais touché, bien sûr·![WAIT]@... Mais j'en ai presque envie.[WAIT]@Résister à la tentation. Résister à la tentation.[END]
 552-2:@Everyone's working down below.[WAIT]@They're digging up clay to make Claymen out[BREAK]¬of.[END]
@@ -18482,7 +18482,7 @@
 554-0:@Claymen can't climb ladders, so we use this[BREAK]¬lift to haul them up.[END]
 554-0E:@Les hommes d'argile ne savent pas grimper à[BREAK]¬l'échelle,[WAIT]¬donc on les remonte grâce à cette plateforme.[END]
 554-1:@Hey, part-timer.[WAIT]@I use this lift to send low-energy Claymen up[BREAK]¬to the ground floor.[WAIT]@So just bring one here and talk to me.[END]
-554-1E:@Hé, le saisonnier.[WAIT]@Je me sers de cette plateforme pour remonter[BREAK]¬les hommes d'argile qui manquent d'énergie.[WAIT]@Il te suffit d'en ramener un ici, puis de me[BREAK]¬parler.[END]
+554-1E:@Hé, le saisonnier.[WAIT]@Je me sers de cette plateforme pour remonter[BREAK]¬les hommes d'argile à court d'énergie.[WAIT]@Il te suffit d'en ramener un ici, puis de me[BREAK]¬parler.[END]
 554-2:@Hey, part-timer.[WAIT]@I can't lower the lift with the Clayman standing[BREAK]¬there.[END]
 554-2E:@Hé, le saisonnier.[WAIT]@Je ne peux pas descendre la plateforme si[BREAK]¬l'homme d'argile reste planté là.[END]
 554-3:@Oh, brought one already, have you?[WAIT]@Okay, hold on a sec.[END]
