@@ -126,7 +126,7 @@ public class CheckOverflow
             String subline = sublines[k];
             String[] subsublines = subline.split("\\[BREAK\\]");
             
-            boolean doCheckTooShort = subline.startsWith("@"); // filter out Hinawa’s letter and such
+            boolean doCheckTooShort = subline.startsWith("@") || subline.startsWith("©"); // filter out Hinawa’s letter and such
             int previousSubsublineWidth = 0;
             String firstWordInSubsubline = "";
             int firstWordInSubsublineWidth = 0;
@@ -134,6 +134,9 @@ public class CheckOverflow
             for (int i = 0; i < subsublines.length; i++) {
                 int width = 0;
                 String subsubline = subsublines[i];
+
+				doCheckTooShort = doCheckTooShort && !subsubline.startsWith("µ"); // give up if just one subsubline starts with [MENU XX XX]
+
                 String[] spans = subsubline.split("\\[ALTERNATEFONT\\]");
                 for (int j = 0; j < spans.length; j++) {
                     width += getStringWidth(spans[j], (j % 2) == 1);
@@ -197,7 +200,7 @@ public class CheckOverflow
             String firstWord = words[0];
 			if (firstWord.startsWith("¬")) {
 				firstWord = firstWord.substring(1);
-			} else if (firstWord.startsWith("@") || (firstWord.startsWith("µ"))) { // paragraph or menu
+			} else if (firstWord.startsWith("@") || firstWord.startsWith("©")) { // paragraph or menu
 				return "";
 			}
 			if (words.length > 1 && 
