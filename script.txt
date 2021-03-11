@@ -13267,7 +13267,7 @@
 321-50:@Okay, let's do it![WAIT]@Stoooone, sheeeet, clippers![END]
 321-50E:@OK, allons-y·![WAIT]@Rooooc, partooooche, cisaille·![END]
 321-51:@Oops![WAIT]@It's against the rules to go after like that.[BREAK]¬Stoooone, sheeeet, clippers![END]
-321-51E:@Oups·![WAIT]@C'est contre les règles de jouer après l'autre.[BREAK]¬Rooooc, partooooche, cisaille·![END]
+321-51E:@Oups·![WAIT]@C'est contraire aux règles de jouer après son[BREAK]¬adversaire.[WAIT]¬Rooooc, partooooche, cisaille·![END]
 321-52:@A tie, huh?[WAIT]@Again! Stoooone, sheeeet, clippers![END]
 321-52E:@Hein, match nul·?[WAIT]@Encore·! Rooooc, partooooche, cisaille·![END]
 321-53:@Come here after you've calmed yourself down.[END]
