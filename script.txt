@@ -16270,7 +16270,7 @@
 431-1:@The door is firmly shut.[END]
 431-1E:©La porte ne s'ouvre pas.[END]
 431-2:@Power levels have been low lately, so some of[BREAK]¬the machinery in the tower is a tad unstable.[WAIT]@I wish the guys in the generator room would[BREAK]¬get their act together.[END]
-431-2E:@Les niveaux d'énergie sont bas ces temps-ci,[BREAK]¬ce qui rend instable une partie de la machinerie.[WAIT]@J'aimerais bien que les gars de la salle du[BREAK]¬générateur commencent à se ressaisir.[END]
+431-2E:@Les niveaux d'énergie sont bas ces temps-ci,[BREAK]¬ce qui rend instable une partie de la machinerie.[WAIT]@J'espère que les gars de la salle du générateur[BREAK]¬vont commencer à se ressaisir.[END]
 431-3:@Hey, you guys! You're suspicious![WAIT]@You're here to destroy Thunder Tower, aren't[BREAK]¬you?![WAIT][PAUSE 2A 00]¬...That's what I'd say if any suspicious people[BREAK]¬snuck inside.[WAIT]@So, as you can see, security here is airtight.[END]
 431-3E:@Hé, vous·! Vous avez l'air suspects·![WAIT]@Vous êtes là pour détruire la tour du Tonnerre,[BREAK]¬c'est ça·?![WAIT][PAUSE 2A 00]¬... Voilà ce que je dirais si des personnes[BREAK]¬suspectes s'introduisaient ici.[WAIT]@Donc comme vous pouvez le voir, la sécurité[BREAK]¬est sans faille.[END]
 431-4:@This is your common, everyday house plant.[END]
