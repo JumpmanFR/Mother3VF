@@ -83,7 +83,7 @@
 0-38:[END]
 0-38E:[END]
 0-39:@You picked up the [ITEM E1 00][BREAK]¬and read it.[WAIT]¬It's written in poor handwriting.[END]
-0-39E:©Vous ramassez le [ITEM E1 00] et[BREAK]¬vous le lisez.[WAIT]¬L'écriture est maladroite.[END]
+0-39E:©Vous ramassez le [ITEM E1 00] et vous le[BREAK]¬lisez.[WAIT]¬L'écriture est maladroite.[END]
 0-40:All the creatures around here suck.[BREAK]We need to make 'em cooler.[BREAK][BREAK][WAIT]So the theme will be:[BREAK]¬  @Tougher![BREAK]¬  @Rougher![BREAK]¬  @Badder![BREAK][WAIT]We'll mix and match this and that[BREAK]to create whole new things no one's[BREAK]ever seen before![BREAK][WAIT]I dub it the "Fascinating Chimera[BREAK]Project". Let's reconstruct and[BREAK]modify stuff slowly and steadily.[END]
 0-40E:Toutes les créatures ici sont minables.[BREAK]Nous devons les rendre plus cool.[BREAK][BREAK][WAIT]Le mot d'ordre sera•:[BREAK]¬@Plus fortes·![BREAK]¬@Plus violentes·![BREAK]¬@Plus méchantes·![BREAK][WAIT]Nous allons mélanger tout ça pour[BREAK]fabriquer de nouvelles créatures[BREAK]encore jamais vues·![BREAK][WAIT]J'annonce le "fascinant projet[BREAK]Chimère". Reconstituons et modifions[BREAK]les choses, sans faillir, sans relâche.[END]
 0-41:[FILE="0-41.txt"][END]
@@ -215,7 +215,7 @@
 0-91:@Ride the elevator?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[BREAK][ENDCHOICES][END]
 0-91E:©Monter dans l'ascenseur·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[BREAK][ENDCHOICES][END]
 0-92:@You got [81 FF] [42 FF 00 00]s,[BREAK]¬but had to throw away [84 FF] of them.[END]
-0-92E:©Vous avez obtenu [81 FF] [42 FF 00 00]s,[BREAK]¬mais avez dû en jeter [84 FF].[END]
+0-92E:©Vous avez obtenu [81 FF] [42 FF 00 00]s, [BREAK]¬mais avez dû en jeter [84 FF].[END]
 0-93:@You're fully revitalized.[END]
 0-93E:©Vous êtes complètement revitalisé.[END]
 // Repeats: 0-65, 0-93, 0-159, 0-160, 0-184, 0-185, 0-186
@@ -464,7 +464,7 @@
 0-200:@Inside was a whale.[PAUSE 30 00][BREAK]¬...or not.[END]
 0-200E:©À l'intérieur il y avait une baleine.[PAUSE 30 00][BREAK]¬... ou pas.[END]
 0-201:@Inside was a smokin' hot chick.[PAUSE 30 00][BREAK]¬...or not.[END]
-0-201E:©À l'intérieur il y avait une jolie poulette.[PAUSE 30 00][BREAK]¬... ou pas.[END]
+0-201E:©À l'intérieur il y avait une jolie poulette. [PAUSE 30 00][BREAK]¬... ou pas.[END]
 0-202:@Inside was a ninja outfit.[PAUSE 30 00][BREAK]¬...or not.[END]
 0-202E:©À l'intérieur il y avait un costume de ninja.[PAUSE 30 00][BREAK]¬... ou pas.[END]
 0-203:@Inside were morning glory seeds.[PAUSE 30 00][BREAK]¬...or not.[END]
@@ -546,7 +546,7 @@
 0-239:@Lying on the ground is a notebook with a[BREAK]¬pig nose-like mark on the cover.[WAIT]@Give it a read?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 0-239E:©Sur le sol, un carnet de notes comportant un[BREAK]¬symbole en forme de groin sur la couverture.[WAIT]©Le lire·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 0-240:@[FLINT 23 01 00] picked up the notebook and[BREAK]¬read it.[WAIT]@The following is written in poor handwriting:[WAIT]@All the creatures around here suck.[BREAK]@We need to make 'em cooler.[WAIT]@So the theme will be:[BREAK]¬  -Tougher![WAIT]¬  -Rougher![WAIT]¬  -Badder![WAIT]@We'll mix and match this and that to create[BREAK]¬whole new things no one's ever seen before![WAIT]@I dub it the "Fascinating Chimera Project".[WAIT]@Let's reconstruct and modify stuff slowly and[BREAK]¬steadily.[END]
-0-240E:©[FLINT 23 01 00] ramasse le carnet de notes et[BREAK]¬le lit.[WAIT]©L'écriture est maladroite•:[WAIT]©Toutes les créatures ici sont minables.[BREAK]©Nous devons les rendre plus cool.[WAIT]©Le mot d'ordre sera•:[BREAK]¬••— Plus fortes·![WAIT]¬••— Plus violentes·![WAIT]¬••— Plus méchantes·![WAIT]©Nous allons mélanger tout ça pour fabriquer de[BREAK]¬nouvelles créatures encore jamais vues·![WAIT]©J'annonce le "fascinant projet Chimère". [WAIT]©Reconstituons et modifions les choses, sans[BREAK]¬faillir, sans relâche.[END]
+0-240E:©[FLINT 23 01 00] ramasse le carnet et le lit.[WAIT]©L'écriture est maladroite•:[WAIT]©Toutes les créatures ici sont minables.[BREAK]©Nous devons les rendre plus cool.[WAIT]©Le mot d'ordre sera•:[BREAK]¬••— Plus fortes·![WAIT]¬••— Plus violentes·![WAIT]¬••— Plus méchantes·![WAIT]©Nous allons mélanger tout ça pour fabriquer de[BREAK]¬nouvelles créatures encore jamais vues·![WAIT]©J'annonce le "fascinant projet Chimère". [WAIT]©Reconstituons et modifions les choses, sans[BREAK]¬faillir, sans relâche.[END]
 0-241:@Climbing up here will lead you to the outside.[WAIT]@Sadly, this is as far as I go.[WAIT]@But I know you guys can handle the rest from[BREAK]¬here on out.[END]
 0-241E:@En grimpant par ici, vous vous retrouverez à[BREAK]¬l'extérieur.[WAIT]@Malheureusement, je ne vais pas plus loin.[WAIT]@Mais je suis sûr que vous saurez vous[BREAK]¬débrouiller pour la suite.[END]
 0-242:@Well, I guess this is where we part ways.[WAIT]@I don't have a name, but remember me[BREAK]¬sometimes as being a pretty cool guy, okay?[END]
@@ -2968,9 +2968,9 @@
 31-45:@You're heading out again?[WAIT]@Don't cause Ionia too much trouble now, you[BREAK]¬hear?[END]
 31-45E:@Tu sors encore·?[WAIT]@Ne cause pas trop d'ennuis à Ionie maintenant,[BREAK]¬tu entends·?[END]
 31-46:@The sheep pen has been struck by lightning.[BREAK]¬There's almost nothing left of it.[END]
-31-46E:©La foudre a frappé l'enclos des moutons.[BREAK]¬Il n'en reste presque plus rien.[END]
+31-46E:©La foudre a frappé l'enclos des moutons. [BREAK]¬Il n'en reste presque plus rien.[END]
 31-47:@The sheep pen has been struck by lightning.[BREAK]¬There's almost no trace of it left.[END]
-31-47E:©La foudre a frappé l'enclos des moutons.[BREAK]¬Il n'en reste presque plus aucune trace.[END]
+31-47E:©La foudre a frappé l'enclos des moutons. [BREAK]¬Il n'en reste presque plus aucune trace.[END]
 
 
 
@@ -3072,7 +3072,7 @@
 32-46:@I'm on patrol right now.[END]
 32-46E:@Je suis en train de patrouiller.[END]
 32-47:@That look of yours is really bugging me...[END]
-32-47E:@Ton allure m'indispose vraiment...[END]
+32-47E:@Ton allure a quelque chose de dérangeant...[END]
 32-48:@Whew, I'm parched! Talking all the time can[BREAK]¬really get to you after a while.[WAIT]@Whoa! It's you! Shoo! Shoo![END]
 32-48E:@Pfiou, je meurs de soif·! Ça peut être vraiment[BREAK]¬épuisant de parler tout le temps.[WAIT]@Aaah·! Mais c'est toi·! Pschhtt·! Ouste·![END]
 32-49:@If you need something from the map-loving and[BREAK]¬map-owning Mapson, it must be a map, yes?[WAIT]@Oh, hi there, [LUCAS 23 02 00].[WAIT]@That's a strange friend you have with you.[WAIT]@No, no, no.[WAIT]@I don't mean there's anything wrong with that.[WAIT]@What?[WAIT]@Aeolia's house, you say?[WAIT]@I don't know who that is, but I think it's around[BREAK]¬here somewhere.[WAIT]@I'll mark your map for you.[END]
@@ -3127,7 +3127,7 @@
 33-0E:©Une inscription est gravée sur l'arbre.[WAIT]©Vous l'avez lue, mais elle ne disait rien qui soit[BREAK]¬digne d'intérêt.[END]
 // Repeats: 4-0, 33-0, 219-0
 33-1:@Special Nursing Home for Senior Citizens[BREAK]¬"Old Man's Paradise"[END]
-33-1E:©Maison de repos pour personnes âgées[BREAK]¬"Le paradis du vieil homme"[END]
+33-1E:©Maison de repos pour personnes âgées [BREAK]¬"Le paradis du vieil homme"[END]
 // Repeats: 33-1, 219-1
 33-2:@It sounds like they shut down that Club Titiboo[BREAK]¬place.[WAIT]@Everyone's been so depressed ever since.[END]
 33-2E:@Apparemment, ils ont fermé le club Titiboo.[WAIT]@Tout le monde est déprimé depuis.[END]
@@ -3788,7 +3788,7 @@
 38-16E:©Ça a été anéanti par la foudre.[END]
 // Repeats: 35-16, 36-47, 38-16, 48-16, 49-16, 222-71, 223-16, 506-71
 38-17:@"Tazmily Central Message Board"[BREAK]¬Read it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-38-17E:©"Panneau d'affichage central de Tazmily"[BREAK]¬Le lire·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+38-17E:©"Panneau d'affichage central de Tazmily" [BREAK]¬Le lire·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 38-18:@Are you sure? Wouldn't it be nice to know[BREAK]¬what other people have on their minds?[END]
 38-18E:©Vous êtes sûr·? Ne serait-il pas intéressant de[BREAK]¬savoir·ce que d'autres habitants ont à l'esprit·?[END]
 // NOTE : je vouvoie ici car je crois que c'est le narrateur qui parle, et jusqu'à présent, il dit "vous" (exemple : "Vous trouvez tel objet !")
@@ -4243,7 +4243,7 @@
 43-0:@A boulder is blocking the way.[END]
 43-0E:©Un rocher bloque le passage.[END]
 43-1:@[LUCAS 23 02 00] spoke the [ITEM B6 00][BREAK]¬to the boulder![END]
-43-1E:©[LUCAS 23 02 00] lit les [ITEM B6 00][BREAK]¬au rocher·![END]
+43-1E:©[LUCAS 23 02 00] lit les [ITEM B6 00] au[BREAK]¬rocher·![END]
 43-2:@The boulder appears to feel better.[END]
 43-2E:©Le rocher a l'air de se sentir mieux.[END]
 43-3:@A Vertiboulder.[END]
@@ -4995,7 +4995,7 @@
 61-8:@The Pork Bean broke down.[END]
 61-8E:©Le Haricochon s'est effondré.[END]
 61-9:@A red light.[END]
-61-9E:©Une lumière rouge.[END]
+61-9E:©Un voyant rouge.[END]
 // Repeats: 61-9, 371-11, 474-19
 61-10:@Squeak squeeeak...[WAIT]¬(Next time I'm reborn, I hope I get to be a[BREAK]¬sperm whale.[WAIT]¬I wanna be a sperm whale and eat giant squids[BREAK]¬and stuff.[WAIT]¬Huh? My mom's calling for me?[WAIT]¬Aw, crap! This is no time for me to be[BREAK]¬dreaming about stuff![WAIT]¬Okay, I'm going home now!)[END]
 61-10E:@Couic couiiic...[WAIT]¬(La prochaine fois que je me réincarne,[BREAK]¬j'aimerais devenir un cachalot.[WAIT]¬Je veux être un cachalot, et manger des[BREAK]¬calamars géants et tout.[WAIT]¬Hein·? Ma maman m'appelle·?[WAIT]¬Oh, zut·! C'est pas le bon moment pour[BREAK]¬rêvasser·![WAIT]¬D'accord, je rentre à la maison·!)[END]
@@ -6885,7 +6885,7 @@
 117-34:@Come now, li'l [SALSA 23 06 00].[WAIT]@Let's not bother the kind shopkeepers too[BREAK]¬much, okay?[WAIT]@Nwehehe![END]
 117-34E:@Viens par ici, p'tit [SALSA 23 06 00].[WAIT]@On ne va pas trop déranger les gentils[BREAK]¬marchands, d'accord·?[WAIT]@Nwihihi·![END]
 117-35:@This bread is for the people working here.[BREAK]¬They eat it whenever they're feeling hungry.[END]
-117-35E:©Ce pain est pour les gens qui travaillent ici.[BREAK]¬Ils le mangent quand ils ont un petit creux.[END]
+117-35E:©Ce pain est pour les gens qui travaillent ici. [BREAK]¬Ils le mangent quand ils ont un petit creux.[END]
 
 
 
@@ -7906,7 +7906,7 @@
 143-7E:@Déteste-moi.[WAIT]@Déteste-moi encore.[WAIT]@Ce serait plus simple pour moi de savoir que tu[BREAK]¬me détestes.[WAIT]@Hohohoho·![END]
 // Repeats: 143-7, 149-7, 161-7
 143-8:@The village's progress is my progress.[WAIT]@I get bigger and more important by the day.[WAIT]@Understand?[END]
-143-8E:@L'évolution de ce village, c'est mon évolution.[WAIT]@Je deviens plus grand et plus important de jour[BREAK]¬en jour.[WAIT]@Tu comprends·?[END]
+143-8E:@L'évolution de ce village, c'est mon évolution.[WAIT]@Je deviens plus grand et plus important de jour[BREAK]¬en jour.[WAIT]@Tu as compris ça·?[END]
 // Repeats: 143-8, 149-8, 161-8
 143-9:@Oh, if it isn't [LUCAS 22 03 00].[WAIT]@Everyone's talking about how you've been[BREAK]¬living it up at clubs instead of coming home.[WAIT]@And then there's [FLINT 22 01 00], always[BREAK]¬wandering around in the mountains, aimlessly.[WAIT]¬You're such a weird family.[END]
 143-9E:@Oh, si ce n'est pas [LUCAS 22 03 00].[WAIT]@Tout le monde parle de la grande vie que tu[BREAK]¬mènes dans des clubs au lieu de vivre chez toi.[WAIT]@Et puis il y a [FLINT 22 01 00], toujours à errer[BREAK]¬dans les montagnes, sans but.[WAIT]¬Vous êtes vraiment une famille étrange.[END]
@@ -8000,7 +8000,7 @@
 149-7E:@Déteste-moi.[WAIT]@Déteste-moi encore.[WAIT]@Ce serait plus simple pour moi de savoir que tu[BREAK]¬me détestes.[WAIT]@Hohohoho·![END]
 // Repeats: 143-7, 149-7, 161-7
 149-8:@The village's progress is my progress.[WAIT]@I get bigger and more important by the day.[WAIT]@Understand?[END]
-149-8E:@L'évolution de ce village, c'est mon évolution.[WAIT]@Je deviens plus grand et plus important de jour[BREAK]¬en jour.[WAIT]@Tu comprends·?[END]
+149-8E:@L'évolution de ce village, c'est mon évolution.[WAIT]@Je deviens plus grand et plus important de jour[BREAK]¬en jour.[WAIT]@Tu as compris ça·?[END]
 // Repeats: 143-8, 149-8, 161-8
 149-9:@Oh, if it isn't [LUCAS 22 03 00].[WAIT]@Everyone's talking about how you've been[BREAK]¬living it up at clubs instead of coming home.[WAIT]@And then there's [FLINT 22 01 00], always[BREAK]¬wandering around in the mountains, aimlessly.[WAIT]¬You're such a weird family.[END]
 149-9E:@Oh, si ce n'est pas [LUCAS 22 03 00].[WAIT]@Tout le monde parle de la grande vie que tu[BREAK]¬mènes dans des clubs au lieu de vivre chez toi.[WAIT]@Et puis il y a [FLINT 22 01 00], toujours à errer[BREAK]¬dans les montagnes, sans but.[WAIT]¬Vous êtes vraiment une famille étrange.[END]
@@ -8285,7 +8285,7 @@
 161-7E:@Déteste-moi.[WAIT]@Déteste-moi encore.[WAIT]@Ce serait plus simple pour moi de savoir que tu[BREAK]¬me détestes.[WAIT]@Hohohoho·![END]
 // Repeats: 143-7, 149-7, 161-7
 161-8:@The village's progress is my progress.[WAIT]@I get bigger and more important by the day.[WAIT]@Understand?[END]
-161-8E:@L'évolution de ce village, c'est mon évolution.[WAIT]@Je deviens plus grand et plus important de jour[BREAK]¬en jour.[WAIT]@Tu comprends·?[END]
+161-8E:@L'évolution de ce village, c'est mon évolution.[WAIT]@Je deviens plus grand et plus important de jour[BREAK]¬en jour.[WAIT]@Tu as compris ça·?[END]
 // Repeats: 143-8, 149-8, 161-8
 161-9:@Oh, if it isn't [LUCAS 22 03 00].[WAIT]@Everyone's talking about how you've been[BREAK]¬living it up at clubs instead of coming home.[WAIT]@And then there's [FLINT 22 01 00], always[BREAK]¬wandering around in the mountains, aimlessly.[WAIT]¬You're such a weird family.[END]
 161-9E:@Oh, si ce n'est pas [LUCAS 22 03 00].[WAIT]@Tout le monde parle de la grande vie que tu[BREAK]¬mènes dans des clubs au lieu de vivre chez toi.[WAIT]@Et puis il y a [FLINT 22 01 00], toujours à errer[BREAK]¬dans les montagnes, sans but.[WAIT]¬Vous êtes vraiment une famille étrange.[END]
@@ -8359,7 +8359,7 @@
 162-17:@I hear someone's calling me a "poster girl".[WAIT]@It's not true, though.[END]
 162-17E:@J'ai entendu quelqu'un m'appeler la "tête[BREAK]¬d'affiche".[WAIT]@Mais ce n'est pas du tout vrai·![END]
 162-18:@Oh, [DUSTER 22 0F 00].[WAIT]¬Has your memory returned yet?[END]
-162-18E:@Oh, [DUSTER 22 0F 00].[WAIT]¬Est-ce que tu as enfin recouvré la mémoire·?[END]
+162-18E:@Oh, [DUSTER 22 0F 00].[WAIT]¬Est-ce que tu as enfin retrouvé la mémoire·?[END]
 162-19:@That person with you...[WAIT]¬Is it a he or a she?[END]
 162-19E:@Cette personne avec toi...[WAIT]¬C'est un homme ou une femme·?[END]
 162-20:@I bet it'd be fun if we all went together.[WAIT]@[LUCAS 22 03 00], won't you and your friends[BREAK]¬come with us?[END]
@@ -10601,7 +10601,7 @@
 219-0E:©Une inscription est gravée sur l'arbre.[WAIT]©Vous l'avez lue, mais elle ne disait rien qui soit[BREAK]¬digne d'intérêt.[END]
 // Repeats: 4-0, 33-0, 219-0
 219-1:@Special Nursing Home for Senior Citizens[BREAK]¬"Old Man's Paradise"[END]
-219-1E:©Maison de repos pour personnes âgées[BREAK]¬"Le paradis du vieil homme"[END]
+219-1E:©Maison de repos pour personnes âgées [BREAK]¬"Le paradis du vieil homme"[END]
 // Repeats: 33-1, 219-1
 219-2:@It sounds like they shut down that Club Titiboo[BREAK]¬place.[WAIT]@Everyone's been so depressed ever since.[END]
 219-2E:@Apparemment, ils ont fermé le club Titiboo.[WAIT]@Tout le monde est déprimé depuis.[END]
@@ -15047,7 +15047,7 @@
 371-1:@It's broken.[END]
 371-1E:©C'est en panne.[END]
 371-2:@This recharge device seems to be broken.[WAIT]@Oh, but please don't worry. I'll manage[BREAK]¬somehow.[END]
-371-2E:@Cette borne de recharge a l'air hors service.[WAIT]@Oh, mais ne vous en faites pas. Je me[BREAK]¬débrouillerai.[END]
+371-2E:@Cette borne de recharge a l'air d'être en panne.[WAIT]@Oh, mais ne vous en faites pas. Je me[BREAK]¬débrouillerai.[END]
 371-3:@Whew...[WAIT]@I tried to fix this recharge device myself...[WAIT]@But it was just too formidable a foe...[END]
 371-3E:@Pfiou...[WAIT]@J'ai essayé de réparer cette borne de recharge[BREAK]¬moi-même...[WAIT]@Mais le défi était trop grand pour moi...[END]
 371-4:@Greetings, Commander.[WAIT]@Our Pork Bean ran out of power, you see,[BREAK]¬and...[WAIT]@Yes? A garbage truck?[WAIT]@Oh, one just headed north from here.[END]
@@ -15068,7 +15068,7 @@
 371-10E:©Station de recharge de Haricochon[END]
 // Repeats: 61-23, 371-10, 474-3
 371-11:@A red light.[END]
-371-11E:©Une lumière rouge.[END]
+371-11E:©Un voyant rouge.[END]
 // Repeats: 61-9, 371-11, 474-19
 371-12:@I AM A BROKEN ROBOT.[WAIT]@I HAVE FORGOTTEN WHY I AM BROKEN,[BREAK]¬THOUGH...[WAIT]@YOU CERTAINLY HAVE A LOT OF FREE TIME[BREAK]¬TO BE TALKING TO SOMETHING LIKE ME.[WAIT][PAUSE 5A 00]@SORRY! SORRY![BREAK]¬IT WAS RUDE OF ME TO SAY THAT.[END]
 371-12E:@JE SUIS UN ROBOT CASSÉ.[WAIT]@J'AI OUBLIÉ POURQUOI J'ÉTAIS CASSÉ,[BREAK]¬CEPENDANT...[WAIT]@VOUS DEVEZ CERTAINEMENT AVOIR[BREAK]¬BEAUCOUP DE TEMPS LIBRE[WAIT]¬POUR PARLER À QUELQUE CHOSE COMME MOI.[WAIT][PAUSE 5A 00]@NAVRÉ·! NAVRÉ·![WAIT]¬CE N'ÉTAIT PAS TRÈS POLI DE MA PART.[END]
@@ -16110,7 +16110,7 @@
 404-3:@Squeak-squeeeeak.[WAIT]¬(Even so, that still leaves [80 FF F0 FF] more.[WAIT]¬If you happen to see them, tell them to come[BREAK]¬back to their mother right this minute.[WAIT]¬Please,[PAUSE 1E 00] please let them know.[WAIT]¬Please.[PAUSE 1E 00] Please!)[END]
 404-3E:@Couic-couiiiic.[WAIT]¬(Malgré tout, il en manque encore [80 FF F0 FF].[WAIT]¬Si jamais tu les aperçois, dis-leur de revenir[BREAK]¬tout de suite voir leur maman.[WAIT]¬S'il te plaît,[PAUSE 1E 00] s'il te plaît, préviens-les.[WAIT]¬S'il te plaît.[PAUSE 1E 00] S'il te plaît·!)[END]
 404-4:@Squeak-squeeeeak.[WAIT]¬(Even so, that still leaves [80 FF F0 FF] more.[WAIT]¬If you happen to see them, tell them to come[BREAK]¬back to their mother right this minute.[WAIT]¬Please,[PAUSE 1E 00] please let them know.[WAIT]¬Please.[PAUSE 1E 00] Please!)[END]
-404-4E:@Couic-couiiiic.[WAIT]¬(Malgré tout, il en manque encore un.[WAIT]¬Si jamais tu l'aperçois, dis-lui de revenir tout[BREAK]¬de suite voir sa maman.[WAIT]¬S'il te plaît,[PAUSE 1E 00] s'il te plaît, préviens-le.[WAIT]¬S'il te plaît.[PAUSE 1E 00] S'il te plaît·!)[END]
+404-4E:@Couic-couiiiic.[WAIT]¬(Malgré tout, il en manque encore 1.[WAIT]¬Si jamais tu l'aperçois, dis-lui de revenir tout[BREAK]¬de suite voir sa maman.[WAIT]¬S'il te plaît,[PAUSE 1E 00] s'il te plaît, préviens-le.[WAIT]¬S'il te plaît.[PAUSE 1E 00] S'il te plaît·!)[END]
 404-5:@Squeak-squeeeeak.[WAIT]¬(Even so, that still leaves [80 FF F0 FF] more.[WAIT]¬If you happen to see them, tell them to come[BREAK]¬back to their mother right this minute.[WAIT]¬Please,[PAUSE 1E 00] please let them know.[WAIT]¬Please.[PAUSE 1E 00] Please!)[END]
 404-5E:@Couic-couiiiic.[WAIT]¬(Malgré tout, il en manque encore [80 FF F0 FF].[WAIT]¬Si jamais tu les aperçois, dis-leur de revenir[BREAK]¬tout de suite voir leur maman.[WAIT]¬S'il te plaît,[PAUSE 1E 00] s'il te plaît, préviens-les.[WAIT]¬S'il te plaît.[PAUSE 1E 00] S'il te plaît·!)[END]
 404-6:@Squeeeeeeeeaaak![WAIT]¬(Thank you so much![WAIT]¬Thanks to you, all my children have returned[BREAK]¬home, with cheerful smiles on their faces.[WAIT]¬For being so kind to me, I insist[PAUSE 2E 00] on giving you[BREAK]¬two things as a token of appreciation.[WAIT]¬The first is a kiss from me.[WAIT]¬And the other thing is th[PAUSE 20 00]-th[PAUSE 20 00]-this!)[END]
@@ -16125,7 +16125,7 @@
 404-10:@Squeak.[WAIT]¬(I'm not really sure what happened, but my[BREAK]¬hubby finally came back home.[WAIT][PAUSE 1E 00]¬But just between you and me, I think his old[BREAK]¬self might've had more charm...[WAIT]¬Ohohohoho!)[END]
 404-10E:@Couic.[WAIT]¬(Je ne sais pas trop ce qui s'est passé, mais[BREAK]¬mon petit mari est enfin rentré à la maison.[WAIT][PAUSE 1E 00]¬Entre nous, je trouve qu'il avait peut-être plus[BREAK]¬de charme tel qu'il était avant...[WAIT]¬Hohohohoho·!)[END]
 404-11:@Try not to speed too much![BREAK]¬"Dept. of Highway Management"[END]
-404-11E:©Essayez de ne pas aller trop vite·![BREAK]¬"Service d'aménagement de la grand-route"[END]
+404-11E:©Pas trop d'excès de vitesse, si possible·![BREAK]¬— Service d'aménagement de la grand-route[END]
 404-12:@Caution! Chimera crossing![END]
 404-12E:©Attention·! Traversée de chimères·![END]
 404-13:@Graffiti has been written on this sign.[WAIT]@"Put the pedal to the metal, you morons!"[END]
@@ -16581,7 +16581,7 @@
 453-5:@I saw a broken-down Clayman rush out the[BREAK]¬back door super-fast. Yup.[WAIT]@When Claymen break, they climb into garbage[BREAK]¬trucks to get taken to the trash dump. Yup.[WAIT]@When I think about that... it makes me feel[BREAK]¬kinda sad.[WAIT]¬Yup.[END]
 453-5E:@J'ai vu un homme d'argile en décomposition se[BREAK]¬précipiter vers la porte de derrière. Ouaip.[WAIT]@Quand les hommes d'argile se décomposent,[WAIT]¬ils grimpent dans les camions à ordures pour[BREAK]¬être conduits à la décharge. Ouaip.[WAIT]@Quand j'y pense... quelque part, ça me rend[BREAK]¬triste.[WAIT]¬Ouaip.[END]
 453-6:@I just saw an out-of-control Clayman run out[BREAK]¬the back door.[WAIT]@If you're looking for it, you better hurry[WAIT]¬before it gets stuffed inside a garbage truck[BREAK]¬and taken to the dump.[WAIT]@Still, what in the world did you hide in it?[WAIT]¬It must've been something crazy to get you in[BREAK]¬such a tizzy.[WAIT]@Oh? You can't say?[WAIT]@It must be something embarrassing then, huh?[END]
-453-6E:@Je viens de voir un homme d'argile hors de[BREAK]¬contrôle s'enfuir par la porte de derrière.[WAIT]@Si vous le cherchez, vous feriez mieux de vous[BREAK]¬dépêcher[WAIT]¬avant qu'il soit balancé dans un camion à[BREAK]¬ordures et envoyé à la décharge.[WAIT]@Mais que diable avez-vous caché dedans·?[WAIT]¬Ça doit être quelque chose de fou pour que ça[BREAK]¬vous mette dans un tel état.[WAIT]@Ah·? Vous ne pouvez pas le dire·?[WAIT]@Ça doit être quelque chose d'embarrassant[BREAK]¬alors, hein·?[END]
+453-6E:@Je viens de voir un homme d'argile hors de[BREAK]¬contrôle s'enfuir par la porte de derrière.[WAIT]@Si vous le cherchez, vous feriez mieux de vous[BREAK]¬dépêcher[WAIT]¬avant qu'il soit jeté dans un camion à ordures[BREAK]¬et envoyé à la décharge.[WAIT]@Mais que diable avez-vous caché dedans·?[WAIT]¬Ça doit être quelque chose de fou pour que ça[BREAK]¬vous mette dans un tel état.[WAIT]@Ah·? Vous ne pouvez pas le dire·?[WAIT]@Ça doit être quelque chose d'embarrassant[BREAK]¬alors, hein·?[END]
 453-7:@A fire hydrant. Its hose is neatly wrapped up.[END]
 453-7E:©Une armoire d'incendie. Son tuyau est[BREAK]¬soigneusement enroulé.[END]
 // Repeats: 453-7, 454-20
@@ -16605,7 +16605,7 @@
 454-6:@Ahh! He's...![END]
 454-6E:@Ahh·! C'est le...·![END]
 454-7:@What's all the ruckus?![WAIT]@What in blazes are you...[END]
-454-7E:@Qu'est-ce que c'est que ce chahut·?![WAIT]@Mais qu'est-ce que vous...[END]
+454-7E:@Qu'est-ce que c'est que ce chahut·?![WAIT]@Non mais qu'est-ce que vous...[END]
 454-8:@Sir![WAIT]@I wasn't aware you were here, sir![WAIT]¬Please forgive my rudeness![END]
 454-8E:@Monseigneur·![WAIT]@Je ne savais pas que vous étiez ici[BREAK]¬monseigneur·![WAIT]¬Veuillez excuser mon impolitesse·![END]
 454-9:@Wearing such a shabby outfit will set a bad[BREAK]¬example to the men, Commander.[WAIT]@Here, I'll prepare a change of clothes for you.[BREAK]¬Please put them on right away, sir.[WAIT]@Likewise for the folks accompanying you, too.[END]
@@ -17645,7 +17645,7 @@
 474-18:@Hmm. That wasn't very thank you-ful.[END]
 474-18E:@Hmm. Pas merci.[END]
 474-19:@A red light.[END]
-474-19E:©Une lumière rouge.[END]
+474-19E:©Un voyant rouge.[END]
 // Repeats: 61-9, 371-11, 474-19
 474-20:@This seems like a fast car.[END]
 474-20E:©Cette voiture a l'air rapide.[END]
@@ -19067,7 +19067,7 @@
 634-1E:©Vous ne vous sentez pas très bien.[END]
 // Repeats: 623-0, 634-1
 634-2:@There's nothing you can do here,[WAIT]¬nor is there anything that CAN be done.[END]
-634-2E:©Il n'y a rien que vous ne puissiez faire ici,[BREAK]¬ni même qui ne puisse être fait du tout.[END]
+634-2E:©Il n'y a rien que vous ne puissiez faire ici, [BREAK]¬ni même qui ne puisse être fait du tout.[END]
 // Repeats: 634-2, 636-1
 634-3:[END]
 634-3E:[END]
@@ -19103,7 +19103,7 @@
 636-0:@A ghost burped on me just now...[WAIT]@For some reason, it smelled like rotten[BREAK]¬[FAVFOOD]...[WAIT]@I don't care about finding this stupid item[BREAK]¬anymore...![END]
 636-0E:@Un fantôme m'a roté à la figure...[WAIT]@Curieusement, ça sentait comme une forme[BREAK]¬avariée d[EF EF][FAVFOOD]...[WAIT]@Je n'ai même plus envie de rechercher cet[BREAK]¬objet stupide...·![END]
 636-1:@There's nothing you can do here,[WAIT]¬nor is there anything that CAN be done.[END]
-636-1E:©Il n'y a rien que vous ne puissiez faire ici,[BREAK]¬ni même qui ne puisse être fait du tout.[END]
+636-1E:©Il n'y a rien que vous ne puissiez faire ici, [BREAK]¬ni même qui ne puisse être fait du tout.[END]
 // Repeats: 634-2, 636-1
 
 
@@ -22231,7 +22231,7 @@
 894-21:@Chapter 4: Event Selection[BREAK][MENU 08 00]¬[LEFT]END SELECTION[RIGHT][BREAK]¬[LEFT]Flint's House[RIGHT][BREAK]¬[LEFT]Cross Road[RIGHT][BREAK]¬[LEFT]Factory[RIGHT][BREAK]¬[LEFT]Ropeway[RIGHT][BREAK]¬[LEFT]Violet's Room[RIGHT][BREAK]¬[LEFT]Lucky's Room[RIGHT][BREAK]¬[LEFT]Bon Voyage[RIGHT][BREAK][ENDCHOICES][END]
 894-21E:©Chapitre 4•: Choix de l'événement[BREAK][MENU 08 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Éveil[RIGHT][BREAK]¬[LEFT]Départ de la Croisée[RIGHT][BREAK]¬[LEFT]Usine[RIGHT][BREAK]¬[LEFT]Arrivée du téléphérique[RIGHT][BREAK]¬[LEFT]Loge de Violine•: un fossé de 3 ans[RIGHT][BREAK]¬[LEFT]Loge de Lucky[RIGHT][BREAK]¬[LEFT]Bon voyage amigo[RIGHT][BREAK][ENDCHOICES][END]
 894-22:@Chapter 5: Event Selection[BREAK][MENU 09 00]¬[LEFT]END SELECTION[RIGHT][BREAK]¬[LEFT]Unknown Valley[RIGHT][BREAK]¬[LEFT]Clay Factory[RIGHT][BREAK]¬[LEFT]Highway[RIGHT][BREAK]¬[LEFT]Dump[RIGHT][BREAK]¬[LEFT]Thunder Tower[RIGHT][BREAK]¬[LEFT]King's Room[RIGHT][BREAK]¬[LEFT]Generator[RIGHT][BREAK]¬[LEFT]Tower Top[RIGHT][BREAK][ENDCHOICES][END]
-894-22E:©Chapitre 5•: Choix de l'événement[BREAK][MENU 09 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Vallée de l'Inconnu[RIGHT][BREAK]¬[LEFT]Usine d'argile[RIGHT][BREAK]¬[LEFT]Haricochon obtenu[RIGHT][BREAK]¬[LEFT]Décharge[RIGHT][BREAK]¬[LEFT]Intrusion dans la tour[RIGHT][BREAK]¬[LEFT]Chambre du Roi[RIGHT][BREAK]¬[LEFT]Salle du générateur[RIGHT][BREAK]¬[LEFT]Sommet de la tour[RIGHT][BREAK][ENDCHOICES][END]
+894-22E:©Chapitre 5•: Choix de l'événement[BREAK][MENU 09 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Vallée de l'Inconnu[RIGHT][BREAK]¬[LEFT]Usine d'hommes d'argile[RIGHT][BREAK]¬[LEFT]Haricochon obtenu[RIGHT][BREAK]¬[LEFT]Décharge[RIGHT][BREAK]¬[LEFT]Intrusion dans la tour[RIGHT][BREAK]¬[LEFT]Chambre du Roi[RIGHT][BREAK]¬[LEFT]Salle du générateur[RIGHT][BREAK]¬[LEFT]Sommet de la tour[RIGHT][BREAK][ENDCHOICES][END]
 894-23:@Chapter 7: Event Selection[BREAK][MENU 09 00]¬[LEFT]END SELECTION[RIGHT][BREAK]¬[LEFT]Nursing Home[RIGHT][BREAK]¬[LEFT]Aeolia's House[RIGHT][BREAK]¬[LEFT]Courtyard[RIGHT][BREAK]¬[LEFT]Cemetery[RIGHT][BREAK]¬[LEFT]Cross Road[RIGHT][BREAK]¬[LEFT]Stumble Pass[RIGHT][BREAK]¬[LEFT]Ionia's House[RIGHT][BREAK]¬[LEFT]Chupi Temple[RIGHT][BREAK][ENDCHOICES][END]
 894-23E:©Chapitre 7•: Choix de l'événement[BREAK][MENU 09 00]¬[LEFT]TERMINER[RIGHT][BREAK]¬[LEFT]Maison de repos[RIGHT][BREAK]¬[LEFT]Chez Éolie[RIGHT][BREAK]¬[LEFT]Aiguille du nombril[RIGHT][BREAK]¬[LEFT]Recueillement au cimetière[RIGHT][BREAK]¬[LEFT]Recherche des Aiguilles[RIGHT][BREAK]¬[LEFT]Passage du Faux-Pas[RIGHT][BREAK]¬[LEFT]Chez Ionie[RIGHT][BREAK]¬[LEFT]Temple de Chupichupyoi[RIGHT][BREAK][ENDCHOICES][END]
 894-24:@Chapter 8: Event Selection[BREAK][MENU 0D 00]¬[LEFT]END SELECTION[RIGHT][BREAK]¬[LEFT]Inside Limo[RIGHT][BREAK]¬[LEFT]NPC Arrival[RIGHT][BREAK]¬[LEFT]Arcade[RIGHT][BREAK]¬[LEFT]Sewers[RIGHT][BREAK]¬[LEFT]24 F Reunion[RIGHT][BREAK]¬[LEFT]To 100 F[RIGHT][BREAK]¬[LEFT]Game 1[RIGHT][BREAK]¬[LEFT]Game 2[RIGHT][BREAK]¬[LEFT]Game 3[RIGHT][BREAK]¬[LEFT]NK Cyborg[RIGHT][BREAK]¬[LEFT]Mecha-Porkies[RIGHT][BREAK]¬[LEFT]Final Needle[RIGHT][BREAK][ENDCHOICES][END]
