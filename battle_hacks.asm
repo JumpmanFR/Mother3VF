@@ -242,7 +242,7 @@ ldrh r1,[r0,#0]              // load the current #
 lsl  r1,r1,#1
 lsl  r0,r1,#1
 add  r0,r0,r1                // offset = enemy ID * 6 bytes MODIF
-ldr  r1,=#0x8D098E0          // this is the base address of our extra enemy data table in ROM
+ldr  r1,=#0x8D099E0          // this is the base address of our extra enemy data table in ROM
 add  r0,r0,r1                // r0 now has address of this enemy's extra data entry
 ldrb r0,[r0,r2]              // r0 now has the proper line # to use from custom_text.bin
 mov  r1,#40
@@ -271,7 +271,8 @@ blt  +
 ldr  r0,=#0x2014724          // then load the second last item for the extra data
 +
 ldrh r0,[r0,#0]              // load the current item #
-lsl  r0,r0,#3                // offset = item ID * 8 bytes !!MODIF!!
+mov  r1,#9
+mul  r0,r1                   // offset = item ID * 9 bytes !!MODIF!!
 ldr  r1,=#0x8D090D9          // this is the base address of our extra item data table in ROM
 add  r0,r0,r1                // r0 now has the proper address of the current item's data slot
 ldrb r0,[r0,r2]              // load the proper line # to use from custom_text.bin
@@ -307,7 +308,7 @@ ldrh r1,[r0,#0]              // gets enemy id from where it was stored
 lsl  r1,r1,#1
 lsl  r0,r1,#1
 add  r0,r0,r1                // offset = enemy ID * 6 bytes MODIF
-ldr  r1,=#0x8D098E0          // this is the base address of our extra enemy data table in ROM
+ldr  r1,=#0x8D099E0          // this is the base address of our extra enemy data table in ROM
 add  r0,r0,r1                // r0 now has address of this enemy's extra data entry
 ldrb r0,[r0,#5]              // r0 now has the proper line # to use from custom_text.bin
 mov  r1,#40
@@ -357,7 +358,7 @@ mov  r1,r2
 lsl  r1,r1,#1
 lsl  r0,r1,#1
 add  r0,r0,r1                // offset = enemy ID * 6 bytes MODIF
-ldr  r1,=#0x8D098E0          // this is the base address of our extra enemy data table in ROM
+ldr  r1,=#0x8D099E0          // this is the base address of our extra enemy data table in ROM
 add  r0,r0,r1                // r0 now has address of this enemy's extra data entry
 ldrb r0,[r0,#5]              // r0 now has the proper line # to use from custom_text.bin
 mov  r1,#40
@@ -1610,7 +1611,7 @@ ldrh r1,[r0,#0]              // load the current #
 lsl  r1,r1,#1
 lsl  r0,r1,#1
 add  r0,r0,r1                // offset = enemy ID * 6 bytes MODIF
-ldr  r1,=#0x8D098E0          // this is the base address of our extra enemy data table in ROM
+ldr  r1,=#0x8D099E0          // this is the base address of our extra enemy data table in ROM
 add  r0,r0,r1                // r0 now has address of this enemy's extra data entry
 ldrb r0,[r0,r2]              // r0 now has the proper line # to use from custom_text.bin
 mov  r1,#40
@@ -1639,7 +1640,8 @@ blt  +
 ldr  r0,=#0x2014724          // if it is, then load the second last item
 +
 ldrh r0,[r0,#0]              // load the current item #
-lsl  r0,r0,#3                // offset = item ID * 8 bytes !!MODIF!!
+mov  r1,#9
+mul  r0,r1                   // offset = item ID * 9 bytes !!MODIF!!
 ldr  r1,=#0x8D090D9          // this is the base address of our extra item data table in ROM
 add  r0,r0,r1                // r0 now has the proper address of the current item's data slot
 ldrb r0,[r0,r2]              // load the proper line # to use from custom_text.bin
@@ -1677,7 +1679,7 @@ ldrh r1,[r0,#0]              // gets enemy id from where it was stored
 lsl  r1,r1,#1
 lsl  r0,r1,#1
 add  r0,r0,r1                // offset = enemy ID * 6 bytes MODIF
-ldr  r1,=#0x8D098E0          // this is the base address of our extra enemy data table in ROM
+ldr  r1,=#0x8D099E0          // this is the base address of our extra enemy data table in ROM
 add  r0,r0,r1                // r0 now has address of this enemy's extra data entry
 ldrb r0,[r0,#5]              // r0 now has the proper line # to use from custom_text.bin
 mov  r1,#40
@@ -1729,7 +1731,7 @@ mov  r1,r2
 lsl  r1,r1,#1
 lsl  r0,r1,#1
 add  r0,r0,r1                // offset = enemy ID * 6 bytes MODIF
-ldr  r1,=#0x8D098E0          // this is the base address of our extra enemy data table in ROM
+ldr  r1,=#0x8D099E0          // this is the base address of our extra enemy data table in ROM
 add  r0,r0,r1                // r0 now has address of this enemy's extra data entry
 ldrb r0,[r0,#5]              // r0 now has the proper line # to use from custom_text.bin
 mov  r1,#40

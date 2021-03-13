@@ -1879,7 +1879,7 @@ org $8D0829C; incbin text_custom_text.bin
 
 
 // insert a custom enemy data table, used by our custom control codes
-org $8D098E0; incbin data_enemy_extras.bin
+org $8D099E0; incbin data_enemy_extras.bin
 
 
 // insert a custom item data table, used by our custom control codes

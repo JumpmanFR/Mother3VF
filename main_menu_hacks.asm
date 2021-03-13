@@ -1527,7 +1527,7 @@ ldr  r0,=#0x201A1FD          // this gets the current item #
 ldrb r0,[r0,#0]
 
 
-mov  r1,#8                   // 8 article entries per letter (MODIF ICI)
+mov  r1,#9                   // 9 article entries per letter (MODIF ICI)
 mul  r0,r1                   // r3 = item num * 8
 ldr  r1,=#0x8D090D9          // this is the base address of our extra item data table in ROM
 add  r0,r0,r1                // r0 now has the address of the correct item table

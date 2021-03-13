@@ -7,6 +7,7 @@
 -
 -
 -
+-
 //Lighter's Lumber
 La 
 la 
@@ -16,6 +17,7 @@ la
 t
 e
 -
+la 
 //Fresh Lumber
 Une 
 une 
@@ -25,6 +27,7 @@ cette
 t
 e
 -
+votre 
 //Stick
 Un 
 un 
@@ -34,6 +37,7 @@ ce
 t
 -
 -
+votre 
 //Better Stick
 Un 
 un 
@@ -43,6 +47,7 @@ ce
 t
 -
 -
+votre 
 //Easy-Grip Stick
 Un 
 un 
@@ -52,6 +57,7 @@ ce
 t
 -
 -
+votre·
 //Good Stick
 Un 
 un 
@@ -61,6 +67,7 @@ ce
 t
 -
 -
+votre 
 //Very Good Stick
 Un 
 un 
@@ -70,6 +77,7 @@ ce
 t
 -
 -
+votre 
 //Funny Stick
 Un 
 un 
@@ -79,6 +87,7 @@ ce
 t
 -
 -
+votre 
 //Vigor Stick
 Un 
 un 
@@ -88,6 +97,7 @@ ce
 t
 -
 -
+votre 
 //Clever Stick
 Un 
 un 
@@ -97,6 +107,7 @@ ce
 t
 -
 -
+votre 
 //Master Stick
 Un 
 un 
@@ -106,6 +117,7 @@ ce
 t
 -
 -
+votre 
 //Mystical Stick
 Un 
 un 
@@ -115,6 +127,7 @@ ce
 t
 -
 -
+votre 
 //Gloves
 Des 
 des 
@@ -124,6 +137,7 @@ ces
 vent
 s
 -
+vos 
 //Durable Gloves
 Des 
 des 
@@ -133,6 +147,7 @@ ces
 vent
 s
 -
+vos 
 //Chic Gloves
 Des 
 des 
@@ -142,6 +157,7 @@ ces
 vent
 s
 -
+vos 
 //Strong Gloves
 Des 
 des 
@@ -151,6 +167,7 @@ ces
 vent
 s
 -
+vos 
 //Magic Gloves
 Des 
 des 
@@ -160,6 +177,7 @@ ces
 vent
 s
 -
+vos 
 //Sevolg
 Des 
 des 
@@ -169,6 +187,7 @@ ces
 vent
 s
 -
+vos 
 //Expensive Gloves
 Des 
 des 
@@ -178,6 +197,7 @@ ces
 vent
 s
 -
+vos 
 //Angel Gloves
 Des 
 des 
@@ -187,6 +207,7 @@ ces
 vent
 s
 -
+vos 
 //Mystical Gloves
 Des 
 des 
@@ -196,6 +217,7 @@ ces
 vent
 s
 -
+vos 
 //Ordinary Shoes
 Des 
 des 
@@ -205,6 +227,7 @@ ces
 vent
 es
 -
+vos 
 //Durable Shoes
 Des 
 des 
@@ -214,6 +237,7 @@ ces
 vent
 es
 -
+vos 
 //Sharp Shoes
 Des 
 des 
@@ -223,6 +247,7 @@ ces
 vent
 es
 -
+vos 
 //Ultimate Shoes
 Les 
 les 
@@ -232,6 +257,7 @@ les
 vent
 es
 -
+vos 
 //Mystical Shoes
 Des 
 des 
@@ -241,6 +267,7 @@ ces
 vent
 s
 -
+vos 
 //Good Shoes
 Des 
 des 
@@ -250,6 +277,7 @@ ces
 vent
 es
 -
+vos 
 //Rubber Boots
 Des 
 des 
@@ -259,6 +287,7 @@ ces
 vent
 es
 -
+vos 
 //Barefoot Shoes
 Des 
 des 
@@ -268,6 +297,7 @@ ces
 vent
 es
 -
+vos 
 //Non-Slip Shoes
 Des 
 des 
@@ -277,6 +307,7 @@ ces
 vent
 es
 -
+vos 
 //Handy Yo-Yo
 Un 
 un 
@@ -286,6 +317,7 @@ ce
 t
 -
 -
+votre·
 //Canine Weapon
 Une 
 une 
@@ -295,6 +327,7 @@ cette
 t
 e
 -
+votre 
 //DCMC Pamphlet
 Une 
 une 
@@ -304,6 +337,7 @@ cette
 t
 e
 -
+votre 
 //Fake Bat
 Une 
 une 
@@ -313,6 +347,7 @@ cette
 t
 e
 -
+votre 
 //Fake Frying Pan
 Une 
 une 
@@ -322,6 +357,7 @@ cette
 t
 e
 -
+votre 
 //Real Bat
 Une 
 une 
@@ -331,6 +367,7 @@ cette
 t
 e
 -
+votre 
 //Mini-Mini Charm
 Un 
 un 
@@ -340,6 +377,7 @@ ce
 t
 -
 -
+votre 
 //Flea Charm
 Un 
 un 
@@ -349,6 +387,7 @@ ce
 t
 -
 -
+votre 
 //Mosquito Charm
 Un 
 un 
@@ -358,6 +397,7 @@ ce
 t
 -
 -
+votre 
 //Fly Charm
 Un 
 un 
@@ -367,6 +407,7 @@ ce
 t
 -
 -
+votre 
 //Bantam Charm
 Un 
 un 
@@ -376,6 +417,7 @@ ce
 t
 -
 -
+votre 
 //Feather Charm
 Un 
 un 
@@ -385,6 +427,7 @@ ce
 t
 -
 -
+votre 
 //Pumice Charm
 Un 
 un 
@@ -394,6 +437,7 @@ ce
 t
 -
 -
+votre 
 //Heavy Charm
 Un 
 un 
@@ -403,6 +447,7 @@ ce
 t
 -
 -
+votre 
 //Thud Charm
 Un 
 un 
@@ -412,6 +457,7 @@ ce
 t
 -
 -
+votre 
 //White Collar
 Un 
 un 
@@ -421,6 +467,7 @@ ce
 t
 -
 -
+votre 
 //Brown Collar
 Un 
 un 
@@ -430,6 +477,7 @@ ce
 t
 -
 -
+votre 
 //Black Collar
 Un 
 un 
@@ -439,6 +487,7 @@ ce
 t
 -
 -
+votre 
 //Striped Collar
 Un 
 un 
@@ -448,6 +497,7 @@ ce
 t
 -
 -
+votre 
 //Red Collar
 Un 
 un 
@@ -457,6 +507,7 @@ ce
 t
 -
 -
+votre 
 //DCMC Shirt
 Un 
 un 
@@ -466,6 +517,7 @@ ce
 t
 -
 -
+votre 
 //Rubber Cape
 Une 
 une 
@@ -475,6 +527,7 @@ cette
 t
 e
 -
+votre 
 //Aloha Coat
 Un 
 un 
@@ -484,6 +537,7 @@ ce
 t
 -
 -
+votre 
 //Warm Sweater
 Un 
 un 
@@ -493,6 +547,7 @@ ce
 t
 -
 -
+votre 
 //Goddess Bustier
 Un 
 un 
@@ -502,6 +557,7 @@ ce
 t
 -
 -
+votre 
 //Awesome Cloak
 Une 
 une 
@@ -511,6 +567,7 @@ cette
 t
 e
 -
+votre 
 //Manly Bandana
 Un 
 un 
@@ -520,6 +577,7 @@ ce
 t
 -
 -
+votre 
 //Chick Bandana
 Un 
 un 
@@ -529,6 +587,7 @@ ce
 t
 -
 -
+votre 
 //Sparrow Bandana
 Un 
 un 
@@ -538,6 +597,7 @@ ce
 t
 -
 -
+votre 
 //Rail Bandana
 Un 
 un 
@@ -547,6 +607,7 @@ ce
 t
 -
 -
+votre 
 //Swallow Bandana
 Un 
 un 
@@ -556,6 +617,7 @@ ce
 t
 -
 -
+votre 
 //Crow Bandana
 Un 
 un 
@@ -565,6 +627,7 @@ ce
 t
 -
 -
+votre 
 //Kite Bandana
 Un 
 un 
@@ -574,6 +637,7 @@ ce
 t
 -
 -
+votre 
 //Horus Bandana
 Un 
 un 
@@ -583,6 +647,7 @@ ce
 t
 -
 -
+votre 
 //Ordinary Hat
 Un 
 un 
@@ -592,6 +657,7 @@ ce
 t
 -
 -
+votre 
 //Cow Hat
 Un 
 un 
@@ -601,6 +667,7 @@ ce
 t
 -
 -
+votre 
 //Alligator Hat
 Un 
 un 
@@ -610,6 +677,7 @@ ce
 t
 -
 -
+votre 
 //Bear Hat
 Un 
 un 
@@ -619,6 +687,7 @@ ce
 t
 -
 -
+votre 
 //Otter Hat
 Un 
 un 
@@ -628,6 +697,7 @@ ce
 t
 -
 -
+votre 
 //Scarlet Ribbon
 Un 
 un 
@@ -637,6 +707,7 @@ ce
 t
 -
 -
+votre 
 //Azure Ribbon
 Un 
 un 
@@ -646,6 +717,7 @@ ce
 t
 -
 -
+votre 
 //Boing Ribbon
 Un 
 un 
@@ -655,6 +727,7 @@ ce
 t
 -
 -
+votre 
 //Fairy Ribbon
 Un 
 un 
@@ -664,6 +737,7 @@ ce
 t
 -
 -
+votre 
 //Angel Ribbon
 Un 
 un 
@@ -673,6 +747,7 @@ ce
 t
 -
 -
+votre 
 //Goddess Ribbon
 Un 
 un 
@@ -682,6 +757,7 @@ ce
 t
 -
 -
+votre 
 //DCMC Hat
 Une 
 une 
@@ -691,6 +767,7 @@ cette
 t
 e
 -
+votre 
 //Awesome Crown
 Une 
 une 
@@ -700,6 +777,7 @@ cette
 t
 e
 -
+votre 
 //Aries Bracelet
 Un 
 un 
@@ -709,6 +787,7 @@ ce
 t
 -
 -
+votre 
 //Aquarius Bracelet
 Un 
 un 
@@ -718,6 +797,7 @@ ce
 t
 -
 -
+votre 
 //Pisces Bracelet
 Un 
 un 
@@ -727,6 +807,7 @@ ce
 t
 -
 -
+votre 
 //Capricorn Bracelet
 Un 
 un 
@@ -736,6 +817,7 @@ ce
 t
 -
 -
+votre 
 //Taurus Bracelet
 Un 
 un 
@@ -745,6 +827,7 @@ ce
 t
 -
 -
+votre 
 //Gemini Bracelet
 Un 
 un 
@@ -754,6 +837,7 @@ ce
 t
 -
 -
+votre 
 //Cancer Bracelet
 Un 
 un 
@@ -763,6 +847,7 @@ ce
 t
 -
 -
+votre 
 //Leo Bracelet
 Un 
 un 
@@ -772,6 +857,7 @@ ce
 t
 -
 -
+votre 
 //Virgo Bracelet
 Un 
 un 
@@ -781,6 +867,7 @@ ce
 t
 -
 -
+votre 
 //Libra Bracelet
 Un 
 un 
@@ -790,6 +877,7 @@ ce
 t
 -
 -
+votre 
 //Scorpio Bracelet
 Un 
 un 
@@ -799,6 +887,7 @@ ce
 t
 -
 -
+votre 
 //Sagittarius Bracelet
 Un 
 un 
@@ -808,6 +897,7 @@ ce
 t
 -
 -
+votre 
 //DCMC Ring
 Une 
 une 
@@ -817,6 +907,7 @@ cette
 t
 e
 -
+votre 
 //Awesome Ring
 Une 
 une 
@@ -826,6 +917,7 @@ cette
 t
 e
 -
+votre 
 //Favorite Food
 -
 -
@@ -835,6 +927,7 @@ e
 -
 -
 en 
+-
 //Nut
 Une 
 une 
@@ -844,6 +937,7 @@ cette
 t
 e
 la 
+-
 //Nut Bread (7e ligne spéciale)
 Du 
 du 
@@ -853,6 +947,7 @@ ce
 t
 il
 le 
+-
 //Nut Cookie
 Un 
 un 
@@ -862,6 +957,7 @@ ce
 t
 -
 le 
+-
 //Fresh Milk
 Du 
 du 
@@ -871,6 +967,7 @@ ce
 t
 -
 le 
+-
 //Rotten Milk
 Du 
 du 
@@ -880,6 +977,7 @@ ce
 t
 -
 le 
+-
 //Yogurt
 Un 
 un 
@@ -889,6 +987,7 @@ ce
 t
 -
 le 
+-
 //Edible Mushroom
 Un 
 un 
@@ -898,6 +997,7 @@ ce
 t
 -
 le 
+-
 //Innit Tea
 Du 
 du 
@@ -907,6 +1007,7 @@ ce
 t
 -
 le 
+-
 //Beef Jerky
 De la 
 de la 
@@ -916,6 +1017,7 @@ cette
 t
 e
 la 
+-
 //Fresh Egg
 Un 
 un 
@@ -925,6 +1027,7 @@ cet
 t
 -
 le 
+-
 //Rotten Eclair
 Un 
 un 
@@ -934,6 +1037,7 @@ cet
 t
 -
 le 
+-
 //Rotten Bavarois
 Un 
 un 
@@ -943,6 +1047,7 @@ ce
 t
 -
 le 
+-
 //Peculiar Cheese
 Du 
 du 
@@ -952,6 +1057,7 @@ ce
 t
 -
 le 
+-
 //Bag of Pork Chips
 Des 
 des 
@@ -961,6 +1067,7 @@ ces
 vent
 es
 les 
+-
 //Luxury Banana (7e ligne spéciale)
 Une 
 une 
@@ -970,6 +1077,7 @@ cette
 t
 elle
 la 
+-
 //Bread Roll
 Une 
 une 
@@ -979,6 +1087,7 @@ cette
 t
 e
 la 
+-
 //Fizzy Soda
 Un 
 un 
@@ -988,6 +1097,7 @@ ce
 t
 -
 le 
+-
 //Big City Soda
 Un 
 un 
@@ -997,6 +1107,7 @@ ce
 t
 -
 le 
+-
 //Big City Cola
 Un 
 un 
@@ -1006,6 +1117,7 @@ ce
 t
 -
 le 
+-
 //Big City Burger
 Un 
 un 
@@ -1015,6 +1127,7 @@ ce
 t
 -
 le 
+-
 //Bag of Big City Fries
 Des 
 des 
@@ -1024,6 +1137,7 @@ ces
 vent
 es
 les 
+-
 //Doggy Biscuit
 Un 
 un 
@@ -1033,6 +1147,7 @@ ce
 t
 -
 le 
+-
 //Doggy Jerky
 Un 
 un 
@@ -1042,6 +1157,7 @@ ce
 t
 -
 le 
+-
 //White Croissant
 Un 
 un 
@@ -1051,6 +1167,7 @@ ce
 t
 -
 le 
+-
 //Cup of Pork Noodles
 Des 
 des 
@@ -1060,6 +1177,7 @@ ces
 vent
 es
 les 
+-
 //Pork Stew
 Du 
 du 
@@ -1069,6 +1187,7 @@ ce
 t
 -
 le 
+-
 //Sincerity Dumplings
 Des 
 des 
@@ -1078,6 +1197,7 @@ ces
 vent
 es
 les 
+-
 //Strawberry Tofu
 Du 
 du 
@@ -1087,6 +1207,7 @@ ce
 t
 -
 le 
+-
 //Lucky Rice
 Du 
 du 
@@ -1096,6 +1217,7 @@ ce
 t
 -
 le 
+-
 //Lotto Meal
 Un 
 un 
@@ -1105,6 +1227,7 @@ ce
 t
 -
 le 
+-
 //Jumbo Shrimp Soup
 De la 
 de la 
@@ -1114,6 +1237,7 @@ cette
 t
 e
 la 
+-
 //Giant Abalone Steak
 Un 
 un 
@@ -1123,6 +1247,7 @@ ce
 t
 -
 le 
+-
 //Double Jerky
 Une 
 une 
@@ -1132,6 +1257,7 @@ cette
 t
 e
 la 
+-
 //Grilled Chicken
 Du 
 du 
@@ -1141,6 +1267,7 @@ ce
 t
 -
 le 
+-
 //Grilled Fish
 Du 
 du 
@@ -1150,6 +1277,7 @@ ce
 t
 -
 le 
+-
 //Pasta with a Past
 Des 
 des 
@@ -1159,6 +1287,7 @@ ces
 vent
 es
 les 
+-
 //Favorite Pizza
 Une 
 une 
@@ -1168,6 +1297,7 @@ cette
 t
 e
 la 
+-
 //King Burger
 Un 
 un 
@@ -1177,6 +1307,7 @@ ce
 t
 -
 le 
+-
 //Beefsteak
 Un 
 un 
@@ -1186,6 +1317,7 @@ ce
 t
 -
 le 
+-
 //Rich Kid Stew
 Du 
 du 
@@ -1195,6 +1327,7 @@ ce
 t
 -
 le 
+-
 //Rich Parfait
 Un 
 un 
@@ -1204,6 +1337,7 @@ ce
 t
 -
 le 
+-
 //Hot Dog Sushi
 Un 
 un 
@@ -1213,6 +1347,7 @@ ce
 t
 -
 le 
+-
 //Magic Gelatin
 De la 
 de la 
@@ -1222,6 +1357,7 @@ cette
 t
 e
 la 
+-
 //Magic Tart
 Une 
 une 
@@ -1231,6 +1367,7 @@ cette
 t
 e
 la 
+-
 //Magic Pudding
 Du 
 du 
@@ -1240,6 +1377,7 @@ ce
 t
 -
 le 
+-
 //Magic Cake
 Du 
 du 
@@ -1249,6 +1387,7 @@ ce
 t
 -
 le 
+-
 //Antidote
 Un 
 un 
@@ -1258,6 +1397,7 @@ cet
 t
 -
 le 
+-
 //Anti-Paralysis
 Un 
 un 
@@ -1267,6 +1407,7 @@ cet
 t
 -
 le 
+-
 //Alarm Cicada
 Une 
 une 
@@ -1276,6 +1417,7 @@ cette
 t
 e
 la 
+-
 //Fresh Mint
 De la 
 de la 
@@ -1285,6 +1427,7 @@ cette
 t
 e
 la 
+-
 //Paper Fan
 Un 
 un 
@@ -1292,6 +1435,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Recollection Bell
@@ -1303,6 +1447,7 @@ cette
 t
 e
 -
+-
 //Eye Drops
 Des 
 des 
@@ -1311,6 +1456,7 @@ les
 ces 
 vent
 es
+-
 -
 //Flea Powder
 De la 
@@ -1321,6 +1467,7 @@ cette
 t
 e
 la 
+-
 //Secret Herb
 Une 
 une 
@@ -1330,6 +1477,7 @@ cette
 t
 e
 la 
+-
 //Cup of Lifenoodles
 Des 
 des 
@@ -1339,6 +1487,7 @@ ces
 vent
 es
 les 
+-
 //Hot Spring Egg
 Un 
 un 
@@ -1348,6 +1497,7 @@ cet
 t
 -
 le 
+-
 //Thunder Bomb
 Une 
 une 
@@ -1356,6 +1506,7 @@ la
 cette 
 t
 e
+-
 -
 //Running Bomb
 Une 
@@ -1366,6 +1517,7 @@ cette
 t
 e
 -
+-
 //Sprinting Bomb
 Une 
 une 
@@ -1375,6 +1527,7 @@ cette
 t
 e
 -
+-
 //Pencil Rocket
 Un 
 un 
@@ -1382,6 +1535,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Bomb
@@ -1393,6 +1547,7 @@ cette
 t
 e
 -
+-
 //Super Bomb
 Une 
 une 
@@ -1401,6 +1556,7 @@ la
 cette 
 t
 e
+-
 -
 //New Year's Eve Bomb
 Une 
@@ -1411,6 +1567,7 @@ cette
 t
 e
 -
+-
 //Honey Shower
 Une 
 une 
@@ -1420,6 +1577,7 @@ cette
 t
 e
 la 
+-
 //Ancient Banana
 Une 
 une 
@@ -1429,6 +1587,7 @@ cette
 t
 e
 la 
+-
 //Doorknob
 Une 
 une 
@@ -1438,6 +1597,7 @@ cette
 t
 e
 -
+-
 //Bug Spray
 Un 
 un 
@@ -1445,6 +1605,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Saltwater Gun
@@ -1456,6 +1617,7 @@ ce
 t
 -
 -
+-
 //Offense Spray
 Un 
 un 
@@ -1463,6 +1625,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Defense Spray
@@ -1474,6 +1637,7 @@ ce
 t
 -
 -
+-
 //Enemy Bufferizer
 Un 
 un 
@@ -1481,6 +1645,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Enemy Wimperizer
@@ -1492,6 +1657,7 @@ ce
 t
 -
 -
+-
 //Attack Attractor
 Un 
 un 
@@ -1499,6 +1665,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Made-You-Look
@@ -1510,6 +1677,7 @@ ce
 t
 -
 -
+-
 //Dragonfly
 Une 
 une 
@@ -1518,6 +1686,7 @@ la
 cette 
 t
 e
+-
 -
 //Silver Dragonfly
 Une 
@@ -1528,6 +1697,7 @@ cette
 t
 e
 -
+-
 //Chick
 Un 
 un 
@@ -1535,6 +1705,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Chicken
@@ -1546,6 +1717,7 @@ ce
 t
 -
 -
+-
 //Pickled Veggie Plate
 Des 
 des 
@@ -1555,6 +1727,7 @@ ces
 vent
 s
 les 
+-
 //Meteotite
 Une 
 une 
@@ -1563,6 +1736,7 @@ la
 cette 
 t
 e
+-
 -
 //Friend's Yo-Yo
 Le 
@@ -1573,6 +1747,7 @@ le
 t
 -
 -
+le 
 //Drago Fang
 Le 
 le 
@@ -1580,6 +1755,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Dung
@@ -1591,6 +1767,7 @@ cette
 t
 e
 la 
+-
 //Dolphin Ossicle
 Un 
 un 
@@ -1598,6 +1775,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Spiky Weapon
@@ -1609,6 +1787,7 @@ cette
 t
 e
 -
+votre 
 //Knit Sweater
 Un 
 un 
@@ -1618,6 +1797,7 @@ ce
 t
 -
 -
+votre 
 //DCMC Boxers
 Un 
 un 
@@ -1627,6 +1807,7 @@ ce
 t
 -
 -
+votre 
 //Magic Pendant
 Un 
 un 
@@ -1636,6 +1817,7 @@ ce
 t
 -
 -
+votre 
 //Encouraging Words
 Des 
 des 
@@ -1644,6 +1826,7 @@ les
 ces 
 vent
 s
+-
 -
 //Baked Yam
 Une 
@@ -1654,6 +1837,7 @@ cette
 t
 e
 la 
+-
 //Mole Cricket Brother
 Le 
 le 
@@ -1661,6 +1845,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Hermit Crab Shell
@@ -1672,6 +1857,7 @@ cette
 t
 e
 -
+-
 //Suspicious Tea
 Du 
 du 
@@ -1681,6 +1867,7 @@ ce
 t
 -
 le 
+-
 //Flame Pendant
 Un 
 un 
@@ -1690,6 +1877,7 @@ ce
 t
 -
 -
+votre 
 //Ice Pendant
 Un 
 un 
@@ -1699,6 +1887,7 @@ ce
 t
 -
 -
+votre 
 //Thunder Pendant
 Un 
 un 
@@ -1708,6 +1897,7 @@ ce
 t
 -
 -
+votre 
 //Courage Badge
 Le 
 le 
@@ -1715,6 +1905,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Souvenir Dress
@@ -1726,6 +1917,7 @@ cette
 t
 e
 -
+votre 
 //Pencil Eraser
 Un 
 un 
@@ -1733,6 +1925,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Franklin Badge
@@ -1744,6 +1937,7 @@ le
 t
 -
 -
+-
 //Kid's Shirt
 Un 
 un 
@@ -1753,6 +1947,7 @@ ce
 t
 -
 -
+votre 
 //Good Kid's Shirt
 Un 
 un 
@@ -1762,6 +1957,7 @@ ce
 t
 -
 -
+votre 
 //Kid's Hat
 Un 
 un 
@@ -1771,6 +1967,7 @@ ce
 t
 -
 -
+votre 
 //Jar of Yummy Pickles
 Des 
 des 
@@ -1780,6 +1977,7 @@ ces
 vent
 s
 les 
+-
 //Red Hat
 Une 
 une 
@@ -1789,6 +1987,7 @@ cette
 t
 e
 -
+votre 
 //White Ribbon
 Un 
 un 
@@ -1797,7 +1996,8 @@ le
 ce 
 t
 -
--
+votre 
+votre 
 //Bird
 Un 
 un 
@@ -1805,6 +2005,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Memory Snake
@@ -1816,6 +2017,7 @@ ce
 t
 -
 -
+-
 //Waters of Time
 L'
 l'
@@ -1825,6 +2027,7 @@ l'
 t
 e
 -
+-
 //Stinkbug's Memory
 Le 
 le 
@@ -1832,6 +2035,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Phrygia's Notebook
@@ -1843,6 +2047,7 @@ le
 t
 -
 -
+-
 //Shield Snatcher
 Un 
 un 
@@ -1850,6 +2055,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Test
@@ -1861,14 +2067,6 @@ t
 -
 -
 -
-//EMPTY
--
--
--
--
--
--
--
 -
 //EMPTY
 -
@@ -1879,7 +2077,19 @@ t
 -
 -
 -
+-
 //EMPTY
+-
+-
+-
+-
+-
+-
+-
+-
+-
+//EMPTY
+-
 -
 -
 -
@@ -1897,6 +2107,7 @@ la
 t
 e
 -
+-
 //Trivia Card 2
 La 
 la 
@@ -1905,6 +2116,7 @@ la
 la 
 t
 e
+-
 -
 //Trivia Card 3
 La 
@@ -1915,6 +2127,7 @@ la
 t
 e
 -
+-
 //Trivia Card 4
 La 
 la 
@@ -1923,6 +2136,7 @@ la
 la 
 t
 e
+-
 -
 //Wall Staples
 Des 
@@ -1933,6 +2147,7 @@ ces
 vent
 es
 -
+-
 //Siren Beetle
 Un 
 un 
@@ -1940,6 +2155,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Smoke Bomb
@@ -1951,6 +2167,7 @@ cette
 t
 e
 -
+-
 //Hypno-Pendulum
 Un 
 un 
@@ -1958,6 +2175,7 @@ L'
 l'
 cet 
 t
+-
 -
 -
 //Scary Mask
@@ -1969,6 +2187,7 @@ ce
 t
 -
 -
+-
 //Tickle Stick
 Un 
 un 
@@ -1976,6 +2195,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Drawbridge Key
@@ -1987,6 +2207,7 @@ la
 t
 e
 -
+-
 //Noble Spittoon
 Le 
 le 
@@ -1994,6 +2215,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Pendant
@@ -2005,6 +2227,7 @@ ce
 t
 -
 -
+votre 
 //Egg of Light
 L'
 l'
@@ -2012,6 +2235,7 @@ L'
 l'
 l'
 t
+-
 -
 -
 //Scrap of Cloth
@@ -2023,6 +2247,7 @@ ce
 t
 -
 -
+-
 //Pig Mark Notebook
 Un 
 un 
@@ -2030,6 +2255,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Child's Shoe
@@ -2041,6 +2267,7 @@ cette
 t
 e
 -
+-
 //Hand File
 Une 
 une 
@@ -2050,6 +2277,7 @@ cette
 t
 e
 -
+-
 //Rope Snake
 Le 
 le 
@@ -2057,6 +2285,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Rope Snake DX
@@ -2068,6 +2297,7 @@ le
 t
 -
 -
+-
 //Transceiver
 Un 
 un 
@@ -2075,6 +2305,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Ticket
@@ -2086,6 +2317,7 @@ ce
 t
 -
 -
+-
 //Battle Memory
 Le 
 le 
@@ -2093,6 +2325,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Carrier Pigeon
@@ -2104,6 +2337,7 @@ ce
 t
 -
 le 
+-
 //Razor & Lipstick
 Un 
 un 
@@ -2111,6 +2345,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Ionia's Memento
@@ -2122,6 +2357,7 @@ le
 t
 -
 -
+-
 //Doria's Memento
 Le 
 le 
@@ -2129,6 +2365,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Phrygia Memento
@@ -2140,6 +2377,7 @@ le
 t
 -
 -
+-
 //Lydia's Memento
 Le 
 le 
@@ -2147,6 +2385,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Missy's Memento
@@ -2158,6 +2397,7 @@ le
 t
 -
 -
+-
 //Aeolia's Memento
 Le 
 le 
@@ -2165,6 +2405,7 @@ Le
 le 
 le 
 t
+-
 -
 -
 //Tazmily Map
@@ -2176,6 +2417,7 @@ cette
 t
 e
 -
+-
 //Osohe Sketch
 Un 
 un 
@@ -2183,6 +2425,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Underground Map
@@ -2194,6 +2437,7 @@ cette
 t
 e
 -
+-
 //Railway Map
 Une 
 une 
@@ -2202,6 +2446,7 @@ la
 cette 
 t
 e
+-
 -
 //Area Map
 Une 
@@ -2212,6 +2457,7 @@ cette
 t
 e
 -
+-
 //Attic Guide
 Un 
 un 
@@ -2219,6 +2465,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Saturn Valley Map
@@ -2230,6 +2477,7 @@ cette
 t
 e
 -
+-
 //Sea Floor Map
 Une 
 une 
@@ -2238,6 +2486,7 @@ la
 cette 
 t
 e
+-
 -
 //Cave Map
 Une 
@@ -2248,6 +2497,7 @@ cette
 t
 e
 -
+-
 //City Map
 Une 
 une 
@@ -2257,6 +2507,7 @@ cette
 t
 e
 -
+-
 //Tower Sketch
 Un 
 un 
@@ -2264,6 +2515,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //Chimera Lab Map
@@ -2275,6 +2527,7 @@ cette
 t
 e
 -
+-
 //Cricket Hole Map
 Une 
 une 
@@ -2283,6 +2536,7 @@ la
 cette 
 t
 e
+-
 -
 //Highway Map
 Une 
@@ -2293,6 +2547,7 @@ cette
 t
 e
 -
+-
 //Factory Sketch
 Un 
 un 
@@ -2300,6 +2555,7 @@ Le
 le 
 ce 
 t
+-
 -
 -
 //
