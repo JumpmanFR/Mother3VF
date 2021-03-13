@@ -59,7 +59,7 @@
 001B: Carefully crafted shoes.[BREAK]Offense +70.[END]
 001B-E: Des chaussures fabriquées avec amour.[BREAK]Attaque +70.[END]
 001C: Offense +25.[BREAK]Somewhat strong against lightning.[END]
-001C-E: Attaque +25.[BREAK]Plutôt résistant contre la foudre.[END]
+001C-E: Attaque +25.[BREAK]Protège un peu contre la foudre.[END]
 001D: Shoes with bare feet printed on them.[BREAK]Offense +38.[END]
 001D-E: Des chaussures avec des pieds nus en guise[BREAK]de motif. Attaque +38.[END]
 001E: Shoes with extra things on the bottom.[BREAK]Offense +58.[END]

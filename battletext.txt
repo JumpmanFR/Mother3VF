@@ -2156,7 +2156,7 @@
 042D: But it didn't work.[END]
 042D-E: Mais c'est un échec.[END]
 042E: It didn't hit anyone![END]
-042E-E: Ça ne touche personne·![END]
+042E-E: Ça n'a touché personne·![END]
 042F: [04 EF][12 FF] and company were eradicated![END]
 042F-E: [04 EF][12 FF] et son équipe ont été éradiqués·![END]
 0430: It had no effect on [12 FF]![END]
