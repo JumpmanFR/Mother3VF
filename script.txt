@@ -3323,7 +3323,7 @@
 
 [Container 35]
 35-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-35-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+35-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 35-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 35-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -3474,7 +3474,7 @@
 36-30E:@Si vous croisez un de mes camarades[BREAK]¬taupes-grillons, transmettez-lui mes amitiés.[WAIT][PAUSE 0F 00]@*bling*[END]
 // Repeats: 36-30, 43-9, 96-30, 99-2, 180-30, 181-30, 182-30, 192-30, 327-30, 328-30, 329-30, 330-30, 331-30, 332-30, 373-30, 374-30, 375-30, 376-30, 377-30, 378-30, 379-30, 467-29
 36-31:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-36-31E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+36-31E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 36-32:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 36-32E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -3571,7 +3571,7 @@
 36-69:@Oink.[WAIT]¬(While I just layed here like this...[WAIT]¬I managed to forget all the bad things in life...[WAIT]¬But now the good things start to seem even[BREAK]¬worse now...[WAIT]¬*sizzle* *sizzle*)[END]
 36-69E:@Gruik.[WAIT]¬(En restant allongé ici, comme ça...[WAIT]¬j'ai réussi à oublier toutes les mauvaises[BREAK]¬choses de la vie...[WAIT]¬Mais maintenant, les bonnes choses[BREAK]¬commencent à me paraître encore pire...[WAIT]¬*grille* *grille*)[END]
 36-70:@You need me for something?! Something I'm[BREAK]¬especially good at?[WAIT]@No, no.[PAUSE 18 00] I know, I know. I can tell.[WAIT]@You wanna ask about Tanetane Island, right?[WAIT]@Don't pretend you don't![WAIT]@I know you wanna know about Tanetane Island.[WAIT]@Okay, I'll tell you about it.[WAIT]@There's an island straight across the sea from[BREAK]¬this beach.[WAIT]@It's known as Tanetane Island, or sometimes[BREAK]¬"Spooky Island".[WAIT][PAUSE 3C 00]@Actually, I was the one who thought up the[BREAK]¬name "Spooky Island".[WAIT]@They say the only way to get there is to dive[BREAK]¬to the bottom of the ocean.[WAIT]@Yeah, right! As if that's really possible![WAIT]¬I think not![WAIT]@Anyways, that's all I know.[WAIT]@But I do know all kinds of other good stuff.[WAIT]@I'd love to talk about them, and I know you'd[BREAK]¬love to hear about them.[WAIT]@What? You DON'T want to hear about them?![END]
-36-70E:@Tu as besoin de moi pour quelque chose·?![WAIT]¬Quelque chose pour lequel je suis[BREAK]¬particulièrement qualifié·?[WAIT]@Non, non.[PAUSE 18 00] Je sais, je sais. Je devine bien.[WAIT]@Tu veux me parler de l'île de Tanetane, c'est[BREAK]¬ça·?[WAIT]@Ne fais pas comme si ça ne t'intéressait pas·![WAIT]@Je sais que tu·veux en savoir plus sur·cette île.[WAIT]@D'accord, je vais t'en parler.[WAIT]@Donc il y a une île de l'autre côté de la mer,[BREAK]¬tout droit à partir de cette plage.[WAIT]@On l'appelle l'île de Tanetane, ou parfois l'"île[BREAK]¬Sinistre".[WAIT][PAUSE 3C 00]@En fait, c'est moi qui ai inventé l'expression de[BREAK]¬l'"île Sinistre".[WAIT]@On dit que le seul moyen d'y accéder est de[BREAK]¬plonger au fond de l'océan.[WAIT]@Tiens donc·! Comme si c'était possible·![WAIT]¬Ça m'étonnerait fort·![WAIT]@Bref, c'est tout ce que je sais sur ce sujet.[WAIT]@Mais je sais aussi toutes sortes de choses[BREAK]¬sympathiques.[WAIT]@J'adorerais en parler, et je sais que tu[BREAK]¬adorerais les entendre.[WAIT]@Quoi·? Tu ne veux PAS les entendre·?![END]
+36-70E:@Tu as besoin de moi pour quelque chose·?![WAIT]¬Quelque chose pour lequel je suis[BREAK]¬particulièrement qualifié·?[WAIT]@Non, non.[PAUSE 18 00] Je sais, je sais. Je devine bien.[WAIT]@Tu veux que je te parle de l'île de Tanetane,[BREAK]¬c'est ça·?[WAIT]@Ne fais pas comme si ça ne t'intéressait pas·![WAIT]@Je sais que tu·veux en savoir plus sur·cette île.[WAIT]@D'accord, je vais t'en parler.[WAIT]@Donc il y a une île de l'autre côté de la mer,[BREAK]¬tout droit à partir de cette plage.[WAIT]@On l'appelle l'île de Tanetane, ou parfois l'"île[BREAK]¬Sinistre".[WAIT][PAUSE 3C 00]@En fait, c'est moi qui ai inventé l'expression de[BREAK]¬l'"île Sinistre".[WAIT]@On dit que le seul moyen d'y accéder est de[BREAK]¬plonger au fond de l'océan.[WAIT]@Tiens donc·! Comme si c'était possible·![WAIT]¬Ça m'étonnerait fort·![WAIT]@Bref, c'est tout ce que je sais sur ce sujet.[WAIT]@Mais je sais aussi toutes sortes de choses[BREAK]¬sympathiques.[WAIT]@J'adorerais en parler, et je sais que tu[BREAK]¬adorerais les entendre.[WAIT]@Quoi·? Tu ne veux PAS les entendre·?![END]
 36-71:@There's a legend about mermaids.[WAIT]@I've heard a little bit about it.[WAIT]@The legend says that mermaids use the power[BREAK]¬of love to rescue people who're drowning.[WAIT]@Isn't that such a lovely story?[END]
 36-71E:@Il existe une légende à propos des sirènes.[WAIT]@J'en ai entendu quelques mots.[WAIT]@La légende dit que les·sirènes·utilisent·le pouvoir[BREAK]¬de l'amour pour sauver les gens de la noyade.[WAIT]@N'est-elle pas adorable, cette histoire·?[END]
 36-72:@That woman over there...[WAIT]@She still keeps looking this way...[WAIT]@And she was looking at me at Club Titiboo,[BREAK]¬too.[WAIT]@I guess she must like me, huh?[WAIT]@Oh, I'm so nervous.[BREAK]¬*thump* *thump*[END]
@@ -3737,7 +3737,7 @@
 
 [Container 38]
 38-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-38-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+38-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 38-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 38-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -4414,7 +4414,7 @@
 
 [Container 48]
 48-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-48-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+48-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 48-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 48-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -4492,7 +4492,7 @@
 
 [Container 49]
 49-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-49-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+49-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 49-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 49-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -4728,7 +4728,7 @@
 53-1E:©Il y a une porte ici.[WAIT]©Des silhouettes dansantes y sont[BREAK]¬représentées.[END]
 // Repeats: 53-1, 54-1
 53-2:@Commander![WAIT]@The Needle appears to be behind a strange[BREAK]¬type of door in the Murasaki Forest![WAIT]@One of the monkeys in the Chimera Lab is the[BREAK]¬key to pulling the Needle...[WAIT]¬...but it's broken out of its cage and is running[BREAK]¬loose inside the building![WAIT]@Ukkii![WAIT]@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00]Sorry. It's cold out.[WAIT]@Anyways, please send reinforcements...[WAIT]@Ahh!! Hey, you![WAIT]@That's the key to--![WAIT]@*krssssssshhhh*[PAUSE 20 00] *boop*[PAUSE 10 00] *boop*[PAUSE 10 00] *boop*[PAUSE 20 00][BREAK]¬*click* *beep-beep-beep*[END]
-53-2E:@Commandant·![WAIT]@Il semblerait que l'Aiguille se situe derrière une[BREAK]¬étrange porte dans la forêt Pourpre·![WAIT]@Un des singes du Labo chimérique est la clé[BREAK]¬pour retirer l'Aiguille...[WAIT]¬... mais il s'est enfui de sa cage et circule[BREAK]¬librement dans le bâtiment·![WAIT]@Ouk hii·![WAIT]@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00] Désolé. Il fait froid dehors.[WAIT]@Bref, merci d'envoyer des renforts...[WAIT]@Ahh·!! Hé toi·![WAIT]@C'est la clé pour—·![WAIT]@*krssssssshhhh*[PAUSE 20 00] *tut*[PAUSE 10 00] *tut*[PAUSE 10 00] *tut*[PAUSE 20 00][BREAK]¬*click* *bip-bip-bip*[END]
+53-2E:@Commandant·![WAIT]@Il semblerait que l'Aiguille se situe derrière une[BREAK]¬étrange porte dans la forêt Pourpre·![WAIT]@Un des singes du Labo chimérique est la clé[BREAK]¬pour retirer l'Aiguille...[WAIT]¬... mais il s'est enfui de sa cage et circule[BREAK]¬librement dans le bâtiment·![WAIT]@Ouk-hii·![WAIT]@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00] Désolé. Il fait froid dehors.[WAIT]@Bref, merci d'envoyer des renforts...[WAIT]@Ahh·!! Hé toi·![WAIT]@C'est la clé pour—·![WAIT]@*krssssssshhhh*[PAUSE 20 00] *tut*[PAUSE 10 00] *tut*[PAUSE 10 00] *tut*[PAUSE 20 00][BREAK]¬*click* *bip-bip-bip*[END]
 // Repeats: 53-2, 54-2
 53-3:@Squeak SQUEAK![WAIT]¬(Whoa, whoa, whoa! Hold it right there![WAIT]¬Just where do you think YOU'RE goin'?!)[END]
 53-3E:@Couic COUIC·![WAIT]¬(Holà, holà, holà·! On s'arrête tout de suite·![WAIT]¬Tu crois aller OÙ comme ça·?!)[END]
@@ -4763,7 +4763,7 @@
 54-1E:©Il y a une porte ici.[WAIT]©Des silhouettes dansantes y sont[BREAK]¬représentées.[END]
 // Repeats: 53-1, 54-1
 54-2:@Commander![WAIT]@The Needle appears to be behind a strange[BREAK]¬type of door in the Murasaki Forest![WAIT]@One of the monkeys in the Chimera Lab is the[BREAK]¬key to pulling the Needle...[WAIT]¬...but it's broken out of its cage and is running[BREAK]¬loose inside the building![WAIT]@Ukkii![WAIT]@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00]Sorry. It's cold out.[WAIT]@Anyways, please send reinforcements...[WAIT]@Ahh!! Hey, you![WAIT]@That's the key to--![WAIT]@*krssssssshhhh*[PAUSE 20 00] *boop*[PAUSE 10 00] *boop*[PAUSE 10 00] *boop*[PAUSE 20 00][BREAK]¬*click* *beep-beep-beep*[END]
-54-2E:@Commandant·![WAIT]@Il semblerait que l'Aiguille se situe derrière une[BREAK]¬étrange porte dans la forêt Pourpre·![WAIT]@Un des singes du Labo chimérique est la clé[BREAK]¬pour retirer l'Aiguille...[WAIT]¬... mais il s'est enfui de sa cage et circule[BREAK]¬librement dans le bâtiment·![WAIT]@Ouk hii·![WAIT]@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00] Désolé. Il fait froid dehors.[WAIT]@Bref, merci d'envoyer des renforts...[WAIT]@Ahh·!! Hé toi·![WAIT]@C'est la clé pour—·![WAIT]@*krssssssshhhh*[PAUSE 20 00] *tut*[PAUSE 10 00] *tut*[PAUSE 10 00] *tut*[PAUSE 20 00][BREAK]¬*click* *bip-bip-bip*[END]
+54-2E:@Commandant·![WAIT]@Il semblerait que l'Aiguille se situe derrière une[BREAK]¬étrange porte dans la forêt Pourpre·![WAIT]@Un des singes du Labo chimérique est la clé[BREAK]¬pour retirer l'Aiguille...[WAIT]¬... mais il s'est enfui de sa cage et circule[BREAK]¬librement dans le bâtiment·![WAIT]@Ouk-hii·![WAIT]@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00] Désolé. Il fait froid dehors.[WAIT]@Bref, merci d'envoyer des renforts...[WAIT]@Ahh·!! Hé toi·![WAIT]@C'est la clé pour—·![WAIT]@*krssssssshhhh*[PAUSE 20 00] *tut*[PAUSE 10 00] *tut*[PAUSE 10 00] *tut*[PAUSE 20 00][BREAK]¬*click* *bip-bip-bip*[END]
 // Repeats: 53-2, 54-2
 54-3:@Squeak SQUEAK![WAIT]¬(Whoa, whoa, whoa! Hold it right there![WAIT]¬Just where the hell do you think YOU'RE[BREAK]¬goin'?!)[END]
 54-3E:@Couic COUIC·![WAIT]¬(Holà, holà, holà·! On s'arrête tout de suite·![WAIT]¬Tu crois aller OÙ comme ça·?!)[END]
@@ -5869,7 +5869,7 @@
 88-5:@I always assumed that the Dark Dragon would[BREAK]¬stay sealed away for eternity...[END]
 88-5E:@J'ai toujours supposé que le Dragon ténébreux[BREAK]¬resterait enfermé pour l'éternité...[END]
 88-6:@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00][WAIT]@No, [PAUSE 20 00]we still have a chance left.[END]
-88-6E:@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00][WAIT]@Non, [PAUSE 20 00]tout n'est pas encore perdu.[END]
+88-6E:@.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00][WAIT]@Non, [PAUSE 20 00]il nous reste une chance.[END]
 88-7:@You were able to learn PK [FAVTHING].[WAIT]@Could it be that you're also able to[PAUSE 10 00].[PAUSE 10 00].[PAUSE 10 00].[END]
 88-7E:@Tu es parvenu à apprendre PK [FAVTHING].[WAIT]@Se pourrait-il que tu parviennes aussi à[PAUSE 10 00].[PAUSE 10 00].[PAUSE 10 00].[END]
 88-8:@Oh, that's right.[WAIT]@I haven't explained anything to you at all.[WAIT]@I need to tell you about the Needles.[END]
@@ -8475,7 +8475,7 @@
 169-4:@Fuel's been helping out around the store,[PAUSE 1E 00] but[BREAK]¬sometimes I feel like he's getting in the way.[WAIT]@I don't have the heart to tell him, though.[END]
 169-4E:@Fioul nous aide au magasin,[PAUSE 1E 00] mais des fois j'ai[BREAK]¬l'impression qu'il nous complique la tâche.[WAIT]@J'ose pas lui dire, en tout cas.[END]
 169-5:@Fuel sometimes eats the store's bread.[WAIT]@I've seen him do it.[WAIT]@I only eat it once in a while.[END]
-169-5E:@Des fois, Fioul mange le pain du magasin.[WAIT]@Je l'ai vu faire.[WAIT]@Moi, je ne le fais qu'une fois de temps en[BREAK]¬temps.[END]
+169-5E:@Des fois, Fioul mange le pain du magasin.[WAIT]@Je l'ai vu faire.[WAIT]@Moi, je le fais qu'une fois de temps en temps.[END]
 169-6:@Fuel's got this crazy idea that I like him...[WAIT]@But that would never[PAUSE 20 00], ever[PAUSE 20 00] happen, just so[BREAK]¬you know![END]
 169-6E:@Fioul s'est mis dans la tête que j'avais des[BREAK]¬sentiments pour lui...[WAIT]@Mais pour ton information, ça n'arrivera jamais[BREAK][PAUSE 20 00]¬jamais[PAUSE 20 00] jamais·![END]
 169-7:@The factory?[WAIT]@I walked along the tracks to get there one[BREAK]¬time.[WAIT]@It was so far away![WAIT]@My dad yelled at me afterwards.[END]
@@ -10936,7 +10936,7 @@
 222-54E:©Une charrette à bras.[WAIT]¬Aussi appelée brouette.[END]
 // Repeats: 10-54, 222-54, 506-54
 222-55:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-222-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+222-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 222-56:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 222-56E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -11048,7 +11048,7 @@
 
 [Container 223]
 223-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-223-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+223-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 223-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 223-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -12482,7 +12482,7 @@
 262-9E:©Un [ENEMYNAME F0 FF] qui a l'air docile.[END]
 // Poisson-chien et Autruléphant
 262-10:@Some Chimeras, such as these ones, are fond[BREAK]¬of people.[WAIT]@Don't worry, they don't fight.[WAIT]@Or bite.[WAIT]@I wonder how they wound up like this.[END]
-262-10E:@Certaines chimères, comme celles-ci, peuvent[BREAK]¬être très amicales.[WAIT]@Ne t'inquiète pas, elles n'attaquent pas.[WAIT]@Et ne mordent pas non plus.[WAIT]@Je me demande ce qui les a rendues comme ça.[END]
+262-10E:@Certaines chimères, comme celles-ci, peuvent[BREAK]¬être très amicales.[WAIT]@Ne vous inquiétez pas, elles n'attaquent pas.[WAIT]@Et elles ne mordent pas non plus.[WAIT]@Je me demande ce qui les a rendues comme ça.[END]
 262-11:[END]
 262-11E:[END]
 
@@ -14269,7 +14269,7 @@
 344-13:@Oh! You're...[WAIT]¬...the part-timers who start here today, right?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 344-13E:@Oh·! Tu es...[WAIT]¬... un des travailleurs saisonniers qui[BREAK]¬démarrent aujourd'hui, c'est ça·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 344-14:@Okay, cool.[WAIT]@You can get inside through the back of the[BREAK]¬mini-theater.[WAIT]¬The mini-theater's to the right of the[BREAK]¬entrance, in case you didn't know.[WAIT]@Go in through there and change your clothes.[WAIT]@It's good to have you on board![END]
-344-14E:@OK, super.[WAIT]@Tu peux entrer en passant par l'arrière de la[BREAK]¬salle de projection.[WAIT]¬La salle de projection est à droite de l'entrée,[BREAK]¬au cas où tu ne le saurais pas.[WAIT]@Une fois de l'autre côté, tu peux te changer.[WAIT]@Ravi de t'accueillir parmi nous·![END]
+344-14E:@OK, super.[WAIT]@Tu peux entrer en passant par l'arrière de la[BREAK]¬salle de projection.[WAIT]¬La salle de projection est à droite de l'entrée,[BREAK]¬au cas où tu ne le saurais pas.[WAIT]@Une fois de l'autre côté, tu pourras te changer.[WAIT]@Ravi de t'accueillir parmi nous·![END]
 344-15:@Oh.[WAIT]@Well, it's great that you're so interested in our[BREAK]¬company's research,[WAIT]¬especially at such a young age.[WAIT]@But please don't go behind the mini-theater's[BREAK]¬speakers to get inside the lab.[WAIT]@When someone tells you not to do something,[BREAK]¬you're not supposed to do it.[WAIT]@Understand?[END]
 344-15E:@Ah.[WAIT]@Bon, c'est très bien que tu t'intéresses à nos[BREAK]¬recherches, surtout vu ton jeune âge.[WAIT]@Mais tu es prié de ne pas passer derrière les[BREAK]¬enceintes de la salle de projection[WAIT]¬pour entrer dans le labo.[WAIT]@Quand on te dit de ne pas faire quelque chose,[BREAK]¬ne le fais pas.[WAIT]@C'est compris·?[END]
 344-16:@These shutters will close in the case of an[BREAK]¬emergency.[END]
@@ -14357,7 +14357,7 @@
 349-3E:@Ohh...[WAIT]@La rouge va rester juste devant la pièce si[BREAK]¬vous commencez à paniquer...[WAIT]@Mais peut-être que vous pouvez tourner ça à[BREAK]¬votre avantage en lui tendant un piège.[WAIT]@Je suis génial·![WAIT]@Je n'arrive pas à croire à quel point je suis[BREAK]¬génial·![WAIT]@Ohh.[END]
 // Repeats: 349-3, 354-3, 357-3, 360-3, 369-3
 349-4:@Let's see...[WAIT]@The exit is to the south... I think?[WAIT]@And there's an elevator in this room...[WAIT]@And to the west is the... oppressing room...?[BREAK]¬Opportunity room...?[WAIT]¬Opening room...?[PAUSE 2E 00][BREAK]¬You know, the room where they do surgery.[WAIT]@Actually, come to think of it, those monkeys[BREAK]¬fled into the basement earlier...[WAIT]¬But how DO you get to the basement?[END]
-349-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette salle...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
+349-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette pièce...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
 // Repeats: 349-4, 354-4, 357-4, 357-24, 360-4, 369-4
 349-5:@There's a large button on its back![WAIT]@You need to press it![EVENT][END]
 349-5E:@Elle a un gros bouton sur le dos·![WAIT]@Tu dois appuyer dessus·![EVENT][END]
@@ -14522,7 +14522,7 @@
 354-3E:@Ohh...[WAIT]@La rouge va rester juste devant la pièce si[BREAK]¬vous commencez à paniquer...[WAIT]@Mais peut-être que vous pouvez tourner ça à[BREAK]¬votre avantage en lui tendant un piège.[WAIT]@Je suis génial·![WAIT]@Je n'arrive pas à croire à quel point je suis[BREAK]¬génial·![WAIT]@Ohh.[END]
 // Repeats: 349-3, 354-3, 357-3, 360-3, 369-3
 354-4:@Let's see...[WAIT]@The exit is to the south... I think?[WAIT]@And there's an elevator in this room...[WAIT]@And to the west is the... oppressing room...?[BREAK]¬Opportunity room...?[WAIT]¬Opening room...?[PAUSE 2E 00][BREAK]¬You know, the room where they do surgery.[WAIT]@Actually, come to think of it, those monkeys[BREAK]¬fled into the basement earlier...[WAIT]¬But how DO you get to the basement?[END]
-354-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette salle...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
+354-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette pièce...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
 // Repeats: 349-4, 354-4, 357-4, 357-24, 360-4, 369-4
 354-5:@There's a large button on its back![WAIT]@You need to press it![EVENT][END]
 354-5E:@Elle a un gros bouton sur le dos·![WAIT]@Tu dois appuyer dessus·![EVENT][END]
@@ -14641,7 +14641,7 @@
 357-3E:@Ohh...[WAIT]@La rouge va rester juste devant la pièce si[BREAK]¬vous commencez à paniquer...[WAIT]@Mais peut-être que vous pouvez tourner ça à[BREAK]¬votre avantage en lui tendant un piège.[WAIT]@Je suis génial·![WAIT]@Je n'arrive pas à croire à quel point je suis[BREAK]¬génial·![WAIT]@Ohh.[END]
 // Repeats: 349-3, 354-3, 357-3, 360-3, 369-3
 357-4:@Let's see...[WAIT]@The exit is to the south... I think?[WAIT]@And there's an elevator in this room...[WAIT]@And to the west is the... oppressing room...?[BREAK]¬Opportunity room...?[WAIT]¬Opening room...?[PAUSE 2E 00][BREAK]¬You know, the room where they do surgery.[WAIT]@Actually, come to think of it, those monkeys[BREAK]¬fled into the basement earlier...[WAIT]¬But how DO you get to the basement?[END]
-357-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette salle...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
+357-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette pièce...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
 // Repeats: 349-4, 354-4, 357-4, 357-24, 360-4, 369-4
 357-5:@There's a large button on its back![WAIT]@You need to press it![EVENT][END]
 357-5E:@Elle a un gros bouton sur le dos·![WAIT]@Tu dois appuyer dessus·![EVENT][END]
@@ -14695,7 +14695,7 @@
 357-23:@What a relief![END]
 357-23E:@Ouf, quel soulagement·![END]
 357-24:@Let's see...[WAIT]@The exit is to the south... I think?[WAIT]@And there's an elevator in this room...[WAIT]@And to the west is the... oppressing room...?[BREAK]¬Opportunity room...?[WAIT]¬Opening room...?[PAUSE 2E 00][BREAK]¬You know, the room where they do surgery.[WAIT]@Actually, come to think of it, those monkeys[BREAK]¬fled into the basement earlier...[WAIT]¬But how DO you get to the basement?[END]
-357-24E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette salle...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
+357-24E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette pièce...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
 // Repeats: 349-4, 354-4, 357-4, 357-24, 360-4, 369-4
 357-25:@There's an elevator here.[WAIT][MENU 03 00][MENUSPACEYES]1F[MENUSPACENO]3F[MENUSPACENO]Don't use[BREAK][ENDCHOICES][END]
 357-25E:©Il y a un ascenseur ici.[WAIT][MENU 03 00][MENUSPACEYES]RDC[MENUSPACENO]2    [MENUSPACENO]Ne pas monter[BREAK][ENDCHOICES][END]
@@ -14746,7 +14746,7 @@
 360-3E:@Ohh...[WAIT]@La rouge va rester juste devant la pièce si[BREAK]¬vous commencez à paniquer...[WAIT]@Mais peut-être que vous pouvez tourner ça à[BREAK]¬votre avantage en lui tendant un piège.[WAIT]@Je suis génial·![WAIT]@Je n'arrive pas à croire à quel point je suis[BREAK]¬génial·![WAIT]@Ohh.[END]
 // Repeats: 349-3, 354-3, 357-3, 360-3, 369-3
 360-4:@Let's see...[WAIT]@The exit is to the south... I think?[WAIT]@And there's an elevator in this room...[WAIT]@And to the west is the... oppressing room...?[BREAK]¬Opportunity room...?[WAIT]¬Opening room...?[PAUSE 2E 00][BREAK]¬You know, the room where they do surgery.[WAIT]@Actually, come to think of it, those monkeys[BREAK]¬fled into the basement earlier...[WAIT]¬But how DO you get to the basement?[END]
-360-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette salle...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
+360-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette pièce...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
 // Repeats: 349-4, 354-4, 357-4, 357-24, 360-4, 369-4
 360-5:@There's a large button on its back![WAIT]@You need to press it![EVENT][END]
 360-5E:@Elle a un gros bouton sur le dos·![WAIT]@Tu dois appuyer dessus·![EVENT][END]
@@ -14913,9 +14913,9 @@
 365-21:@Watch yourselves, guys![END]
 365-21E:@Faites attention à vous·![END]
 365-22:@Hey, cute part-timer.[WAIT]@There's actually one more that's still lurking[BREAK]¬around here somewhere...[WAIT]@One that's WAY more dangerous than that one[BREAK]¬just now...[END]
-365-22E:@Hé, petit saisonnier.[WAIT]@Il y en a une autre qui rôde dans les parages...[WAIT]@Une qui est BEAUCOUP plus dangereuse que[BREAK]¬celle de tout à l'heure...[END]
+365-22E:@Hé, petit saisonnier.[WAIT]@Il y en a une autre qui rôde dans les parages...[WAIT]@Une qui est BEAUCOUP plus dangereuse que[BREAK]¬celle que vous venez de voir...[END]
 365-23:@If, while looking for the monkeys, you happen[BREAK]¬to see a red thing with a gigantic mouth...[WAIT]¬...GET[PAUSE 20 00] THE HECK[PAUSE 20 00] OUT[PAUSE 20 00] OF[PAUSE 20 00] THERE![PAUSE 40 00][END]
-365-23E:@Pendant que vous cherchez les singes,[WAIT]¬si par hasard vous apercevez une chose rouge[BREAK]¬avec une gueule gigantesque...[WAIT]¬... FICHEZ[PAUSE 20 00] VITE[PAUSE 20 00] LE[PAUSE 20 00] CAMP[PAUSE 20 00] D'ICI·![PAUSE 20 00][END]
+365-23E:@Pendant que vous cherchez les singes,[WAIT]¬si par hasard vous apercevez une chose rouge[BREAK]¬avec une gueule gigantesque...[WAIT]¬... PRENEZ[PAUSE 20 00] LA[PAUSE 20 00] FUITE[PAUSE 20 00] IMMÉDIATEMENT·![PAUSE 20 00][END]
 365-24:@Listen. Pay close attention, now...[WAIT]@If you run into a red,[PAUSE 0C 00] huge-mouthed[PAUSE 0C 00] Chimera,[WAIT]¬do absolutely[PAUSE 20 00] NOTHING[PAUSE 20 00] to it.[PAUSE 40 00][WAIT]@Got that?[WAIT][PAUSE 20 00]@I've warned you.[PAUSE 40 00][WAIT]@And, while I'm warning you like this,[WAIT]¬I should add that it'd be even more dangerous[BREAK]¬not to take the time out to talk with that frog.[END]
 365-24E:@Écoutez-moi. Faites très attention...[WAIT]@Si vous tombez sur une chimère[PAUSE 0C 00] rouge,[PAUSE 0C 00] avec[BREAK]¬une gueule énorme,[WAIT]¬ne lui faites[PAUSE 20 00] absolument[PAUSE 20 00] RIEN.[PAUSE 40 00][WAIT]@C'est bien clair·?[WAIT][PAUSE 20 00]@Vous êtes prévenus.[PAUSE 40 00][WAIT]@Et puisqu'on est dans les recommandations,[WAIT]¬j'ajoute que ce serait encore plus dangereux de[BREAK]¬ne pas s'arrêter pour parler à cette grenouille.[END]
 365-25:@All right! Be careful, now![END]
@@ -14981,7 +14981,7 @@
 369-3E:@Ohh...[WAIT]@La rouge va rester juste devant la pièce si[BREAK]¬vous commencez à paniquer...[WAIT]@Mais peut-être que vous pouvez tourner ça à[BREAK]¬votre avantage en lui tendant un piège.[WAIT]@Je suis génial·![WAIT]@Je n'arrive pas à croire à quel point je suis[BREAK]¬génial·![WAIT]@Ohh.[END]
 // Repeats: 349-3, 354-3, 357-3, 360-3, 369-3
 369-4:@Let's see...[WAIT]@The exit is to the south... I think?[WAIT]@And there's an elevator in this room...[WAIT]@And to the west is the... oppressing room...?[BREAK]¬Opportunity room...?[WAIT]¬Opening room...?[PAUSE 2E 00][BREAK]¬You know, the room where they do surgery.[WAIT]@Actually, come to think of it, those monkeys[BREAK]¬fled into the basement earlier...[WAIT]¬But how DO you get to the basement?[END]
-369-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette salle...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
+369-4E:@Voyons...[WAIT]@La sortie est au sud... je crois·?[WAIT]@Et il y a un ascenseur dans cette pièce...[WAIT]@Et à l'ouest, il y a la... salle d'oppression...·?[BREAK]¬Salle d'oblitération...·?[WAIT]¬Salle d'orientation...·?[PAUSE 2E 00][BREAK]¬Vous savez, la salle où ils font de la chirurgie.[WAIT]@En fait maintenant que j'y pense, ces singes se[BREAK]¬sont enfuis vers le sous-sol tout à l'heure...[WAIT]¬Mais comment on FAIT pour aller au sous-sol·?[END]
 // Repeats: 349-4, 354-4, 357-4, 357-24, 360-4, 369-4
 369-5:@There's a large button on its back![WAIT]@You need to press it![EVENT][END]
 369-5E:@Elle a un gros bouton sur le dos·![WAIT]@Tu dois appuyer dessus·![EVENT][END]
@@ -18135,7 +18135,7 @@
 506-54E:©Une charrette à bras.[WAIT]¬Aussi appelée brouette.[END]
 // Repeats: 10-54, 222-54, 506-54
 506-55:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-506-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais...[PAUSE 1E 00] que fait la police·?)[END]
+506-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 506-56:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 506-56E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
