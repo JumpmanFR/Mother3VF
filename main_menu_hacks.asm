@@ -513,6 +513,81 @@ dd $001F0077
 
 
 //=============================================================================================
+// This hack fixes the string used when you try to sell an equipped item.
+//=============================================================================================
+
+.sell_equipped_text:
+push {r4-r6,lr}
+mov  r6,r8
+mov  r0,r7
+push {r0,r6}
+add  sp,#-0x8
+
+ldr  r0,=#0x2016028
+ldr  r1,=#0x41D5
+add  r0,r0,r1
+ldrb r0,[r0,#0]
+mov  r1,#0xC
+mov  r2,#0x86
+bl   $8046974
+
+mov  r0,#0x82
+bl   $80486A0
+
+/// custom mato code!
+mov  r8,r0                   // save the address in r0 real quick
+ldr  r5,=#0x2014330
+ldr  r0,=#0xFFFFFFFF         // clear out our area of RAM we need
+mov  r1,r5
+ldr  r2,=#0x100
+bl   fill_mem
+
+mov  r1,r8                   // copy string to RAM and parse custom CCs
+mov  r0,r5
+bl   $8048108
+
+mov  r0,r5                   // this is where the string now is
+bl   get_string_width
+mov  r8,r0                   // store string width in r8
+mov  r0,r5                   // give the string address back to r0
+
+mov  r6,#0x1
+neg  r6,r6
+mov  r5,#0xF
+str  r5,[sp,#0]
+mov  r4,#0x1
+str  r4,[sp,#0x4]
+mov  r1,#0x26
+mov  r2,#0x87
+mov  r3,r6
+bl   $8047CDC
+mov  r0,#0x3
+bl   $80486A0
+str  r5,[sp,#0]
+str  r4,[sp,#0x4]
+mov  r1,#0x44
+mov  r2,#0x93
+mov  r3,r6
+bl   $8047CDC
+mov  r0,#0x4
+bl   $80486A0
+str  r5,[sp,#0]
+str  r4,[sp,#0x4]
+mov  r1,#0x94
+mov  r2,#0x93
+mov  r3,r6
+bl   $8047CDC
+
+add  sp,#0x8
+pop  {r3,r4}
+mov  r7,r4
+mov  r8,r3
+pop  {r4-r6}
+pop  {r0}
+bx   r0
+
+
+//=============================================================================================
 // This hack fixes the string used when you try to buy an item at a shop.
 //=============================================================================================
 
@@ -965,7 +1040,23 @@ add     sp,#-0x8
 // Get the address of "Sell your "
 mov  r0,#0x7F
 bl   $80486A0
-mov  r4,r0
+//mov  r4,r0 //
+
+/// custom mato code!
+mov  r8,r0                   // save the address in r0 real quick
+ldr  r5,=#0x2014530
+ldr  r0,=#0xFFFFFFFF         // clear out our area of RAM we need
+mov  r1,r5
+ldr  r2,=#0x100
+bl   fill_mem
+
+
+mov  r1,r8                   // copy string to RAM and parse custom CCs
+mov  r0,r5
+bl   $8048108
+
+mov  r0,r5                   // this is where the string now is
+mov  r4,r5
 
 
 // ----------------------------------------------

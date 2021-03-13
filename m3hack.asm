@@ -385,6 +385,11 @@ org $80463F8
   bl main_menu_hacks.sell_text
   pop  {pc}
 
+// replaces the sell equipped item text routine
+org $80464A8
+  push {lr}
+  bl main_menu_hacks.sell_equipped_text
+  pop  {pc}
 
 // replaces the buy item text routine
 org $804626C
