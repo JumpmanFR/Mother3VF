@@ -1088,7 +1088,7 @@
 8-3:@Whoa, whoa, whoa![WAIT]@Get outta here! Get![WAIT]@Get lost, kid![WAIT]@Scram![END]
 8-3E:@Holà, holà, holà·![WAIT]@Va-t'en d'ici·! Allez·![WAIT]@Tire-toi, gamin·![WAIT]@Fiche le camp·![END]
 8-4:[ALTERNATEFONT]@we are fulgrate[WAIT]¬is mistake.[WAIT]@we are grateful.[END]
-8-4E:[ALTERNATEFONT]@on vous merci[WAIT]¬c'est erreur.[WAIT]@on vous remercie.[END]
+8-4E:[ALTERNATEFONT]@on vous merci[WAIT]¬c'est faute.[WAIT]@on vous remercie.[END]
 8-5:[ALTERNATEFONT]@now, then.[WAIT]@now then?[WAIT]@do not know now[BREAK]¬then.[END]
 8-5E:[ALTERNATEFONT]@alors.[WAIT]@alors ?[WAIT]@ne sais pas alors.[END]
 8-6:[ALTERNATEFONT]@roasted barley[BREAK]¬powder.[WAIT]¬tasty.[WAIT]@zoom zoom zoom.[END]
@@ -6939,7 +6939,7 @@
 121-0:@Ionia's bed.[END]
 121-0E:©Le lit de Ionie.[END]
 121-1:@There's a sour-flavored drink here.[END]
-121-1E:©Une boisson au goût amer est posée ici.[END]
+121-1E:©Une boisson au goût acide est posée ici.[END]
 121-2:@Oh! It's so good to see you again! [HEART][WAIT]@You've finally[PAUSE 0F 00], finally come.[WAIT]@[LUCAS 23 02 00].[PAUSE 0F 00][WAIT]@You always struck me as a bit of a crybaby,[BREAK]¬but you've grown so strong. [HEART][EVENT][END]
 121-2E:@Oh·! C'est si bon de te revoir·! [HEART][WAIT]@Tu es enfin[PAUSE 0F 00], enfin venu.[WAIT]@[LUCAS 23 02 00].[PAUSE 0F 00][WAIT]@Tu m'avais toujours donné l'air d'être un peu[BREAK]¬pleurnichard, mais tu es devenu si fort. [HEART][EVENT][END]
 121-3:@[BONEY 23 05 00].[PAUSE 0F 00][WAIT]¬You came with him all this way? Good boy! [HEART][EVENT][END]
@@ -7752,9 +7752,9 @@
 139-31:[ALTERNATEFONT]@do do know.[END]
 139-31E:[ALTERNATEFONT]@sait sait.[END]
 139-32:@They say they know![WAIT]@Does that mean they've met one of the[BREAK]¬Magypsies?[END]
-139-32E:@Ils ont dit qu'ils savaient·![WAIT]@Ça veut dire qu'ils ont vu un des Magypsy·?[END]
+139-32E:@Ils ont dit qu'ils savaient·![WAIT]@Ça veut dire qu'ils ont rencontré un des[BREAK]¬Magypsy·?[END]
 139-33:[ALTERNATEFONT]@ding ding![WAIT]¬met.[WAIT]@can go far that way.[BREAK]¬easy.[END]
-139-33E:[ALTERNATEFONT]@ding ding ![WAIT]¬vu.[WAIT]@pouvez aller loin[BREAK]¬par là.[WAIT]¬facile.[END]
+139-33E:[ALTERNATEFONT]@ding ding ![WAIT]¬rencontré.[WAIT]@pouvez aller loin[BREAK]¬par là. facile.[END]
 139-34:[ALTERNATEFONT]@boing.[WAIT]¬can go.[END]
 139-34E:[ALTERNATEFONT]@boing.[WAIT]¬pouvez aller.[END]
 139-35:@"That way" means that way.[WAIT]@I can tell by their eyes.[WAIT]@[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00]North![WAIT]@They're saying to go toward the volcano to[BREAK]¬the north.[END]
@@ -10049,7 +10049,7 @@
 207-35:@Hmmm.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Just a few more.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00][END]
 207-35E:@Hmmm.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Encore un peu plus.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 0C 00][END]
 207-36:[ALTERNATEFONT]@more will make us[BREAK]¬fall.[END]
-207-36E:[ALTERNATEFONT]@tomber si plus de[BREAK]¬cinq.[END]
+207-36E:[ALTERNATEFONT]@tomber si plus que[BREAK]¬cinq.[END]
 207-37:[ALTERNATEFONT]@sneeze comes out[BREAK]¬when nose grabbed.[END]
 207-37E:[ALTERNATEFONT]@éternue quand nez[BREAK]¬agrippé.[END]
 207-38:[ALTERNATEFONT]@shoe prints in face.[WAIT]@boing.[END]
@@ -11146,7 +11146,7 @@
 225-0E:©Le lit d'Éolie.[END]
 // Repeats: 225-0, 254-0
 225-1:@Rose hip tea?[END]
-225-1E:©Du thé au cynorhodon·?[END]
+225-1E:©Du thé au cynorrhodon·?[END]
 // Repeats: 225-1, 254-1
 225-2:@A nice vase.[END]
 225-2E:©Un joli vase.[END]
@@ -11296,7 +11296,7 @@
 225-50E:@Bon·! [HEART][WAIT]@Suivons ce chemin qui mène à la cour du[BREAK]¬château d'Osohé·! [HEART][END]
 // Repeats: 225-50, 254-50
 225-51:@Petite, pretty sweets.[WAIT]¬And rose hip tea and other such things.[END]
-225-51E:©De jolies petites friandises.[WAIT]¬Et du thé au cynorhodon, et d'autres choses de[BREAK]¬ce genre.[END]
+225-51E:©De jolies petites friandises.[WAIT]¬Et du thé au cynorrhodon, et d'autres choses[BREAK]¬de ce genre.[END]
 // Repeats: 225-51, 254-51
 
 
@@ -12012,7 +12012,7 @@
 254-0E:©Le lit d'Éolie.[END]
 // Repeats: 225-0, 254-0
 254-1:@Rose hip tea?[END]
-254-1E:©Du thé au cynorhodon·?[END]
+254-1E:©Du thé au cynorrhodon·?[END]
 // Repeats: 225-1, 254-1
 254-2:@A nice vase.[END]
 254-2E:©Un joli vase.[END]
@@ -12162,7 +12162,7 @@
 254-50E:@Bon·! [HEART][WAIT]@Suivons ce chemin qui mène à la cour du[BREAK]¬château d'Osohé·! [HEART][END]
 // Repeats: 225-50, 254-50
 254-51:@Petite, pretty sweets.[WAIT]¬And rose hip tea and other such things.[END]
-254-51E:©De jolies petites friandises.[WAIT]¬Et du thé au cynorhodon, et d'autres choses de[BREAK]¬ce genre.[END]
+254-51E:©De jolies petites friandises.[WAIT]¬Et du thé au cynorrhodon, et d'autres choses[BREAK]¬de ce genre.[END]
 // Repeats: 225-51, 254-51
 254-52:[END]
 254-52E:[END]
