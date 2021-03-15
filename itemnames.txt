@@ -392,7 +392,7 @@
 00C2: Kid's Shirt
 00C2-E: T-shirt garçon
 00C3: Good Kid's Shirt
-00C3-E: T-shirt grand garçon
+00C3-E: T-shirt·grand·garçon
 00C4: Kid's Hat
 00C4-E: Bonnet enfant
 00C5: Jar of Yummy Pickles

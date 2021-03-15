@@ -256,7 +256,7 @@
 007E:  for [A3 FF] DP?[END]
 007E-E: ·([A3 FF]·DP)·?[END]
 007F: Sell your [END]
-007F-E: Vendre [18 EF][END]
+007F-E: Vendre·[18 EF][END]
 0080: Equip [13 EF][END]
 0080-E: Équiper [13 EF][END]
 0081: Throw away [14 EF][END]
