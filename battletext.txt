@@ -2476,7 +2476,7 @@
 04CA: [04 EF][11 FF] struck a cool pose![END]
 04CA-E: [04 EF][11 FF] prend une pose élégante·![END]
 04CB: [04 EF][11 FF] struck an unpleasant pose![END]
-04CB-E: [04 EF][11 FF] prend une pose indisposante·![END]
+04CB-E: [04 EF][11 FF] prend une pose incommodante·![END]
 04CC: [04 EF][11 FF] struck a boring pose![END]
 04CC-E: [04 EF][11 FF] prend une pose ennuyeuse·![END]
 04CD: [04 EF][11 FF] is thinking up a new pose.[END]
