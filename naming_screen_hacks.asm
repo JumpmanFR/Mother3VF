@@ -1,11 +1,9 @@
 naming_screen_hacks:
 
-
 // ==============================================
 // These hacks align the bullets correctly
 // on the naming screens.
 // ==============================================
-
 
 .bullets1:
 cmp  r4,#0
@@ -18,9 +16,8 @@ mov  r1,#3
 add  r1,r1,r2
 bx   lr
 
-
 .bullets2:
-ldr  r1,=#0x8D1CF78
+ldr  r1,=#{small_font_width}
 add  r3,#1
 lsl  r3,r3,#1
 sub  r2,r2,r3
@@ -37,20 +34,15 @@ sub  r1,r7,#1
 bx   lr
 
 
-
-
 // ==============================================
 // These hacks make the factory screen load the
 // sanctuary name.
 // ==============================================
 
-
 .factload1:
-
 
 mov  r1,#0x00
 //orr  r0,r1  // no longer needed
-
 
 // Check the naming screen type
 ldr  r4,=#0x201AA58
@@ -67,7 +59,6 @@ add  r0,r0,#1
 b    -
 +
 bx   lr
-
 
 .factload2:
 // Check the naming screen type
@@ -97,13 +88,10 @@ mov  r8,r3
 bx   lr
 
 
-
-
 // ==============================================
 // These hacks display the player name properly
 // in the staff credits.
 // ==============================================
-
 
 // This one loads the correct upper letter tile
 .credits1:
@@ -120,7 +108,6 @@ lsl  r0,r0,#1
 ldrh r1,[r1,r0]
 pop  {pc}
 
-
 // This one loads the correct lower letter tile
 .credits2:
 push {r5,lr}
@@ -136,7 +123,6 @@ lsl  r2,r5,#1
 ldrh r1,[r1,r2]
 add  r1,#0x20
 pop  {pc}
-
 
 // This one makes it read from the correct address
 .credits3:
@@ -155,20 +141,15 @@ add  r2,r1,r0
 pop  {pc}
 
 
-
-
 //=====================================================================================
 // This function completely fixes up the cursor coord crap on naming screens.
 //=====================================================================================
 
-
 .cursor_lookup_tables:
 incbin data_namingcursors.bin
 
-
 .cursor_megafix:
 push {r3-r7,lr}
-
 
 // ---------------------------------------
 // Get the current value
@@ -225,6 +206,7 @@ strb r4,[r0,#0]
 // Finished
 .cursorfix_end:
 pop  {r3-r7,pc}
+
 
 //--------------------------------------------------------
 //                 New summary & naming screen hacks!
@@ -604,3 +586,76 @@ ldr  r1,=#0x41CC                    //Set this back to what it should be
 +
 pop  {pc}
 
+//--------------------------------------------------------------------------------------------------
+//Changes the printing order of text in the naming screen so the game caches stuff better
+//--------------------------------------------------------------------------------------------------
+.change_printing_order:
+push {lr}
+push {r3}
+add  sp,#-8
+ldr  r2,=#0x80C69CC
+ldr  r1,=#0x4A30
+ldr  r4,=#0x2016028
+add  r0,r4,r1
+ldrb r1,[r0,#0]
+lsl  r0,r1,#1
+add  r0,r0,r1
+lsl  r0,r0,#2
+add  r0,r0,r2
+ldrh r0,[r0,#6]
+bl   .compare_currently_displayed_entry
+mov  r3,#1
+neg  r3,r3
+mov  r1,#0xF
+str  r1,[sp,#0]
+mov  r2,#1
+mov  r8,r2
+str  r2,[sp,#4]
+mov  r1,#0x78
+mov  r2,#0x1B
+bl   $8047CDC
+mov  r0,#1
+bl   $8047E04
+ldr  r3,[sp,#8]
+ldrb r0,[r3,#0]
+ldr  r1,=#0x4DF4
+cmp  r0,#0xD
+blt  .change_printing_order_normal_names
+add  r0,r6,r1
+ldr  r0,[r0,#0]
+mov  r1,#0xF
+str  r1,[sp,#0]
+mov  r1,#1
+str  r1,[sp,#4]
+mov  r1,#0x68
+mov  r6,r1
+mov  r3,#0x10
+b    +
+
+.change_printing_order_normal_names:
+add  r0,r6,r1
+ldr  r0,[r0,#0]
+mov  r1,#0xF
+str  r1,[sp,#0]
+mov  r1,#1
+str  r1,[sp,#4]
+mov  r1,#0x78
+mov  r6,r1
+mov  r3,#9
+
++
+mov  r2,#6
+bl   $8047CDC
+mov  r0,#1
+bl   $8047E04
+mov  r0,r6
+ldr  r2,=#0x4ECA
+add  r1,r4,r2
+ldrh r3,[r1,#0]
+mov  r1,#6
+mov  r2,#8
+bl   $80458B8
+
+add  sp,#8
+pop  {r3}
+pop  {pc}
