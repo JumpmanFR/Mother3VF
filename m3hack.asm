@@ -1144,9 +1144,12 @@ org $8023B98; db $03
 
 
 // makes the gray name boxes fit the names better
-org $8023A10; bl outside_hacks.gray_box_resize
-org $8023B32; bl outside_hacks.gray_box_resize
-org $8023CCC; bl outside_hacks.gray_box_resize
+org $8023A10; bl outside_hacks.gray_box_resize; cmp r7,#0x31
+org $8023A50; bl outside_hacks.gray_box_number
+org $8023B32; bl outside_hacks.gray_box_resize; cmp r7,#0x31
+org $8023B72; bl outside_hacks.gray_box_number
+org $8023CCC; bl outside_hacks.gray_box_resize; cmp r7,#0x31
+org $8023D0C; bl outside_hacks.gray_box_number
 
 
 //Fix Boney not having the right sprite if chapter 4 is accessed via the debug room option “Violet’s Room”

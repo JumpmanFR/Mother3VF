@@ -190,7 +190,7 @@ push {r1-r6,lr}
 
 mov  r1,r0                   // r1 has the string length now
 mov  r2,#0                   // r2 will be our loop counter
-mov  r0,#0                   // r0 will be our width counter
+mov  r0,#4                   // r0 will be our width counter
 ldr  r5,[sp,#0x24]           // load r5 with the address of the string
 ldr  r6,=#0x8D1CF78          // r6 has the address of our 8x8 font width table
 
@@ -218,24 +218,26 @@ b    -
 
 
 +
-mov  r1,#8                    // we're now going to divide the total width (in r0) by 8
-swi  #6
-cmp  r1,#0                    // r1 now has the remainder, if non-zero, we need to add 1 to r0
-beq  +
-add  r0,#1                    // add 1 because we used a partial tile in theory
-
-
-//--------------------------------------------------------------------------------------------
-
-
-+
 mov  r7,r0                    // r7 now has the final result
 pop  {r1-r6,pc}
 
+//===========================================================================================
+// This hack is used in order to better calculate how many grey boxes to use
+//===========================================================================================
 
-
-
-
+.gray_box_number:
+push {r0-r3}
+sub  r7,#0x21                 // Remove the valid tile parts from the beginning and the end.
+                              // Each double tile is 16 pixels long, however they all overlap
+                              // by 4 pixels, making a double tile 0xC pixels long
+mov  r0,#0xB
+add  r0,r7,r0                 // By adding 0xB, we make it so the remainder
+mov  r1,#0xC                  // now rolls over to the next integer.
+swi  #6                       // Divide by 0xC
+mov  r7,r0
+mov  r8,r7
+pop  {r0-r3}
+bx   lr
 
 //===========================================================================================
 // This hack is used in order to understand whether the game is printing 
