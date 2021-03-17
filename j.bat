@@ -15,6 +15,13 @@
 @echo.
 @echo.
 @echo ---------------------------------------------------------
+@echo Freeing enemy graphics' space
+@echo ---------------------------------------------------------
+@echo.
+@FreeSpace mother3_fr.gba -v
+@echo.
+@echo.
+@echo ---------------------------------------------------------
 @echo Converting audio .snd files to data files
 @echo ---------------------------------------------------------
 @echo.
