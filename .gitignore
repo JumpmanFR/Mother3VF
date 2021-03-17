@@ -204,6 +204,7 @@
 !textconv.exe
 !soundconv.exe
 !fix_custom_text.exe
+!FreeSpace.exe
 !m3preweld.exe
 !M3FontEditor.exe
 !TextInjector.exe
