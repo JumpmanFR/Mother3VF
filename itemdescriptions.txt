@@ -113,7 +113,7 @@
 0036: Defense +8.[BREAK]Strong against ice.[END]
 0036-E: Défense +8.[BREAK]Résistant contre la glace.[END]
 0037: Defense +20.[BREAK]Somewhat strong against fire and ice.[END]
-0037-E: Défense +20.[BREAK]Plutôt résistant contre le feu et la glace.[END]
+0037-E: Défense +20.[BREAK]Protège un peu contre le feu et la glace.[END]
 0038: Defense +23.[BREAK]Strong against fire, ice, and lightning.[END]
 0038-E: Défense +23.[BREAK]Résistant contre le feu, la glace et la foudre.[END]
 0039: Defense +1.[BREAK]Offense +2.[END]
