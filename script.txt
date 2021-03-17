@@ -85,7 +85,7 @@
 0-39:@You picked up the [ITEM E1 00][BREAK]¬and read it.[WAIT]¬It's written in poor handwriting.[END]
 0-39E:©Vous ramassez le [ITEM E1 00] et vous le[BREAK]¬lisez.[WAIT]¬L'écriture est maladroite.[END]
 0-40:All the creatures around here suck.[BREAK]We need to make 'em cooler.[BREAK][BREAK][WAIT]So the theme will be:[BREAK]¬  @Tougher![BREAK]¬  @Rougher![BREAK]¬  @Badder![BREAK][WAIT]We'll mix and match this and that[BREAK]to create whole new things no one's[BREAK]ever seen before![BREAK][WAIT]I dub it the "Fascinating Chimera[BREAK]Project". Let's reconstruct and[BREAK]modify stuff slowly and steadily.[END]
-0-40E:Toutes les créatures ici sont minables.[BREAK]Nous devons les rendre plus cool.[BREAK][BREAK][WAIT]Le mot d'ordre sera•:[BREAK]¬@Plus fortes·![BREAK]¬@Plus violentes·![BREAK]¬@Plus méchantes·![BREAK][WAIT]Nous allons mélanger tout ça pour[BREAK]fabriquer de nouvelles créatures[BREAK]encore jamais vues·![BREAK][WAIT]J'annonce le "fascinant projet[BREAK]Chimère". Reconstituons et modifions[BREAK]les choses, sans faillir, sans relâche.[END]
+0-40E:Toutes les créatures ici sont minables.[BREAK]Nous devons les rendre plus cool.[BREAK][BREAK][WAIT]Le mot d'ordre sera•:[BREAK]¬— Plus fortes·![BREAK]¬— Plus violentes·![BREAK]¬— Plus méchantes·![BREAK][WAIT]Nous allons mélanger tout ça pour[BREAK]fabriquer de nouvelles créatures[BREAK]encore jamais vues·![BREAK][WAIT]J'annonce le "fascinant projet[BREAK]Chimère". Reconstituons et modifions[BREAK]les choses, sans faillir, sans relâche.[END]
 0-41:[FILE="0-41.txt"][END]
 0-41E:[FILE="0-41E.txt"][END]
 // this text is so long that it needed to be written in an external file
@@ -6113,7 +6113,7 @@
 94-16:[ALTERNATEFONT]@getting more clever[BREAK]¬and cleveeer.[END]
 94-16E:[ALTERNATEFONT]@devenir plus malin[BREAK]¬plus maliiin.[END]
 94-17:[ALTERNATEFONT]@only five can ladder.[END]
-94-17E:[ALTERNATEFONT]@seulement cinq[BREAK]¬peuvent échelle.[END]
+94-17E:[ALTERNATEFONT]@jusqu'à cinq pour[BREAK]¬jouer échelle.[END]
 
 
 
@@ -12265,7 +12265,7 @@
 
 [Container 257]
 257-0:@This is the big city life! [PAUSE 20 00]Or is it?[WAIT]@It somehow doesn't seem like it.[END]
-257-0E:@C'est ça, la grande vie citadine·! [PAUSE 20 00]Ou est-ce que[BREAK]¬ça l'est vraiment·?[WAIT]@Ça n'y ressemble pas tellement, curieusement.[END]
+257-0E:@C'est ça, la grande vie citadine·! [PAUSE 20 00]Enfin, je[BREAK]¬suppose·?[WAIT]@Ça n'y ressemble pas tellement, curieusement.[END]
 257-1:@Apparently, all of the waitresses in the[BREAK]¬restaurant over there[WAIT]¬are robots built to look like the mother of[BREAK]¬some really important person.[END]
 257-1E:@Apparemment, toutes les serveuses de ce[BREAK]¬restaurant là-bas[WAIT]¬sont des robots conçus pour ressembler à la[BREAK]¬mère de quelqu'un d'important.[END]
 257-2:@Oh, hey there, [LUCAS 23 02 00].[WAIT]@I was just talking business with this tiny fellow[BREAK]¬here.[WAIT]¬I'm not really sure what I should do, though...[END]
