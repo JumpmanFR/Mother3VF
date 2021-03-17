@@ -162,7 +162,7 @@
 0-69E:©... et apprend [25 FF F1 FF]·![END]
 // I think this is for PK learning...
 0-70:@For some reason, [42 FF F0 FF] started to[BREAK]¬feel feverish.[END]
-0-70E:©Pour une raison mystérieuse, [42 FF F0 FF][BREAK]¬commence à se sentir fébrile.[END]
+0-70E:©Pour une raison inconnue, [42 FF F0 FF][BREAK]¬commence à se sentir fébrile.[END]
 0-71:@*whoosh* *whoosh*[WAIT]¬Greetings![WAIT]@I apologize for being so sudden, but you know[BREAK]¬the phrase, "The word on the wind is..."?[WAIT]@Yeah, I'm that wind. I'm where rumors come[BREAK]¬from.[WAIT]@It appears that one of your friends is not[BREAK]¬feeling very well.[WAIT]@They aren't poisoned, nor are they sleepy, yet[BREAK]¬they just can't shake that ill feeling.[WAIT]@They lack the energy to run, and using items[BREAK]¬or hot springs doesn't appear to help, either.[WAIT]@It would seem this is because something is[BREAK]¬beginning to awaken inside them.[WAIT]@But I'm sure they'll get over it before long, so[BREAK]¬don't be too worried.[WAIT]@Well, that's all for this "Word on the Wind".[WAIT]@I should be going now. Bye![WAIT]@*whoosh*[END]
 0-71E:@*wouuuh* *wouuuh*[WAIT]¬Salutations·![WAIT]@Je m'excuse de vous interrompre ainsi, mais[BREAK]¬vous connaissez l'expression•:[WAIT]¬"avoir vent de...", n'est-ce pas·?[WAIT]@Oui, je suis ce vent. La source des rumeurs.[WAIT]@On dirait qu'une personne de votre équipe ne[BREAK]¬se sent pas très bien.[WAIT]@Elle n'est ni empoisonnée, ni endormie, elle[BREAK]¬éprouve simplement un étrange mal-être.[WAIT]@Elle n'a pas la force de courir. Les objets et les[BREAK]¬sources chaudes ne semblent pas aider.[WAIT]@C'est peut-être parce que quelque chose[BREAK]¬commence à s'éveiller en elle.[WAIT]@Mais je suis sûr qu'elle s'en remettra bien[BREAK]¬assez tôt, alors ne vous inquiétez pas trop.[WAIT]@Bien, c'est tout pour cette fois.[WAIT]@Je repars en coup de vent. Au revoir·![WAIT]@*wouuuh*[END]
 // if you kill Kumatora off in Chapter 2, this text can appear in Chapter 4. Lucas isn't a "she", so this needs to use the vague "them" and "they"
@@ -12265,8 +12265,7 @@
 
 [Container 257]
 257-0:@This is the big city life! [PAUSE 20 00]Or is it?[WAIT]@It somehow doesn't seem like it.[END]
-257-0E:@C'est ça la vie dans la grande ville·! [PAUSE 20 00]Ou l'est-ce[BREAK]¬vraiment·?[WAIT]@Je ne suis pas très convaincue.[END]
-// ça n'y ressemble pas / 
+257-0E:@C'est ça, la grande vie citadine·! [PAUSE 20 00]Ou est-ce que[BREAK]¬ça l'est vraiment·?[WAIT]@Ça n'y ressemble pas tellement, curieusement.[END]
 257-1:@Apparently, all of the waitresses in the[BREAK]¬restaurant over there[WAIT]¬are robots built to look like the mother of[BREAK]¬some really important person.[END]
 257-1E:@Apparemment, toutes les serveuses de ce[BREAK]¬restaurant là-bas[WAIT]¬sont des robots conçus pour ressembler à la[BREAK]¬mère de quelqu'un d'important.[END]
 257-2:@Oh, hey there, [LUCAS 23 02 00].[WAIT]@I was just talking business with this tiny fellow[BREAK]¬here.[WAIT]¬I'm not really sure what I should do, though...[END]
@@ -20188,7 +20187,7 @@
 803-27E:@*hop*[BREAK]¬Besoin de quelque chose·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 0-167, 803-27
 803-28:@I am the final frog in the game.[WAIT]@It's been such a short time, though it seems[BREAK]¬long, too.[WAIT]@In any case, thank you for your continued[BREAK]¬patronage throughout it all.[WAIT]@For me, and all the other frogs, I thank you.[WAIT]@*hop*[BREAK]¬*teardrop*[END]
-803-28E:@Je suis la dernière grenouille du jeu.[WAIT]@Ça a été si bref, et ça a paru si long pourtant.[WAIT]@Quoi qu'il en soit, merci pour ta coopération[BREAK]¬ininterrompue à travers toutes ces épreuves.[WAIT]@Moi-même et toutes les autres grenouilles te[BREAK]¬disons merci.[WAIT]@*hop*[BREAK]¬*larme*[END]
+803-28E:@Je suis la dernière grenouille du jeu.[WAIT]@Ç'a été si bref, et ça a paru si long pourtant.[WAIT]@Quoi qu'il en soit, merci pour ta coopération[BREAK]¬ininterrompue tout au long de cette aventure.[WAIT]@Au nom de toutes les grenouilles, merci.[WAIT]@*hop*[BREAK]¬*larme*[END]
 803-29:[END]
 803-29E:[END]
 
