@@ -433,7 +433,7 @@
 00D6: Stick these in a wall for a quick ladder.[BREAK]Use in battle to briefly pin an enemy down.[END]
 00D6-E: À planter sur les murs pour·faire une échelle.[BREAK]Utilisable sur un ennemi pour l'agrafer au sol.[END]
 00D7: A beetle that makes a shrill noise.[BREAK]Causes an enemy to stop and cover its ears.[END]
-00D7-E: Un insecte qui fait un bruit perçant.[BREAK]Interrompt l'ennemi qui couvre ses oreilles.[END]
+00D7-E: Un insecte qui fait un bruit perçant. Conduit[BREAK]l'ennemi à s'arrêter pour couvrir·ses oreilles.[END]
 00D8: Explodes into an acrid smoke, bringing an[BREAK]enemy to tears.[END]
 00D8-E: Envoie un gaz piquant qui fait pleurer un[BREAK]ennemi.[END]
 00D9: Sway it in front of an enemy to lull it into a[BREAK]deep sleep.[END]
