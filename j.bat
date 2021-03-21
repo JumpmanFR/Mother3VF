@@ -5,6 +5,7 @@
 @echo.
 @textconv
 @fix_custom_text text_custom_text.bin
+@rearrange_font font_mainfont.bin font_smallfont.bin font_castroll.bin font_mainfont_rearranged.bin font_castroll_rearranged.bin font_mainfont_used.bin font_smallfont_used.bin
 @echo.
 @echo.
 @echo ---------------------------------------------------------
