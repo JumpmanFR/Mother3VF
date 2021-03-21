@@ -60,6 +60,7 @@
 !font_mainwidths.bin
 !font_smallfont.bin
 !font_smallwidths.bin
+!font_equip_rearranged.bin
 !data_creditstable.bin
 !data_ghost_fix.bin
 !data_introcode.bin
@@ -198,6 +199,7 @@
 !gfx_statues_pal.bin
 !gfx_battle_psi_arrangement.bin
 !fix_custom_text.cpp
+!rearrange_font.cpp
 !check_overlap.py
 !CheckOverflow.java
 !CheckRepeats.java
@@ -207,6 +209,7 @@
 !FreeSpace.exe
 !m3preweld.exe
 !M3FontEditor.exe
+!rearrange_font.exe
 !TextInjector.exe
 !ups.exe
 !xkas.exe
