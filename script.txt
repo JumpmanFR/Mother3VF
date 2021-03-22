@@ -8604,7 +8604,7 @@
 173-12:@Like, girls like fancy hamburger shops more[BREAK]¬than men do, y'know?[WAIT]@And, like, most of the time, girls sit in groups.[WAIT]@Also, girls like stuff like French food and stuff,[BREAK]¬y'know?[WAIT]@And they just love curry, y'know?[WAIT]¬Right? Right?[WAIT]@In my case, if there's, like, curry or something,[BREAK]¬I totally can't say no to it.[WAIT]@I eat, like, way more rice than usual, y'know?[WAIT]@I eat a shocking amount of rice![END]
 173-12E:@Mais genre les filles, elles aiment les restos à[BREAK]¬burgers huppés, plus que les mecs, t'sais·?[WAIT]@Et genre, en général, les filles elles s'assoient[BREAK]¬en groupe.[WAIT]@Et puis les filles, elles aiment les trucs genre[BREAK]¬cuisine française et tout, t'sais·?[WAIT]@Et elles adorent le curry, t'sais·?[WAIT]¬Pas vrai·? Pas vrai·?[WAIT]@Ben pour moi, tu vois, quand y'a genre du[BREAK]¬curry et tout, j'peux carrément pas dire non.[WAIT]@Je mange genre dix fois plus de riz que tout le[BREAK]¬monde, t'sais·?[WAIT]@Tout ce riz que je mange, un truc de fou·![END]
 173-13:@Compared to, like, people long ago, don't you[BREAK]¬think we drink, like, way more water?[WAIT]@Like, people in the old days didn't drink this[BREAK]¬much water, y'know?[WAIT]@My old man, he, like, drinks waaaay less water[BREAK]¬than me.[WAIT]@When I, like, think about that, I, like, sorta feel[BREAK]¬like people are a lost cause, you know?![WAIT]@Like, if something happens, I, like, HAVE to[BREAK]¬have my water![WAIT]@Are we sea monsters?[PAUSE 2D 00] Of course we're not![WAIT]¬We ARE, like, human, though![WAIT]@But we drink water.[WAIT]@Hey, you! You even listenin' to me?![END]
-173-13E:@Comparé aux gens avant et tout, tu crois pas[BREAK]¬qu'on boit genre, vachement plus d'eau·?[WAIT]@Genre les gens à l'époque ils buvaient pas[BREAK]¬autant, t'sais·?[WAIT]@Mon vieux, il boit genre caaarrément moins[BREAK]¬d'eau que moi.[WAIT]@Quand je pense à ça et tout, j'me dis genre les[BREAK]¬gens c'est une cause perdue, tu sais·?![WAIT]@Genre moi si un truc arrive et tout, il FAUT que[BREAK]¬j'aie mon eau·![WAIT]@On est genre des monstres aquatiques ou[BREAK]¬quoi·?[PAUSE 2D 00] Bah bien sûr que non·![WAIT]¬On est genre, des humains, quoi·![WAIT]@Mais on boit de l'eau.[WAIT]@Hé toi·! Tu m'écoutes au moins·?![END]
+173-13E:@Comparé aux gens avant et tout, tu crois pas[BREAK]¬qu'on boit genre, vachement plus d'eau·?[WAIT]@Genre les gens à l'époque ils en buvaient pas[BREAK]¬autant, t'sais·?[WAIT]@Mon vieux, il boit genre caaarrément moins[BREAK]¬d'eau que moi.[WAIT]@Quand je pense à ça et tout, j'me dis genre les[BREAK]¬gens c'est une cause perdue, tu sais·?![WAIT]@Genre moi si un truc arrive et tout, il FAUT que[BREAK]¬j'aie mon eau·![WAIT]@On est genre des monstres aquatiques ou[BREAK]¬quoi·?[PAUSE 2D 00] Bah bien sûr que non·![WAIT]¬On est genre, des humains, quoi·![WAIT]@Mais on boit de l'eau.[WAIT]@Hé toi·! Tu m'écoutes au moins·?![END]
 
 
 
@@ -12472,7 +12472,7 @@
 262-5:@People are flocking to this city one after the[BREAK]¬other after the other.[WAIT]@Doesn't the city seem more packed with[BREAK]¬people than before?[END]
 262-5E:@Les gens affluent dans cette ville, les uns[BREAK]¬après les autres, après les autres.[WAIT]@La ville n'a-t-elle pas l'air bien plus peuplée[BREAK]¬qu'avant·?[END]
 262-6:@I'm certainly glad we've come here, but we[BREAK]¬still have no place to live.[WAIT]@There are other people who prefer to party[BREAK]¬non-stop, though.[END]
-262-6E:@C'était sûrement une bonne décision de venir[BREAK]¬ici, mais on n'a toujours pas d'endroit où vivre.[WAIT]@Cela dit, il y a bien des gens qui préfèrent faire[BREAK]¬la fête sans s'arrêter.[END]
+262-6E:@Je ne regrette pas d'être venue ici, mais on n'a[BREAK]¬toujours pas d'endroit où habiter.[WAIT]@Bon, cela dit, il y a bien des gens qui préfèrent[BREAK]¬faire la fête sans s'arrêter.[END]
 262-7:@I went to the arcade,[WAIT]¬but all these creepy guys were basically glued[BREAK]¬to their machines and wouldn't give me a turn.[END]
 262-7E:@Je suis allée visiter la salle d'arcade,[WAIT]¬mais tous ces types bizarres étaient presque[BREAK]¬collés à leur machine[WAIT]¬et ils voulaient pas me laisser la place.[END]
 262-8:@Will New Pork City be my final resting spot?[WAIT]@It's not a very happy place, that's for sure.[END]
@@ -22025,7 +22025,7 @@
 886-12:@Hey, Lucky.[WAIT]@Let's forget our worries and just enjoy the[BREAK]¬music like the old days![END]
 886-12E:@Hé, Lucky.[WAIT]@Oublions nos soucis et éclatons-nous en[BREAK]¬musique comme à la vieille époque·![END]
 886-13:@We even have your afro wig all ready to go![END]
-886-13E:@On s'est même arrangés pour que ta perruque[BREAK]¬afro soit prête à reprendre du service·![END]
+886-13E:@Ta perruque afro est même prête à reprendre[BREAK]¬du service·![END]
 886-14:@Hey, Gorgeous.[WAIT]@Let's forget our worries and just enjoy the[BREAK]¬music like the old days![END]
 886-14E:@Hé, Gorgeous.[WAIT]@Oublions nos soucis et éclatons-nous en[BREAK]¬musique comme à la vieille époque·![END]
 886-15:@Hey, Lucky![WAIT]¬I wanna hear your bass-playin', too![WAIT]@Let's hear it![END]
