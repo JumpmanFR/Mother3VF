@@ -387,7 +387,7 @@
 00BF: A clean, white dress.[BREAK]Defense +13.[END]
 00BF-E: Une belle robe blanche.[BREAK]Défense +13.[END]
 00C0: This machine will eradicate all iron,[BREAK]pencil-shaped figures in just one second.[END]
-00C0-E: Cette machine effacera en une seconde[BREAK]tout objet métallique en forme de crayon.[END]
+00C0-E: Cette machine effacera en une seconde tout[BREAK]objet métallique en forme de crayon.[END]
 00C1: A badge that reflects lightning.[END]
 00C1-E: Un badge qui renvoie les éclairs.[END]
 00C2: A child-sized shirt.[BREAK]Defense +7.[END]
