@@ -13182,7 +13182,7 @@
 321-10:@Tonda Gossa.[WAIT][PAUSE 2E 00]@...Who are you?[END]
 321-10E:@Tonda gossa.[WAIT][PAUSE 2E 00]@... Qui êtes-vous·?[END]
 321-11:@He's the one I was talking about just now,[BREAK]¬[DUSTER 23 03 00].[WAIT]¬You two know each other.[END]
-321-11E:@C'est le garçon dont je viens de te parler,[BREAK]¬[DUSTER 23 03 00].[WAIT]¬Vous vous connaissez tous les deux.[END]
+321-11E:@C'est le garçon dont je te parlais à l'instant,[BREAK]¬[DUSTER 23 03 00].[WAIT]¬Vous vous connaissez tous les deux.[END]
 321-12:@[DUSTER 23 03 00]?[WAIT]@It's true that I don't even remember my real[BREAK]¬name,[WAIT]¬but I've lived my life as Lucky for years now.[END]
 321-12E:@[DUSTER 23 03 00]·?[WAIT]@C'est vrai que je ne me souviens même pas de[BREAK]¬mon véritable nom,[WAIT]¬mais ça fait des années maintenant que je vis[BREAK]¬sous le nom de Lucky.[END]
 321-13:@[DUSTER 23 03 00]?[WAIT]@It's true that I don't even remember my real[BREAK]¬name,[WAIT]¬but I've lived my life as Gorgeous for years[BREAK]¬now.[END]
