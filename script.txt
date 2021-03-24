@@ -20187,7 +20187,7 @@
 803-27E:@*hop*[BREAK]¬Besoin de quelque chose·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 // Repeats: 0-167, 803-27
 803-28:@I am the final frog in the game.[WAIT]@It's been such a short time, though it seems[BREAK]¬long, too.[WAIT]@In any case, thank you for your continued[BREAK]¬patronage throughout it all.[WAIT]@For me, and all the other frogs, I thank you.[WAIT]@*hop*[BREAK]¬*teardrop*[END]
-803-28E:@Je suis la dernière grenouille du jeu.[WAIT]@Ç'a été si bref, et ça a paru si long pourtant.[WAIT]@Quoi qu'il en soit, merci pour ta coopération[BREAK]¬ininterrompue tout au long de cette aventure.[WAIT]@Au nom de toutes les grenouilles, merci.[WAIT]@*hop*[BREAK]¬*larme*[END]
+803-28E:@Je suis la dernière grenouille du jeu.[WAIT]@Ç'a été si bref, et ça a paru si long pourtant.[WAIT]@Quoi qu'il en soit, merci pour ta coopération[BREAK]¬ininterrompue tout au long de cette aventure.[WAIT]@Moi-même et toutes les autres grenouilles te[BREAK]¬disons merci.[WAIT]@*hop*[BREAK]¬*larme*[END]
 803-29:[END]
 803-29E:[END]
 
