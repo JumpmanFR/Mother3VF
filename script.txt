@@ -1613,7 +1613,7 @@
 12-43E:@*pffiu*[PAUSE 10 00] *argh*[PAUSE 10 00] *pffiu*[PAUSE 10 00] *argh*[PAUSE 10 00][WAIT]@*pffiu*[PAUSE 10 00] Non... Mais qu'est-ce que tu fais·?[WAIT]@Arrête d'appuyer là-dessus...[WAIT]@*pffiu*[PAUSE 10 00] *argh*[PAUSE 10 00][BREAK]¬Arrête...[WAIT]@Sérieusement, stop...[WAIT]@Je vais être malade si tu continues à appuyer...[WAIT]@Pourquoi tu continues·?[WAIT]@Tu vois, tu l'as encore fait...·![WAIT]@Si tu le refais encore, je vais...[END]
 12-44:@Bleeeergh![WAIT]¬Just so you know, if something bad happens to[BREAK]¬me,[WAIT]¬it's all because YOU kept pressing that stupid[BREAK]¬thing![END]
 12-44E:@Beeeuuuargh·![WAIT]¬Je te préviens, s'il m'arrive quelque chose,[WAIT]¬ce sera parce que TU as continué d'appuyer[BREAK]¬sur ce satané truc·![END]
-12-45:@*gasp*[PAUSE 08 00]  *wheeze*[PAUSE 08 00]  *gasp*[PAUSE 08 00]  *wheeze*[PAUSE 08 00].[PAUSE 08 00].[PAUSE 08 00].[PAUSE 20 00][WAIT]@I still don't feel so good.[END]
+12-45:@*gasp*[PAUSE 08 00] *wheeze*[PAUSE 08 00] *gasp*[PAUSE 08 00] *wheeze*[PAUSE 08 00].[PAUSE 08 00].[PAUSE 08 00].[PAUSE 20 00][WAIT]@I still don't feel so good.[END]
 12-45E:@*argh*[PAUSE 08 00] *pffiu*[PAUSE 08 00] *argh*[PAUSE 08 00] *pffiu*[PAUSE 08 00].[PAUSE 08 00].[PAUSE 08 00].[PAUSE 20 00][WAIT]@Ça ne va toujours pas mieux.[END]
 12-46:[SOUND 03 00]@Chirp chirppp![WAIT]¬(Sparrow Advice![WAIT]¬Got a minute?[WAIT]¬If you're ever out of strength or find yourself[BREAK]¬poisoned,[WAIT]¬a dip in a hot spring is best for what ails you.[WAIT]¬But it's important that you stay in the water[BREAK]¬for a while for it to be effective.[WAIT]¬And actually, there's a nice hot spring right[BREAK]¬inside the Sunshine Forest, too.[WAIT]¬Now to end this with a sparrow-like...[EVENT][END]
 12-46E:[SOUND 03 00]@Tchip tchippp·![WAIT]¬(Conseil de moineau·![WAIT]¬Tu as une minute devant toi·?[WAIT]¬Si tu es à bout de forces ou empoisonné,[WAIT]¬une petite baignade dans une source chaude[BREAK]¬pourra te faire le plus grand bien.[WAIT]¬Mais c'est important que tu restes un moment[BREAK]¬dans l'eau pour que ce soit efficace.[WAIT]¬D'ailleurs, il y a une belle source chaude un peu[BREAK]¬plus loin dans la forêt Ensoleillée.[WAIT]¬Et pour finir en moineau...[EVENT][END]
@@ -2548,7 +2548,7 @@
 22-5:@Oink oink.[WAIT]¬(What the pig next to me says worries me...)[END]
 22-5E:@Gruik gruik.[BREAK]¬(Ce que dit l'autre cochon m'inquiète...)[END]
 // Repeats: 22-5, 23-5
-22-6:@Whant?![WAIT]¬(Watch where you're steppin', will ya?![BREAK]¬I'm standing like right here![WAIT]¬I'm an ant![PAUSE 28 00]  Don't you dare step on me![WAIT]¬I'm standing here 'cause I don't wanna let you[BREAK]¬go this way!)[END]
+22-6:@Whant?![WAIT]¬(Watch where you're steppin', will ya?![BREAK]¬I'm standing like right here![WAIT]¬I'm an ant![PAUSE 28 00] Don't you dare step on me![WAIT]¬I'm standing here 'cause I don't wanna let you[BREAK]¬go this way!)[END]
 22-6E:@*grat* *grat* *grat*[WAIT]¬(Tu ne peux pas·regarder·où tu mets·les·pieds·?![BREAK]¬Je suis là, juste devant toi·![WAIT]¬Je suis une fourmi·![PAUSE 28 00] Ne t'avise pas de me[BREAK]¬marcher dessus·![WAIT]¬Je reste ici parce que je n'ai pas envie de te[BREAK]¬laisser passer·!)[END]
 // Repeats: 22-6, 23-6
 22-7:[SOUND 03 00]@Chirp chirp.[WAIT]¬(Sparrow Advice![WAIT]¬When you want to talk, use the [COLOR 03 00]A[COLOR 00 00] Button.[WAIT]¬When you want to check something, use the[BREAK]¬[COLOR 03 00]A[COLOR 00 00] button.[WAIT]¬Or, if you want, you can use the [COLOR 03 00]L[COLOR 00 00] Button[BREAK]¬instead.[WAIT]¬Well, now to end this with a sparrow-like...[EVENT][END]
@@ -2619,7 +2619,7 @@
 23-5:@Oink oink.[WAIT]¬(What the pig next to me is saying worries[BREAK]¬me...)[END]
 23-5E:@Gruik gruik.[BREAK]¬(Ce que dit l'autre cochon m'inquiète...)[END]
 // Repeats: 22-5, 23-5
-23-6:@Whant?![WAIT]¬(Watch where you're steppin', will ya?![BREAK]¬I'm standing like right here![WAIT]¬I'm an ant![PAUSE 28 00]  Don't you dare step on me![WAIT]¬I'm standing here 'cause I don't wanna let you[BREAK]¬go this way!)[END]
+23-6:@Whant?![WAIT]¬(Watch where you're steppin', will ya?![BREAK]¬I'm standing like right here![WAIT]¬I'm an ant![PAUSE 28 00] Don't you dare step on me![WAIT]¬I'm standing here 'cause I don't wanna let you[BREAK]¬go this way!)[END]
 23-6E:@*grat* *grat* *grat*[WAIT]¬(Tu ne peux pas·regarder·où tu mets·les·pieds·?![BREAK]¬Je suis là, juste devant toi·![WAIT]¬Je suis une fourmi·![PAUSE 28 00] Ne t'avise pas de me[BREAK]¬marcher dessus·![WAIT]¬Je reste ici parce que je n'ai pas envie de te[BREAK]¬laisser passer·!)[END]
 // Repeats: 22-6, 23-6
 23-7:[SOUND 03 00]@Chirp chirp.[WAIT]¬(Sparrow Advice![WAIT]¬When you want to talk, use the [COLOR 03 00]A[COLOR 00 00] Button.[WAIT]¬When you want to check something, use the[BREAK]¬[COLOR 03 00]A[COLOR 00 00] button.[WAIT]¬Or, if you want, you can use the [COLOR 03 00]L[COLOR 00 00] Button[BREAK]¬instead.[WAIT]¬Well, now to end this with a sparrow-like...[EVENT][END]
@@ -5955,7 +5955,7 @@
 89-18E:@[42 FF F1 FF] obtient [EF 91][ITEM F0 FF]·![END]
 89-19:@Hey![WAIT]@Get back here, you![END]
 89-19E:@Hé·![WAIT]@Revenez par ici, vous·![END]
-89-20:@No...[PAUSE 1E 00]  Stop...[PAUSE 1E 00][WAIT]¬Stop! Don't! Please![END]
+89-20:@No...[PAUSE 1E 00] Stop...[PAUSE 1E 00][WAIT]¬Stop! Don't! Please![END]
 89-20E:@Non...[PAUSE 1E 00] Ne...[PAUSE 1E 00][WAIT]¬Stop·! Non·! Pitié·![END]
 89-21:@Hahaha![WAIT]@Feeling better now, monkey?[END]
 89-21E:@Hahaha·![WAIT]@Ça va mieux maintenant, p'tit singe·?[END]
@@ -14609,7 +14609,7 @@
 [Container 356]
 356-0:@You found a very old magazine.[WAIT]@Read it?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 356-0E:©Vous trouvez une très vieille revue.[WAIT]©La lire·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
-356-1:@"My Secret Life,[PAUSE 20 00] chapter three."[WAIT]¬(Story from the previous chapter.)[WAIT]@I was neither a murder suspect, nor a target[BREAK]¬for an international spy organization.[WAIT]@But I drove a car down the Jersey Turnpike at[BREAK]¬80 mph.[WAIT]@...A police officer pulled me over and asked for[BREAK]¬my driver's license.[WAIT]@He said I was going 20 mph over the speed[BREAK]¬limit.[WAIT]@I instantly pointed to my wife and said,[BREAK]¬"I'm in a hurry,[PAUSE 20 00] my wife is in labor."[WAIT]@Fortunately,[PAUSE 20 00] my wife actually had a big[BREAK]¬stomach.[WAIT]@I hoped he'd let me go with this excuse.[WAIT]@"Oh,[PAUSE 20 00] since it's an emergency.[WAIT]@I'll lead you to the hospital with my police car,"[PAUSE 20 00][BREAK]¬he said.[WAIT]@"No,[PAUSE 20 00] it's not necessary."[PAUSE 24 00][BREAK]¬"Why not?"[PAUSE 20 00] asked the officer.[WAIT]@"Uh...[PAUSE 20 00] well..."[PAUSE 2E 00][BREAK]¬"Let's get going,"[PAUSE 20 00] said the officer...[WAIT]@<No,[PAUSE 20 00] no![PAUSE 20 00]  We can't![PAUSE 20 00][BREAK]¬This baby is a demon child!>[END]
+356-1:@"My Secret Life,[PAUSE 20 00] chapter three."[WAIT]¬(Story from the previous chapter.)[WAIT]@I was neither a murder suspect, nor a target[BREAK]¬for an international spy organization.[WAIT]@But I drove a car down the Jersey Turnpike at[BREAK]¬80 mph.[WAIT]@...A police officer pulled me over and asked for[BREAK]¬my driver's license.[WAIT]@He said I was going 20 mph over the speed[BREAK]¬limit.[WAIT]@I instantly pointed to my wife and said,[BREAK]¬"I'm in a hurry,[PAUSE 20 00] my wife is in labor."[WAIT]@Fortunately,[PAUSE 20 00] my wife actually had a big[BREAK]¬stomach.[WAIT]@I hoped he'd let me go with this excuse.[WAIT]@"Oh,[PAUSE 20 00] since it's an emergency.[WAIT]@I'll lead you to the hospital with my police car,"[PAUSE 20 00][BREAK]¬he said.[WAIT]@"No,[PAUSE 20 00] it's not necessary."[PAUSE 24 00][BREAK]¬"Why not?"[PAUSE 20 00] asked the officer.[WAIT]@"Uh...[PAUSE 20 00] well..."[PAUSE 2E 00][BREAK]¬"Let's get going,"[PAUSE 20 00] said the officer...[WAIT]@<No,[PAUSE 20 00] no![PAUSE 20 00] We can't![PAUSE 20 00][BREAK]¬This baby is a demon child!>[END]
 356-1E:@"Ma vie secrète,[PAUSE 20 00] chapitre trois."[WAIT]¬(Résumé du chapitre précédent.)[WAIT]@Je n'étais ni un suspect de meurtre, ni la cible[BREAK]¬d'une organisation d'espionnage international.[WAIT]@Mais je conduisais sur l'autoroute du Soleil, à[BREAK]¬130 km/h.[WAIT]@... Quand un officier de police m'arrêta pour me[BREAK]¬demander mes papiers.[WAIT]@Il affirmait que je roulais 20 km/h au-dessus de[BREAK]¬la vitesse autorisée.[WAIT]@Je désignai aussitôt mon épouse, en disant•:[WAIT]¬<Je suis pressé,[PAUSE 20 00] ma femme est sur le point[BREAK]¬d'accoucher.>[WAIT]@Par chance,[PAUSE 20 00] ma femme avait un peu de ventre.[WAIT]@J'espérais m'en sortir avec cette excuse.[WAIT]¬<Oh,[PAUSE 20 00] puisque c'est une urgence.[WAIT]¬Je vais vous conduire à l'hôpital avec ma[BREAK]¬voiture de police[PAUSE 20 00], dit-il.[WAIT]¬— Non,[PAUSE 20 00] ce n'est pas la peine.[PAUSE 24 00][BREAK]¬— Pourquoi·?[PAUSE 20 00] demanda le policier.[WAIT]¬— Euh...[PAUSE 20 00] eh bien...[PAUSE 2E 00][BREAK]¬— Allons-y,[PAUSE 20 00] dit le policier...[WAIT]¬— Non,[PAUSE 20 00] non·![PAUSE 20 00] Il ne faut pas·![PAUSE 20 00] Ce bébé est un[BREAK]¬démon·!>[END]
 356-2:@Good.[WAIT]@That may be the best choice.[END]
 356-2E:©Bon.[WAIT]©C'est peut-être mieux ainsi.[END]
@@ -19002,7 +19002,7 @@
 633-29:@Hey, monkey![BREAK]¬We're heading into the basement now![WAIT]@There should be an entrance to the basement[BREAK]¬somewhere inside this castle.[WAIT]@Find it![END]
 633-29E:@Hé, le singe·![BREAK]¬On va au sous-sol maintenant·![WAIT]@Il devrait y avoir un accès au sous-sol quelque[BREAK]¬part dans ce château.[WAIT]@Trouve-le·![END]
 // Repeats: 624-29, 633-29
-633-30:@Whew.[PAUSE 5A 00]  Boy, it's stuffy in this thing...[END]
+633-30:@Whew.[PAUSE 5A 00] Boy, it's stuffy in this thing...[END]
 633-30E:@Pfiou.[PAUSE 5A 00] Ma parole, on étouffe là-dedans...[END]
 // Repeats: 624-30, 633-30
 633-31:@Mr. Fassad![WAIT]@We are invincible![WAIT]@If we all put our minds to it,[WAIT]¬I bet we could even pull giant turnips out of[BREAK]¬the ground![END]
