@@ -45,14 +45,14 @@
 0-20:[BREAK][BREAK][BREAK][CENTER]I'm sure they'll argue a lot, too.[END]
 0-20E:[BREAK][BREAK][CENTER]Je suis sûr qu'ils se[BREAK][CENTER]chamailleront souvent, aussi.[END]
 0-21:[BREAK][BREAK][CENTER]And I can see them helping each[BREAK][CENTER]other out when they need it.[END]
-0-21E:[BREAK][BREAK][CENTER]Je les vois déjà s'entraider[BREAK][CENTER]lorsqu'ils en auront besoin.[END]
+0-21E:[BREAK][BREAK][CENTER]Je les vois déjà s'entraider[BREAK][CENTER]quand ils en auront besoin.[END]
 0-22:[BREAK][BREAK][BREAK][CENTER][CLAUS 22 05 00]...[END]
 0-22E:[BREAK][BREAK][BREAK][CENTER][CLAUS 22 05 00]...[END]
 // Repeats: 0-22, 0-25
 0-23:[BREAK][BREAK][BREAK][CENTER]...and [LUCAS 23 02 00].[END]
 0-23E:[BREAK][BREAK][BREAK][CENTER]... et [LUCAS 23 02 00].[END]
 0-24:[BREAK][BREAK][CENTER]I bet we'll mix them up a lot[BREAK][CENTER]until they get bigger...[END]
-0-24E:[BREAK][CENTER]Je pense que nous allons[BREAK][CENTER]souvent les confondre[BREAK][CENTER]jusqu'à ce qu'ils grandissent...[END]
+0-24E:[BREAK][CENTER]Je pense qu'on va souvent[BREAK][CENTER]les confondre jusqu'à[BREAK][CENTER]ce qu'ils grandissent...[END]
 0-25:[BREAK][BREAK][BREAK][CENTER][CLAUS 22 05 00]...[END]
 0-25E:[BREAK][BREAK][BREAK][CENTER][CLAUS 22 05 00]...[END]
 // Repeats: 0-22, 0-25
@@ -9916,7 +9916,7 @@
 203-57E:@Désolé que ça se soit passé comme ça.[WAIT]@Je suis heureux que vous ayez pu être avec[BREAK]¬moi juste avant la fin...[END]
 // Repeats: 203-57, 263-57
 203-58:@Thanks.[WAIT][PAUSE 40 00]@Dad.[WAIT][PAUSE 20 00]@I'm sorry I didn't listen to you.[END]
-203-58E:@Merci.[WAIT][PAUSE 40 00]@Papa.[WAIT][PAUSE 20 00]@Je suis désolé de ne pas t'avoir écouté.[END]
+203-58E:@Merci.[WAIT][PAUSE 40 00]@Papa.[WAIT][PAUSE 20 00]@Désolé de ne pas t'avoir écouté.[END]
 // Repeats: 203-58, 263-58
 203-59:@I'm going[PAUSE 40 00] to where Mom is now.[EVENT][END]
 203-59E:@Je pars[PAUSE 40 00] rejoindre Maman.[EVENT][END]
