@@ -3559,9 +3559,9 @@
 36-64:@No drinking! No swimming![WAIT]@No swimming! No drinking![WAIT]@And swimming while hallucinating is absolutely[BREAK]¬out of the question![END]
 36-64E:©Boisson interdite·! Baignade interdite·![WAIT]©Baignade interdite·! Boisson interdite·![WAIT]©Et il est absolument hors de question de nager[BREAK]¬en état d'hallucination·![END]
 36-65:@Nice scenery.[WAIT]@How about some nice love?[WAIT]@Please call me anytime.[END]
-36-65E:©Beau paysage.[WAIT]©Que dirais-tu d'un bel amour·?[WAIT]©Appelle-moi quand tu veux.[END]
+36-65E:©Beau paysage.[WAIT]©Que diriez-vous d'un peu d'amour·?[WAIT]©Appelez-moi quand vous voudrez.[END]
 36-66:@There's something across the sea...[WAIT]@Do you ever wonder about such things?[WAIT]@Please call me anytime.[END]
-36-66E:©Il y a quelque chose de l'autre côté de la mer...[WAIT]©Tu penses à ce genre de choses, toi·?[WAIT]©Appelle-moi quand tu veux.[END]
+36-66E:©Il y a quelque chose de l'autre côté de la mer...[WAIT]©Est-ce que vous pensez à ce genre de choses·?[WAIT]©Appelez-moi quand vous voudrez.[END]
 36-67:@That woman over there...[WAIT]@She still keeps looking this way...[WAIT]@And she was looking at me at Club Titiboo,[BREAK]¬too.[WAIT]@I guess she must like me, huh?[WAIT]@Oh, I'm so nervous.[BREAK]¬*thump* *thump*[END]
 36-67E:@Cette femme là-bas...[WAIT]@Elle continue de regarder dans ma direction...[WAIT]@Et elle me regardait déjà au club Titiboo.[WAIT]@On dirait que je lui plais, non·?[WAIT]@Oh, je suis si nerveux.[BREAK]¬*boum-boum* *boum-boum*[END]
 // Repeats: 36-67, 36-72
