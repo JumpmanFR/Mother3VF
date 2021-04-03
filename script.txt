@@ -525,7 +525,7 @@
 0-229E:©Vous n'avez pas assez d'argent.[END]
 // Repeats: 0-229, 322-17, 360-23
 0-230:@The same bed-head as always.[END]
-0-230E:©Toujours la même tête d'endormi.[END]
+0-230E:©Toujours la même tête au saut du lit.[END]
 0-231:@Lookin' handsome.[END]
 0-231E:©Très élégant.[END]
 0-232:@You're looking pretty handsome, but this is no[BREAK]¬time for that.[END]
@@ -2582,7 +2582,7 @@
 22-16E:@Tu as des doutes sur cet ami à moi, c'est ça·?[WAIT]@Mon ami — ou plutôt, mes amis — sont appelés[BREAK]¬les "Magypsy".[WAIT]¬Ils vivent isolés de la civilisation depuis très,[BREAK]¬très longtemps...[END]
 // Repeats: 22-16, 23-16
 22-17:@I see you're not walking as fast now.[WAIT]@It seems the word "Magypsies" has made you[BREAK]¬curious.[WAIT]@The Magypsies have mysterious powers,[WAIT]¬and have been protecting something here for a[BREAK]¬very long time.[WAIT]@They're neither human nor beast,[BREAK]¬neither man nor woman.[WAIT]@I have absolutely no idea how old they are.[WAIT]@That explanation didn't explain much, did it?[WAIT]@Basically, they're strange.[WAIT]¬All of them.[WAIT]¬Every one of them.[WAIT]@That's just how they are.[BREAK]@They ARE good-natured, though.[END]
-22-17E:@Je vois que tu avances moins vite maintenant.[WAIT]@On dirait que le mot "Magypsy" t'a rendu[BREAK]¬curieux.[WAIT]@Les Magypsy possèdent de mystérieux[BREAK]¬pouvoirs,[WAIT]¬et protègent quelque chose ici depuis très,[BREAK]¬très longtemps.[WAIT]@Ils ne sont ni humains ni animaux,[BREAK]¬ni hommes ni femmes.[WAIT]@Je n'ai pas la moindre idée de leur âge.[WAIT]@Cette explication n'explique pas grand-chose,[BREAK]¬n'est-ce pas·?[WAIT]@En bref, ils sont étranges.[WAIT]¬Tous.[WAIT]¬Chacun d'entre eux.[WAIT]@Ils sont ainsi, tout simplement.[BREAK]@Mais ils ne sont pas méchants.[END]
+22-17E:@Je vois que tu avances moins vite maintenant.[WAIT]@On dirait que le mot "Magypsy" a éveillé ta[BREAK]¬curiosité.[WAIT]@Les Magypsy possèdent de mystérieux[BREAK]¬pouvoirs,[WAIT]¬et protègent quelque chose ici depuis très,[BREAK]¬très longtemps.[WAIT]@Ils ne sont ni humains ni animaux,[BREAK]¬ni hommes ni femmes.[WAIT]@Je n'ai pas la moindre idée de leur âge.[WAIT]@Cette explication n'explique pas grand-chose,[BREAK]¬n'est-ce pas·?[WAIT]@En bref, ils sont étranges.[WAIT]¬Tous.[WAIT]¬Chacun d'entre eux.[WAIT]@Ils sont ainsi, tout simplement.[BREAK]@Mais ils ne sont pas méchants.[END]
 // Repeats: 22-17, 23-17
 22-18:@Looks like no one's home.[END]
 22-18E:©On dirait qu'il n'y a personne à la maison.[END]
@@ -2653,7 +2653,7 @@
 23-16E:@Tu as des doutes sur cet ami à moi, c'est ça·?[WAIT]@Mon ami — ou plutôt, mes amis — sont appelés[BREAK]¬les "Magypsy".[WAIT]¬Ils vivent isolés de la civilisation depuis très,[BREAK]¬très longtemps...[END]
 // Repeats: 22-16, 23-16
 23-17:@I see you're not walking as fast now.[WAIT]@It seems the word "Magypsies" has made you[BREAK]¬curious.[WAIT]@The Magypsies have mysterious powers,[WAIT]¬and have been protecting something here for a[BREAK]¬very long time.[WAIT]@They're neither human nor beast,[BREAK]¬neither man nor woman.[WAIT]@I have absolutely no idea how old they are.[WAIT]@That explanation didn't explain much, did it?[WAIT]@Basically, they're strange.[WAIT]¬All of them.[WAIT]¬Every one of them.[WAIT]@That's just how they are.[BREAK]@They ARE good-natured, though.[END]
-23-17E:@Je vois que tu avances moins vite maintenant.[WAIT]@On dirait que le mot "Magypsy" t'a rendu[BREAK]¬curieux.[WAIT]@Les Magypsy possèdent de mystérieux[BREAK]¬pouvoirs,[WAIT]¬et protègent quelque chose ici depuis très,[BREAK]¬très longtemps.[WAIT]@Ils ne sont ni humains ni animaux,[BREAK]¬ni hommes ni femmes.[WAIT]@Je n'ai pas la moindre idée de leur âge.[WAIT]@Cette explication n'explique pas grand-chose,[BREAK]¬n'est-ce pas·?[WAIT]@En bref, ils sont étranges.[WAIT]¬Tous.[WAIT]¬Chacun d'entre eux.[WAIT]@Ils sont ainsi, tout simplement.[BREAK]@Mais ils ne sont pas méchants.[END]
+23-17E:@Je vois que tu avances moins vite maintenant.[WAIT]@On dirait que le mot "Magypsy" a éveillé ta[BREAK]¬curiosité.[WAIT]@Les Magypsy possèdent de mystérieux[BREAK]¬pouvoirs,[WAIT]¬et protègent quelque chose ici depuis très,[BREAK]¬très longtemps.[WAIT]@Ils ne sont ni humains ni animaux,[BREAK]¬ni hommes ni femmes.[WAIT]@Je n'ai pas la moindre idée de leur âge.[WAIT]@Cette explication n'explique pas grand-chose,[BREAK]¬n'est-ce pas·?[WAIT]@En bref, ils sont étranges.[WAIT]¬Tous.[WAIT]¬Chacun d'entre eux.[WAIT]@Ils sont ainsi, tout simplement.[BREAK]@Mais ils ne sont pas méchants.[END]
 // Repeats: 22-17, 23-17
 23-18:@Looks like no one's home.[END]
 23-18E:©On dirait qu'il n'y a personne à la maison.[END]
