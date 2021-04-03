@@ -13529,7 +13529,7 @@
 327-33:@...Really?[WAIT]@I like 'em a lot.[END]
 327-33E:@... Vraiment·?[WAIT]@Je les aime beaucoup, moi.[END]
 327-34:@Danger![WAIT]¬Don't forget to supply yourself with oxygen[BREAK]¬while underwater.[WAIT]@Use the oxygen supply machines efficiently and[BREAK]¬effectively.[END]
-327-34E:©Attention·![WAIT]¬N'oubliez pas de vous approvisionner en[BREAK]¬oxygène lorsque vous êtes sous l'eau.[WAIT]©Utilisez les machines à oxygène de manière[BREAK]¬efficace et efficiente.[END]
+327-34E:©Attention·![WAIT]¬N'oubliez pas de vous approvisionner en[BREAK]¬oxygène lorsque vous êtes sous l'eau.[WAIT]©Utilisez les machines à oxygène à bon escient[BREAK]¬afin d'en tirer le meilleur parti.[END]
 327-35:@Good work today.[END]
 327-35E:@Beau travail aujourd'hui.[END]
 327-36:@Yeah.[BREAK]@Good work today.[END]
@@ -16497,7 +16497,7 @@
 // have to manually write the name here so it will be all-caps
 // ITEM
 443-29:@YOU REAP WHAT YOU SOW SO SEW SO-SO[WAIT]¬GREETINGS CHEESE POPSICLE[WAIT]¬THE NUMBER YOU HAVE DIALED[WAIT]¬IS CURRENTLY OUT OF PORK CHOPS[WAIT]¬FROM EAST TO WEST IT GOES GOES[WAIT]¬BROKEN BROKEN[WAIT]¬OH SO SOW SEW BROKEN[WAIT]¬*whir* *clank* *clunk*[END]
-443-29E:@TU RÉCOLTES CE QUE TU SÈMES SI ÇA[BREAK]¬S'ENSEMENCE AINSI COUCI-COUÇA[WAIT]¬BONJOUR GLACE AU FROMAGE[WAIT]¬LE NUMÉRO QUE VOUS AVEZ DEMANDÉ[WAIT]¬EST ACTUELLEMENT SANS CÔTE DE PORC[WAIT]¬D'EST EN OUEST IL VA IL VIENT[WAIT]¬CASSÉ CASSÉ[WAIT]¬OH SÈMES AINSI S'ENSEMENCE CASSÉ[WAIT]¬*vrrr* *kling* *klong*[END]
+443-29E:@ON RÉCOLTE CE QUE L'ON SÈME ALORS NE[BREAK]¬SEMONS PAS AINSI[WAIT]¬BONJOUR GLACE AU FROMAGE[WAIT]¬LE NUMÉRO QUE VOUS AVEZ DEMANDÉ[WAIT]¬EST ACTUELLEMENT SANS CÔTE DE PORC[WAIT]¬D'EST EN OUEST IL VA IL VIENT[WAIT]¬CASSÉE CASSÉE[WAIT]¬AH NE SEMONS PAS AINSI CASSÉE[WAIT]¬*vrrr* *kling* *klong*[END]
 // had to alter a few things here to make more sense in translation, just try to keep the same general feel and such intact
 443-30:@Hello! How are you today, Your Highness?[WAIT]¬I can select a nice song for you, if you'd like.[WAIT]@Would you like to listen to something?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 443-30E:@Bonjour·! Comment allez-vous aujourd'hui,[BREAK]¬Votre Altesse·?[WAIT]¬Je peux sélectionner une jolie musique pour[BREAK]¬vous, si vous le souhaitez.[WAIT]@Vous aimeriez écouter quelque chose·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
@@ -19129,7 +19129,7 @@
 637-7:@Hook me right onto that candlestick.[WAIT]@Go ahead! Don't worry about me![END]
 637-7E:@Accroche-moi à ce chandelier.[WAIT]@Vas-y·! Ne t'inquiète pas pour moi·![END]
 637-8:@I know you're rather strong.[WAIT]@But the suit of armor inside here is definitely[BREAK]¬no pushover, either.[WAIT]@I'm talking INCREDIBLY strong, here.[WAIT]@If you think you're up to the challenge, I'll[BREAK]¬move out of the way.[WAIT]@Regular ol' items, Mystical Thief Tools...[WAIT]¬Use whatever you can to cling-clang[BREAK]¬boom-bang that guy into submission![END]
-637-8E:@Je sais que tu es fort.[WAIT]@Mais l'armure dans cette pièce est une dure à[BREAK]¬cuire, elle aussi.[WAIT]@Je t'assure qu'elle est VRAIMENT coriace.[WAIT]@Si tu te sens à la hauteur du défi, je vais te[BREAK]¬laisser passer.[WAIT]@Les bons vieux objets, les Outils mystiques du[BREAK]¬Voleur...[WAIT]¬Utilise tout ce que tu peux pour la faire[BREAK]¬cling-clang bam-boum jusqu'à sa chute·![END]
+637-8E:@Je sais que tu es fort.[WAIT]@Mais l'armure dans cette pièce est une dure à[BREAK]¬cuire, elle aussi.[WAIT]@Je t'assure qu'elle est VRAIMENT coriace.[WAIT]@Si tu te sens à la hauteur du défi, je vais te[BREAK]¬laisser passer.[WAIT]@Les bons vieux objets, les Outils mystiques du[BREAK]¬Voleur...[WAIT]¬Utilise tout ce que tu as et soumets-la à coups[BREAK]¬de bam-boum et autres cling-clang bien placés·![END]
 637-9:@To be honest, we all hated that Ghost Knight.[WAIT]@He was a real hard-headed jerk.[WAIT]@So much so that I'd like to thank you for[BREAK]¬beating him.[WAIT]@Thanks![WAIT]@Let that word of appreciation express my[BREAK]¬gratitude.[END]
 637-9E:©Pour être franc, tout le monde détestait ce[BREAK]¬Chevalier fantôme.[WAIT]©Ce crétin était têtu comme une mule.[WAIT]©À tel point que j'aimerais te remercier de[BREAK]¬l'avoir vaincu.[WAIT]©Merci·![WAIT]©Puissent ces mots te transmettre toute ma[BREAK]¬gratitude.[END]
 637-10:@...You seem quite strong.[WAIT]@The suit of armor inside here is so stubborn,[BREAK]¬arrogant, and impossible to get along with, [WAIT]¬but if anyone can beat him, it's you![WAIT]@Please, defeat him! I know you can do it![WAIT]@It'll be the ultimate match of all time![WAIT]@My "onlooker spirit" is all fired up now![END]
