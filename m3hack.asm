@@ -2149,6 +2149,9 @@ org $80428FC; bl naming_screen_hacks.change_printing_order; b $8042988
 //suggests this line was mistakenly removed
 org $923F525; db $13
 
+//Fix Wess' house Area song being set to 74, which is Yado Inn's song
+org $919C538; dd $00004001
+
 //============================================================================================
 //                                  MEMO SCREEN STUFF
 //============================================================================================
