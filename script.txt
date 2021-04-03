@@ -305,7 +305,7 @@
 0-126:[END]
 0-126E:[END]
 0-127:@Hey, monkey![WAIT]@It's too dangerous to go back that way![WAIT]@Let's just get outta here![END]
-0-127E:@Hé, le singe·![WAIT]@C'est trop dangereux de retourner par là·![WAIT]@Il faut qu'on sorte d'ici·![END]
+0-127E:@Hé, le singe·![WAIT]@C'est trop dangereux de retourner par là·![WAIT]@Il faut se tirer d'ici·![END]
 0-128:@Uhh, let's not go this way![WAIT]@Let's make for the forest![END]
 0-128E:@Euh, on va éviter d'aller par là·![WAIT]@Direction la forêt·![END]
 0-129:@Uhh, let's not go this way![WAIT]@Let's escape into the forest![END]
@@ -1207,7 +1207,7 @@
 9-13E:@Cet homme très grand ne bouge jamais d'ici.[WAIT]@Et je ne l'ai jamais vu parler avec qui que ce[BREAK]¬soit non plus...[END]
 // Repeats: 9-13, 37-13
 9-14:@What a huge person.[WAIT]@Hellooooo, up there![WAIT]@Oh! He smiled![END]
-9-14E:@Quel grand bonhomme.[WAIT]@Bonjouuur, là-haut·![WAIT]@Ah·! Il a souri·![END]
+9-14E:@Ce type est vraiment super grand.[WAIT]@Bonjouuur, là-haut·![WAIT]@Ah·! Il a souri·![END]
 // Repeats: 9-14, 37-14
 9-15:@This is Cross Road's bell tower.[END]
 9-15E:©C'est le clocher de la Croisée.[END]
@@ -2674,7 +2674,7 @@
 23-24:@Oh![EVENT][END]
 23-24E:@Oh·![EVENT][END]
 23-25:@I recognize this area.[WAIT]@Ionia's house is north of here.[BREAK]¬The western path should lead us there.[WAIT]@Let's go![END]
-23-25E:@Je reconnais cet endroit.[WAIT]@Ionie habite au nord d'ici.[BREAK]¬J'crois qu'il faut prendre le chemin à l'ouest.[WAIT]@Allons-y·![END]
+23-25E:@Je reconnais cet endroit.[WAIT]@La maison de Ionie, c'est au nord d'ici.[BREAK]¬J'crois qu'il faut prendre le chemin à l'ouest.[WAIT]@Allons-y·![END]
 
 
 
@@ -3696,7 +3696,7 @@
 37-13E:@Cet homme très grand ne bouge jamais d'ici.[WAIT]@Et je ne l'ai jamais vu parler avec qui que ce[BREAK]¬soit non plus...[END]
 // Repeats: 9-13, 37-13
 37-14:@What a huge person.[WAIT]@Hellooooo, up there![WAIT]@Oh! He smiled![END]
-37-14E:@Quel grand bonhomme.[WAIT]@Bonjouuur, là-haut·![WAIT]@Ah·! Il a souri·![END]
+37-14E:@Ce type est vraiment super grand.[WAIT]@Bonjouuur, là-haut·![WAIT]@Ah·! Il a souri·![END]
 // Repeats: 9-14, 37-14
 37-15:@This is Cross Road's bell tower.[END]
 37-15E:©C'est le clocher de la Croisée.[END]
@@ -5067,7 +5067,7 @@
 
 [Container 66]
 66-0:@What's goin' on?[WAIT]@What're you doing, [DUSTER 23 03 00]?[WAIT]@We need to hurry![END]
-66-0E:@Qu'est-ce qui se passe·?[WAIT]@Qu'est-ce que tu fais, [DUSTER 23 03 00]·?[WAIT]@On est pressés·![END]
+66-0E:@Qu'est-ce qui se passe·?[WAIT]@Tu fais quoi, [DUSTER 23 03 00]·?[WAIT]@On est pressés·![END]
 66-1:@Damn.[PAUSE 10 00] It's no use! It won't go![WAIT]@Looks like it's out of power.[WAIT]@I guess all we can do now is walk...[END]
 66-1E:@Zut.[PAUSE 10 00] C'est peine perdue·! Il ne partira pas·![WAIT]@On dirait qu'il est déchargé.[WAIT]@Je crois qu'on va devoir marcher...[END]
 66-2:@It won't start up at all.[END]
@@ -5256,7 +5256,7 @@
 73-0:@!!![END]
 73-0E:@!!![END]
 73-1:@Oh, crap! We can't let it get away![END]
-73-1E:@Oh, zut·! On peut pas le laisser filer·![END]
+73-1E:@Oh, flûte·! On peut pas le laisser filer·![END]
 73-2:@Squeak.[WAIT]¬(I hate this stupid ol' factory.[WAIT]¬There's nothing to eat here at all.[WAIT]¬Huh? My mom's calling for me?[WAIT]¬Yikes! I better get back before she gets[BREAK]¬REALLY mad at me!)[END]
 73-2E:@Couic.[WAIT]¬(Je hais cette vieille usine stupide.[WAIT]¬Y'a vraiment rien à manger ici.[WAIT]¬Hein·? Ma maman m'appelle·?[WAIT]¬Aïe·! Je ferais mieux de rentrer avant qu'elle[BREAK]¬soit VRAIMENT en colère·!)[END]
 73-3:[END]
@@ -5632,7 +5632,7 @@
 81-37:@Yeah.[WAIT]@We just gotta find [DUSTER 23 03 00] and the egg.[END]
 81-37E:@Ouais.[WAIT]@Il faut juste qu'on trouve [DUSTER 23 03 00] et[BREAK]¬l'œuf.[END]
 81-38:@But first, let's free this monkey.[END]
-81-38E:@Mais d'abord, libérons ce singe.[END]
+81-38E:@Mais d'abord, on va libérer ce singe.[END]
 81-39:@Geezer. Go steal that zapper gizmo while that[BREAK]¬lyin' freak's still asleep.[END]
 81-39E:@Hé le schnock. Va voler l'appareil de torture de[BREAK]¬ce baratineur tant qu'il est encore endormi.[END]
 81-40:@Oh, right.[WAIT]@I should've swiped it earlier.[WAIT]@I'll be right back.[END]
@@ -9161,7 +9161,7 @@
 
 [Container 186]
 186-0:@There's the Needle![END]
-186-0E:@Voilà l'Aiguille·![END]
+186-0E:@L'Aiguille est là·![END]
 186-1:@So that's the Needle thing we're here for?[END]
 186-1E:@Alors c'est ça, l'Aiguille qu'on est venus[BREAK]¬chercher·?[END]
 186-2:@[PAUSE 20 00]"I found you.[PAUSE 18 00] I finally[PAUSE 18 00] found you. Nwehehehe!"[PAUSE 3C 00][WAIT]¬is what Fassad says.[END]
