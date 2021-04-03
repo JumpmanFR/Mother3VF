@@ -42,7 +42,7 @@
 13:Flint
 13-E:Flint
 14:Flint
-14-E:Flint
+14-E:Silex
 15:Hinawa
 15-E:Hinaÿa
 16:Hinawa
@@ -56,7 +56,7 @@
 1A:Hinawa
 1A-E:Hinaÿa
 1B:Hinawa
-1B-E:Hinaÿa
+1B-E:Aübre
 1C:Boney
 1C-E:Boney
 1D:Boney
@@ -70,7 +70,7 @@
 21:Boney
 21-E:Boney
 22:Boney
-22-E:Boney
+22-E:Oscar
 23:Duster
 23-E:Duster
 24:Duster
@@ -84,7 +84,7 @@
 28:Duster
 28-E:Duster
 29:Duster
-29-E:Duster
+29-E:Chiffot
 2A:Kumatora
 2A-E:Kuüatora
 2B:Kumatora
@@ -98,7 +98,7 @@
 2F:Kumatora
 2F-E:Kuüatora
 30:Kumatora
-30-E:Kuüatora
+30-E:Léonita
 31:Salsa
 31-E:Salsa
 32:Salsa

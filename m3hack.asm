@@ -787,6 +787,9 @@ org $804DD1C; nop; nop
 org $804DD66; nop; nop
 
 
+// Allow characters to use more than one "Don't Care" name - From Jumpman
+org $8050562; nop; nop
+
 
 
 //============================================================================================
