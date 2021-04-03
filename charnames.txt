@@ -568,7 +568,7 @@
 11B:Kumatora
 11B-E:Kuüatora
 11C:Hippo Researcher
-11C-E:Hippo-chercheur
+11C-E:Chercheur en hippos
 11D:Lucas
 11D-E:Lucas
 11E:Flint
