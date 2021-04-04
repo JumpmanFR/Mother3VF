@@ -6894,7 +6894,7 @@
 118-0:@[DUSTER 23 03 00]. You're so gloomy.[WAIT]@You should be more outgoing and cheerful![WAIT]@I mean, you almost seem like a thief, y'know![END]
 118-0E:@[DUSTER 23 03 00]. Tu as vraiment l'air maussade.[WAIT]@Tu devrais être plus ouvert et enjoué·![WAIT]@Je veux dire, tu sais, tu ressemblerais presque[BREAK]¬à un voleur·![END]
 118-1:@Say, about Scamp...[WAIT]@Apparently, that's been his nickname ever[BREAK]¬since he was a kid.[WAIT]@I guess he was a real troublemaker or[BREAK]¬something.[END]
-118-1E:@Tiens, à propos de Filou...[WAIT]@Apparemment c'est son surnom depuis son[BREAK]¬enfance.[WAIT]@J'imagine que ça devait être un sacré[BREAK]¬perturbateur, ou quelque chose comme ça.[END]
+118-1E:@Tiens, à propos de Filou...[WAIT]@Apparemment c'est son surnom depuis son[BREAK]¬enfance.[WAIT]@J'imagine que ça devait être un sacré[BREAK]¬perturbateur, ou quelque chose du genre.[END]
 118-2:@Scamp hates how only men come to see him.[WAIT]@I'm sure he'd love it if you visited him.[WAIT]@That's the kind of guy he is.[END]
 118-2E:@Filou n'aime pas que ce soit uniquement des[BREAK]¬hommes qui viennent le voir.[WAIT]@Je suis sûr qu'il adorerait que tu ailles lui[BREAK]¬rendre visite.[WAIT]@Il est un peu comme ça.[END]
 118-3:@Oh, monkey [NOTE][PAUSE 10 00][BREAK]¬Monkey[PAUSE 10 00] monkey[PAUSE 10 00] monkey[PAUSE 10 00] monkeeey. [NOTE][END]
@@ -7965,7 +7965,7 @@
 148-0:@I haven't seen ol' [FLINT 23 01 00] lately.[BREAK]¬How's he doing?[WAIT]@Is he visiting her grave again?[END]
 148-0E:@J'ai pas vu le vieux [FLINT 23 01 00][BREAK]¬dernièrement. Comment il va·?[WAIT]@Il va toujours se recueillir sur sa tombe·?[END]
 148-1:@I hear they're digging stuff up over at the[BREAK]¬factory.[WAIT]@Dunno why, but there's something iffy about[BREAK]¬that place.[END]
-148-1E:@Il paraît qu'ils déterrent des tas de trucs à[BREAK]¬l'usine là-bas.[WAIT]@J'sais pas pourquoi, mais cet endroit me paraît[BREAK]¬vraiment louche.[END]
+148-1E:@Il paraît qu'ils déterrent des tas de trucs à[BREAK]¬l'usine là-bas.[WAIT]@J'sais pas pourquoi, mais cet endroit m'a l'air[BREAK]¬vraiment louche.[END]
 148-2:@Heya, [DUSTER 22 0F 00]. Haven't seen you in[BREAK]¬three whole years.[WAIT]@Have you gotten a little condor--[WAIT]@Wait, that's not the word.[WAIT]@Have you gotten a little balder?[WAIT]¬Gahahaha.[END]
 148-2E:@Salut [DUSTER 22 0F 00]. Ça fait au moins[BREAK]¬trois ans que je t'avais pas vu.[WAIT]@Tu n'aurais pas pris un peu de clavecin—[WAIT]@Attends non, c'est pas le mot.[WAIT]@Tu n'aurais pas pris un peu de calvitie·?[WAIT]¬Hahahaha.[END]
 148-3:@You've really grown up.[WAIT]@You even look a little like [FLINT 22 01 00] now.[WAIT]@Oh, but you look like [HINAWA 22 08 00], too.[WAIT]@But you look most like your twin brother[BREAK]¬[CLAUS 22 05 00], of course.[WAIT]@I wonder where he is and what he's up to...[END]
@@ -11167,7 +11167,7 @@
 225-7E:@Mais qu'en est-il d[EF EC][CLAUS 22 05 00]·? Où est-il·?[END]
 // Repeats: 225-7, 254-7
 225-8:@Oh, you mean that rambunctious little squirt[BREAK]¬from a little while ago?[WAIT]@Then I suppose this [FLINT 23 01 00] fellow is[BREAK]¬his father. [HEART][PAUSE 20 00][WAIT]@Hmmm.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][WAIT]@Yes, I can see the resemblance now. You have[BREAK]¬the same eyes. [HEART][END]
-225-8E:@Oh, tu veux parler de cet exubérant petit[BREAK]¬morveux de tout à l'heure·?[WAIT]@Alors je suppose que ce monsieur[BREAK]¬[FLINT 23 01 00] est son père. [HEART][PAUSE 20 00][WAIT]@Hmmm.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][WAIT]@Oui, je vois la ressemblance, à présent. Vous[BREAK]¬avez les mêmes yeux. [HEART][END]
+225-8E:@Oh, tu veux parler de cet exubérant petit[BREAK]¬morveux de tout à l'heure·?[WAIT]@Alors je suppose que ce charmant[BREAK]¬[FLINT 23 01 00] est son père. [HEART][PAUSE 20 00][WAIT]@Hmmm.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][WAIT]@Oui, je vois la ressemblance, à présent. Vous[BREAK]¬avez les mêmes yeux. [HEART][END]
 // Repeats: 225-8, 254-8
 225-9:@Huh? Oh, my...[WAIT]@Really? [HEART][END]
 225-9E:@Ah·? Ça par exemple...[WAIT]@Vraiment·? [HEART][END]
@@ -11428,7 +11428,7 @@
 233-12:@I had faith,[WAIT]¬but I felt a kind of fear so bad that I almost[BREAK]¬expected my entire body to blow apart.[WAIT]@But, as you can see, everyone is just fine![WAIT]@We've regained something incredibly immense![END]
 233-12E:@J'ai gardé la foi,[WAIT]¬mais j'ai ressenti une telle terreur que j'ai cru[BREAK]¬que mon corps tout entier allait exploser.[WAIT]@Mais comme vous pouvez le voir, tout le[BREAK]¬monde va bien·![WAIT]@On·a retrouvé une·force absolument incroyable·![END]
 233-13:@Dunno why, but I can't stop my tears from[BREAK]¬comin' out.[WAIT]@What is this feeling?[WAIT]@What could it be?[END]
-233-13E:@J'sais pas pourquoi, mais j'peux pas empêcher[BREAK]¬mes larmes de couler.[WAIT]@C'est quoi cette sensation·?[WAIT]@Qu'est-ce que je ressens·?[END]
+233-13E:@J'sais pas pourquoi, mais j'peux pas empêcher[BREAK]¬mes larmes de couler.[WAIT]@C'est quoi cette sensation·?[WAIT]@Mais qu'est-ce que j'ai·?[END]
 // this is kumatora talking
 233-14:@This is the first time I've ever seen you cry,[BREAK]¬[KUMATORA 23 04 00].[WAIT]@You're really cute, now that I look.[END]
 233-14E:@C'est la première fois que je te vois pleurer,[BREAK]¬[KUMATORA 23 04 00].[WAIT]@Tu es vraiment adorable, comme ça.[END]
@@ -12033,7 +12033,7 @@
 254-7E:@Mais qu'en est-il d[EF EC][CLAUS 22 05 00]·? Où est-il·?[END]
 // Repeats: 225-7, 254-7
 254-8:@Oh, you mean that rambunctious little squirt[BREAK]¬from a little while ago?[WAIT]@Then I suppose this [FLINT 23 01 00] fellow is[BREAK]¬his father. [HEART][PAUSE 20 00][WAIT]@Hmmm.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][WAIT]@Yes, I can see the resemblance now. You have[BREAK]¬the same eyes. [HEART][END]
-254-8E:@Oh, tu veux parler de cet exubérant petit[BREAK]¬morveux de tout à l'heure·?[WAIT]@Alors je suppose que ce monsieur[BREAK]¬[FLINT 23 01 00] est son père. [HEART][PAUSE 20 00][WAIT]@Hmmm.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][WAIT]@Oui, je vois la ressemblance, à présent. Vous[BREAK]¬avez les mêmes yeux. [HEART][END]
+254-8E:@Oh, tu veux parler de cet exubérant petit[BREAK]¬morveux de tout à l'heure·?[WAIT]@Alors je suppose que ce charmant[BREAK]¬[FLINT 23 01 00] est son père. [HEART][PAUSE 20 00][WAIT]@Hmmm.[PAUSE 10 00].[PAUSE 10 00].[PAUSE 20 00][WAIT]@Oui, je vois la ressemblance, à présent. Vous[BREAK]¬avez les mêmes yeux. [HEART][END]
 // Repeats: 225-8, 254-8
 254-9:@Huh? Oh, my...[WAIT]@Really? [HEART][END]
 254-9E:@Ah·? Ça par exemple...[WAIT]@Vraiment·? [HEART][END]
@@ -20715,7 +20715,7 @@
 
 [Container 834]
 834-0:@Heheheh![BREAK]¬You seem to be having quite the tough time![WAIT]@Did you enjoy my special all-you-can-pee toilet[BREAK]¬dungeon?[WAIT]@Now, then! I have some sad news for you![WAIT]@This place you're at now[PAUSE 3C 00] isn't really the 100th[BREAK]¬floor! It's a fake![WAIT]@Ahahahahaha![WAIT]@You're nothing but a cheap toy crawling around[BREAK]¬in the palm of my hand![WAIT]@Alright! Allow me to invite you to the REAL[BREAK]¬100th floor![WAIT]¬Heh heh.[WAIT]@Board the elevator just ahead.[WAIT]@I'll be waiting for you![END]
-834-0E:@Héhéhé·![BREAK]¬Vous avez l'air d'en baver·![WAIT]@Vous avez aimé mon donjon des toilettes[BREAK]¬spécial pipi à volonté·?[WAIT]@Bon, alors·! J'ai une triste nouvelle pour vous·![WAIT]@L'endroit où vous vous trouvez[PAUSE 3C 00] n'est pas le[BREAK]¬100² étage en réalité·! C'est un faux·![WAIT]@Ahahahahaha·![WAIT]@Vous n'êtes que de pauvres jouets·qui évoluent[BREAK]¬laborieusement dans le creux de ma main·![WAIT]@Bon·! Permettez-moi de vous inviter au VRAI[BREAK]¬100² étage·![WAIT]¬Hé hé.[WAIT]@Grimpez dans l'ascenseur juste devant vous.[WAIT]@Je vous attends·![END]
+834-0E:@Héhéhé·![BREAK]¬Vous avez l'air d'en baver·![WAIT]@Vous avez aimé mon donjon des toilettes[BREAK]¬spécial pipi à volonté·?[WAIT]@Bon, alors·! J'ai une triste nouvelle pour vous·![WAIT]@L'endroit où vous vous trouvez[PAUSE 3C 00] n'est pas le[BREAK]¬100² étage en réalité·! C'est un faux·![WAIT]@Ahahahahaha·![WAIT]@Vous n'êtes que de pauvres·jouets qui évoluent[BREAK]¬laborieusement dans le creux de ma main·![WAIT]@Bon·! Permettez-moi de vous inviter au VRAI[BREAK]¬100² étage·![WAIT]¬Hé hé.[WAIT]@Grimpez dans l'ascenseur juste devant vous.[WAIT]@Je vous attends·![END]
 834-1:@There are signs that someone was here.[END]
 834-1E:©Il y a des signes qui indiquent que quelqu'un est[BREAK]¬passé par ici.[END]
 // TODO voir earthbound ?
