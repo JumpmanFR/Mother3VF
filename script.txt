@@ -3323,7 +3323,7 @@
 
 [Container 35]
 35-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-35-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+35-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 35-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 35-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -3474,7 +3474,7 @@
 36-30E:@Si vous croisez un de mes camarades[BREAK]¬taupes-grillons, transmettez-lui mes amitiés.[WAIT][PAUSE 0F 00]@*bling*[END]
 // Repeats: 36-30, 43-9, 96-30, 99-2, 180-30, 181-30, 182-30, 192-30, 327-30, 328-30, 329-30, 330-30, 331-30, 332-30, 373-30, 374-30, 375-30, 376-30, 377-30, 378-30, 379-30, 467-29
 36-31:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-36-31E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+36-31E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 36-32:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 36-32E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -3737,7 +3737,7 @@
 
 [Container 38]
 38-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-38-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+38-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 38-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 38-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -4414,7 +4414,7 @@
 
 [Container 48]
 48-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-48-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+48-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 48-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 48-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -4492,7 +4492,7 @@
 
 [Container 49]
 49-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-49-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+49-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 49-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 49-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -10936,7 +10936,7 @@
 222-54E:©Une charrette à bras.[WAIT]¬Aussi appelée brouette.[END]
 // Repeats: 10-54, 222-54, 506-54
 222-55:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-222-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+222-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 222-56:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 222-56E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -11048,7 +11048,7 @@
 
 [Container 223]
 223-0:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-223-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+223-0E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 223-1:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 223-1E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
@@ -18135,7 +18135,7 @@
 506-54E:©Une charrette à bras.[WAIT]¬Aussi appelée brouette.[END]
 // Repeats: 10-54, 222-54, 506-54
 506-55:@WANTED![WAIT]@My Generation![WAIT]¬(It appears to be an old concert poster put up[BREAK]¬by someone.[WAIT]¬But...[PAUSE 1E 00] who?)[END]
-506-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais... que fait la[PAUSE 1E 00] police·?)[END]
+506-55E:©ON RECHERCHE·![WAIT]©Roxanne·![WAIT]¬(On dirait une vieille affiche de concert qui[BREAK]¬aurait été collée ici par un plaisantin.[WAIT]¬Mais que fait la[PAUSE 1E 00] police·?)[END]
 // Repeats: 35-0, 36-31, 38-0, 48-0, 49-0, 222-55, 223-0, 506-55
 506-56:@The lightning used to be Reggie's friend.[WAIT]@But now this lightning is bad to Reggie.[END]
 506-56E:@Avant, la foudre était l'amie de Reggie.[WAIT]@Mais maintenant, cette foudre est mauvaise[BREAK]¬pour Reggie.[END]
