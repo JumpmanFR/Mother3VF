@@ -12776,7 +12776,7 @@
 302-0:@Heya! How's it goin'?![WAIT]@I got some homemade DCMC merchandise for[BREAK]¬ ya right here![WAIT]@If it breaks or rips, I'll stay up all night to fix it![WAIT]@Nah! Just kiddin'![WAIT]@I kid a lot![WAIT]@But never mind that, buy some o' these here[BREAK]¬DCMC goods![END]
 302-0E:@Salut·! Comment va·?![WAIT]@J'ai des goodies DCMC faits main, rien que[BREAK]¬pour toi·![WAIT]@Si ça finit abîmé ou déchiré, je passe la nuit ici[BREAK]¬pour les réparer·![WAIT]@Nan·! J'blague·![WAIT]@Je blague beaucoup moi·![WAIT]@Bon c'est pas grave, achète donc quelques[BREAK]¬p'tits goodies DCMC·![END]
 302-1:@All the waitresses here giggle at the end of[BREAK]¬everything they say.[WAIT]@I really wish they'd get rid of that rule, though.[BREAK]¬It's so stupid.[WAIT]@*giggle*[END]
-302-1E:@Ici les serveuses n'arrêtent pas de glousser à[BREAK]¬chaque fois qu'elles disent quelque chose.[WAIT]@Ce serait bien si elles pouvaient changer cette[BREAK]¬habitude. C'est tellement stupide.[WAIT]@*glousse*[END]
+302-1E:@Ici les serveuses gloussent à chaque fois[BREAK]¬qu'elles disent quelque chose.[WAIT]@Ce serait bien si elles pouvaient arrêter de[BREAK]¬suivre cette règle. C'est tellement stupide.[WAIT]@*glousse*[END]
 302-2:@Tonda Gossa![WAIT]@That's the greeting. You know, THE greeting?[WAIT]@Tonda Gossa![WAIT]@You should at least learn the DCMC greeting,[BREAK]¬you know![END]
 302-2E:@Tonda gossa·![WAIT]@C'est la formule. Tu sais, LA formule·![WAIT]@Tonda gossa·![WAIT]@Tu devrais au moins apprendre à saluer comme[BREAK]¬les DCMC·![END]
 302-3:@We don't have restrooms for dogs here.[WAIT]@Oh, you're not a dog?[PAUSE 28 00] My apologies.[WAIT]@*giggle*[END]
