@@ -1282,7 +1282,7 @@
 10-17E:@M-[PAUSE 20 00]mes plus sincères condoléances,[PAUSE 20 00][BREAK]¬[FLINT 23 01 00]...[END]
 // Repeats: 10-17, 222-17, 506-17
 10-18:@Nothing personal, but I'm not good at dealing[BREAK]¬with gloomy things like this.[WAIT]@Even so... *sniffle*[PAUSE 20 00] *sob*[PAUSE 20 00][END]
-10-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à ce genre de moments durs.[WAIT]@Même si... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
+10-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à des choses aussi tristes.[WAIT]@Et pourtant... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
 // Repeats: 10-18, 222-18, 506-18
 10-19:@It seems [CLAUS 22 05 00] was the first person[BREAK]¬at [HINAWA 22 08 00]'s grave this morning.[WAIT]@When I called out to him as he was leaving, he[BREAK]¬gave a tiny little smile...[WAIT]¬...and then suddenly dashed off.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
 10-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je suis allé lui parler alors qu'il s'en[BREAK]¬allait, il m'a fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
@@ -10821,7 +10821,7 @@
 222-17E:@M-[PAUSE 20 00]mes plus sincères condoléances,[PAUSE 20 00][BREAK]¬[FLINT 23 01 00]...[END]
 // Repeats: 10-17, 222-17, 506-17
 222-18:@Nothing personal, but I'm not good at dealing[BREAK]¬with gloomy things like this.[WAIT]@Even so... *sniffle*[PAUSE 20 00] *sob*[PAUSE 20 00][END]
-222-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à ce genre de moments durs.[WAIT]@Même si... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
+222-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à des choses aussi tristes.[WAIT]@Et pourtant... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
 // Repeats: 10-18, 222-18, 506-18
 222-19:@It seems [CLAUS 22 05 00] was the first person[BREAK]¬at [HINAWA 22 08 00]'s grave this morning.[WAIT]@When I called out to him as he was leaving, he[BREAK]¬gave a tiny little smile...[WAIT]¬...and then suddenly dashed off.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
 222-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je suis allé lui parler alors qu'il s'en[BREAK]¬allait, il m'a fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
@@ -18024,7 +18024,7 @@
 506-17E:@M-[PAUSE 20 00]mes plus sincères condoléances,[PAUSE 20 00][BREAK]¬[FLINT 23 01 00]...[END]
 // Repeats: 10-17, 222-17, 506-17
 506-18:@Nothing personal, but I'm not good at dealing[BREAK]¬with gloomy things like this.[WAIT]@Even so... *sniffle*[PAUSE 20 00] *sob*[PAUSE 20 00][END]
-506-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à ce genre de moments durs.[WAIT]@Même si... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
+506-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à des choses aussi tristes.[WAIT]@Et pourtant... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
 // Repeats: 10-18, 222-18, 506-18
 506-19:@It seems [CLAUS 22 05 00] was the first person[BREAK]¬at [HINAWA 22 08 00]'s grave this morning.[WAIT]@When I called out to him as he was leaving, he[BREAK]¬gave a tiny little smile...[WAIT]¬...and then suddenly dashed off.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
 506-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je suis allé lui parler alors qu'il s'en[BREAK]¬allait, il m'a fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
