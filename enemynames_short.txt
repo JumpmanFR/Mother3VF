@@ -107,7 +107,7 @@ Porchidée
 Bâton piailleur
 Être putride
 Pouleuvre
-Osef
+Nawak
 Poisson-chien
 Serpent-vache
 Céphaloporc
@@ -128,7 +128,7 @@ Rhinocéroquette
 Sanglier remonté
 Cafard chromé
 VraiÞSouris·volante
-Choc électrique
+Arc dÞcourt-circuit
 Robot inférieur
 Cyclove
 Sourire sinistre

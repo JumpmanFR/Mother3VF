@@ -761,13 +761,13 @@ La
 la 
 e
 de la 
-// Osef
+// Nawak
 Un 
 un 
-L'
-l'
+Le 
+le 
 -
-de l'
+du 
 // Poisson-chien
 Un 
 un 
@@ -908,13 +908,13 @@ La
 la 
 e
 de la 
-// Choc électrique
+// Arc de court-circuit
 Un 
 un 
-Le 
-le 
+L'
+l'
 -
-du 
+de l'
 // Robot médiocre
 Un 
 un 

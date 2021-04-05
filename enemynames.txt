@@ -221,7 +221,7 @@
 006C: Slitherhen
 006C-E: Pouleuvre
 006D: Whatever
-006D-E: Osef
+006D-E: Nawak
 006E: Dogfish
 006E-E: Poisson-chien
 006F: Cattlesnake
@@ -263,7 +263,7 @@
 0081: Really Flying Mouse
 0081-E: Vraie Souris volante
 0082: Short Circuit Zap!
-0082-E: Choc électrique
+0082-E: Arc de court-circuit
 0083: Minor Robot
 0083-E: Robot inférieur
 0084: Love Walker
