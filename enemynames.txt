@@ -263,7 +263,7 @@
 0081: Really Flying Mouse
 0081-E: Vraie Souris volante
 0082: Short Circuit Zap!
-0082-E: Choc électrique
+0082-E: Court-circuit
 0083: Minor Robot
 0083-E: Robot inférieur
 0084: Love Walker

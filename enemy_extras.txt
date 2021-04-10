@@ -908,7 +908,7 @@ La
 la 
 e
 de la 
-// Choc électrique
+// Court-circuit
 Un 
 un 
 Le 
