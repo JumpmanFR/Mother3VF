@@ -908,13 +908,13 @@ La
 la 
 e
 de la 
-// Arc de court-circuit
+// Choc électrique
 Un 
 un 
-L'
-l'
+Le 
+le 
 -
-de l'
+du 
 // Robot médiocre
 Un 
 un 
