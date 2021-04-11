@@ -1,0 +1,906 @@
+
+                     MOTHER 3, la traduction française
+                                Version 1.8
+                            Lundi 20 avril 2020
+
+Ceci est une traduction non officielle de MOTHER 3, un RPG japonais sorti
+en 2006 sur Game Boy Advance. MOTHER 3 est la suite indirecte de MOTHER 2,
+un jeu plus connu chez nous sous le nom d'EarthBound, paru en 1995 sur la
+Super Nintendo aux États-Unis et en 2013 sur l'eShop de la Wii U en
+Europe.
+
+Cette traduction est gratuite, et a été réalisée en intégralité par des
+fans de MOTHER 3. L'équipe de traduction n'est nullement affiliée à
+Nintendo.
+
+Merci de soutenir la série MOTHER en achetant des produits officiels, y
+compris la traduction officielle si celle-ci venait à voir le jour.
+
+Pour plus de détails sur ce projet de traduction, rendez-vous sur le site
+du projet :
+
+                         http://mother3vf.free.fr
+                     
+Vous pouvez également nous suivre sur Twitter :
+
+                     https://www.twitter.com/mother3vf
+
+... et nous rejoindre sur Discord :
+
+                     http://mother3vf.free.fr/discord
+
+===========================================================================
+
+NOTES DE VERSION
+  Version 1.8 (20 avril 2020)
+    - Révision complète des dialogues, avec de multiples retouches,
+      corrections, reformulations (près de 2000 répliques modifiées), afin
+      de réaliser les objectifs suivants :
+      - Fidélité au texte source : vérification du respect du texte
+        anglais et prise en compte du japonais dans de nombreux cas ;
+      - Caractère plus "vivant" du texte, oralité et travail du style de
+        langage propre à chaque personnage ;
+      - Amélioration de la qualité de la langue, élimination d'éventuelles
+        lourdeurs de style, fluidité de la lecture.
+    - Passage en revue et ajustements divers du côté des éléments
+      graphiques : écran-titre, crédits, écran de santé et sécurité, etc.
+    - Nouvelles routines de hack permettant de gérer des problèmes
+      grammaticaux : cas de la maman souris (répliques selon que le nombre
+      d'enfants restant à sauver soit singulier ou pluriel), cas des
+      attaques renvoyées par Salsa (article devant le nom de l'ennemi).
+    - Intégration de fonctionnalités bonus !
+      - Le menu Mémo a été complètement retravaillé : de nouvelles entrées
+        accessibles en jeu, encore plus de nouvelles entrées accessibles
+        via des codes de triche, le menu entièrement réorganisé, son
+        intérêt historique mieux préservé (respect de l'archaïsme de
+        certaines entrées par rapport au jeu final) ;
+      - D'autres éléments découverts dans la ROM ont été restaurés pour
+        les utilisateurs de la salle de test (nous vous laissons les
+        découvrir...)
+    - Correction d'un plantage spécifique à la traduction, survenant dans
+      certains cas rares lors du combat contre le Phacochar d'assaut.
+    - Correction de bugs issus du jeu officiel :
+      - Disparition d'un PNJ (Thomas) au chapitre 1, jamais rencontré à
+        cet endroit par la plupart des joueurs ;
+      - Incohérence du niveau minimum de départ de Boney au chapitre 4
+        (différent selon qu'on vienne lui parler ou non) ;
+      - Impossibilité de se voir proposer un échange d'objets par un
+        fantôme du château d'Osohé ;
+      - Montant total des tickets de train erroné au chapitres 4 et 5 ;
+      - Cadeaux ouverts inversés entre les deux versions de Tanetane ;
+      - Problème de collision au sommet de la colline de Tanetane.
+    => Merci à Lorenzooone
+    => Merci à Ptirt
+    => Merci à Finiderire
+    => Merci à la communauté Discord de Mother 3 VF
+
+
+  Version 1.7 (20 avril 2019)
+    - Dialogues et textes de combat : correction de deux fautes et d'une
+      erreur de tutoiement, correction de faux sens, amélioration des
+      tournures.
+    - Noms d'objets : quelques ajustements.
+    - Quelques corrections de bugs (consultez le site du projet pour plus
+      de détails - merci Lorenzooone !) :
+      - Rectification d'un problème de collision au dernier chapitre, issu
+        de la version japonaise du jeu ;
+      - Nouveaux correctifs pour les bugs déjà corrigés dans les
+        précédentes versions mais qui persistaient dans certains cas,
+        notamment concernant le rafraîchissement des menus.
+
+
+  Version 1.6 (20 octobre 2018)
+    - Quelques corrections de bugs (merci à Lorenzooone), en particulier :
+        - Correction du bug de copie de sauvegarde : équipement et
+          pouvoirs PSI malencontreusement conservés en cas de création
+          d'une nouvelle partie après avoir copié une sauvegarde d'un
+          emplacement à l'autre ;
+        - Correction du problème des articles en combat : des articles
+          (le, la, les, etc.) avaient dû être retirés sur certains textes
+          car l'algorithme ne récupérait parfois pas le bon article pour
+          un personnage ou un ennemi donné.
+    - Textes : retouches et reformulations diverses, correction d'erreurs.
+    - Quelques modifications dans les noms des ennemis et objets, dont une
+      qui permet une meilleure cohérence avec un des nouveaux noms
+      français dévoilés dans Super Smash Bros. Ultimate. 
+    
+
+  Version 1.5 (20 avril 2018)
+    - De nombreuses corrections de bugs (merci à Lorenzooone !), parmi
+      lesquelles :
+        - Correction du bug de rafraîchissement des menus (consultez le
+          site du projet pour plus de détails) ;
+        - Correction du bug de la grenouille dans la chambre du Roi P. :
+          un bug critique du jeu original japonais, cette grenouille du
+          chapitre 5 pouvant, dans certaines situations, vous bloquer et
+          condamner définitivement votre sauvegarde ;
+        - Correction d'un bug du jeu original, lors du combat contre le
+          Phacochar d'assaut : attaque attribuée à l'ennemi plutôt qu'à
+          Salsa lorsque celui-ci utilise le talent Mimique ;
+        - Correction d'un bug mineur au chapitre 5 devant l'usine :
+          réplique attribuée à Lucas au lieu d'un Masqueporc ;
+        - Correction d'un bug mineur de superposition d'éléments
+          graphiques, devant la grotte de l'île Tanetane ;
+        - Nouvelle correction du bug de ralenti en début de partie, plus
+          optimisée et efficace que la précédente.
+    - Nouvel extrait vocal en français pour l'utilisation du Tumacru.
+      Enregistré par Jumpman.
+    - Nouvel extrait vocal en français pour le face à face du destin entre
+      Lucas et OJ des DCMC au chapitre 4. Enregistré par Firiel et 
+      Anthiflo.
+    - Augmentation du nombre insuffisant d'entrées dans le menu Mémo
+      caché. Merci à Lorenzooone.
+    - Réparation d'une scène coupée qui ne s'affichait pas correctement
+      (scène 00F6, visualisable uniquement via un code de triche). Merci à
+      Lorenzooone.
+    - Textes : retouches et améliorations diverses.
+    - Quelques changements dans les noms d'objets et d'ennemis.
+    - Typographie : utilisation d'espaces fines dans les textes, devant ?,
+      !, et ;.
+
+
+  Version 1.4 (20 octobre 2017)
+    - Correction du bug de ralenti en début de partie. Pour corriger ce
+      bug, également présent dans la traduction anglaise, nous avons
+      retravaillé l'écran de confirmation des noms de personnages, en
+      déplaçant des éléments de texte vers l'arrière-plan. Cela permet de
+      soulager la charge du processeur au moment du fondu sortant qui
+      conduit à la cinématique d'intro. Ce correctif est proposé par notre
+      traduction française avant même que la version anglaise n'en
+      bénéficie ! Merci à Lorenzooone pour l'idée initiale et l'aide
+      apportée.
+    - Ajout de "caractères de taille réduite" pour gérer certains cas où
+      les noms saisis par le joueur ne tiendrait pas dans les champs des
+      menus. Merci à Jeffman pour les routines de hack.
+    - Retouche de l'élément graphique "VICTOIRE !" pour contourner les
+      limites de taille et ajouter l'espace requise avant le point
+      d'exclamation.
+    - Correction d'une incohérence dans les noms d'objets à équiper
+      (l'adjectif "mystique" doit être associé aux équipements ultimes).
+    - Textes : corrections et ajustements divers (mot manquant, tournures
+      de phrases, etc.)
+    - Quelques changements de noms d'ennemis.
+
+
+  Version 1.3 (20 avril 2017)
+    - Traduction des noms des 250 pistes dans le menu du lecteur audio,
+      le seul endroit qui présentait encore des éléments non traduits.
+    - Textes : corrections et ajustements divers, parmi lesquels :
+        - Amélioration des tournures de phrases ;
+        - Correction de quelques petites erreurs restantes : grammaire,
+          faux sens ;
+        - Ajustements typographiques (notamment majuscules / minuscules).
+    - Quelques changements de noms d'ennemis, d'objets et de lieux de
+      moindre importance.
+
+
+  Version 1.2 (20 octobre 2016)
+    - Passe complète sur le script principal conduisant à plus de 800
+      corrections et améliorations, parmi lesquelles :
+        - Amélioration des tournures de phrases pour une lecture plus
+          naturelle et plus fluide ;
+        - Correction d'incohérences dans les tutoiements / vouvoiements ;
+        - Travail sur le style de langage des personnages, notamment
+          Kumatora ;
+        - Correction de quelques petites erreurs restantes : grammaire,
+          expressions, typographie, faux sens... (merci Yohmi) ;
+        - Petites retouches dans la mise en forme du texte, retours à la
+          ligne, etc. ;
+        - Retour d'une référence, précédemment supprimée, au plat préféré
+          de Shigesato Itoi : les croquettes.
+    - Amélioration des textes de combats, et correction d'incohérences
+      dans les noms des attaques (Choc mental/cérébral, PSI/PK Bouclier au
+      lieu de Bouclier PSI...).
+    - Changement du nom d'un personnage : Violette s'appelle désormais
+      Violine (le nom dépassait 7 caractères, ce qui pouvait provoquer un
+      bug mineur).
+    - Réécriture des réponses des Cartes quiz, avec des références issues
+      de la culture francophone.
+    - Correction d'une erreur graphique dans l'écran de saisie des noms
+      des personnages.
+    - Correction d'un bug d'écrasement d'éléments graphiques lié à
+      certains noms d'ennemis trop longs.
+
+
+  Version 1.1 (20 mai 2016)
+    - Traduction en français des crédits de fin du jeu.
+    - Correction d'un bug dans la section Combats du menu mémo, qui
+      provoquait un problème d'affichage et empêchait d'accéder à la page
+      suivante (merci Tempo).
+    - Correction d'un bug d'écrasement d'éléments graphiques lié à
+      certains noms de personnages trop longs (merci Lolsandre).
+    - Changement du nom d'un personnage : Bricket devient Briquet. La
+      référence sera ainsi plus compréhensible par les joueurs, qui, pour
+      certains, pensaient qu'il fallait prononcer "Brickett" à l'anglaise
+      alors qu'il s'agit d'une allusion au thème du feu (cf. Briquet et
+      son fils Fioul).
+    - Modification du message d'échec de la fuite en combat : "Fuite
+      impossible" devient "Vous n'avez pas réussi à fuir", moins
+      susceptible de laisser croire au joueur qu'il ne peut pas retenter
+      sa chance (merci Tim).
+    - Ajout d'un hack permettant d'afficher deux noms d'objets avec les
+      bons articles dans un même message, ce qui nous permet enfin
+      d'afficher correctement la phrase "Lucas jette le/la/etc. [ancien
+      objet] et prend le/la/etc. [nouvel objet]." (merci Lorenzooone).
+    - Ajustement de certaines lettres dans la police d'écriture : le î et
+      le ï gagnent un pixel de plus en largeur pour clarifier l'affichage.
+      Vérification de tous les textes incluant ces caractères pour éviter
+      les dépassements.
+    - Recherche de la configuration la moins défavorable sur le problème
+      des articles manquants ou en trop en combat (voir PROBLÈMES
+      CONNUS) : suppression de l'article en trop sur un cas de figure "Ça
+      n'a aucun effet sur le Lucas".
+    - Correction d'une statistique erronée : +45 pour le Bracelet
+      Sagittaire et non +30 (merci NokoMetal).
+    - Correction de "si il" en "s'il" à plusieurs reprises (merci
+      Themaziest).
+    - Correction d'une faute de contexte : "Je suis désolée" au lieu de
+      "Je suis désolé" (merci Downvolt).
+    - Correction de quelques petites erreurs de typographie (point final
+      manquant, etc.).
+
+
+  Version 1.0 (20 avril 2016)
+    - Publication initiale.
+
+===========================================================================
+
+COMMENT UTILISER LE PATCH DE TRADUCTION
+
+  1. Décompressez le contenu de cette archive zip dans un dossier de votre
+     ordinateur. Vous devriez y trouver les fichiers suivants :
+    
+    * Mother3VF_Windows.exe
+    * Mother3VF_Mac.app
+    * Mother3VF_Android.apk
+    * Mother3VF_Linux
+    * mother3vf.ups
+    * doc_mother3vf.txt (ce fichier)
+
+
+  2. Vous devez ensuite vous procurer une ROM de la version japonaise de
+     MOTHER 3. Nous ne souhaitons pas promouvoir le piratage de contenus
+     protégés par le droit d'auteur, donc nous vous laissons vous charger
+     de récupérer cette ROM par vous-même. Dans l'idéal, vous pouvez
+     acheter un exemplaire du jeu japonais sur cartouche GBA et en
+     extraire la ROM par vos propres moyens. Sinon, les moteurs de
+     recherche sur le Web peuvent également vous être utiles.
+     
+     
+  3. Si vous utilisez Windows, exécutez le fichier Mother3VF_Windows.exe
+ 
+     Si vous utilisez macOS, exécutez le fichier Mother3VF_Mac.app
+     
+     Si vous utilisez Android, exécutez le fichier Mother3VF_Android.apk,
+     acceptez l'installation de l'application, puis ouvrez celle-ci.
+     
+     Si vous utilisez Linux, exécutez le fichier Mother3VF_Linux
+
+     La version Mac du programme n'est compatible qu'avec les versions
+     10.7 et ultérieures de macOS.
+     Notez par ailleurs que sur Mac, il se peut que le système refuse
+     d'ouvrir le programme. En effet, une sécurité de macOS peut empêcher
+     l'exécution d'une application qui n'a pas été signée par un
+     développeur authentifié, ce qui correspond au cas présent. Pour
+     éviter ce blocage et exécuter le programme malgré tout, effectuez un
+     clic droit sur l'icône du fichier et sélectionnez "Ouvrir".
+     Sous Android il est également possible que le système refuse
+     d'installer l'application. Pour y remédier, vous devez vous rendre
+     dans les Paramètres, onglet Général, Sécurité, et cocher "Sources
+     inconnues".
+     
+     Sous Linux, pour pouvoir exécuter le programme d'installation, vous
+     devez avoir préalablement installé Mono.
+     
+     Si vous utilisez un autre système, ou pour toute autre raison, vous
+     pouvez également appliquer le patch avec n'importe quel utilitaire
+     compatible avec les fichiers de patch au format UPS. Voici les
+     utilitaires alternatifs que nous pouvons vous conseiller :
+       - Pour Windows et Linux : Tsukuyomi UPS.
+       - Pour macOS : MultiPatch (compatible avec macOS 10.4 à 10.6).
+       - Pour Android : UniPatcher.
+     Exécutez votre utilitaire en lui spécifiant l'emplacement de votre
+     ROM japonaise et du fichier de patch (ici, il s'agit de
+     mother3vf.ups). En cas de problème, consultez les instructions
+     fournies avec votre utilitaire ou contactez son auteur.
+     
+     
+  4. Le programme d'installation du patch est simple d'utilisation. Il
+     vous suffit de spécifier l'emplacement de votre ROM japonaise et de
+     cliquer sur "Appliquer le patch".
+     
+     Si votre ROM est défectueuse ou non conforme à ce qui est attendu, un
+     message d'erreur vous en informera. Assurez-vous que la ROM japonaise
+     en votre possession a été correctement extraite et qu'elle n'a subi
+     aucune modification.
+     
+     Si vous êtes sous macOS, il est possible que le programme vous
+     demande de spécifier l'emplacement du fichier de patch. Cela est dû à
+     des fonctions de sécurité propres aux versions les plus récentes de
+     macOS (10.12 Sierra et ultérieur). Indiquez-lui le fichier
+     mother3vf.ups auquel nous avons fait référence précédemment.
+
+     L'application du patch ne devrait prendre que quelques secondes, mais
+     elle peut également s'avérer plus longue si vous exécutez le
+     programme depuis un volume externe ou sur un ordinateur ancien.
+          
+     
+  5. Une fois que le patch a été appliqué avec succès, vous pouvez jouer à
+     MOTHER 3 en français ! Vous pouvez utiliser l'émulateur Game Boy
+     Advance de votre choix, ou votre propre console si vous disposez des
+     possibilités techniques pour y faire tourner votre ROM patchée.
+      
+===========================================================================
+
+QUESTIONS FRÉQUENTES (parfois communes avec la version anglaise)
+
+  Q : Dois-je avoir joué aux jeux précédents de la série MOTHER /
+      EarthBound pour profiter pleinement de MOTHER 3 ?
+  R : Il n'y a pas de lien scénaristique entre MOTHER 3 et les jeux
+      précédents, hormis quelques références lointaines. On retrouve
+      certes quelques personnages récurrents, mais dans des rôles assez
+      différents. Pas d'inquiétude si vous êtes un novice de la série :
+      MOTHER 3 est un jeu à part. Vous pouvez l'aborder sans problème,
+      vous ne serez pas perdu !
+
+
+  Q : Je n'arrive pas à sauvegarder ma partie, que se passe-t-il ?
+  R : Ce problème peut survenir avec certains émulateurs.
+      Il y a plusieurs solutions possibles :
+
+      - Si vous utilisez VisualBoyAdvance pour Mac en version 1.7.4,
+        essayez d'installer la version 1.7.2 à la place.
+      - Essayez un autre émulateur : Boycott Advance, No$GBA,
+        OpenEmu (Mac), mednafen...
+      - Essayez de modifier les préférences de l'émulateur. Une solution
+        peut être de fixer la taille de la sauvegarde flash sur 64K.
+      - Essayez de remplacer votre fichier de sauvegarde par le fichier
+        d'une autre personne. Cela peut parfois régler le problème.
+      - Si vous utilisez Windows, procurez-vous l'utilitaire GBATA et
+        sélectionnez l'option Save Fix.
+      - Si aucune de ces solutions ne fonctionne, un patch est proposé par
+        les auteurs de la traduction anglaise. Il est disponible sur la
+        version Web du présent fichier d'aide, dans la rubrique "Aide >
+        Questions fréquentes" sur le site du projet.
+
+
+  Q : Le programme d'installation du patch m'informe que ma ROM est
+      incorrecte ou corrompue. Que se passe-t-il ?
+  R : Assurez-vous que votre fichier est bel et bien une ROM japonaise de
+      MOTHER 3. Généralement, il s'agit d'un fichier en .gba. Si votre
+      fichier est un .zip, vous devez d'abord le décompresser avec un
+      utilitaire spécialisé pour en extraire la ROM qu'il contient.
+      Si l'erreur se produit malgré tout, essayez de vous procurer une
+      autre ROM : en effet, il arrive parfois que certaines ROM soient
+      défectueuses car elles ont été incorrectement extraites de leur
+      cartouche.
+      Notez bien qu'il n'est pas possible d'appliquer le patch sur une ROM
+      de MOTHER 3 déjà patchée ; il vous faut absolument une ROM japonaise
+      d'origine, non modifiée.
+
+
+  Q : Le programme d'installation ne trouve pas le fichier de patch
+      (mother3vf.ups), alors que ce fichier est bien présent !
+  R : Vous devez décompresser l'intégralité de l'archive zip dans un même
+      dossier. Le programme ne fonctionne pas si vous l'exécutez
+      directement à partir de l'archive zip. Si nécessaire, consultez les
+      instructions de votre utilitaire de décompression.
+      Sous macOS, il est possible que le programme vous demande de
+      spécifier l'emplacement de ce fichier. Cela est dû à des mesures de
+      sécurité propres au système d'Apple, mises en place depuis la
+      version 10.12 Sierra.
+      Sous Android, le programme télécharge lui-même le fichier de patch
+      s'il ne le trouve pas localement ; il est nécessaire que vous ayez
+      une connexion Internet activée sur votre appareil pour rendre
+      possible l'opération.
+
+
+  Q : J'ai essayé d'appliquer le patch sur la ROM anglaise ou sur une
+      version précédente (ou bêta) de la ROM en français, mais ça ne
+      fonctionne pas...
+  R : Ce patch de traduction peut être appliqué uniquement sur une ROM de
+      MOTHER 3 en version japonaise, non modifiée.
+
+
+  Q : J'ai double-cliqué sur le fichier .zip mais rien ne se passe. Que
+      faire ?
+  R : Si votre ordinateur ne prend pas en charge les fichiers .zip,
+      utilisez votre moteur de recherche sur le Web pour vous procurer un
+      utilitaire tel que WinZip ou 7-Zip.
+      Sous Android, vous trouverez de nombreux utilitaires de
+      décompression des fichiers .zip en recherchant sur Google Play.
+
+
+  Q : Le jeu est bloqué sur l'écran d'introduction. Que faire ?
+  R : Normalement, vous devriez pouvoir passer cet écran en appuyant sur
+      n'importe quel bouton. Si vous utilisez un émulateur, gardez à
+      l'esprit que vous devez préalablement le configurer afin de
+      spécifier quelles touches du clavier agissent comme des boutons de
+      Game Boy Advance.
+
+
+  Q : Pourquoi est-ce que je n'arrive pas à effectuer de combos lors des
+      combats ?
+  R : Pour réaliser des combos, vous devez appuyer sur le bouton A en
+      rythme avec la musique. Il est plus difficile de trouver le bon
+      rythme pour certaines musiques que pour d'autres. Mais surtout, en
+      raison de la nature même de l'émulation, le rythme à effectuer n'est
+      pas correctement synchronisé avec la musique telle que vous
+      l'entendez. Si vous avez des difficultés à réaliser des combos sur
+      un émulateur, essayez les solutions suivantes :
+
+      - Utilisez un autre émulateur, ou une version différente de votre
+        émulateur actuel.
+      - Réglez le saut d'image (frameskip) de votre émulateur sur 0.
+      - Testez différentes possibilités visant à optimiser les
+        performances de votre ordinateur, par exemple en fermant les
+        autres applications ouvertes ou les processus qui tournent en
+        arrière-plan, ou encore en redémarrant l'ordinateur.
+
+      Parfois les combos ont simplement été pensés pour être difficiles à
+      effectuer. Au cours de l'aventure, vous trouverez un objet qui vous
+      permettra d'entendre plus clairement le rythme à effectuer, et un
+      autre objet qui vous permettra de vous entraîner sur des monstres
+      déjà rencontrés. Essayez de vous améliorer avec la pratique !
+
+      Notez que la maîtrise de ces combos n'est pas indispensable pour
+      terminer MOTHER 3. Ils ne sont qu'un bonus offert aux joueurs qui
+      prennent le temps de les maîtriser.
+
+
+  Q : Le jeu se fige / plante avec mon matériel !
+  R : Il s'agit peut-être d'un problème directement lié à votre matériel.
+      Essayez de faire des recherches pour en apprendre plus sur les
+      capacités et limites de votre matériel. En particulier, les
+      cartouches de type M3 semblent rencontrer un certain nombre de
+      problèmes.
+
+
+  Q : Il arrive parfois que la musique du jeu s'accélère dans les menus.
+      Pourquoi ?
+  R : Ce problème est lié au fonctionnement de l'émulateur VBA-M. Il ne
+      survient que sur les émulateurs basés sur VBA-M, y compris OpenEmu.
+
+
+  Q : J'observe des ralentissements au début du jeu, dans la forêt.
+      Comment y remédier ?
+  R : Il s'agit d'un problème dû à l'émulation. Essayez d'ajuster les
+      réglages de votre émulateur pour en réduire les effets.
+
+
+  Q : Puis-je conserver ma sauvegarde si je passe à une nouvelle version
+      du patch ?
+  R : Oui, les sauvegardes restent compatibles. Elles ne sont pas stockées
+      dans la ROM mais dans un fichier à part, d'extension .sav. Si vous
+      laissez ce fichier à son emplacement actuel et que vous remplacez
+      votre ROM courante par une version plus récente avec le même nom et
+      stockée au même endroit, vous retrouverez votre sauvegarde au
+      lancement du jeu en français dans sa nouvelle version.
+
+
+  Q : Puis-je reprendre ma sauvegarde de la version anglaise de MOTHER 3
+      pour l'utiliser sur la version française ?
+  R : Oui, si vous utilisez la traduction anglaise de Tomato et son
+      équipe. En général, la sauvegarde doit avoir le même nom que la ROM
+      utilisée (excepté l'extension). Renommez-la correctement et
+      placez-la dans le dossier spécifié pour votre émulateur. Cela
+      s'applique également pour les traductions dans d'autres langues
+      basées sur la version anglaise.
+
+
+  Q : Puis-je reprendre ma sauvegarde de la version japonaise de MOTHER 3
+      pour l'utiliser sur la version française ?
+  R : Oui. Cependant, il se produira des bugs graphiques au niveau des
+      noms des personnages du jeu. Pour y remédier vous pouvez télécharger
+      l'utilitaire de conversion des sauvegardes. Il est disponible sur la
+      version Web du présent fichier d'aide, dans la rubrique "Aide >
+      Questions fréquentes" sur le site du projet.
+ 
+===========================================================================
+
+PROBLÈMES CONNUS : BUGS, FAUTES DE TEXTES, ETC.
+
+  Ce projet de traduction de MOTHER 3 a nécessité un travail bénévole
+  particulièrement conséquent. Dès lors, il est probable que des bugs et
+  autres problèmes graphiques ou textuels surviennent. Malgré tous nos
+  efforts pour régler tous ces problèmes, nous en avons forcément manqué
+  un certain nombre. Si vous rencontrez un bug ou une faute d'orthographe,
+  grammaire, typographie, etc., vous pouvez nous le communiquer en suivant
+  la procédure précisée un peu plus bas.
+
+  Cependant, veuillez noter que certains problèmes présents dans la
+  traduction sont déjà connus. Certains étaient déjà existants dans le jeu
+  japonais d'origine. D'autres sont liés à la version anglaise dont nous
+  utilisons une bonne partie des éléments techniques, et nous n'avons pas
+  été en mesure de les corriger. D'autres encore sont liés uniquement à
+  notre version française. Il se peut que nous les corrigions dans une
+  future version du patch. Voici une liste de ces problèmes déjà connus ;
+  comme nous en avons déjà connaissance, merci de ne pas nous les
+  signaler.
+
+
+  PROBLÈMES DÉJÀ CONNUS :
+  
+  * Ralenti des dialogues : Il arrive parfois que le texte des dialogues
+    se mette à défiler légèrement plus lentement, avant d'accélérer à
+    nouveau. La cause de ce problème, déjà présent dans la version
+    anglaise, n'est pas connue.
+
+  * Absence d'élision devant la nourriture favorite : Votre nourriture
+    favorite, que vous spécifiez en début de partie, sera citée dans les
+    dialogues du jeu. Cependant, si elle commence par un voyelle ou un h
+    muet, la règle d'élision du français ne sera pas appliquée. Exemple :
+    "un peu de Omelette" au lieu de "un peu d'Omelette". Nous n'avons pas
+    été en mesure de modifier le comportement du jeu pour qu'il se
+    conforme à cette règle de la langue française.
+
+
+  Si vous rencontrez un bug qui n'est pas listé ci-dessus, vous pouvez
+  nous le signaler en nous envoyant un message via Twitter (@Mother3VF) ou
+  via le formulaire de contact sur le site du projet (rubrique "À propos >
+  Nous contacter") :
+
+                http://mother3vf.free.fr/index.php/contact/
+                
+  Mais avant toute chose, assurez-vous que :
+  
+  - La version du patch que vous utilisez (spécifiée dans l'en-tête de ce
+    fichier) correspond bien à la dernière version en date qui est
+    disponible au téléchargement sur le site du projet ;
+  - Vous n'avez pas utilisé la salle de test au cours de votre partie :
+    en effet, le simple fait d'utiliser la salle de test peut altérer
+    l'état de la RAM et conduire à toutes sortes de bugs inattendus en
+    jeu, même s'ils n'ont pas l'air liés à son utilisation à première vue.
+
+  Il est impératif que votre rapport de bug soit suffisamment détaillé. Si
+  possible, veuillez y inclure les éléments suivants :
+
+  - Une description détaillée du problème ;
+  - Une description de ce que vous faisiez en jeu juste avant que le
+    problème ne survienne ;
+  - Une capture d'écran qui montre un aperçu du problème ;
+  - S'il s'agit d'une faute d'écriture, une citation exacte de la phrase
+    telle qu'elle est écrite dans le jeu, après vous être assuré que la
+    formulation d'origine est bel et bien erronée. Gardez à l'esprit que
+    certaines fautes peuvent être intentionnelles, et qu'il est normal que
+    certains personnages du jeu s'expriment d'une façon étrange.
+
+  Merci !
+ 
+===========================================================================
+
+CONTENU BONUS
+
+  Certains éléments qui n'étaient pas présents dans la version japonaise
+  du jeu ont été ajoutés dans cette traduction. Certains de ces ajouts ne
+  sont pas de notre fait : nous les devons à l'équipe de la traduction
+  anglaise, et nous en avons hérité en même temps que leurs outils.
+
+  - Dans le jeu, il existe un objet appelé le Bestiaire. Il garde la trace
+    de tous les ennemis que vous avez rencontrés durant votre partie. Si
+    vous parvenez à le remplir entièrement, une étoile argentée apparaîtra
+    sur l'écran du Bestiaire, pour attester de cette réussite. De plus, si
+    pour chacun de ces ennemis vous faites s'afficher à la fois son image
+    de face et son image alternative ou de dos, une étoile dorée 
+    apparaîtra sur l'écran du Bestiaire.
+
+  - Il existe un menu appelé Mémo, qui était resté inaccessible et à
+    l'état de bêta dans la version japonaise, et qui est disponible dans
+    la traduction française. Pour y accéder, il suffit de sélectionner
+    l'entrée "Statut" sur le menu de pause, puis d'appuyer sur le bouton A
+    tout en maintenant enfoncés les boutons L et R. Ce menu a été rendu
+    disponible depuis la version anglaise du jeu, mais il était resté à
+    l'état de bêta. Dans cette traduction française, nous avons restauré
+    ce menu, nous l'avons réorganisé, et nous l'avons revu de fond en
+    comble de façon à ce que davantage d'entrées soient accessibles sans
+    code de triche.
+    
+  - Nous avons réparé une des scènes cachées du jeu, déjà accessible dans
+    la version japonaise grâce à l'utilisation de codes de triche. Ce sont
+    des séquences que les développeurs ont finalement décidé de ne pas
+    faire apparaître dans l'aventure. La scène réparée, connue sous le nom
+    de 00F6, présentait initialement quelques défauts visuels.
+    
+  - Le patch comporte quelques autres fonctionnalités cachées, mais vous
+    devrez les découvrir par vous-mêmes. Certaines sont accessibles depuis
+    la salle de test, pour les plus curieux. D'autres récompenseront les
+    joueurs les plus aguerris.
+
+  Notez qu'aucun ennemi n'a été ajouté dans le jeu par rapport à la
+  version japonaise. Aucun contenu inutilisé majeur (boss, musique, zone,
+  etc.) n'a été rendu accessible dans cette version. Pour plus de détails
+  sur les éléments inutilisés dans MOTHER 3, le Web anglophone est rempli
+  de ressources sur ce sujet.
+ 
+===========================================================================
+
+QUI SOMMES-NOUS ?
+
+  Ce projet de traduction a été réalisé principalement par cinq personnes.
+
+  Les premières étapes ont été assurées par Lostindark et Krummi, deux
+  étudiants, qui traduisirent une bonne partie du script principal en
+  premier brouillon ainsi que quelques textes annexes.
+
+  L'équipe fut ensuite renforcée par JumpmanFR, qui devint coordinateur du
+  projet. JumpmanFR est un développeur ayant travaillé dans le jeu vidéo,
+  il est également journaliste amateur pour le site d'actualités Puissance
+  Nintendo et musicien dans l'orchestre Pixelophonia dédié aux reprises de
+  musiques de jeux vidéo.
+
+  Puis Anthiflo rejoignit l'équipe dans les derniers mois du projet,
+  notamment pour la partie graphique et quelques textes annexes. Anthiflo
+  est développeur et graphiste dans le jeu vidéo, il a travaillé sur le
+  jeu indépendant Replay - VHS is not Dead. Il est également impliqué dans
+  la traduction amateur de jeux de la série Ace Attorney.
+
+  Enfin Zeilk, diplômé en lettres de l'École normale supérieure, a
+  travaillé sur la relecture et la correction du script principal. Nos
+  textes traduits ont pu grâce à lui atteindre un niveau de qualité que
+  nous n'espérions pas approcher.
+
+  D'autres personnes ont contribué au projet, de façon ponctuelle mais
+  suffisamment importante pour rendre possible sa réalisation qui n'était
+  pas gagnée d'avance. En particulier, M0nsieurL, un vieux briscard de la
+  fan-traduction notamment connu pour avoir contribué à la traduction
+  non officielle d'EarthBound en français, nous a transmis une partie de
+  de son expérience dans le domaine du hacking. Sur les versions
+  ultérieures à la 1.0, Lorenzooone de la traduction italienne a apporté
+  un nombre incroyable de correctifs grâce à ses grandes compétences
+  techniques et sa très bonne connaissance de la ROM.
+
+  La totalité des personnes ayant contribué au projet sont citées plus
+  bas, dans la section des crédits.
+
+===========================================================================
+
+DÉROULEMENT DU PROJET
+
+  Ce projet de traduction fut lancé suite à la mise à dispositon par
+  l'équipe de la traduction anglaise d'outils permettant de traduire le
+  jeu dans d'autres langues. Ces outils ont facilité le travail technique
+  dans une certaine mesure.
+
+  Le projet a été réalisé en deux phases.
+
+  Il a d'abord été initié par Lostindark en juillet 2015, avec la
+  contribution de SSKM31. Lostindark travaillait sur un premier brouillon
+  du script principal lorsque Krummi intégra l'équipe, notamment pour
+  s'occuper des textes de combats et annexes. Cette phase a pris fin
+  lorsque Lostindark s'est engagé dans des études supérieures qui
+  nécessitaient un investissement important. 40% du script principal
+  étaient traduits en premier brouillon, de même que les textes de combats
+  et quelques scripts annexes.
+
+  La deuxième phase commença lorsque JumpmanFR intégra l'équipe et prit le
+  relai sur le script principal. Un travail de relecture des premiers
+  brouillons fut d'abord entrepris, avant que la suite des travaux de
+  traduction du script principal soit entamée. Parallèlement, le site du
+  projet et un compte Twitter furent ouverts pour informer la communauté
+  et éventuellement rallier d'autres personnes motivées à notre cause.
+  Une grande partie de cette phase fut assurée par JumpmanFR seul ou
+  ponctuellement aidé de Krummi pour de la relecture ou du test.
+
+  Par le biais du compte Twitter, une personne impliquée dans le domaine
+  de la traduction fut informée de l'existence de notre projet :
+  M0nsieurL, un des auteurs de la traduction française d'EarthBound. Il
+  nous contacta en nous avisant qu'il travaillait lui-même sur sa propre
+  traduction de MOTHER 3. Après quelques discussions, il s'avéra que
+  M0nsieurL souhait continuer à travailler sur sa propre traduction,
+  indépendamment de la nôtre. Mais très vite, un esprit d'entraide s'est
+  instauré. Nous nous sommes échangé quelques ressources graphiques et
+  autres idées pour nos projets respectifs, mais il faut reconnaître que
+  c'est surtout M0nsieurL qui nous a apporté une aide précieuse, pour tout
+  ce qui concerne le travail de hacking.
+
+  C'est à cette époque qu'Anthiflo rejoignit le projet, initialement pour
+  des travaux de retouche graphique. Le jeu comporte un certain nombre
+  d'éléments graphiques contenant du texte, et il s'imposait de les
+  traduire en français. Grâce aux talents de graphiste d'Anthiflo et aux
+  compétences en hacking que M0nsieurL nous a transmises, nous avons pu
+  modifier ces composants graphiques et les réinjecter dans le jeu. Un
+  travail de longue haleine.
+
+  En parallèle, la traduction des textes progressait, en même temps que la
+  mise en place de nouveaux hacks, notamment pour les articles devant les
+  noms d'objets et d'ennemis. Alors que la traduction du script principal
+  approchait les 90%, un appel à candidature pour un programme de
+  bêta-test fut lancé. Douze testeurs furent recrutés, pour tester le jeu
+  de façon intensive pendant un mois. Grâce à la collaboration de ces
+  bêta-testeurs, de nombreuses erreurs furent corrigées : orthographe,
+  typographie, dépassements de texte, cohérence générale, tournures...
+  Parmi les testeurs, Zeilk, un étudiant littéraire à l'ENS, a fourni un
+  travail de correction très conséquent en s'appuyant sur sa connaissance
+  pointue de la langue française.
+
+  Voilà comment nous en sommes arrivés à une traduction complète de
+  MOTHER 3, finalisée en avril 2016. Ainsi, nous avons pu publier le patch
+  le jour des 10 ans de la sortie du jeu au Japon, le 20 avril 2016. Il
+  faut bien dire que nous n'aurions peut-être pas réalisé ce projet si
+  nous avions eu conscience dès le départ de l'ampleur de la tâche. Nous
+  ne serons jamais à 100% satisfaits de ce que nous avons produit et nous
+  avons constamment tenté de l'améliorer autant que nous le pouvions, mais
+  nous pensons que le résultat est suffisamment soigné pour vous fournir
+  une belle expérience en français avec MOTHER 3. Nous espérons que cette
+  traduction sera à la hauteur de vos attentes.
+
+===========================================================================
+
+BILAN DU PROJET
+
+  Par rapport au travail fourni par l'équipe de traduction anglaise, le
+  nôtre a été beaucoup moins conséquent, car nous avons hérité des outils
+  qu'ils avaient mis à notre disposition. En particulier, l'essentiel du
+  travail sur les polices était déjà fait, de même que tout ce qui
+  concerne la réinjection des textes. En revanche, nous avons dû accomplir
+  certaines tâches spécifiques à la version française, pour couvrir des
+  problématiques non présentes en version anglaise : modification des
+  éléments graphiques (déjà en anglais dans la version japonaise),
+  traduction de noms de personnages (déjà anglicisés dans la version
+  japonaise pour une bonne partie d'entre eux), accord des verbes avec les
+  nom d'ennemis et d'objets pour les phrases dynamiques en combat...
+
+
+  TRAVAIL EFFECTUÉ
+
+  - Traduction du script principal : plus de 6500 dialogues remplis de
+    jeux de mots, effets linguistiques et références culturelles
+  - Traduction de plusieurs centaines de textes de combats
+  - Traduction de 70 noms de personnages environ
+  - Traduction de 250 noms d'ennemis environ, et leurs descriptions
+  - Traduction de 250 noms d'objets environ, et leurs descriptions
+  - Recréation d'un univers cohérent en français grâce à la traduction
+    coordonnée de tous ces éléments, à la réflexion autour des noms
+    propres associés aux lieux et personnages, et au soin porté sur la
+    cohérence des styles d'expression dans les dialogues
+  - Traduction des noms et descriptions des talents, pouvoirs PSI et
+    altérations d'état
+  - Traduction des 250 noms de pistes audio
+  - Traduction des textes des menus et divers
+  - Traduction et restauration du menu Mémo, qui était présent dans le jeu
+    dans une version inachevée
+  - Traduction de certains textes particuliers dans une certaine langue
+    régionale... (merci Benki)
+  - Retouche des polices d'écriture pour améliorer la lisibilité, ajout de
+    caractères particuliers (notamment les caractères accentués pour la
+    police des MM. Saturne), gestion des dépassements pour les noms de
+    personnages trop longs grâce à l'insertion de caractères de largeur
+    réduite
+  - Réalisation du clavier français pour la saisie des noms des
+    personnages
+  - Traduction, retouche et réinjection de plus de 50 éléments graphiques,
+    repositionnement dans la ROM pour les éléments graphiques plus
+    volumineux qu'à l'origine grâce aux techniques de hack, et un travail
+    très conséquent sur les noms des étages affichés dans le Laboratoire
+    chimérique
+  - Traduction de l'écran-titre et des crédits de fin par le biais de
+    retouches graphiques
+  - Enregistrement et insertion de deux extraits vocaux en français (merci
+    Firiel)
+  - Hacking : gestion des articles définis/indéfinis et des accords pour
+    les objets et ennemis ; la saisie de ces articles et accords pour
+    chaque ennemi et chaque objet
+  - Correction de bugs issus de la version anglaise
+  - Correction de bugs issus de la version japonaise (merci Lorenzooone)
+  - Modification d'un certain code bonus hérité de la version anglaise, à
+    entrer dans l'écran de saisie du nom du joueur...
+  - Tests intensifs, relecture et nombreuses corrections
+  - Communication sur le projet via le site et Twitter, bande-annonce
+  - Organisation d'un programme de bêta-test, travail avec les testeurs,
+    nombreuses corrections
+  - Développement d'outils et scripts pour automatiser les processus,
+    faciliter le travail collaboratif et valider les textes
+  - Développement d'applications sur mesure permettant l'installation du
+    patch, pour Windows, macOS, Linux et Android, parfois en adaptant des
+    programmes existants (merci Sappharad, xperia64, byuu)
+
+  Pour plus de détails sur le travail de hacking, consultez les notes
+  publiées par les auteurs de la traduction anglaise. Nous avons hérité
+  de toutes leurs routines de hack.
+
+===========================================================================
+
+NOTES DE TRADUCTION
+
+  Nous aurions tant de choses à dire ! Mais par où commencer ? Beaucoup
+  d'explications s'imposent quant à nos choix, notamment concernant la
+  traduction des noms de personnages et de lieux, et les problèmes que
+  nous avons rencontrés tout au long du projet.
+  
+  Pour couvrir tous ces sujets, un long travail de rédaction s'impose.
+  Nous allons progressivement étoffer le site du projet en y publiant des
+  détails sur notre démarche et nos réflexions. Gardez un œil sur le site,
+  et en particulier sur les publications dans la catégorie "Making of".
+  Un filtre par catégories est proposé dans la colonne de droite.
+  
+  Pour le moment, nous y avons publié un article qui présente notre
+  travail sur tout ce qui concerne la traduction des noms propres, et un
+  autre présentant les textes non utilisés que nous avons découverts dans
+  la ROM. Deux publications intéressantes que nous vous recommandons
+  vivement !
+
+===========================================================================
+
+MESSAGE SPÉCIAL
+
+  Cette traduction est dédiée à tous les fans francophones de la série
+  MOTHER/EarthBound. L'attente pour obtenir une traduction d'EarthBound
+  fut déjà longue, et elle vint à son terme grâce au travail de la team
+  MAMBO. Pour MOTHER 3, cela fait dix ans que vous attendiez une
+  traduction en français, la voici. Elle est pour vous. Faites-la vivre.
+
+  Cette traduction est aussi dédiée à Shigesato Itoi. Sans grande
+  originalité, je renouvelle l'hommage qui lui a été rendu par l'équipe de
+  traduction anglaise. Les travaux de M. Itoi ont inspiré des millions de
+  personnes à travers le monde, et ses créations semblent intemporelles.
+  Puisse le rayonnement de son œuvre s'étendre encore grâce à cette
+  traduction.
+
+  Cette traduction est également dédiée à Tomato et à son équipe de
+  traduction anglaise. Mes amis, vous avez réalisé une des meilleures
+  fan-traductions de jeux vidéo au monde. La qualité de ce que vous
+  proposez va au-delà de certaines traductions tout à fait officielles.
+  Il est évident que notre traduction française n'existerait pas sans
+  vous : vous avez permis à des personnes inexpérimentées dans le domaine
+  de la traduction de prendre le relai pour d'autres langues, et grâce à
+  vous, les traductions de MOTHER 3 se répandent à travers le monde. Vous
+  avez été si influents que finalement, durant toutes les phases de notre
+  projet, nous n'avons fait que vous imiter. En tant que traducteurs, en
+  tant qu'amoureux du jeu vidéo et en tant que joueurs, nous vous disons
+  merci.
+
+  Enfin, cette traduction est dédiée à toi. Oui, toi qui lis ce présent
+  texte.
+
+===========================================================================
+
+CRÉDITS
+
+  ÉQUIPE PRINCIPALE
+  JumpmanFR (coordination, traduction, hacking, scripts, communication)
+  Anthiflo (graphisme, traduction, hacking, playtest)
+  Zeilk (relecture, expertise linguistique)
+  Lostindark (démarrage du projet, traduction)
+  Krummi (traduction, playtest)
+ 
+  CONTRIBUTEURS
+  Lorenzooone (assistance hacking)
+  M0nsieurL (assistance hacking)
+  Benki (traduction dialecte)
+ 
+  BÊTA-TESTEUSES D'ÉLITE
+  Aoi
+  Ptirt
+ 
+  BÊTA-TESTEURS
+  Ba-Jail
+  DarkSonicPhil
+  Hylius
+  Laggronite
+  Naylvis
+  NuclearSam
+  Onidrix
+  Rayzo
+  Tjtaz
+  Wiild
+ 
+  REMERCIEMENTS
+  Jeffman
+  Tomato
+  Sappharad
+  xperia64
+  byuu
+  TragicManner
+  Foffano
+  YouyouDakota
+  Kluzik
+  ItsPokeJS
+  Mathurin
+  SSKM31
+  Gabi6329
+  Firiel
+  Samiaou
+  Tactoe et l'équipe UndertaleFR
+  Un forumeur doué pour les noms d'ennemis
+  La communauté francophone des fans de MOTHER 3
+  Shigesato Itoi, Brownie Brown, HAL et Nintendo pour l'œuvre originale

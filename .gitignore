@@ -60,6 +60,7 @@
 !font_mainwidths.bin
 !font_smallfont.bin
 !font_smallwidths.bin
+!font_castroll.bin
 !font_equip_rearranged.bin
 !data_creditstable.bin
 !data_ghost_fix.bin
@@ -217,3 +218,4 @@
 !checkrepeats.bat
 !j.bat
 !makeups.bat
+!doc_mother3vf.txt
