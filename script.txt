@@ -16247,7 +16247,7 @@
 430-6:@Well, looks like my ride is here.[WAIT]@Later days, pals![END]
 430-6E:@Bon, je crois que je suis attendu.[WAIT]@À plus tard, les amis·![END]
 430-7:@Okay, all set![WAIT]@Destroy Thunder Tower![END]
-430-7E:@OK, tout est bon·![WAIT]@Ordonnez la destruction·![END]
+430-7E:@OK, tout est en place·![WAIT]@Détruisez la tour du Tonnerre·![END]
 430-8:@Well, [LUCAS 23 02 00].[WAIT]@We haven't known each other long, but it's[BREAK]¬been fun! I'll never forget about you guys![WAIT]@Nwehehehehe![BREAK]@Nweeeeeeehehehehe![END]
 430-8E:@Bien, [LUCAS 23 02 00].[WAIT]@On ne se sera pas connus très longtemps, mais[BREAK]¬ce fut amusant·![WAIT]¬Je ne vous oublierai pas, les gars·![WAIT]@Nwéhéhéhéhé·![BREAK]@Nwéééééééhéhéhéhé·![END]
 430-9:@...heh?![0C FF 5A 00][END]
