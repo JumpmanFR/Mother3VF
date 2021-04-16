@@ -1,7 +1,7 @@
 
                      MOTHER 3, la traduction française
-                                Version 1.8
-                            Lundi 20 avril 2020
+                                Version 1.9
+                            Mardi 20 avril 2021
 
 Ceci est une traduction non officielle de MOTHER 3, un RPG japonais sorti
 en 2006 sur Game Boy Advance. MOTHER 3 est la suite indirecte de MOTHER 2,
@@ -32,6 +32,73 @@ Vous pouvez également nous suivre sur Twitter :
 ===========================================================================
 
 NOTES DE VERSION
+  Version 1.9 (20 avril 2021)
+    - Refonte générale et améliorations diverses concernant les menus et
+      l'affichage des textes (OAM et VRAM)* :
+      - optimisations majeures rendant la charge CPU plus réduite et la
+        navigation dans les menus considérablement plus rapide ;
+      - suppression des légers craquements audio lors de la validation
+        dans certains menus
+      - correction du bug en cas d'utilisation d'un Souvenir de Magypsy
+        pendant que le menu des objets est affiché
+      - correction du ralenti lors de l'effacement intégral des données de
+        sauvegarde
+    - Gestion dynamique de l'élision devant les noms des personnages et du
+      plat préféré dans les dialogues, menus et combats (exemple :
+      "l'équipe de Élise" devient "l'équipe d'Élise").
+    - Mise en place de solutions techniques pour supprimer des limitations
+      de longueur de texte, et réécriture des textes correspondants :
+      description d'objets et de PSI, nom du locuteur dans les dialogues*,
+      menu Mémo*, menus "carnets"*, scène du chuchotement de Fassad*, type
+      de PSI dans les menus de combat, choix des événements dans la salle
+      de test*.
+    - Comme dans la version japonaise, utilisation de puces vides ◦ pour
+      les répliques narratives, au lieu des puces pleines •.
+    - Corrections et améliorations diverses dans les dialogues : style et
+      tournures de phrases, fautes mineures, tutoiement et vouvoiement,
+      cohérence, mise en adéquation avec les formulations officielles,
+      etc.
+    - Ajustements graphiques : pixels en trop sur le M3C4-CH13N, posters
+      dans la salle d'arcade, titre "CASTING".
+    - Corrections dans les crédits de fin : textes de copyright conformes
+      aux formulations officielles.
+    - Changement de quelques noms d'ennemis.
+    - Ajout de quelques fonctions dans la salle de test* : accès aux
+      Magypsy de test, défaite de l'équipe.
+    - Changement du comportement des étoiles en cas de bestiaire complet*
+      (une seule étoile, trois couleurs possibles).
+    - Prise en compte des articles et des accords pour certains textes du
+      menu des magasins.
+    - Noms français alternatifs pour certains personnages en cas de
+      sélection répétée de l'option "Peu importe".
+    - Correction de bugs issus du jeu officiel* (par ordre d'importance) :
+      - Bug de la mare de boue, susceptible de provoquer un plantage du
+        jeu (cf. https://www.youtube.com/watch?v=_yqQVvC5jKM) ;
+      - Compteur de la cloche d'Écheffe ("Prenez donc une pause !") à
+        l'arrêt dans des zones où il ne devrait pas l'être et vice versa ;
+      - Réplique de Caroline non utilisée par erreur si Wess est dans
+        l'équipe de Duster ;
+      - Dégâts non nuls en cas de combo sur un ennemi pourtant invicible ;
+      - Valeur des PP de Claus erronée en cas de défaite au premier
+        combat ;
+      - Mauvais sprite (enfant) pour Nana lors du concert au chapitre 8 ;
+      - Effet du Fromage étrange sur Claus incohérent entre menus et
+        combats ;
+      - Disparition de l'icône d'objet équipé après un troc à la
+        boulangerie de Caroline ;
+      - Musique inadéquate en cas d'accès au menu après que Wess a rejoint
+        l'équipe au chapitre 2 ;
+      - Maximum d'argent en main à 999998 DP au lieu de 999999 DP en cas
+        de revente d'objets ;
+      - Musique étouffée après de multiples ouvertures/fermetures rapides
+        de la carte ;
+      - Salle de test : quelques points de démarrage mal configurés, bugs
+        liés au Masqueporc de recomposition de l'équipe
+    => Les tâches marquées d'un astérisque ont été assurées par
+       Lorenzooone, merci à lui !
+    => Merci à Vzy pour le bêta-test
+
+
   Version 1.8 (20 avril 2020)
     - Révision complète des dialogues, avec de multiples retouches,
       corrections, reformulations (près de 2000 répliques modifiées), afin
@@ -250,12 +317,12 @@ COMMENT UTILISER LE PATCH DE TRADUCTION
   1. Décompressez le contenu de cette archive zip dans un dossier de votre
      ordinateur. Vous devriez y trouver les fichiers suivants :
     
-    * Mother3VF_Windows.exe
-    * Mother3VF_Mac.app
-    * Mother3VF_Android.apk
-    * Mother3VF_Linux
-    * mother3vf.ups
-    * doc_mother3vf.txt (ce fichier)
+    - Mother3VF_Windows.exe
+    - Mother3VF_Mac.app
+    - Mother3VF_Android.apk
+    - Mother3VF_Linux
+    - mother3vf.ups
+    - doc_mother3vf.txt (ce fichier)
 
 
   2. Vous devez ensuite vous procurer une ROM de la version japonaise de
@@ -521,18 +588,10 @@ PROBLÈMES CONNUS : BUGS, FAUTES DE TEXTES, ETC.
 
   PROBLÈMES DÉJÀ CONNUS :
   
-  * Ralenti des dialogues : Il arrive parfois que le texte des dialogues
-    se mette à défiler légèrement plus lentement, avant d'accélérer à
-    nouveau. La cause de ce problème, déjà présent dans la version
-    anglaise, n'est pas connue.
-
-  * Absence d'élision devant la nourriture favorite : Votre nourriture
-    favorite, que vous spécifiez en début de partie, sera citée dans les
-    dialogues du jeu. Cependant, si elle commence par un voyelle ou un h
-    muet, la règle d'élision du français ne sera pas appliquée. Exemple :
-    "un peu de Omelette" au lieu de "un peu d'Omelette". Nous n'avons pas
-    été en mesure de modifier le comportement du jeu pour qu'il se
-    conforme à cette règle de la langue française.
+  * Glitch des paquets cadeaux : Il arrive parfois, très rarement, que les
+    paquets cadeaux ouverts se transforment soudainement en icônes
+    d'altérations d'état. Ce bug est déjà présent dans la version
+    japonaise du jeu.
 
 
   Si vous rencontrez un bug qui n'est pas listé ci-dessus, vous pouvez
@@ -883,6 +942,7 @@ CRÉDITS
   Rayzo
   Tjtaz
   Wiild
+  Vzy
  
   REMERCIEMENTS
   Jeffman
