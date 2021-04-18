@@ -7806,7 +7806,7 @@
 
 [Container 140]
 140-0:@You weakling, stinkling Mr. Saturns![WAIT]@Don't force us to use this Frightbot to make[BREAK]¬you cry![END]
-140-0E:@Bande de MM. Saturne lâches et dégoûtants·![WAIT]@Ne nous obligez pas à utiliser cet Effrobot pour[BREAK]¬vous faire pleurer·![END]
+140-0E:@Bande de mauviettes à grosse tête·![WAIT]@Ne nous obligez pas à utiliser cet Effrobot pour[BREAK]¬vous faire pleurer·![END]
 // TODO weakling stinkling comment traduire
 140-1:@Enough of your stupid nonsense![WAIT]@Tell us where the Needle is, or we'll make it[BREAK]¬tell you even scarier stories![END]
 140-1E:@Assez de vos absurdités stupides·![WAIT]@Dites-nous où est l'Aiguille,[WAIT]¬ou sinon, nous allons lui faire vous raconter[BREAK]¬des histoires encore plus effrayantes·![END]
