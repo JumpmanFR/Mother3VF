@@ -2460,7 +2460,7 @@
 04C2: [04 EF][11 FF] muttered,[32 FF] "It's always the same..."[END]
 04C2-E: [04 EF][11 FF] marmonne•:[32 FF] <C'est toujours la même chose...>[END]
 04C3: [04 EF][11 FF] mumbled,[32 FF] "I'm nothing but a worthless protoplasm..."[END]
-04C3-E: [04 EF][11 FF] murmure•:[32 FF] <Je ne suis qu'un misérable protoplasme...>[END]
+04C3-E: [04 EF][11 FF] murmure•:[32 FF] <Je ne suis qu'un protoplasme sans valeur...>[END]
 04C4: [04 EF][11 FF] muttered,[32 FF] "There's just no way I can win..."[END]
 04C4-E: [04 EF][11 FF] marmonne•:[32 FF] <Je n'ai aucune chance de gagner...>[END]
 04C5: [04 EF][11 FF] murmured,[32 FF] "Life is but a moment, a meaningless grain of sand..."[END]
