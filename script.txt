@@ -13122,7 +13122,7 @@
 319-1:@I'm gonna hop in the shower real quick, so just[BREAK]¬relax here.[END]
 319-1E:@J'vais me prendre une petite douche rapide,[BREAK]¬reposez-vous ici en attendant.[END]
 319-2:@Some way or another I wound up with this[BREAK]¬fancy room.[WAIT]@Anyways, go shower, you two.[WAIT]@There's even a hot spring in there, if that's[BREAK]¬more your thing.[WAIT]@We can talk afterwards.[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-319-2E:@Ouais, j'ai fini par atterrir dans cette loge un[BREAK]¬peu chic.[WAIT]@Bon, tous les deux, allez prendre une douche.[WAIT]@Il y a même une source chaude, si vous[BREAK]¬préférez.[WAIT]@Après on pourra parler.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+319-2E:@Ouais, j'ai fini par atterrir dans cette loge un[BREAK]¬peu chic.[WAIT]@Bon, tous les deux, allez prendre une douche.[WAIT]@Il y a même une source chaude, si vous[BREAK]¬préférez.[WAIT]@Après on pourra causer.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 319-3:@You're exhausted and dirty, ain't you?[WAIT]@A shower'll freshen you right up.[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 319-3E:@Vous êtes tout sales et fatigués, non·?[WAIT]@Une douche, ça va vous faire du bien.[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 319-4:@I know you wanna hurry and all, but c'mon, you[BREAK]¬guys reek.[WAIT]@Just go take a shower![WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
