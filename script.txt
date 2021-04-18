@@ -8182,7 +8182,7 @@
 156-0:@The guy who looks just like [DUSTER 23 03 00]?[BREAK]¬He's over at Club Titiboo.[WAIT]@He's got different hair, but other than that, he[BREAK]¬definitely looks like him.[WAIT]@Especially that bum-like vibe he has.[END]
 156-0E:@Le type qui ressemble à [DUSTER 23 03 00]·? [BREAK]¬Il est au club Titiboo.[WAIT]@Il n'a pas les mêmes cheveux, mais à part ça, il[BREAK]¬lui ressemble exactement.[WAIT]@Surtout avec ses airs de vagabond.[END]
 156-1:@Everyone who works at the factory loves Club[BREAK]¬Titiboo.[WAIT]@But do they admit people who don't work at[BREAK]¬the factory? I can't remember...[END]
-156-1E:@Tous les employés de l'usine adorent le club[BREAK]¬Titiboo.[WAIT]@Mais est-ce que les personnes qui ne[BREAK]¬travaillent pas à l'usine sont acceptées·?[WAIT]¬Je ne me souviens pas...[END]
+156-1E:@Tous les employés de l'usine adorent le club[BREAK]¬Titiboo.[WAIT]@Mais est-ce que les personnes qui ne[BREAK]¬travaillent pas à l'usine sont acceptées·?[WAIT]¬Je ne me souviens pas de ça...[END]
 156-2:@The factory? Like I said, you go faaaaaar east,[BREAK]¬along the tracks.[WAIT]@It's waaaay east of the hot spring.[END]
 156-2E:@L'usine·? Comme je disais, il faut aller loiiiiiin[BREAK]¬vers l'est, en longeant la voie ferrée.[WAIT]@C'est encore plus à l'est que la source chaude.[END]
 156-3:@Did you make it to Titiboo?[END]
