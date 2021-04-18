@@ -33,37 +33,40 @@ Vous pouvez également nous suivre sur Twitter :
 
 NOTES DE VERSION
   Version 1.9 (20 avril 2021)
-    - Refonte générale et améliorations diverses concernant les menus et
+    - Refonte générale et optimisations majeures concernant les menus et
       l'affichage des textes (OAM et VRAM)* :
-      - optimisations majeures rendant la charge CPU plus réduite et la
-        navigation dans les menus considérablement plus rapide ;
-      - suppression des légers craquements audio lors de la validation
-        dans certains menus
-      - correction du bug en cas d'utilisation d'un Souvenir de Magypsy
-        pendant que le menu des objets est affiché
-      - correction du ralenti lors de l'effacement intégral des données de
-        sauvegarde
+      - Optimisations majeures pour rendre la navigation dans les menus
+        considérablement plus rapide et réduire la charge CPU, par rapport
+        aux versions précédentes y compris l'officielle ;
+      - Correction du ralenti de défilement des dialogues ;
+      - Suppression des légers craquements audio lors de la validation
+        dans certains menus ;
+      - Correction du ralenti lors de l'effacement intégral des données de
+        sauvegarde.
     - Gestion dynamique de l'élision devant les noms des personnages et du
       plat préféré dans les dialogues, menus et combats (exemple :
       "l'équipe de Élise" devient "l'équipe d'Élise").
     - Mise en place de solutions techniques pour supprimer des limitations
-      de longueur de texte, et réécriture des textes correspondants :
-      description d'objets et de PSI, nom du locuteur dans les dialogues*,
-      menu Mémo*, menus "carnets"*, scène du chuchotement de Fassad*, type
-      de PSI dans les menus de combat, choix des événements dans la salle
-      de test*.
-    - Comme dans la version japonaise, utilisation de puces vides ◦ pour
-      les répliques narratives, au lieu des puces pleines •.
+      de longueur de texte : description d'objets et de PSI, nom du
+      locuteur dans les dialogues*, menu Mémo*, menus "carnets"*, scène du
+      chuchotement de Fassad*, type de PSI dans les menus de combat, choix
+      des événements dans la salle de test*.
+    - Réécriture des textes correspondants au point précédent, pour tirer
+      profit de la place gagnée.
+    - Refonte de la gestion de la taille du cartouche contenant le nom du
+      locuteur*.
+    - Comme dans la version japonaise, utilisation de puces blanches ◦
+      pour les répliques narratives, au lieu des puces noires •.
     - Corrections et améliorations diverses dans les dialogues : style et
       tournures de phrases, fautes mineures, tutoiement et vouvoiement,
       cohérence, mise en adéquation avec les formulations officielles,
       etc.
     - Ajustements graphiques : pixels en trop sur le M3C4-CH13N, posters
       dans la salle d'arcade, titre "CASTING".
-    - Corrections dans les crédits de fin : textes de copyright conformes
-      aux formulations officielles.
+    - Corrections dans les crédits de fin, textes de copyright plus
+      conformes aux formulations officielles.
     - Changement de quelques noms d'ennemis.
-    - Ajout de quelques fonctions dans la salle de test* : accès aux
+    - Ajout de nouvelles fonctions dans la salle de test* : accès aux
       Magypsy de test, défaite de l'équipe.
     - Changement du comportement des étoiles en cas de bestiaire complet*
       (une seule étoile, trois couleurs possibles).
@@ -71,32 +74,35 @@ NOTES DE VERSION
       menu des magasins.
     - Noms français alternatifs pour certains personnages en cas de
       sélection répétée de l'option "Peu importe".
-    - Correction de bugs issus du jeu officiel* (par ordre d'importance) :
+    - Correction de bugs issus du jeu officiel* :
       - Bug de la mare de boue, susceptible de provoquer un plantage du
         jeu (cf. https://www.youtube.com/watch?v=_yqQVvC5jKM) ;
+      - Problème audio après de multiples ouvertures/fermetures rapides de
+        la carte ;
       - Compteur de la cloche d'Écheffe ("Prenez donc une pause !") à
         l'arrêt dans des zones où il ne devrait pas l'être et vice versa ;
       - Réplique de Caroline non utilisée par erreur si Wess est dans
         l'équipe de Duster ;
       - Dégâts non nuls en cas de combo sur un ennemi pourtant invicible ;
-      - Valeur des PP de Claus erronée en cas de défaite au premier
-        combat ;
-      - Mauvais sprite (enfant) pour Nana lors du concert au chapitre 8 ;
-      - Effet du Fromage étrange sur Claus incohérent entre menus et
-        combats ;
-      - Disparition de l'icône d'objet équipé après un troc à la
-        boulangerie de Caroline ;
       - Musique inadéquate en cas d'accès au menu après que Wess a rejoint
         l'équipe au chapitre 2 ;
+      - Mauvais sprite (enfant) pour Nana lors du concert au chapitre 8 ;
+      - Salle de test : quelques points de démarrage mal configurés, bugs
+        liés à l'option de recomposition de l'équipe ;
+      - PP de Claus à zéro en cas de défaite au premier combat ;
+      - Disparition de l'icône d'objet équipé après un troc à la
+        boulangerie de Caroline ;
+      - Positionnement du curseur en cas d'utilisation d'un Souvenir de
+        Magypsy pendant que le menu des objets est affiché ;
       - Maximum d'argent en main à 999998 DP au lieu de 999999 DP en cas
         de revente d'objets ;
-      - Musique étouffée après de multiples ouvertures/fermetures rapides
-        de la carte ;
-      - Salle de test : quelques points de démarrage mal configurés, bugs
-        liés au Masqueporc de recomposition de l'équipe
-    => Les tâches marquées d'un astérisque ont été assurées par
-       Lorenzooone, merci à lui !
-    => Merci à Vzy pour le bêta-test
+      - Effet du Fromage étrange sur Claus incohérent entre menu et
+        combats.
+    => Les changements marqués d'un * sont communs avec la nouvelle
+       version 1.3 de la traduction anglaise tout récemment parue. Ils ont
+       été réalisés par Lorenzooone - merci à lui ! - avec parfois notre
+       contribution (idées, découverte de bugs, test, retours).
+    => Merci à Vzy pour le bêta-test.
 
 
   Version 1.8 (20 avril 2020)
