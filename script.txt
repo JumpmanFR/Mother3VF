@@ -39,7 +39,7 @@
 0-17:[BREAK][BREAK][BREAK][CENTER][LUCAS 23 02 00].[END]
 0-17E:[BREAK][BREAK][BREAK][CENTER][LUCAS 23 02 00].[END]
 0-18:[BREAK][BREAK][CENTER]To think we would be blessed[BREAK][CENTER]with two children at once...[END]
-0-18E:[BREAK][BREAK][CENTER]Dire qu'on a eu la chance[BREAK][CENTER]d'avoir deux enfants en une fois...[END]
+0-18E:[BREAK][BREAK][CENTER]Dire que le ciel nous a fait don[BREAK][CENTER]de deux enfants à la fois...[END]
 0-19:[BREAK][BREAK][CENTER]I bet they'll accomplish things[BREAK][CENTER]together that they couldn't alone.[END]
 0-19E:[BREAK][CENTER]Je parie qu'ensemble, ils[BREAK][CENTER]accompliront des choses qu'ils[BREAK][CENTER]n'auraient pas pu réaliser seuls.[END]
 0-20:[BREAK][BREAK][BREAK][CENTER]I'm sure they'll argue a lot, too.[END]
