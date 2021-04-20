@@ -666,10 +666,11 @@ CONTENU BONUS
     faire apparaître dans l'aventure. La scène réparée, connue sous le nom
     de 00F6, présentait initialement quelques défauts visuels.
     
-  - Le patch comporte quelques autres fonctionnalités cachées, mais vous
-    devrez les découvrir par vous-mêmes. Certaines sont accessibles depuis
-    la salle de test, pour les plus curieux. D'autres récompenseront les
-    joueurs les plus aguerris.
+  - Nous avons ajouté un personnage dans la salle de test : une grenouille
+    bleue, qui vous proposera quelques options sympathiques, notamment
+    d’accéder aux salles de test annexes et de visionner les cinématiques
+    inutilisées du mode attractif.
+
 
   Notez qu'aucun ennemi n'a été ajouté dans le jeu par rapport à la
   version japonaise. Aucun contenu inutilisé majeur (boss, musique, zone,
