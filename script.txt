@@ -16081,7 +16081,7 @@
 400-2:@I-it's you, Commander! I'm terribly sorry, sir![END]
 400-2E:@C-c'est vous, Commandant·! Je suis[BREAK]¬affreusement désolé, monseigneur·![END]
 400-3:@From the looks of it...[WAIT]@It appears that you mistakenly threw[BREAK]¬something into the garbage.[END]
-400-3E:@Si je comprends bien...[WAIT]@Apparemment, vous auriez jeté quelque chose[BREAK]¬dans les ordures par erreur.[END]
+400-3E:@À bien vous regarder...[WAIT]@Vous avez l'air d'avoir jeté quelque chose dans[BREAK]¬les ordures par erreur.[END]
 400-4:@If you're headed for the garbage dump, please[BREAK]¬follow the truck in this.[END]
 400-4E:@Si vous voulez vous rendre à la décharge, je[BREAK]¬vous propose de suivre le camion avec ceci.[END]
 400-5:@The garbage dump is northeast of here.[WAIT]@Please hurry after it[WAIT]¬and retrieve whatever embarrassing thing it[BREAK]¬was that you accidentally threw away.[END]
