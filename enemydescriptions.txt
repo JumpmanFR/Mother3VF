@@ -626,7 +626,7 @@
 
 
 9C:[BREAK]A forgotten guitar left[BREAK]wailing in the attic. Plays[BREAK]touching solos with its last[BREAK]three strings.[END]
-9C-E:Une guitare·abandonnée qui[BREAK]ne cesse de se lamenter[BREAK]dans le grenier. Elle joue[BREAK]des solos émouvants avec[BREAK]ses trois cordes restantes.[END]
+9C-E:Une guitare·abandonnée qui[BREAK]ne cesse de se lamenter[BREAK]dans le grenier. Elle joue[BREAK]des solos émouvants avec[BREAK]ses·trois cordes restantes.[END]
 
 
 9D:Even after being torn, it[BREAK]defiantly orders not to[BREAK]give up, but to bang on the[BREAK]rim instead! It isn't easily[BREAK]beaten.[END]
