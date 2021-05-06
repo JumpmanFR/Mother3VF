@@ -141,7 +141,7 @@
 0044: Frosted Bun
 0044-E: Pain givré
 0045: Mrs. Lava
-0045-E: Mme Magma
+0045-E: M™² Magma
 0046: Magman
 0046-E: Homme-volcan
 0047: Zombie Man
@@ -565,7 +565,7 @@
 0118: Child Mouse
 0118-E: Souriceau
 0119: Dr. Andonuts
-0119-E: Dr Andonuts
+0119-E: D¹ Andonuts
 011A: Osohe Castle
 011A-E: Château d'Osohé
 011B: Mother Porkship

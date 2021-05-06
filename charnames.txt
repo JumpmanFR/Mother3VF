@@ -196,7 +196,7 @@
 061:Guy
 061-E:Jeune hoüüe
 062:Dr. Andonuts
-062-E:Dr Andonuts
+062-E:D¹ Andonuts
 063:Attendant
 063-E:Agent
 064:(EMPTY)

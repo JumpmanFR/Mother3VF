@@ -565,7 +565,7 @@
 0-248:@Some sort of incredible power seems to be[BREAK]¬sleeping here.[END]
 0-248E:©Une forme de pouvoir incroyable semble[BREAK]¬sommeiller ici.[END]
 0-249:@I realize you haven't asked,[WAIT]¬but my name is Dr. Andonuts.[WAIT]@I'm being forced to conduct various sorts of[BREAK]¬research by a certain man.[WAIT]@Currently, though, I'm trying to conceal myself[BREAK]¬for certain reasons.[END]
-0-249E:@Je m'aperçois que vous ne me l'avez pas[BREAK]¬demandé,[WAIT]¬mais je m'appelle le Dr Andonuts.[WAIT]@J'ai été forcé par une certaine personne à[BREAK]¬mener différents types de recherches.[WAIT]@Cependant, pour diverses raisons, j'essaye[BREAK]¬actuellement de me cacher.[END]
+0-249E:@Je sais que vous ne me l'avez pas demandé,[WAIT]¬mais je m'appelle le D¹ Andonuts.[WAIT]@J'ai été forcé par une certaine personne à[BREAK]¬mener différents types de recherches.[WAIT]@Cependant, pour diverses raisons, j'essaye[BREAK]¬actuellement de me cacher.[END]
 0-250:@I'm a bit occupied at the moment.[WAIT]@Could you come back at a better time?[END]
 0-250E:@Je suis un peu occupé pour l'instant.[WAIT]@Pourriez-vous revenir une autre fois·?[END]
 0-251:@No problem here.[WAIT][PAUSE 30 00]@No problem here.[WAIT]@...Just leave it at that, would you?[END]
@@ -8494,7 +8494,7 @@
 
 [Container 170]
 170-0:@I'm the producer for "Mr. Pirkle and Ms.[BREAK]¬Lardna's Love Nest".[END]
-170-0E:@Je suis le producteur du "Nid d'amour de[BREAK]¬M. Pirkle et Mme Lardna".[END]
+170-0E:@Je suis le producteur du "Nid d'amour de[BREAK]¬M. Pirkle et M™² Lardna".[END]
 170-1:@The wallpaper here is made to look like a filled[BREAK]¬bookcase.[END]
 170-1E:©Le papier peint ressemble à une étagère[BREAK]¬remplie de livres.[END]
 
@@ -14807,7 +14807,7 @@
 360-24:@Sounds like things have quieted down now.[WAIT]@Do you think they caught it?[END]
 360-24E:@On dirait que ça s'est calmé.[WAIT]@Vous pensez qu'ils l'ont attrapée·?[END]
 360-25:@I realize that Dr. Andonuts is awesomely[BREAK]¬awesome,[WAIT]¬but what exactly did he create that Ultimate[BREAK]¬Chimera for, I wonder?[WAIT][PAUSE 2E 00]@Art?[END]
-360-25E:@Je me rends bien compte que le Dr Andonuts[BREAK]¬est admirablement admirable,[WAIT]¬mais pour quelle raison est-ce qu'il a créé[BREAK]¬l'Ultime Chimère exactement, je me demande·?[WAIT][PAUSE 2E 00]@Pour l'art·?[END]
+360-25E:@Je me rends bien compte que le D¹ Andonuts[BREAK]¬est admirablement admirable,[WAIT]¬mais pour quelle raison est-ce qu'il a créé[BREAK]¬l'Ultime Chimère exactement, je me demande·?[WAIT][PAUSE 2E 00]@Pour l'art·?[END]
 
 
 
@@ -16870,7 +16870,7 @@
 462-1:@This stinkbug thinks it's hiding.[END]
 462-1E:©Cette punaise pense être cachée.[END]
 462-2:@Have you committed everything so far to[BREAK]¬memory, Mr. Stinkbug?[END]
-462-2E:@Avez-vous tout enregistré jusque-là, Mme la[BREAK]¬Punaise·?[END]
+462-2E:@Avez-vous tout enregistré jusque-là, M™² la[BREAK]¬Punaise·?[END]
 462-3:@Then I'll say it again.[END]
 462-3E:@Alors je vais le dire encore une fois.[END]
 462-4:@Yes. It's me, Leder, the bell-ringer.[WAIT][PAUSE 3C 00]@It must be a real shock to hear me speaking[BREAK]¬for once.[WAIT][PAUSE 1E 00]@It wasn't that I couldn't talk all this time.[BREAK]¬I simply chose not to.[WAIT]@As I rang that Cross Road bell, deep inside my[BREAK]¬heart I had decided I would speak to no one.[EVENT][END]
@@ -16882,7 +16882,7 @@
 462-7:@I see...[WAIT]@Even if you refuse to listen, I still have no[BREAK]¬choice but to talk.[WAIT]@You needn't listen. You can just stay there.[WAIT]@Even if it's just me talking to myself, I[BREAK]¬absolutely must say what I have to say.[EVENT][END]
 462-7E:@Je vois...[WAIT]@Même si tu refuses d'écouter, je n'ai toujours[BREAK]¬pas d'autre choix que de parler.[WAIT]@Tu peux ne pas écouter. Tu peux simplement[BREAK]¬rester là.[WAIT]@Même si je ne fais que me parler à moi-même,[BREAK]¬je dois absolument dire ce que j'ai à dire.[EVENT][END]
 462-8:@Given who you are and how you've lived, what[BREAK]¬I have to say will tear at your hearts,[WAIT]¬and there is just so much to tell.[WAIT]@So I've decided to have the stinkbug trembling[BREAK]¬behind me memorize everything I say.[WAIT][PAUSE 1E 00]@Ready, Mr. Stinkbug?[END]
-462-8E:@Compte tenu de qui vous êtes et de la façon[BREAK]¬dont vous avez vécu,[WAIT]¬ce que j'ai à dire va vous déchirer le cœur,[WAIT]¬et il y a tant de choses à dire.[WAIT]@J'ai donc demandé à la punaise tremblotant[BREAK]¬derrière moi de mémoriser tout ce que·je dirais.[WAIT][PAUSE 1E 00]@Vous êtes prête, Mme la Punaise·?[END]
+462-8E:@Compte tenu de qui vous êtes et de la façon[BREAK]¬dont vous avez vécu,[WAIT]¬ce que j'ai à dire va vous déchirer le cœur,[WAIT]¬et il y a tant de choses à dire.[WAIT]@J'ai donc demandé à la punaise tremblotant[BREAK]¬derrière moi de mémoriser tout ce que·je dirais.[WAIT][PAUSE 1E 00]@Vous êtes prête, M™² la Punaise·?[END]
 462-9:@Long ago, there existed a "world".[WAIT]@A world different from what the people on[BREAK]¬these islands think of.[WAIT]¬This "world" was incredibly big.[WAIT]@More people lived on this world than there are[BREAK]¬grains of sand on these Nowhere Islands.[WAIT]@I know it may be hard to imagine, but such a[BREAK]¬world once existed.[WAIT]@Understand?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 462-9E:@Il y a longtemps existait un "monde".[WAIT]@Un monde différent de ce que peuvent se[BREAK]¬représenter les habitants de ces îles.[WAIT]¬Ce "monde" était incroyablement vaste.[WAIT]@Plus de personnes y vivaient qu'il n'y a de[BREAK]¬grains de sable sur les îles de Nullepart.[WAIT]@Je sais que cela peut être difficile à imaginer,[BREAK]¬mais un tel monde a déjà existé.[WAIT]@Tu as compris·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 462-10:@At some point, the world wound up destroyed.[WAIT]@Naturally, it was humans who destroyed it.[WAIT]@In the back of their minds, everyone had an[BREAK]¬inkling that it would happen at some point.[WAIT]@And then it really did happen.[WAIT]@...And so, the world is no more.[END]
@@ -16938,7 +16938,7 @@
 462-34:@Only the Magypsies really know the Needles'[BREAK]¬locations, so I don't know where to find them.[WAIT]¬But, from the way Porky and the others have[BREAK]¬been acting,[WAIT]¬I would say they're now very close to reaching[BREAK]¬the seventh Needle.[WAIT]@Please, [LUCAS 23 02 00].[BREAK]¬Be the one who pulls the final Needle.[WAIT]@Porky issues his orders from the 100th floor[BREAK]¬of the Empire Porky Building.[WAIT]@Start by jumping into the fray and storming[BREAK]¬the building.[WAIT]@After that, you can start looking for clues.[END]
 462-34E:@Seuls les Magypsy connaissent l'emplacement[BREAK]¬des Aiguilles, j'ignore où elles se trouvent.[WAIT]¬Mais, vu la façon dont Porky et les autres se[BREAK]¬comportent,[WAIT]¬je pense qu'ils sont actuellement très près[BREAK]¬d'atteindre la septième Aiguille.[WAIT]@Je t'en prie, [LUCAS 23 02 00].[BREAK]¬Sois celui qui retirera la dernière Aiguille.[WAIT]@Porky envoie ses ordres depuis le 100² étage[BREAK]¬de l'Empire Porky Building.[WAIT]@Commence par te jeter dans la mêlée en[BREAK]¬prenant d'assaut le bâtiment.[WAIT]@Ensuite, tu pourras commencer à chercher des[BREAK]¬pistes.[END]
 462-35:@It's been such a long time since I've spoken to[BREAK]¬anyone. And now I'm exhausted.[WAIT]@This stinkbug should remember everything[BREAK]¬I've just said.[WAIT]@Take him with you.[WAIT]¬That way, if you happen to forget anything[BREAK]¬I've said here, you can ask him to repeat it.[WAIT]@Will you go with them, Mr. Stinkbug?[END]
-462-35E:@Cela faisait longtemps que je n'avais pas parlé[BREAK]¬à quelqu'un. Et maintenant, je suis épuisé.[WAIT]@Cette punaise devrait pouvoir se souvenir de[BREAK]¬tout ce que j'ai dit.[WAIT]@Prends-la avec toi.[WAIT]¬Ainsi, si tu oublies une partie de ce que j'ai dit[BREAK]¬ici, tu pourras lui demander de te le répéter.[WAIT]@Voulez-vous bien les accompagner, Mme la[BREAK]¬Punaise·?[END]
+462-35E:@Cela faisait longtemps que je n'avais pas parlé[BREAK]¬à quelqu'un. Et maintenant, je suis épuisé.[WAIT]@Cette punaise devrait pouvoir se souvenir de[BREAK]¬tout ce que j'ai dit.[WAIT]@Prends-la avec toi.[WAIT]¬Ainsi, si tu oublies une partie de ce que j'ai dit[BREAK]¬ici, tu pourras lui demander de te le répéter.[WAIT]@Voulez-vous bien les accompagner, M™² la[BREAK]¬Punaise·?[END]
 462-36:@Porky issues his orders from the 100th floor[BREAK]¬of the Empire Porky Building.[WAIT]@Start by jumping into the fray and storming[BREAK]¬the place.[WAIT]@After that, you can start looking for clues.[WAIT]@Don't worry about me.[WAIT]@If your battle goes well, I'm sure I'll regain my[BREAK]¬freedom, just as everyone else will.[WAIT]@Be confident in yourself, and go forth.[END]
 462-36E:@Porky envoie ses ordres depuis le 100² étage[BREAK]¬de l'Empire Porky Building.[WAIT]@Commence par te jeter dans la mêlée en[BREAK]¬prenant d'assaut le bâtiment.[WAIT]@Ensuite, tu pourras commencer à chercher des[BREAK]¬pistes.[WAIT]@Ne t'inquiète pas pour moi.[WAIT]@Si la bataille se déroule bien, je suis sûr que je[BREAK]¬retrouverai ma liberté, comme tous les autres.[WAIT]@Aie confiance en toi, et mets-toi en route.[END]
 // Repeat partiel

@@ -1318,7 +1318,7 @@
 028D: [END]
 028D-E: [END]
 028E: Dr. Andonuts fired a Pencil Rocket![END]
-028E-E: Le Dr Andonuts allume un Missile crayon·![END]
+028E-E: Le D¹ Andonuts allume un Missile crayon·![END]
 028F: [END]
 028F-E: [END]
 0290: Wess attacks![END]
@@ -3245,7 +3245,7 @@
 0642: @I'll never die.[33 FF][WAIT]@I'll never die,[32 FF] nor will I ever be beaten...[33 FF][WAIT]¬...but it appears my machine has run out of[BREAK]¬energy for the moment.[33 FF][WAIT]@Ahaha.[32 FF][BREAK]@[15 FF]...[33 FF][WAIT]¬You haven't won, just so you know.[33 FF][END]
 0642-E: @Je ne mourrai jamais.[33 FF][WAIT]@Je ne mourrai jamais,[32 FF] pas plus que je ne serai[BREAK]¬vaincu...[33 FF][WAIT]¬...•mais il semblerait que ma machine soit à[BREAK]¬court d'énergie pour le moment.[33 FF][WAIT]@Ahaha.[32 FF][BREAK]@[15 FF]...[33 FF][WAIT]¬Tu n'as pas gagné, pour information.[33 FF][END]
 0643: @I'm going to duck inside this <Absolutely Safe[BREAK]¬Capsule> for the time being.[33 FF][WAIT]@When I'm inside, no attack will have any[BREAK]¬effect on me whatsoever.[33 FF][WAIT]@I'm sure you're thinking to yourself, <Yeah,[BREAK]¬right. There's no such thing as "absolutely"...>[32 FF][WAIT]@But there is such a thing... And it's this![WAIT]¬The Absolutely Safe Capsule I tricked Dr.[BREAK]¬Andonuts and the Mr. Saturns into making for[BREAK]¬me![31 FF][32 FF][WAIT]¬Me![31 FF] ME![32 FF] All for me![31 FF][BREAK]¬*cough*[31 FF] *cough*[33 FF][END]
-0643-E: @Je vais me glisser provisoirement dans cette[BREAK]¬<Capsule de sécurité absolue>.[33 FF][WAIT]@Vos attaques n'auront aucun effet sur moi[BREAK]¬tant que je serai à l'intérieur.[33 FF][WAIT]@Je suis sûr que vous vous dites•: <Mais oui.[BREAK]¬Ça n'existe pas, quelque chose d'"absolu"...>[32 FF][WAIT]@Pourtant, ça existe... et il s'agit de ceci·![WAIT]¬La Capsule de sécurité absolue, que·j'ai obtenue[BREAK]¬en dupant le Dr Andonuts et les MM. Saturne[BREAK]¬afin qu'ils la construisent pour moi·![31 FF][32 FF][WAIT]¬Pour moi·![31 FF] MOI·![32 FF] Rien que pour moi·![31 FF][BREAK]¬*kof*[31 FF] *kof*[33 FF][END]
+0643-E: @Je vais me glisser provisoirement dans cette[BREAK]¬<Capsule de sécurité absolue>.[33 FF][WAIT]@Vos attaques n'auront aucun effet sur moi[BREAK]¬tant que je serai à l'intérieur.[33 FF][WAIT]@Je suis sûr que vous vous dites•: <Mais oui.[BREAK]¬Ça n'existe pas, quelque chose d'"absolu"...>[32 FF][WAIT]@Pourtant, ça existe... et il s'agit de ceci·![WAIT]¬La Capsule de sécurité absolue, que·j'ai obtenue[BREAK]¬en dupant le D¹ Andonuts et les MM. Saturne[BREAK]¬afin qu'ils la construisent pour moi·![31 FF][32 FF][WAIT]¬Pour moi·![31 FF] MOI·![32 FF] Rien que pour moi·![31 FF][BREAK]¬*kof*[31 FF] *kof*[33 FF][END]
 // Ces textes s'affichent sur 3 lignes. Mais attention à bien laisser 2-3 pixels de marge à droite !
 0644: Porky sealed himself inside the Absolutely Safe Capsule.[33 FF][END]
 0644-E: Porky s'est enfermé dans la Capsule de sécurité absolue.[33 FF][END]
