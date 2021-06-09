@@ -460,7 +460,7 @@
 0-198:@Hi, there! I'm the friendly item deposit guy![WAIT]@How can I help you?[END]
 0-198E:@Salut·! Je suis le sympathique gars de la[BREAK]¬consigne·![WAIT]@Est-ce que je peux vous aider·?[END]
 0-199:@The gods are watching over you guys.[WAIT]@You're incredible. You're amazing.[WAIT]@Seriously, you're a real inspiration.[WAIT]@We're right behind you, supporting you 100%,[BREAK]¬from the sidelines.[END]
-0-199E:@Les dieux veillent sur vous les gars.[WAIT]@Vous êtes incroyables. Vous êtes géniaux.[WAIT]@Vraiment, vous êtes une source d'inspiration.[WAIT]@On est tous derrière vous, on vous soutient à[BREAK]¬100% depuis le banc de touche.[END]
+0-199E:@Les dieux veillent sur vous les gars.[WAIT]@Vous êtes incroyables. Vous êtes géniaux.[WAIT]@Vraiment, vous êtes une source d'inspiration.[WAIT]@On est tous derrière vous, on vous soutient à[BREAK]¬100·% depuis le banc de touche.[END]
 0-200:@Inside was a whale.[PAUSE 30 00][BREAK]¬...or not.[END]
 0-200E:©À l'intérieur il y avait une baleine.[PAUSE 30 00][BREAK]¬... ou pas.[END]
 0-201:@Inside was a smokin' hot chick.[PAUSE 30 00][BREAK]¬...or not.[END]
@@ -3817,7 +3817,7 @@
 38-30:@Notice.[WAIT]@Scamp has died.[WAIT]¬That is all.[WAIT]¬           (Staff)[END]
 38-30E:@Avis.[WAIT]@Filou est mort.[WAIT]¬C'est tout.[WAIT]¬(Le personnel)[END]
 38-31:@Select, cheerful police officers wanted.[WAIT]@Start a new career as an officer of the[BREAK]¬Tazmily police force![WAIT]@Do well, and you could even make some[BREAK]¬Pigmask friends![WAIT]¬          (Pusher, Tazmily Police Dept.)[END]
-38-31E:@On recherche de joyeux officiers de police.[WAIT]@Commencez une nouvelle carrière en tant[BREAK]¬qu'officier des forces de police de Tazmily·![WAIT]@Travaillez bien, et vous pourrez même vous[BREAK]¬faire des amis Masqueporcs·![WAIT]¬(Richard, service de police de Tazmily)[END]
+38-31E:@On recherche de joyeux officiers de police.[WAIT]@Commencez une nouvelle carrière en tant[BREAK]¬qu'officier des forces de police de Tazmily·![WAIT]@Travaillez bien, et vous pourrez même vous[BREAK]¬faire des amis Masqueporcs·![WAIT]¬(Richard, commissariat de police de Tazmily)[END]
 38-32:@Watch out for Chimeras.[WAIT]@Strange animals known as Chimeras seem to[BREAK]¬be increasing in number lately.[WAIT]@They are dangerous. Be careful of them.[BREAK]¬                         (From a brave person)[END]
 38-32E:@Faites attention aux chimères.[WAIT]@La population d'animaux étranges connus sous[BREAK]¬le nom de chimères semble être en hausse,[WAIT]¬ces derniers temps.[WAIT]@Elles sont dangereuses. Méfiez-vous d'elles.[BREAK]¬•••••••••••••••••••••••··(Une personne courageuse)[END]
 38-33:@Show courtesy to Mr. Fassad.[WAIT]@There are many ignorant people who complain[BREAK]¬about him.[WAIT]@I think that is a very bad thing to do.[WAIT]@"Tazmily is nothing without Mr. Fassad."[WAIT]¬Please take this to heart.[BREAK]¬                          (Isaac)[END]
@@ -12834,7 +12834,7 @@
 305-1:[SOUND 04 00]@*whistle* *whistle*[END]
 305-1E:[SOUND 04 00]@*acclame* *acclame*[END]
 305-2:[SOUND 01 00]@Eee![BREAK]@I love you, Magic!!![END]
-305-2E:[SOUND 01 00]@Wouhouu·![BREAK]@Magic, je t'aime·!!![END]
+305-2E:[SOUND 01 00]@Ahh·![BREAK]@Magic, je t'aime·!!![END]
 305-3:[SOUND 05 00]@Baccio! Baccio![END]
 305-3E:[SOUND 05 00]@Baccio·! Baccio·![END]
 305-4:[SOUND 01 00]@OJ!!! Wooo![END]
@@ -14158,7 +14158,7 @@
 340-10E:@Locrie.[WAIT]@Ce n'est pas une mauvaise personne.[BREAK]¬Pardonne-lui.[END]
 // no idea who's talking at all, and who's being talked about, need that speaker info!
 340-11:@Oh![WAIT]@I'm not offended at all.[WAIT]@But anyways, good luck.[WAIT]¬I'm behind you 100%.[END]
-340-11E:@Oh·![WAIT]@Je ne suis pas du tout offensé.[WAIT]@Mais en tout cas, bonne chance.[WAIT]¬Je suis derrière vous à 100%.[END]
+340-11E:@Oh·![WAIT]@Je ne suis pas du tout offensé.[WAIT]@Mais en tout cas, bonne chance.[WAIT]¬Je suis derrière vous à 100·%.[END]
 340-12:@Thanks.[END]
 340-12E:@Merci.[END]
 // Repeats: 6-9, 233-38, 340-12
@@ -14167,7 +14167,7 @@
 340-14:@It's not good to push yourself too hard, you[BREAK]¬know.[END]
 340-14E:@Ce n'est pas bon de trop te surmener, tu sais.[END]
 340-15:@Good luck, okay?[WAIT]@I'm behind you 100%.[END]
-340-15E:@Bonne chance, d'accord·?[WAIT]@Je suis derrière vous à 100%.[END]
+340-15E:@Bonne chance, d'accord·?[WAIT]@Je suis derrière vous à 100·%.[END]
 
 
 
