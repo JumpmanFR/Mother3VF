@@ -312,7 +312,7 @@
 098:Parking Area: Dur-T Cafe[END]
 098-E:Café Crado[END]
 099:White (Owner's Recommendation)[END]
-099-E:Argent (choix du patron)[END]
+099-E:Neige (choix du patron)[END]
 09A:Fairies (Neckbeard's Recommend.)[END]
 09A-E:Fées (choix de Barbecou)[END]
 09B:Resolve (Gum Guy's Recommend.)[END]
