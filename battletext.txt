@@ -2629,7 +2629,7 @@
 0516: [END]
 0516-E: [END]
 0517: [04 EF][11 FF]'s body turned numb![END]
-0517-E: Le corps [07 EF][11 FF] est complètement engourdi·![END]
+0517-E: Le corps [07 EF][11 FF] est engourdi·![END]
 0518: [11 FF] is numb and can't move![END]
 0518-E: [04 EF][11 FF] ne peut pas bouger·![END]
 // Article fix

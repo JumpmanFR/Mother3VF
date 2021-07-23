@@ -480,7 +480,7 @@
 00EE: Lydia's Memento
 00EE-E: Souvenir de Lydie
 00EF: Missy's Memento
-00EF-E: Souvenir de Mixie
+00EF-E: Souvenir de Mixo
 00F0: Aeolia's Memento
 00F0-E: Souvenir d'Éolie
 00F1: Tazmily Map
