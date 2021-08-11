@@ -3015,7 +3015,7 @@
 32-18:@In any case, I haven't the slightest idea what[BREAK]¬you're talking about.[END]
 32-18E:@Quoi qu'il en soit, je n'ai pas la moindre idée de[BREAK]¬ce que vous êtes en train de raconter.[END]
 32-19:@Well, it's been fun.[WAIT]@Please be careful not to trip, get hurt, or go[BREAK]¬bald on your way home.[END]
-32-19E:@Bon, ce fut amusant.[WAIT]@Faites attention à ne pas trébucher, vous faire[BREAK]¬mal, ou perdre vos derniers cheveux[WAIT]¬en rentrant chez vous.[END]
+32-19E:@Bon, ce fut amusant.[WAIT]@Faites attention à ne pas trébucher, vous[BREAK]¬blesser ou devenir chauve[WAIT]¬en rentrant chez vous.[END]
 32-20:@Cease this violence![WAIT]@I'm no bug! I'm an old man![END]
 32-20E:@Veuillez cesser cette violence·![WAIT]@Je ne suis pas un insecte·! Je suis un vieil[BREAK]¬homme·![END]
 32-21:                 @[LUCAS 23 02 00]![WAIT]¬                 Quit snooping around me![WAIT]¬                 Don't get in my way![END]
@@ -5801,7 +5801,7 @@
 86-3:@I'd be too scared to climb up.[WAIT]@Who knows what could be lurking up there...[END]
 86-3E:@J'aurais trop peur de grimper.[WAIT]@Qui sait ce qui rôde là-haut...[END]
 86-4:@[DUSTER 23 03 00] seems to be waiting at the top.[END]
-86-4E:@[DUSTER 23 03 00] a l'air de nous attendre tout en[BREAK]¬haut.[END]
+86-4E:@Je crois que [DUSTER 23 03 00] attend tout en[BREAK]¬haut.[END]
 86-5:@*whimper*[WAIT]¬([DUSTER 23 03 00] is waiting at the top, you[BREAK]¬know...)[END]
 86-5E:@*gémit*[WAIT]¬([DUSTER 23 03 00] attend tout en haut, tu sais...)[END]
 86-6:@Woof woof![BREAK]¬(Take me with you, too![WAIT][PAUSE 20 00]¬I'm scared...[PAUSE 10 00] but I'll do my best!)[END]
@@ -12797,7 +12797,7 @@
 302-10:@Tonda Gossa...[WAIT]@Thanks, guys...[END]
 302-10E:@Tonda gossa...[WAIT]@Merci, les gars...[END]
 302-11:@Tons of fliers for upcoming concerts.[WAIT]¬"DCMC Jazz Night"[BREAK]¬"DCMC Funkalatina Night"[WAIT]¬"DCMC Macarena Night"[BREAK]¬"DCMC Membership Application"[WAIT]¬"DCMC Fan Appreciation Festival"[BREAK]¬"DCMC Concert for King P"[WAIT]¬"DCMC Mini-Comedy Club"[END]
-302-11E:©D'innombrables prospectus pour les prochains[BREAK]¬concerts.[WAIT]¬"La nuit du jazz des DCMC"[BREAK]¬"La nuit latin-funk des DCMC"[WAIT]¬"La nuit macarena des DCMC"[BREAK]¬"Demande d'adhésion DCMC"[WAIT]¬"Festival du fan-club DCMC"[BREAK]¬"DCMC•: le concert du Roi P."[WAIT]¬"Café-concert DCMC"[END]
+302-11E:©D'innombrables prospectus pour les prochains[BREAK]¬concerts.[WAIT]¬"Soirée jazz DCMC"[BREAK]¬"Soirée latin-funk DCMC"[WAIT]¬"Soirée macarena DCMC"[BREAK]¬"Demande d'adhésion DCMC"[WAIT]¬"Festival du fan-club DCMC"[BREAK]¬"DCMC•: le concert du Roi P."[WAIT]¬"Café-concert DCMC"[END]
 
 
 
