@@ -1285,7 +1285,7 @@
 10-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à des choses aussi tristes.[WAIT]@Et pourtant... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
 // Repeats: 10-18, 222-18, 506-18
 10-19:@It seems [CLAUS 22 05 00] was the first person[BREAK]¬at [HINAWA 22 08 00]'s grave this morning.[WAIT]@When I called out to him as he was leaving, he[BREAK]¬gave a tiny little smile...[WAIT]¬...and then suddenly dashed off.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
-10-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je suis allé lui parler alors qu'il s'en[BREAK]¬allait, il m'a fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
+10-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je l'ai appelé alors qu'il s'en allait, il m'a[BREAK]¬fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
 // Repeats: 10-19, 222-19, 506-19
 10-20:@"A grave of grave consequences."[END]
 10-20E:©"Une tombe qui semble tombée du ciel."[END]
@@ -7088,7 +7088,7 @@
 122-51:@This is Tazmily Village.[WAIT]@Everyone is nice.[END]
 122-51E:@Ici c'est le village de Tazmily.[WAIT]@Tout le monde est adorable.[END]
 122-52:@Go show a trick to Mike in Thomas's house.[WAIT]@If he likes it, I'm sure he'll give you a cookie.[END]
-122-52E:@Va voir Michel au bazar de Thomas et[BREAK]¬montre-lui un de tes tours.[WAIT]@Si ça lui plaît, je suis sûr qu'il te donnera un[BREAK]¬cookie.[END]
+122-52E:@Va voir Michel au bazar de Thomas et[BREAK]¬montre-lui un de tes tours.[WAIT]@Si ça lui plaît, je suis sûre qu'il te donnera un[BREAK]¬cookie.[END]
 122-53:@My happiness is inside a bottle at Jackie's bar.[END]
 122-53E:@Mon bonheur est dans une bouteille au bar de[BREAK]¬Jackie.[END]
 122-54:@Hey there, monkey.[BREAK]@Do you not have a girlfriend?[END]
@@ -10824,7 +10824,7 @@
 222-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à des choses aussi tristes.[WAIT]@Et pourtant... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
 // Repeats: 10-18, 222-18, 506-18
 222-19:@It seems [CLAUS 22 05 00] was the first person[BREAK]¬at [HINAWA 22 08 00]'s grave this morning.[WAIT]@When I called out to him as he was leaving, he[BREAK]¬gave a tiny little smile...[WAIT]¬...and then suddenly dashed off.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
-222-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je suis allé lui parler alors qu'il s'en[BREAK]¬allait, il m'a fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
+222-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je l'ai appelé alors qu'il s'en allait, il m'a[BREAK]¬fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
 // Repeats: 10-19, 222-19, 506-19
 222-20:@"A grave of grave consequences."[END]
 222-20E:©"Une tombe qui semble tombée du ciel."[END]
@@ -16493,7 +16493,7 @@
 443-27:@I AM LI'L MISS MARSHMALLOW.[WAIT]@THIS IS MASTER KING P'S ROOM.[END]
 443-27E:@JE SUIS LA P'TITE MAM'ZELLE GUIMAUVE.[WAIT]@ICI, C'EST LA CHAMBRE DE MAÎTRE LE ROI P.[END]
 443-28:@IF YOU TAKE MASTER KING P'S VERY[BREAK]¬PRECIOUS "FRIEND'S YO-YO" I WILL BE MAD.[WAIT]¬MAD! MAD![BREAK]¬VERY MAD MAD MAD MAD!!!!!![END]
-443-28E:@SI VOUS PRENEZ LE TRÈS PRÉCIEUX[BREAK]¬"YO-YO DU COPAIN" DE MAÎTRE LE ROI P,[WAIT]¬JE VAIS ME FÂCHER TRÈS FORT.[WAIT]¬TRÈS TRÈS TRÈS TRÈS FORT·!!!!!![END]
+443-28E:@SI VOUS PRENEZ LE TRÈS PRÉCIEUX[BREAK]¬"YOYO DU COPAIN" DE MAÎTRE LE ROI P,[WAIT]¬JE VAIS ME FÂCHER TRÈS FORT.[WAIT]¬TRÈS TRÈS TRÈS TRÈS FORT·!!!!!![END]
 // have to manually write the name here so it will be all-caps
 // ITEM
 443-29:@YOU REAP WHAT YOU SOW SO SEW SO-SO[WAIT]¬GREETINGS CHEESE POPSICLE[WAIT]¬THE NUMBER YOU HAVE DIALED[WAIT]¬IS CURRENTLY OUT OF PORK CHOPS[WAIT]¬FROM EAST TO WEST IT GOES GOES[WAIT]¬BROKEN BROKEN[WAIT]¬OH SO SOW SEW BROKEN[WAIT]¬*whir* *clank* *clunk*[END]
@@ -18027,7 +18027,7 @@
 506-18E:@Rien de personnel, mais·je ne sais pas comment[BREAK]¬réagir face à des choses aussi tristes.[WAIT]@Et pourtant... *snif*[PAUSE 20 00] *sanglots*[PAUSE 20 00][END]
 // Repeats: 10-18, 222-18, 506-18
 506-19:@It seems [CLAUS 22 05 00] was the first person[BREAK]¬at [HINAWA 22 08 00]'s grave this morning.[WAIT]@When I called out to him as he was leaving, he[BREAK]¬gave a tiny little smile...[WAIT]¬...and then suddenly dashed off.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
-506-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je suis allé lui parler alors qu'il s'en[BREAK]¬allait, il m'a fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
+506-19E:@On dirait qu[EF EC][CLAUS 22 05 00] était le premier[BREAK]¬devant la tombe d[EF ED][HINAWA 22 08 00] ce matin.[WAIT]@Quand je l'ai appelé alors qu'il s'en allait, il m'a[BREAK]¬fait un tout petit sourire...[WAIT]¬... et puis il est parti en courant.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][END]
 // Repeats: 10-19, 222-19, 506-19
 506-20:@"A grave of grave consequences."[END]
 506-20E:©"Une tombe qui semble tombée du ciel."[END]

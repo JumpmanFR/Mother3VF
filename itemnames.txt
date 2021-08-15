@@ -64,7 +64,7 @@
 001E: Non-Slip Shoes
 001E-E: Bottes anti-glisse
 001F: Handy Yo-Yo
-001F-E: Yo-yo·simple·d'emploi
+001F-E: Yoyo simple d'emploi
 0020: Canine Weapon
 0020-E: Arme canine
 0021: DCMC Pamphlet
@@ -350,7 +350,7 @@
 00AD: Meteotite
 00AD-E: Météotite
 00AE: Friend's Yo-Yo
-00AE-E: Yo-yo du copain
+00AE-E: Yoyo du copain
 00AF: Drago Fang
 00AF-E: Croc de Drago
 00B0: Dung

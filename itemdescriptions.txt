@@ -65,7 +65,7 @@
 001E: Shoes with extra things on the bottom.[BREAK]Offense +58.[END]
 001E-E: Des bottes avec des semelles particulières.[BREAK]Attaque +58.[END]
 001F: This yo-yo makes a perfect gift or souvenir.[BREAK]Offense +20.[END]
-001F-E: Ce yo-yo peut faire un très bon cadeau.[BREAK]Attaque +20.[END]
+001F-E: Ce yoyo peut faire un très bon cadeau.[BREAK]Attaque +20.[END]
 0020: A weapon that only dogs can wield.[BREAK]Offense +15.[END]
 0020-E: Une arme réservée aux chiens.[BREAK]Attaque +15.[END]
 0021: Effective against DCMC fans.[BREAK]Offense +8.[END]
