@@ -1773,6 +1773,9 @@ org $803FAA2; bl main_menu_hacks.add_extra_menu_palette
 org $9CDF638; incbin gfx_k9000_[c].bin
 org $9C90EE0; dd $0004ECD8 //Repoint the sprite graphics
 
+//Change Nintendo logo into red
+//org $9BD2278; incbin gfx_nintendo_pal.bin
+
 //============================================================================================
 //                                    SOUND HACKS
 //============================================================================================
