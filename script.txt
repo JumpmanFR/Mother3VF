@@ -16118,7 +16118,7 @@
 404-7:@Squeeeak.[WAIT]¬(...Or at least that was the plan, but it seems[BREAK]¬you can't hold any more stuff.[WAIT]¬Please come back after tidying your items.)[END]
 404-7E:@Couiiic.[WAIT]¬(... Ou du moins c'est ce qui était prévu, mais[BREAK]¬on dirait que tu ne peux rien porter de plus.[WAIT]¬Reviens après avoir fait le tri dans tes objets.)[END]
 404-8:@Got a Shield Snatcher![END]
-404-8E:©Vous obtenez un Tire-bouclier·![END]
+404-8E:©Vous obtenez le Tire-bouclier·![END]
 // ITEM
 404-9:@Squeak![WAIT]¬(Hey! Dude![WAIT]¬It's me, The Squeekz! That hip chick magnet[BREAK]¬you met by the pond earlier.[WAIT]¬But now I'm a stay-at-home daddy-o.)[END]
 404-9E:@Couic·![WAIT]¬(Hé·! Mec·![WAIT]¬C'est moi, Steve McCouic·![WAIT]¬Le tombeur ultra-branché que tu as croisé au[BREAK]¬bord du lac l'autre fois.[WAIT]¬Mais maintenant, je suis devenu un vieux[BREAK]¬papounet au foyer.)[END]
