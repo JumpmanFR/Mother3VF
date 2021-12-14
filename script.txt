@@ -11290,7 +11290,7 @@
 225-48E:@Oooh. [HEART][PAUSE 20 00] Ainsi, aujourd'hui est le jour où je[BREAK]¬disparais.[WAIT]@Ionie, Je-Sais-Pas-Comment, et Toutounet...[WAIT]@Bye-bee·! [HEART][END]
 // Repeats: 225-48, 254-48
 225-49:@Aeolia.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@You were an openhearted person.[WAIT]@That's why we got along so well. [HEART][END]
-225-49E:@Éolie.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Tu étais une personne chaleureuse.[WAIT]@C'est pour ça qu'on s'entendait si bien. [HEART][END]
+225-49E:@Éolie.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Tu étais quelqu'un de sincère.[WAIT]@C'est pour ça qu'on s'entendait si bien. [HEART][END]
 // Repeats: 225-49, 254-49
 225-50:@Okay! [HEART][WAIT]@Let's follow this underground path to Osohe[BREAK]¬Castle's courtyard! [HEART][END]
 225-50E:@Bon·! [HEART][WAIT]@Suivons ce chemin qui mène à la cour du[BREAK]¬château d'Osohé·! [HEART][END]
@@ -12156,7 +12156,7 @@
 254-48E:@Oooh. [HEART][PAUSE 20 00] Ainsi, aujourd'hui est le jour où je[BREAK]¬disparais.[WAIT]@Ionie, Je-Sais-Pas-Comment, et Toutounet...[WAIT]@Bye-bee·! [HEART][END]
 // Repeats: 225-48, 254-48
 254-49:@Aeolia.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@You were an openhearted person.[WAIT]@That's why we got along so well. [HEART][END]
-254-49E:@Éolie.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Tu étais une personne chaleureuse.[WAIT]@C'est pour ça qu'on s'entendait si bien. [HEART][END]
+254-49E:@Éolie.[PAUSE 0C 00].[PAUSE 0C 00].[PAUSE 20 00][WAIT]@Tu étais quelqu'un de sincère.[WAIT]@C'est pour ça qu'on s'entendait si bien. [HEART][END]
 // Repeats: 225-49, 254-49
 254-50:@Okay! [HEART][WAIT]@Let's follow this underground path to Osohe[BREAK]¬Castle's courtyard! [HEART][END]
 254-50E:@Bon·! [HEART][WAIT]@Suivons ce chemin qui mène à la cour du[BREAK]¬château d'Osohé·! [HEART][END]
