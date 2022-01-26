@@ -6090,7 +6090,7 @@
 94-5E:[ALTERNATEFONT]@vous connaissez ?[BREAK]¬cent-associés.[END]
 // I changed a Japanese historical frontier term to an American historical frontier term
 94-6:[ALTERNATEFONT]@kay-o kay-o.[END]
-94-6E:[ALTERNATEFONT]@pas problème[BREAK]  pas problème.[END]
+94-6E:[ALTERNATEFONT]@pas problème[BREAK]¬pas problème.[END]
 // Repeats: 94-6, 207-41
 94-7:[ALTERNATEFONT]@kay-o?[BREAK]¬no kay-o?[END]
 94-7E:[ALTERNATEFONT]@pas problème ?[BREAK]¬problème ?[END]
@@ -10059,7 +10059,7 @@
 207-40:[ALTERNATEFONT]@ooong.[BREAK]¬barley tea.[END]
 207-40E:[ALTERNATEFONT]@ooong.[BREAK]¬thé d'orge.[END]
 207-41:[ALTERNATEFONT]@kay-o kay-o.[END]
-207-41E:[ALTERNATEFONT]@pas problème[BREAK]  pas problème.[END]
+207-41E:[ALTERNATEFONT]@pas problème[BREAK]¬pas problème.[END]
 // Repeats: 94-6, 207-41
 207-42:[ALTERNATEFONT]@fall apart.[BREAK]¬fuuuun.[END]
 207-42E:[ALTERNATEFONT]@tomber.[BREAK]¬rigoloooo.[END]
