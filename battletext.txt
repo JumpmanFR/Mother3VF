@@ -1318,7 +1318,7 @@
 028D: [END]
 028D-E: [END]
 028E: Dr. Andonuts fired a Pencil Rocket![END]
-028E-E: Le D¹ Andonuts allume un Missile crayon·![END]
+028E-E: Le D¹ Andonuts allume une Fusée crayon·![END]
 028F: [END]
 028F-E: [END]
 0290: Wess attacks![END]

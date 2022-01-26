@@ -10074,7 +10074,7 @@
 207-47:[ALTERNATEFONT]@i polish dull thingy[BREAK]¬to sparkly thingy.[END]
 207-47E:[ALTERNATEFONT]@polir chose terne[BREAK]¬en chose brillante.[END]
 207-48:@You wound up giving your [ITEM F0 FF] to[BREAK]¬the Mr. Saturn.[END]
-207-48E:©Vous en venez à donner votre Badge du[BREAK]¬courage au M. Saturne.[END]
+207-48E:©Vous en venez à donner votre Badge du[BREAK]¬courage à M. Saturne.[END]
 // ITEM
 207-49:[ALTERNATEFONT]@birdie cage done.[END]
 207-49E:[ALTERNATEFONT]@cage zozios finie.[END]

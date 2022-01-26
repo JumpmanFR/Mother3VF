@@ -234,7 +234,7 @@
 0073: Doggy Jerky
 0073-E: Bâtonnet·pour·chien
 0074: White Croissant
-0074-E: Croissant
+0074-E: Décroissant
 0075: Cup of Pork Noodles
 0075-E: Nouilles au porc
 0076: Pork Stew
@@ -308,7 +308,7 @@
 0098: Sprinting Bomb
 0098-E: Bombe athlétique
 0099: Pencil Rocket
-0099-E: Missile crayon
+0099-E: Fusée crayon
 009A: Bomb
 009A-E: Bombe
 009B: Super Bomb
