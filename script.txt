@@ -6286,7 +6286,7 @@
 99-2E:@Si vous croisez un de mes camarades[BREAK]¬taupes-grillons, transmettez-lui mes amitiés.[WAIT][PAUSE 0F 00]@*bling*[END]
 // Repeats: 36-30, 43-9, 96-30, 99-2, 180-30, 181-30, 182-30, 192-30, 327-30, 328-30, 329-30, 330-30, 331-30, 332-30, 373-30, 374-30, 375-30, 376-30, 377-30, 378-30, 379-30, 467-29
 99-3:[ALTERNATEFONT]@polished into[BREAK]¬shiny sparkle thing.[WAIT]@no worries.[WAIT]@i give back at you.[END]
-99-3E:[ALTERNATEFONT]@chose polie[BREAK]¬devenue brillante.[WAIT]@pas de problème.[WAIT]@je te rends.[END]
+99-3E:[ALTERNATEFONT]@chose polie[BREAK]¬devenue brillante.[WAIT]@pas d'inquiétude.[WAIT]@je te rends.[END]
 99-4:@The [ITEM BE 00] was none other than a[BREAK]¬[ITEM C1 00]![WAIT]@You got the [ITEM C1 00]![END]
 99-4E:©Le [ITEM BE 00] était en réalité un[BREAK]¬[ITEM C1 00]·![WAIT]©Vous obtenez le [ITEM C1 00]·![END]
 // The Courage Badge becomes the Franklin Badge here
