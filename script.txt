@@ -101,7 +101,7 @@
 // Used with key items, plays the "found something good" music
 //Repeats: 0-45, 836-4, 839-5
 0-46:@Got [EF 91][ITEM F0 FF]...[PAUSE 40 00][END]
-0-46E:©Vous trouvez [EF 91][ITEM F0 FF]...[PAUSE 40 00][END]
+0-46E:©Vous obtenez [EF 91][ITEM F0 FF]...[PAUSE 40 00][END]
 // used with hinawa's cloth, plays sad "joined" tune
 0-47:@Received [EF 91][ITEM F0 FF]![PAUSE 40 00][END]
 0-47E:©Vous recevez [EF 91][ITEM F0 FF]·![PAUSE 40 00][END]
@@ -7223,13 +7223,13 @@
 124-14:@Alright, monkey! Listen up![WAIT]@The Happy Boxes are hidden in the cemetery.[WAIT]@Go deliver them to everyone whose names you[BREAK]¬took earlier.[END]
 124-14E:@Bon, le singe·! Écoute-moi·![WAIT]@Les Boîtes à bonheur sont cachées dans le[BREAK]¬cimetière.[WAIT]@Va les livrer à tous ceux dont tu as pris le nom[BREAK]¬tout à l'heure.[END]
 124-15:@Abbot[WAIT]¬Abbey[WAIT]¬Biff[WAIT]¬Isaac[WAIT]@Those four people.[WAIT]@Where do they live?[WAIT]@How should I know?! Go find them yourself![WAIT]@And when you're finished delivering them,[BREAK]¬don't even think about trying to run away.[WAIT]@You'll come straight back to this room.[END]
-124-15E:@Abbé[WAIT]¬Abbaye[WAIT]¬Bill[WAIT]¬Isaac[WAIT]@Ces quatre personnes.[WAIT]@Où est-ce qu'elles vivent·?[WAIT]@Comment je pourrais le savoir·?! Va les[BREAK]¬trouver toi-même·![WAIT]@Et quand tu auras fini de livrer, ne pense même[BREAK]¬pas à essayer de t'enfuir.[WAIT]@Tu vas revenir directement dans cette pièce.[END]
+124-15E:@Abbé[WAIT]¬Abbaye[WAIT]¬Bill[WAIT]¬Isaac[WAIT]@Ces quatre personnes.[WAIT]@Où est-ce qu'elles vivent·?[WAIT]@Comment je pourrais le savoir·?! Va les[BREAK]¬trouver toi-même·![WAIT]@Et quand tu auras fini tes livraisons, ne songe[BREAK]¬même pas à essayer de t'enfuir.[WAIT]@Tu vas revenir directement dans cette pièce.[END]
 124-16:@If you can't do it in under 23 minutes or so,[BREAK]¬your punishment'll be even more severe![WAIT]@You'll be much more than charred if that[BREAK]¬happens.[WAIT]@...If you try to run from me or disobey me, I'll[BREAK]¬make sure to punish that girlie monkey, too![WAIT]@Got it?![WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
 124-16E:@Si tu ne réussis pas à le faire en moins de 23[BREAK]¬minutes, ta punition sera encore plus sévère·![WAIT]@Tu ne seras pas simplement carbonisé, si ça se[BREAK]¬produit.[WAIT]@... Si tu tentes de me fuir ou de me désobéir,[BREAK]¬je m'assurerai de punir aussi cette guenon·![WAIT]@C'est compris·?![WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 124-17:@Then get to it already![END]
 124-17E:@Allez vas-y maintenant·![END]
 124-18:@If you can finish delivering them in under 22[BREAK]¬minutes, I'll give you a banana or something.[WAIT]@I'm making this offer from the kindness of my[BREAK]¬heart,[WAIT]¬because I feel just terrible that you're not[BREAK]¬allowed to eat or drink anything.[WAIT]@So be grateful! Nwehehehehehe![END]
-124-18E:@Si tu arrives à livrer en moins de 22 minutes,[BREAK]¬je te donnerai une banane ou autre chose.[WAIT]@Je te propose cela par pure bonté d'âme,[WAIT]¬parce que je m'en veux de ne rien te laisser[BREAK]¬manger ou boire.[WAIT]@Alors sois reconnaissant·! Nwéhéhéhéhéhé·![END]
+124-18E:@Si tu arrives à les livrer en moins de 22[BREAK]¬minutes, je te donnerai peut-être une banane.[WAIT]@Je te propose cela par pure bonté d'âme,[WAIT]¬parce que je m'en veux de ne rien te laisser[BREAK]¬manger ou boire.[WAIT]@Alors sois reconnaissant·! Nwéhéhéhéhéhé·![END]
 124-19:@Abbot[WAIT]¬Abbey[WAIT]¬Biff[WAIT]¬Isaac[WAIT]@Those four people.[WAIT]@Where do they live?[WAIT]@How should I know?! Go find them yourself![WAIT]@The boxes are in the cemetery.[BREAK]¬Go deliver them already![END]
 124-19E:@Abbé[WAIT]¬Abbaye[WAIT]¬Bill[WAIT]¬Isaac[WAIT]@Ces quatre personnes.[WAIT]@Où est-ce qu'elles vivent·?[WAIT]@Comment je pourrais le savoir·?! Va les[BREAK]¬trouver toi-même·![WAIT]@Les boîtes sont dans le cimetière.[BREAK]¬Allez, va les livrer·![END]
 124-20:@25 minutes...[PAUSE 18 00] Nope! Too bad![WAIT]@I was planning to give you a Special Banana if[BREAK]¬you had delivered them all in under 3 minutes,[WAIT]¬but I guess you don't really want one.[WAIT]@You insolent little monkey![BREAK]¬Nwehehehehehe![END]
