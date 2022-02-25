@@ -621,6 +621,9 @@ org $805CB84; bhi $805CBC2
 //Fix issue where losing in the prologue removes all Claus' PPs.
 org $8001D5A; bl claus_pp_fix.main; pop {r1}; bx r1
 
+//Manage gender for status ailments in status menu
+org $8044356; bl main_menu_hacks.status_gender
+
 //============================================================================================
 //                                  NAMING SCREEN HACKS
 //============================================================================================
