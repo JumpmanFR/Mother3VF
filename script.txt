@@ -5135,7 +5135,7 @@
 
 [Container 70]
 70-0:@I'm a debug save frog.[BREAK]@Save?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
-70-0E:@Je suis une grenouille de debug.[BREAK]@Sauvegarder·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
+70-0E:@Je suis une grenouille de débogage.[BREAK]@Sauvegarder·?[WAIT][MENU 02 00][MENUSPACEYES]Oui[MENUSPACENO]Non[ENDCHOICES][END]
 70-1:@Ribbit ribbit.[BREAK]@You're so heartless.[END]
 70-1E:@Coââ coââ.[BREAK]@Tu n'as vraiment pas de cœur.[END]
 
