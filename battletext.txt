@@ -327,7 +327,7 @@
 009E: Shoot[END]
 009E-E: Lancer[END]
 009F: Scratch[END]
-009F-E: Griffure[END]
+009F-E: Coup de griffe[END]
 00A0: Bite[END]
 00A0-E: Morsure[END]
 00A1: Kick[END]
