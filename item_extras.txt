@@ -899,23 +899,23 @@ t
 -
 votre 
 //DCMC Ring
-Une 
-une 
-La 
-la 
-cette 
+Un 
+un 
+L'
+l'
+cet 
 t
-e
+-
 -
 votre 
 //Awesome Ring
-Une 
-une 
-La 
-la 
-cette 
+Un 
+un 
+L'
+l'
+cet 
 t
-e
+-
 -
 votre 
 //Favorite Food

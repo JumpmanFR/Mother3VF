@@ -182,9 +182,9 @@
 0059: Sagittarius Bracelet
 0059-E: Bracelet Sagittaire
 005A: DCMC Ring
-005A-E: Bague DCMC
+005A-E: Anneau DCMC
 005B: Awesome Ring
-005B-E: Bague incroyable
+005B-E: Anneau incroyable
 005C: Favorite Food
 005C-E: Nourriture préférée
 005D: Nut
