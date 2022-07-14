@@ -7882,7 +7882,7 @@
 
 [Container 143]
 143-0:@Oh, [LUCAS 22 03 00].[WAIT]@Your house certainly enjoys being struck by[BREAK]¬lightning, I must say![WAIT]@Do you STILL intend to live in it, after all the[BREAK]¬fires and scorching and whatnot?[WAIT]@I must admit, it's a real downer on Tazmily[BREAK]¬Village's image.[WAIT]@Oh, yes, yes...[WAIT]@Your maternal grandfather has moved into the[BREAK]¬new and shiny retirement home.[WAIT]@Where is it? ...Across the way, that-a-way.[END]
-143-0E:@Oh, [LUCAS 22 03 00].[WAIT]@Je dois dire que ta maison aime assurément[BREAK]¬être frappée par la foudre·![WAIT]@Tu as toujours l'intention d'y vivre, après tous[BREAK]¬ces incendies, ces destructions et j'en passe·?[WAIT]@Je dois avouer que c'est très négatif pour[BREAK]¬l'image du village de Tazmily.[WAIT]@Ah, oui, oui...[WAIT]@Ton grand-père maternel a emménagé dans la[BREAK]¬maison de retraite flambant neuve.[WAIT]@Où est-elle·? ... Là-bas, de l'autre côté.[END]
+143-0E:@Oh, [LUCAS 22 03 00].[WAIT]@Je dois dire que ta maison aime assurément se[BREAK]¬faire frapper par la foudre·![WAIT]@Tu as toujours l'intention d'y vivre, après tous[BREAK]¬ces incendies, ces destructions et j'en passe·?[WAIT]@Je dois avouer que c'est très négatif pour[BREAK]¬l'image du village de Tazmily.[WAIT]@Ah, oui, oui...[WAIT]@Ton grand-père maternel a emménagé dans la[BREAK]¬maison de retraite flambant neuve.[WAIT]@Où est-elle·? ... Là-bas, de l'autre côté.[END]
 // Repeats: 143-0, 149-0, 161-0
 143-1:@How many hundreds of times must I say it?![BREAK]¬The retirement home is that-a-way![END]
 143-1E:@Combien de centaines de fois dois-je le dire·?![BREAK]¬La maison de retraite est par là-bas·![END]
@@ -7976,7 +7976,7 @@
 
 [Container 149]
 149-0:@Oh, [LUCAS 22 03 00].[WAIT]@Your house certainly enjoys being struck by[BREAK]¬lightning, I must say![WAIT]@Do you STILL intend to live in it, after all the[BREAK]¬fires and scorching and whatnot?[WAIT]@I must admit, it's a real downer on Tazmily[BREAK]¬Village's image.[WAIT]@Oh, yes, yes...[WAIT]@Your maternal grandfather has moved into the[BREAK]¬new and shiny retirement home.[WAIT]@Where is it? ...Across the way, that-a-way.[END]
-149-0E:@Oh, [LUCAS 22 03 00].[WAIT]@Je dois dire que ta maison aime assurément[BREAK]¬être frappée par la foudre·![WAIT]@Tu as toujours l'intention d'y vivre, après tous[BREAK]¬ces incendies, ces destructions et j'en passe·?[WAIT]@Je dois avouer que c'est très négatif pour[BREAK]¬l'image du village de Tazmily.[WAIT]@Ah, oui, oui...[WAIT]@Ton grand-père maternel a emménagé dans la[BREAK]¬maison de retraite flambant neuve.[WAIT]@Où est-elle·? ... Là-bas, de l'autre côté.[END]
+149-0E:@Oh, [LUCAS 22 03 00].[WAIT]@Je dois dire que ta maison aime assurément se[BREAK]¬faire frapper par la foudre·![WAIT]@Tu as toujours l'intention d'y vivre, après tous[BREAK]¬ces incendies, ces destructions et j'en passe·?[WAIT]@Je dois avouer que c'est très négatif pour[BREAK]¬l'image du village de Tazmily.[WAIT]@Ah, oui, oui...[WAIT]@Ton grand-père maternel a emménagé dans la[BREAK]¬maison de retraite flambant neuve.[WAIT]@Où est-elle·? ... Là-bas, de l'autre côté.[END]
 // Repeats: 143-0, 149-0, 161-0
 149-1:@How many hundreds of times must I say it?![BREAK]¬The retirement home is that-a-way![END]
 149-1E:@Combien de centaines de fois dois-je le dire·?![BREAK]¬La maison de retraite est par là-bas·![END]
@@ -8261,7 +8261,7 @@
 
 [Container 161]
 161-0:@Oh, [LUCAS 22 03 00].[WAIT]@Your house certainly enjoys being struck by[BREAK]¬lightning, I must say![WAIT]@Do you STILL intend to live in it, after all the[BREAK]¬fires and scorching and whatnot?[WAIT]@I must admit, it's a real downer on Tazmily[BREAK]¬Village's image.[WAIT]@Oh, yes, yes...[WAIT]@Your maternal grandfather has moved into the[BREAK]¬new and shiny retirement home.[WAIT]@Where is it? ...Across the way, that-a-way.[END]
-161-0E:@Oh, [LUCAS 22 03 00].[WAIT]@Je dois dire que ta maison aime assurément[BREAK]¬être frappée par la foudre·![WAIT]@Tu as toujours l'intention d'y vivre, après tous[BREAK]¬ces incendies, ces destructions et j'en passe·?[WAIT]@Je dois avouer que c'est très négatif pour[BREAK]¬l'image du village de Tazmily.[WAIT]@Ah, oui, oui...[WAIT]@Ton grand-père maternel a emménagé dans la[BREAK]¬maison de retraite flambant neuve.[WAIT]@Où est-elle·? ... Là-bas, de l'autre côté.[END]
+161-0E:@Oh, [LUCAS 22 03 00].[WAIT]@Je dois dire que ta maison aime assurément se[BREAK]¬faire frapper par la foudre·![WAIT]@Tu as toujours l'intention d'y vivre, après tous[BREAK]¬ces incendies, ces destructions et j'en passe·?[WAIT]@Je dois avouer que c'est très négatif pour[BREAK]¬l'image du village de Tazmily.[WAIT]@Ah, oui, oui...[WAIT]@Ton grand-père maternel a emménagé dans la[BREAK]¬maison de retraite flambant neuve.[WAIT]@Où est-elle·? ... Là-bas, de l'autre côté.[END]
 // Repeats: 143-0, 149-0, 161-0
 161-1:@How many hundreds of times must I say it?![BREAK]¬The retirement home is that-a-way![END]
 161-1E:@Combien de centaines de fois dois-je le dire·?![BREAK]¬La maison de retraite est par là-bas·![END]
@@ -8835,7 +8835,7 @@
 180-36:@Stuffed inside the mailbox was sheer,[BREAK]¬never-ending darkness.[END]
 180-36E:©La boîte aux lettres était remplie de ténèbres[BREAK]¬infinies.[END]
 180-37:@Inside the mailbox was the sound of yourself[BREAK]¬crying.[END]
-180-37E:©La boîte aux lettres contenait le son de vos[BREAK]¬propres pleurs.[END]
+180-37E:©La boîte aux lettres contenait le son de vos[BREAK]¬propres cris.[END]
 180-38:@Inside the mailbox was absolutely nothing.[WAIT]@Nothing after nothing came bursting out.[END]
 180-38E:©Dans la boîte aux lettres, il n'y avait[BREAK]¬absolument rien.[WAIT]©Juste après que rien n'en fut sorti avec[BREAK]¬fracas.[END]
 180-39:@Inside the mailbox were lots of pretty[BREAK]¬butterflies.[END]
@@ -22037,7 +22037,7 @@
 886-18:@What song'll it be?[END]
 886-18E:@Alors, quel morceau ce sera·?[END]
 886-19:@We had your bass polished to a shine![END]
-886-19E:@On a fait vernir ta contrebasse, elle est[BREAK]¬resplendissante·![END]
+886-19E:@On a fait polir ta contrebasse, elle est[BREAK]¬resplendissante·![END]
 886-20:@An afro wig.[END]
 886-20E:©Une perruque afro.[END]
 886-21:@Put it on?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
