@@ -750,7 +750,7 @@
 
 [Container 3]
 3-0:@[FLINT 26 01 00 03 00]! The fire isn't that way![WAIT]@This is no time to get sidetracked![END]
-3-0E:@[FLINT 26 01 00 03 00]·! L'incendie n'est pas par là·![WAIT]@C'est pas le moment de flâner·![END]
+3-0E:@[FLINT 26 01 00 03 00]·! L'incendie n'est pas par là·![WAIT]@C'est pas le moment de faire des détours·![END]
 // Repeats: 3-0, 9-3, 37-3
 3-1:@Hold on! We don't have a map![WAIT]@Better go get one from Mapson.[END]
 3-1E:@Attends·! On n'a pas de carte·![WAIT]@On ferait mieux d'en demander une à Cartier.[END]
@@ -1174,7 +1174,7 @@
 9-2E:@Même si je partais en avant, je sais très bien[BREAK]¬que je ne serais d'aucun secours.[WAIT]@Qu'est-ce que je dois faire...·?[END]
 // Repeats: 9-2, 37-2
 9-3:@[FLINT 26 01 00 03 00]! The fire isn't that way![WAIT]@This is no time to get sidetracked![END]
-9-3E:@[FLINT 26 01 00 03 00]·! L'incendie n'est pas par là·![WAIT]@C'est pas le moment de flâner·![END]
+9-3E:@[FLINT 26 01 00 03 00]·! L'incendie n'est pas par là·![WAIT]@C'est pas le moment de faire des détours·![END]
 // Repeats: 3-0, 9-3, 37-3
 9-4:@South: Tazmily Village[BREAK]@West: Sunshine Forest[WAIT]@North: Sunset Cemetery[END]
 9-4E:©Sud•: Village de Tazmily[BREAK]©Ouest•: Forêt Ensoleillée[WAIT]©Nord•: Cimetière du Crépuscule[END]
@@ -3663,7 +3663,7 @@
 37-2E:@Même si je partais en avant, je sais très bien[BREAK]¬que je ne serais d'aucun secours.[WAIT]@Qu'est-ce que je dois faire...·?[END]
 // Repeats: 9-2, 37-2
 37-3:@[FLINT 26 01 00 03 00]! The fire isn't that way![WAIT]@This is no time to get sidetracked![END]
-37-3E:@[FLINT 26 01 00 03 00]·! L'incendie n'est pas par là·![WAIT]@C'est pas le moment de flâner·![END]
+37-3E:@[FLINT 26 01 00 03 00]·! L'incendie n'est pas par là·![WAIT]@C'est pas le moment de faire des détours·![END]
 // Repeats: 3-0, 9-3, 37-3
 37-4:@South: Tazmily Village[BREAK]@West: Sunshine Forest[WAIT]@North: Sunset Cemetery[END]
 37-4E:©Sud•: Village de Tazmily[BREAK]©Ouest•: Forêt Ensoleillée[WAIT]©Nord•: Cimetière du Crépuscule[END]
