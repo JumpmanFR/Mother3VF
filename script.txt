@@ -901,7 +901,7 @@
 4-17:@Keep up the good work, Mr. Monkey.[END]
 4-17E:@Continue comme ça, petit singe.[END]
 4-18:[SOUND 03 00]@Chirp chirp.[WAIT]¬(Sparrow Advice![WAIT]¬During battle, it's not uncommon to forget[BREAK]¬what exactly each item does, right?[WAIT]¬Has this ever happened to you?[WAIT]¬When it does, just choose the item you want[BREAK]¬to know about and press [COLOR 03 00]Select[COLOR 00 00].[WAIT]¬A simple description will pop up, which is quite[BREAK]¬handy, indeed.[WAIT]¬Now to end this with a sparrow-like...[EVENT][END]
-4-18E:[SOUND 03 00]@Tchip tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬Pendant un combat, on peut parfois oublier la[BREAK]¬fonction de certains objets, pas vrai·?[WAIT]¬Ça t'est déjà arrivé·?[WAIT]¬Si ça se produit, sélectionne simplement l'objet[BREAK]¬qui t'intéresse et appuie sur [COLOR 03 00]Select[COLOR 00 00].[WAIT]¬Une description simple va apparaître, ce qui[BREAK]¬est plutôt pratique.[WAIT]¬Et pour finir en moineau...[EVENT][END]
+4-18E:[SOUND 03 00]@Tchip tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬Pendant un combat, on peut parfois oublier la[BREAK]¬fonction de certaines options, pas vrai·?[WAIT]¬Ça ne t'est jamais arrivé·?[WAIT]¬Si ça se produit, sélectionne simplement[BREAK]¬l'option qui t'intéresse et appuie sur [COLOR 03 00]Select[COLOR 00 00].[WAIT]¬Une description simple va apparaître, ce qui[BREAK]¬est plutôt pratique.[WAIT]¬Et pour finir en moineau...[EVENT][END]
 4-19:[SOUND 03 00]¬chirp chirp!)[END]
 4-19E:[SOUND 03 00]¬tchip tchip·!)[END]
 
@@ -22037,7 +22037,7 @@
 886-18:@What song'll it be?[END]
 886-18E:@Alors, quel morceau ce sera·?[END]
 886-19:@We had your bass polished to a shine![END]
-886-19E:@On a fait polir ta contrebasse, elle est[BREAK]¬resplendissante·![END]
+886-19E:@On a fait lustrer ta contrebasse, elle brille de[BREAK]¬mille feux·![END]
 886-20:@An afro wig.[END]
 886-20E:©Une perruque afro.[END]
 886-21:@Put it on?[WAIT][MENU 02 00][MENUSPACEYES]Yes[MENUSPACENO]No[ENDCHOICES][END]
