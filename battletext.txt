@@ -2466,7 +2466,7 @@
 04C5: [04 EF][11 FF] murmured,[32 FF] "Life is but a moment, a meaningless grain of sand..."[END]
 04C5-E: [04 EF][11 FF] murmure•:[32 FF] <La vie n'est qu'un instant futile, un grain de sable insignifiant...>[END]
 04C6: [04 EF][11 FF] moaned,[32 FF] "Just get rid of me now..."[END]
-04C6-E: [04 EF][11 FF] gémit•:[32 FF] <Allez, faites vite, qu'on en finisse...>[END]
+04C6-E: [04 EF][11 FF] gémit•:[32 FF] <Dépêchez-vous, qu'on en finisse...>[END]
 04C7: [04 EF][11 FF] sobbed,[32 FF] moaned,[34 FF] and started wailing.[END]
 04C7-E: [04 EF][11 FF] sanglote,[32 FF] gémit[34 FF] et commence à pleurer.[END]
 04C8: [04 EF][11 FF] struck a moving pose![END]
