@@ -901,7 +901,7 @@
 4-17:@Keep up the good work, Mr. Monkey.[END]
 4-17E:@Continue comme ça, petit singe.[END]
 4-18:[SOUND 03 00]@Chirp chirp.[WAIT]¬(Sparrow Advice![WAIT]¬During battle, it's not uncommon to forget[BREAK]¬what exactly each item does, right?[WAIT]¬Has this ever happened to you?[WAIT]¬When it does, just choose the item you want[BREAK]¬to know about and press [COLOR 03 00]Select[COLOR 00 00].[WAIT]¬A simple description will pop up, which is quite[BREAK]¬handy, indeed.[WAIT]¬Now to end this with a sparrow-like...[EVENT][END]
-4-18E:[SOUND 03 00]@Tchip tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬Pendant un combat, on peut parfois oublier la[BREAK]¬fonction de certaines options, pas vrai·?[WAIT]¬Ça ne t'est jamais arrivé·?[WAIT]¬Si ça se produit, sélectionne simplement[BREAK]¬l'option qui t'intéresse et appuie sur [COLOR 03 00]Select[COLOR 00 00].[WAIT]¬Une description simple va apparaître, ce qui[BREAK]¬est plutôt pratique.[WAIT]¬Et pour finir en moineau...[EVENT][END]
+4-18E:[SOUND 03 00]@Tchip tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬Pendant un combat, on peut parfois oublier la[BREAK]¬fonction de certaines options, pas vrai·?[WAIT]¬Ça ne t'est jamais arrivé·?[WAIT]¬Si ça se produit, sélectionne simplement[BREAK]¬l'option qui t'intéresse et appuie sur [COLOR 03 00]Select[COLOR 00 00].[WAIT]¬Une description simple apparaîtra, ce qui est[BREAK]¬plutôt pratique.[WAIT]¬Et pour finir en moineau...[EVENT][END]
 4-19:[SOUND 03 00]¬chirp chirp!)[END]
 4-19E:[SOUND 03 00]¬tchip tchip·!)[END]
 
@@ -6286,7 +6286,7 @@
 99-2E:@Si vous croisez un de mes camarades[BREAK]¬taupes-grillons, transmettez-lui mes amitiés.[WAIT][PAUSE 0F 00]@*bling*[END]
 // Repeats: 36-30, 43-9, 96-30, 99-2, 180-30, 181-30, 182-30, 192-30, 327-30, 328-30, 329-30, 330-30, 331-30, 332-30, 373-30, 374-30, 375-30, 376-30, 377-30, 378-30, 379-30, 467-29
 99-3:[ALTERNATEFONT]@polished into[BREAK]¬shiny sparkle thing.[WAIT]@no worries.[WAIT]@i give back at you.[END]
-99-3E:[ALTERNATEFONT]@poli et rendu chose[BREAK]¬toute brillante.[WAIT]@pas d'prob.[WAIT]@je te rends.[END]
+99-3E:[ALTERNATEFONT]@frotté et fait[BREAK]¬briller.[WAIT]@pas d'prob.[WAIT]@je te rends.[END]
 99-4:@The [ITEM BE 00] was none other than a[BREAK]¬[ITEM C1 00]![WAIT]@You got the [ITEM C1 00]![END]
 99-4E:©Le [ITEM BE 00] était en réalité un[BREAK]¬[ITEM C1 00]·![WAIT]©Vous obtenez le [ITEM C1 00]·![END]
 // The Courage Badge becomes the Franklin Badge here
@@ -10072,7 +10072,7 @@
 207-46:[ALTERNATEFONT]@getting out of water[WAIT]¬makes wrinkles get[BREAK]¬big and shrink.[END]
 207-46E:[ALTERNATEFONT]@en sortant de l'eau[WAIT]¬rides toutes grosses[BREAK]¬et puis rétrécissent.[END]
 207-47:[ALTERNATEFONT]@i polish dull thingy[BREAK]¬to sparkly thingy.[END]
-207-47E:[ALTERNATEFONT]@polir chose abimée[BREAK]¬en chose brillante.[END]
+207-47E:[ALTERNATEFONT]@frotter chose terne[BREAK]¬pour faire briller.[END]
 207-48:@You wound up giving your [ITEM F0 FF] to[BREAK]¬the Mr. Saturn.[END]
 207-48E:©Vous en venez à donner votre Badge du[BREAK]¬courage à M. Saturne.[END]
 // ITEM
@@ -21795,7 +21795,7 @@
 881-1:@Welcome![BREAK]¬*smile* *smile*[WAIT]@The elevator repairs have finally been finished.[WAIT]@Please feel free to take it to whichever floor[BREAK]¬your heart leads you.[END]
 881-1E:@Bienvenue·![BREAK]¬*sourire* *sourire*[WAIT]@Les travaux de réparation de l'ascenseur sont[BREAK]¬enfin terminés.[WAIT]@N'hésitez pas à vous en servir pour vous[BREAK]¬rendre à l'étage où votre cœur vous guidera.[END]
 881-2:@For some reason I like being talked to from[BREAK]¬behind like that...[END]
-881-2E:@C'est étrange, mais j'aime bien qu'on vienne[BREAK]¬me parler par-derrière comme ça...[END]
+881-2E:@C'est étrange, mais j'aime bien qu'on vienne[BREAK]¬me parler par l'arrière comme ça...[END]
 // this is said when you talk to the receptionist from behind
 881-3:@So you finally came too, [LUCAS 23 02 00]?[WAIT]@Is [FLINT 23 01 00] still out looking for his[BREAK]¬missing son?[WAIT]@If only he'd come to me for serious help, we[BREAK]¬might've been able to find him...[WAIT]@He's an awkward fellow,[PAUSE 18 00] that father of yours.[END]
 881-3E:@Alors finalement, toi aussi tu es venu[BREAK]¬[LUCAS 23 02 00]·?[WAIT]@Est-ce qu[EF E0][FLINT 23 01 00] est toujours à la[BREAK]¬recherche de son fils perdu·?[WAIT]@Si au moins il était venu me demander un coup[BREAK]¬de main, on aurait peut-être pu le trouver...[WAIT]@C'est un drôle de personnage,[PAUSE 18 00] ton père.[END]
