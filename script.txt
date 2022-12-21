@@ -6101,7 +6101,7 @@
 94-10:[ALTERNATEFONT]@up to five peoples.[END]
 94-10E:[ALTERNATEFONT]@cinq personnes[BREAK]¬maxil vous plaît.[END]
 94-11:[ALTERNATEFONT]@never tire of this.[END]
-94-11E:[ALTERNATEFONT]@me lasse jamais.[END]
+94-11E:[ALTERNATEFONT]@jamais s'en lasser.[END]
 94-12:[ALTERNATEFONT]@you go fire[BREAK]¬mountain?[WAIT]¬zoom zoom.[END]
 94-12E:[ALTERNATEFONT]@vous allez montagne[BREAK]¬de feu ?[WAIT]¬zoom zoom.[END]
 94-13:[ALTERNATEFONT]@we are all [PAUSE 20 00]us.[END]
