@@ -98,6 +98,8 @@ NOTES DE VERSION
         de revente d'objets ;
       - Effet du Fromage étrange sur Claus incohérent entre menu et
         combats.
+    - Divers ajustements de texte visant notamment à améliorer la
+      cohérence avec notre traduction de MOTHER 1 en français. (v1.9.1)
     => Les changements marqués d'un * sont communs avec la nouvelle
        version 1.3 de la traduction anglaise tout récemment parue. Ils ont
        été réalisés par Lorenzooone - merci à lui ! - avec parfois notre
@@ -962,7 +964,7 @@ CRÉDITS
   YouyouDakota
   Kluzik
   ItsPokeJS
-  Mathurin
+  Coraline
   SSKM31
   Gabi6329
   Firiel

@@ -4271,7 +4271,7 @@
 45-0:@[LEFT]Tazmily[BREAK]¬Factory[RIGHT][WAIT]¬[UP]Cliff[BREAK]¬[DOWN]Tracks[END]
 45-0E:©[LEFT] Tazmily[BREAK]¬Usine [RIGHT][WAIT]¬[UP] Falaise[BREAK]¬[DOWN] Voie ferrée[END]
 45-1:@Please don't write graffiti on signs.[WAIT]¬Like "Hot Dog". Or "Dog Food".[END]
-45-1E:©Prière de ne pas faire de graffitis sur les[BREAK]¬pancartes.[WAIT]¬Comme "œuf au plat". Ou "œuf mayo".[END]
+45-1E:©Prière de ne pas faire de graffitis sur les[BREAK]¬pancartes.[WAIT]¬Comme "œuf mayo". Ou "maillot de bain".[END]
 45-2:[SOUND 03 00]@Chirp-chirp.[WAIT]¬(Sparrow Advice![WAIT]¬Have you ever noticed that you can send weak[BREAK]¬enemies flying if you dash into them?[WAIT]¬Feels pretty good, huh?[WAIT]¬Pretty addicting, huh?[WAIT]¬But those don't count as real fights, so they[BREAK]¬won't net you any so-called experience points.[WAIT]¬Huh?[PAUSE 20 00] You already knew that?![WAIT]¬Or are you just pretending to know?[PAUSE 20 00][WAIT]¬You're not pretending, are you?[WAIT]¬Well, in any case, time to end this with a[BREAK]¬sparrow-like...[EVENT][END]
 45-2E:[SOUND 03 00]@Tchip-tchip.[WAIT]¬(Conseil de moineau·![WAIT]¬As-tu remarqué que tu pouvais envoyer valser[BREAK]¬les ennemis faibles en leur fonçant dessus·?[WAIT]¬C'est plutôt satisfaisant, hein·?[WAIT]¬Même plutôt addictif, non·?[WAIT]¬Ça ne compte pas comme de vrais combats,[WAIT]¬donc malgré tout, ça ne te rapportera aucun de[BREAK]¬ces points d'expérience, comme on les appelle.[WAIT]¬Hein·?[PAUSE 20 00] Tu le savais déjà·?![WAIT]¬Ou tu fais juste semblant de le savoir·?[PAUSE 20 00][WAIT]¬Tu ne ferais pas semblant, quand même·?[WAIT]¬Bon, en tout cas, il est temps de finir en[BREAK]¬moineau...[EVENT][END]
 45-3:[SOUND 03 00]¬chirp chirp-chirp-chirp!)[END]
