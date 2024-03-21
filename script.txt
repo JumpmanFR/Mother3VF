@@ -11418,7 +11418,7 @@
 233-7:@That was scary.[BREAK]¬That was the very definition of scary.[END]
 233-7E:@C'était terrifiant.[BREAK]¬C'était la définition même du mot terrifiant.[END]
 233-8:@Say, are you [PLAYERNAME]?[WAIT]@Oh! You're okay! That's great! What a relief![WAIT]@Hey, everybody![WAIT]¬[PLAYERNAME] is over here and[BREAK]¬doing just fine![END]
-233-8E:@Dites,·vous·êtes·[PLAYERNAME]·?[WAIT]@Oh·! Vous êtes sain et sauf·! C'est merveilleux·![BREAK]¬Quel soulagement·![WAIT]@Hé, tout le monde·![WAIT]¬[PLAYERNAME] est juste ici et[BREAK]¬se porte très bien·![END]
+233-8E:@Dites,·vous·êtes·[PLAYERNAME]·?[WAIT]@Oh·! Vous êtes indemne·! C'est merveilleux·![BREAK]¬Quel soulagement·![WAIT]@Hé, tout le monde·![WAIT]¬[PLAYERNAME] est juste ici et[BREAK]¬se porte très bien·![END]
 233-9:@[PLAYERNAME]![WAIT]@[LUCAS 23 02 00] said he wanted to meet you.[END]
 233-9E:@[PLAYERNAME]·![WAIT]@[LUCAS 23 02 00] a dit qu'il souhaitait vous[BREAK]¬rencontrer.[END]
 233-10:@[PLAYERNAME].[BREAK]¬Thank you so much for everything.[WAIT]@And for helping [LUCAS 23 02 00] and the others.[WAIT]@This world might've been completely[BREAK]¬destroyed, had it not been for you.[END]
